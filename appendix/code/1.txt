@@ -1,0 +1,363 @@
+package ru.jcup.saa.science.trowh.gui.plotter;
+
+import java.awt.Color;
+import java.awt.GridLayout;
+import java.util.ArrayList;
+
+import javax.swing.JProgressBar;
+
+import ru.jcup.saa.science.trowh.SelectPanel;
+import ru.jcup.saa.science.trowh.gui.input.file.Measurement;
+import ru.jcup.saa.science.trowh.gui.input.formula.Point2D;
+import ru.jcup.saa.science.trowh.utils.arithmetic.value.LinkedDouble;
+
+/**
+ * Основной класс расчетов
+ * @author Katq
+ */
+
+public class GroupPlotter extends SelectPanel{
+
+	private static final long serialVersionUID = 1L;
+	
+	private Plotter plotter1;
+	private Plotter plotter2;
+	private Plotter plotter3;
+
+	private Plotter plotter4;
+	private Plotter plotter5;
+	private Plotter plotter6;
+	
+	private Plotter plotter7;
+	private Plotter plotter8;
+	
+	public GroupPlotter() {
+		plotter1 = new Plotter();
+		plotter2 = new Plotter();
+		plotter3 = new Plotter();
+		plotter4 = new Plotter();
+		plotter5 = new Plotter();
+		plotter6 = new Plotter();
+		plotter7 = new Plotter();
+		plotter8 = new Plotter();
+
+		this.setLayout(new GridLayout(4,2));
+		this.add(plotter1);
+		this.add(plotter4);
+		this.add(plotter2);
+		this.add(plotter5);
+		this.add(plotter3);
+		this.add(plotter6);
+
+		this.add(plotter7);
+		this.add(plotter8);
+	}
+
+	private ArrayList<Measurement> points;
+	private PlotterThread plotterThread = new PlotterThread();
+	
+	public void setGraph(ArrayList<Measurement> points) {
+		this.points = points;
+		if (plotterThread.isAlive()) {
+			plotterThread.interrupt();
+		}
+		plotterThread = new PlotterThread();
+		plotterThread.start();
+	}
+	
+	private JProgressBar bar;
+	
+	public void setProgressBar(JProgressBar bar) {
+		this.bar = bar;
+	}
+	
+	public static LinkedDouble a= new LinkedDouble(0.2d);
+	public static LinkedDouble k1= new LinkedDouble(1d);
+	public static LinkedDouble k2= new LinkedDouble(0.3d);
+	public static LinkedDouble k3= new LinkedDouble(0.5d);
+	public static LinkedDouble k4= new LinkedDouble(0.8d);	
+	public static LinkedDouble m= new LinkedDouble(1d);
+	public static LinkedDouble h= new LinkedDouble(1.6d);
+	public static LinkedDouble md= new LinkedDouble(3d);
+	public static LinkedDouble ind= new LinkedDouble(0.1d);
+	
+	//initial conditions
+	public static LinkedDouble ksiP0 = new LinkedDouble(0.5d);
+	public static LinkedDouble ettaP0 = new LinkedDouble(1d);
+	public static LinkedDouble psiP0 = new LinkedDouble(0.1d);
+	public static LinkedDouble ksiP00 = new LinkedDouble(0.1d);
+	public static LinkedDouble ettaP00 = new LinkedDouble(0.1d);
+	public static LinkedDouble psiP00 = new LinkedDouble(0.1d);
+	
+	class PlotterThread extends Thread{
+		
+		public void run() {
+			
+			plotter1.removeAllGraph();
+			plotter2.removeAllGraph();
+			plotter3.removeAllGraph();
+			plotter4.removeAllGraph();
+			plotter5.removeAllGraph();
+			plotter6.removeAllGraph();
+			plotter7.removeAllGraph();
+			plotter8.removeAllGraph();
+			
+			if (bar!=null) {
+				bar.setMinimum(0);
+				bar.setMaximum(points.size()-1);
+			}
+						
+			if (bar!=null) {
+				bar.setValue(bar.getMaximum());
+			}
+			
+			compute();
+		}
+
+		private void compute() {
+			int count = points.size();
+			
+			double delta = points.get(1).getTetta()-points.get(0).getTetta();
+			
+			double[] ksi0 = new double[count];
+			double[] psi0 = new double[count];
+			double[] etta0 = new double[count];
+			
+			//initialization
+			for(int i=0; i<points.size(); i++) {
+				Measurement measure = points.get(i);
+				ksi0[i] = measure.getKsi();
+				psi0[i] = measure.getPsi();
+				etta0[i] = measure.getEtta();
+
+				if (Thread.interrupted()) return;
+			}
+			
+			//compute derivatives
+			double[] ksi0Derivative = getDerivative5(ksiP0.get(), delta, ksi0);
+			double[] psi0Derivative = getDerivative5(psiP0.get(), delta, psi0);
+			double[] etta0Derivative = getDerivative5(ettaP0.get(), delta, etta0);
+			
+			double[] ksi0SecondDerivative = getDerivative5(ksiP00.get(), delta, 					ksi0Derivative);
+			double[] psi0SecondDerivative = getDerivative5(psiP00.get(), delta, 					psi0Derivative);
+			double[] etta0SecondDerivative = getDerivative5(ettaP00.get(), delta, 					etta0Derivative);
+			
+			//variable values
+			double[] ksi = new double[ksi0.length];
+			double[] psi = new double[psi0.length];
+			double[] etta = new double[etta0.length];
+			
+			double[] ksiDerivative = new double[ksi0.length];
+			double[] psiDerivative = new double[psi0.length];
+			double[] ettaDerivative = new double[etta0.length];
+			
+			ksi[0] = ksiP0.get();
+			psi[0] = psiP0.get();
+			etta[0] = ettaP0.get();
+			
+			ksiDerivative[0] = ksiP00.get();
+			psiDerivative[0] = psiP00.get();
+			ettaDerivative[0] = ettaP00.get();
+			
+	
+			
+			for(int i=0; i<psi0.length-1; i++) {
+				if (Thread.interrupted()) return;
+				
+				double[][] matrixP = new double[3][3];
+				matrixP[0][0] = Math.sin(psi[i]);
+				matrixP[1][0] = Math.sin(psi[i]+2d*Math.PI/3d);
+				matrixP[2][0] = Math.sin(psi[i]+4d*Math.PI/3d);
+				matrixP[0][1] = -Math.cos(psi[i]);
+				matrixP[1][1] = -Math.cos(psi[i]+2d*Math.PI/3d);
+				matrixP[2][1] = -Math.cos(psi[i]+4d*Math.PI/3d);
+				matrixP[0][2] = -a.get();
+				matrixP[1][2] = -a.get();
+				matrixP[2][2] = -a.get();
+				
+				double[][] matrixP0 = new double[3][3];
+				matrixP0[0][0] = Math.sin(psi0[i]);
+				matrixP0[1][0] = Math.sin(psi0[i]+2d*Math.PI/3d);
+				matrixP0[2][0] = Math.sin(psi0[i]+4d*Math.PI/3d);
+				matrixP0[0][1] = -Math.cos(psi0[i]);
+				matrixP0[1][1] = -Math.cos(psi0[i]+2d*Math.PI/3d);
+				matrixP0[2][1] = -Math.cos(psi0[i]+4d*Math.PI/3d);
+				matrixP0[0][2] = -a.get();
+				matrixP0[1][2] = -a.get();
+				matrixP0[2][2] = -a.get();	
+				
+				double[][] matrixP0Inverse = new double[3][3];
+				matrixP0Inverse[0][0] = 2d/3d*(Math.sin(psi0[i]));
+				matrixP0Inverse[1][0] = -2d/3d*(Math.cos(psi0[i]));
+				matrixP0Inverse[2][0] = -(1d/(3d*a.get()));
+				matrixP0Inverse[0][1] = 1d/3d*(Math.cos(psi0[i])*Math.sqrt(3d)
+					-Math.sin(psi0[i]));
+				matrixP0Inverse[1][1] = 1d/3d*(Math.sin(psi0[i])*Math.sqrt(3d)
+					+Math.cos(psi0[i]));
+				matrixP0Inverse[2][1] = -(1d/(3d*a.get()));
+				matrixP0Inverse[0][2] = -1d/3d*(Math.cos(psi0[i])*Math.sqrt(3d)
+					+Math.sin(psi0[i]));
+				matrixP0Inverse[1][2] = 1d/3d*(Math.cos(psi0[i])
+					-Math.sin(psi0[i])*Math.sqrt(3d));
+				matrixP0Inverse[2][2] = -(1d/(3d*a.get()));
+				
+		/* PU=P(U0+Ux)=P(ksi)(P(-1)(ksi0)L0 + P(-1)(ksi)V) = P(ksi)P(-1)(ksi0)L0 + V */
+				double[] vectorL0 = new double[3];
+				vectorL0[0] = m.get()*ksi0SecondDerivative[i]+h.get()*ksi0Derivative[i]
+					+md.get()*etta0Derivative[i]*psi0Derivative[i]; 
+				vectorL0[1] = m.get()*etta0SecondDerivative[i]
+					+h.get()*etta0Derivative[i]
+					-md.get()*ksi0Derivative[i]*psi0Derivative[i];
+				vectorL0[2] = ind.get()*psi0SecondDerivative[i]
+					+2*a.get()*a.get()*h.get()*psi0Derivative[i]; 						
+				
+				double[] vectorU0 = matrixMultiplyVector(matrixP0Inverse, vectorL0);	
+		
+				double[] vectorV = new double[3];
+				vectorV[0] = -k1.get()*(ksiDerivative[i]-ksi0Derivative[i])-k2.get()
+						*(ksi[i]-ksi0[i]);
+				vectorV[1] = -k1.get()*(ettaDerivative[i]-etta0Derivative[i])-k2.get()
+						*(etta[i]-etta0[i]);
+				vectorV[2] = -k3.get()*(psiDerivative[i]-psi0Derivative[i])-k4.get()
+						*(psi[i]-psi0[i]);
+				
+				double[] vectorPU0 = matrixMultiplyVector(matrixP, vectorU0);
+				
+				double[] vectorOdeRight = vectorPlusVector(vectorPU0, vectorV);
+				
+				ksiDerivative[i+1] = (vectorOdeRight[0] - h.get()*ksiDerivative[i] 
+					- md.get()*psiDerivative[i]*ettaDerivative[i])
+					*delta/m.get() +  ksiDerivative[i];
+				ettaDerivative[i+1] = (vectorOdeRight[1] - h.get()*ettaDerivative[i]
+ 					+ md.get()*psiDerivative[i]*ksiDerivative[i])
+					*delta/m.get() + ettaDerivative[i];
+				psiDerivative[i+1] = (vectorOdeRight[2]
+					 - 2*a.get()*a.get()*h.get()*psiDerivative[i])
+					*delta/ind.get() + psiDerivative[i];		
+				
+				ksi[i+1] = ksi[i] + delta*ksiDerivative[i];
+				etta[i+1] = etta[i] + delta*ettaDerivative[i];
+				psi[i+1] = psi[i] + delta*psiDerivative[i];
+				
+			}
+			
+			//plot graph
+			plotter1.putGraph("ksi0", getGraphTettaY(delta, ksi0, "?o", 
+				new Color(30, 30, 30)));
+			plotter1.putGraph("ksi", getGraphTettaY(delta, ksi, "?", 
+				new Color(108, 191, 76)));
+					
+			plotter2.putGraph("etta0", getGraphTettaY(delta, etta0, "?o", 
+				new Color(30, 30, 30)));
+			plotter2.putGraph("etta", getGraphTettaY(delta, etta, "?", 
+				new Color(95, 100, 255)));
+			plotter3.putGraph("psi0", getGraphTettaY(delta, psi0, "?o", 
+				new Color(30, 30, 30)));
+			plotter3.putGraph("psi", getGraphTettaY(delta, psi, "?", 
+				new Color(255, 127, 67)));
+			plotter4.putGraph("ksi0Derivative", getGraphTettaY(delta, ksi0Derivative, "?'o", 
+				new Color(30, 30, 30)));
+			plotter4.putGraph("ksiDerivative", getGraphTettaY(delta, ksiDerivative, "?'", 
+				new Color(108, 191, 76)));
+			plotter5.putGraph("etta0Derivative", getGraphTettaY(delta, etta0Derivative, 				"?'o", 	new Color(30, 30, 30)));
+			plotter5.putGraph("ettaDerivative", getGraphTettaY(delta, ettaDerivative, "?'", 
+				new Color(95, 100, 255)));
+			plotter6.putGraph("psi0Derivative", getGraphTettaY(delta, psi0Derivative, 				"?'o", 	new Color(30, 30, 30)));
+			plotter6.putGraph("psiDerivative", getGraphTettaY(delta, psiDerivative, "?'", 
+				new Color(255, 127, 67)));
+			plotter7.putGraph("ettaKsi", getGraphXY(etta0, ksi0, "?", "?", 
+				new Color(30, 30, 30)));
+			plotter7.putGraph("etta0Ksi0", getGraphXY(etta, ksi, "?o", "?o", 
+				new Color(255, 33, 201)));
+			plotter8.putGraph("diffKsi", getGraphTettaY(delta, getDiff(ksi, ksi0), "?-?o", 
+				new Color(108, 191, 76)));
+			plotter8.putGraph("diffEtta", getGraphTettaY(delta, getDiff(etta, etta0), "?-?o",
+				 new Color(95, 100, 255)));
+			plotter8.putGraph("diffPsi", getGraphTettaY(delta, getDiff(psi, psi0), "?-?o", 
+				new Color(255, 127, 67)));
+			
+			plotter1.repaint();
+			plotter2.repaint();
+			plotter3.repaint();
+			plotter4.repaint();
+			plotter5.repaint();
+			plotter6.repaint();
+			plotter7.repaint();
+			plotter8.repaint();
+			
+ 		}
+		
+		
+		
+		
+		private double[] getDiff(double[] vector1, double[] vector2) {
+			int count = vector1.length;
+			double[] diffVector = new double[count];
+			for (int i=0; i<count; i++) {
+				diffVector[i] = vector1[i]-vector2[i];
+			}
+			return diffVector;
+		}
+
+
+
+		private Graph getGraphTettaY(double delta,double[]vector, String vectorName,
+				Color color) {
+			Graph graph = new Graph(vectorName, "t", color);
+			double time = 0;
+			for (Double v : vector) {
+				if (v.isNaN()) v=0d;
+				if (v.isInfinite()) v=0d;
+				graph.add(new Point2D(time, v));
+				time += delta;
+			}
+			return graph;
+		}
+		
+		private Graph getGraphXY(double[] x, double[] y, String xName, String yName,
+				 Color color) {
+			Graph graph = new Graph(yName, xName, color);
+			for (int i=0; i<x.length; i++) {
+				graph.add(new Point2D(x[i], y[i]));
+			}
+			return graph;
+		}
+
+		private double[] getDerivative5(double startPoint, double delta, double[] vector) {
+			double returnVector[] = new double[vector.length];
+			returnVector[0] = startPoint;
+			returnVector[1] = (vector[1] - vector[0]) / delta;
+			returnVector[vector.length-1] = (vector[vector.length-1] 
+				- vector[vector.length-2]) / delta;;
+			returnVector[vector.length-2] = (vector[vector.length-2] 
+				- vector[vector.length-3]) / delta;;
+			for(int i=2; i<vector.length-2; i++) {
+				returnVector[i] = (vector[i-2] - 8*vector[i-1] + 8*vector[i+1] 
+				- vector[i+2]) / (12*delta);
+			}
+			return returnVector;
+		}
+		
+		private double[] matrixMultiplyVector(double[][] matrix, double[] vector) {
+			int dimension = vector.length;
+			double[] returnVector = new double[dimension];
+			for (int y=0; y<dimension; y++) {
+				double result = 0d;
+				for (int x=0; x<dimension; x++) {
+					result += matrix[x][y] * vector[x];
+				}
+				returnVector[y] = result;
+			}
+			return returnVector;
+		}
+		
+		private double[] vectorPlusVector(double[] vector1, double[] vector2) {
+			int dimension = vector1.length;
+			double[] returnVector = new double[dimension];
+			for (int x=0; x<dimension; x++) {
+				returnVector[x] = vector1[x] + vector2[x];
+			}
+			return returnVector;
+		}
+	}
+}

@@ -1,0 +1,2627 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  21 MAY 2016 22:19
+entering extended mode
+**./disser.tex
+(disser.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\lcyenc.de
+f"
+File: lcyenc.def 2004/05/28 v3.4d Cyrillic encoding definition file
+)
+LaTeX Font Info:    Try loading font information for LCY+cmr on input line 105.
+
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\lcycmr.fd
+"
+File: lcycmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
+))
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding LCY ...
+... processing UTF-8 mapping file for font encoding LCY
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\lcyenc.dfu"
+File: lcyenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2116 (decimal 8470)
+)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
+cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
+def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2016/01/08 3.9n The Babel package
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblopts.c
+fg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-russian\russ
+ianb.ldf"
+Language: russianb 2015/05/01 1.3g Russian support for the Babel system
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2016/01/08 3.9n Babel common definitions
+\babel@savecnt=\count101
+\U@D=\dimen114
+)
+Package babel Info: Making " an active character on input line 111.
+))
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks27
+) ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks28
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+cfg"))
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.
+sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
+sty"
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec.
+sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip58
+\aftertitleunit=\skip59
+\ttl@plus=\dimen123
+\ttl@minus=\dimen124
+\ttl@toksa=\toks29
+\titlewidth=\dimen125
+\titlewidthlast=\dimen126
+\titlewidthfirst=\dimen127
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\needspace\needspac
+e.sty"
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\block.tss
+"
+File: block.tss 2016/03/15
+)
+\c@theorem=\count105
+\c@lemma=\count106
+\c@consectary=\count107
+\c@pointout=\count108
+\c@definition=\count109
+\c@assertion=\count110
+
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+(disser.aux (titul.aux) (prefix.aux))
+\openout1 = `disser.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for LCY/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen128
+\scratchbox=\box29
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen129
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks31
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 483.69687pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\openout2 = `titul.aux'.
+
+(titul.tex) [1
+
+
+{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+
+ ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+
+
+LaTeX Warning: Reference `p12' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Reference `p13' on page 2 undefined on input line 107.
+
+
+LaTeX Warning: Reference `p21' on page 2 undefined on input line 111.
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 111--112
+\LCY/cmr/bx/n/14.4 Глава II. Метод векторных функций Ляпунова в задаче о
+ []
+
+
+LaTeX Warning: Reference `p21' on page 2 undefined on input line 115.
+
+
+LaTeX Warning: Reference `p22' on page 2 undefined on input line 117.
+
+
+LaTeX Warning: Reference `p23' on page 2 undefined on input line 119.
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 119--120
+[]\OMS/cmsy/m/n/14.4 x\LCY/cmr/m/n/14.4 2.3. Стабилизация движения голономной м
+еханической системы с
+ []
+
+
+LaTeX Warning: Reference `p31' on page 2 undefined on input line 123.
+
+
+LaTeX Warning: Reference `p31' on page 2 undefined on input line 127.
+
+
+LaTeX Warning: Reference `p32' on page 2 undefined on input line 130.
+
+
+LaTeX Warning: Reference `p33' on page 2 undefined on input line 133.
+
+
+LaTeX Warning: Reference `postfix' on page 2 undefined on input line 137.
+
+
+LaTeX Warning: Reference `bibl' on page 2 undefined on input line 139.
+
+
+LaTeX Warning: Reference `app1start' on page 2 undefined on input line 141.
+
+[2
+
+] [3]
+\openout2 = `prefix.aux'.
+
+ (prefix.tex
+
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `berghuis0' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `kelly' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `berghuis1' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `berghuis2' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `loria0' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `loria1' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `burkov0' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `burkov1' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `berghuis0' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `burkov0' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `burkov1' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `loria2' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `calugi' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `alonge' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `calugi' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `alonge' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `dixon' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `nunes' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `burkov2' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `yarza' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `yarza' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `loria3' on page 4 undefined on input line 6.
+
+
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation `loria3' on page 4 undefined on input line 7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 средств
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 их функционирования для обеспечения оптимальности выполняемых
+
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 к более сложным, позволяющим учитывать нелинейную движений
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 механических систем часто представляют собой системы нелинейн
+ых
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 позволяющей проводить разбиение системы на подсистемы меньшей
+
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 и Е.С. Пятницкий. Проблема управления движением механических
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 представляющее собой произведение матрицы инерции системы на
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 лишь на имеющейся полной информации о параметрах системы и
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 и с n степенями свободы без учета измерения скорости на основ
+е
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 при помощи метода линеаризации обратной связью. Как отмечалос
+ь
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 ранее, недостатком данного метода является сложность структур
+ы
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 скоростей были построены наблюдатели, имеющие порядок, равный
+
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 числу степеней свободы системы, не требующие точной информаци
+и
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 полученные в работах [\LCY/cmr/bx/n/14.4 ?\LCY/cmr/m/n/14.4 ,
+ \LCY/cmr/bx/n/14.4 ?\LCY/cmr/m/n/14.4 ], применимы лишь для механических
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 находящихся под действием лишь потенциальных и ограниченных
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 и с учетом неизвестных параметров системы. В работе [\LCY/cmr
+/bx/n/14.4 ?\LCY/cmr/m/n/14.4 ] было
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 отслеживания траектории
+ []
+
+
+Underfull \hbox (badness 6792) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 позиции на основе динамической обратной связи с насыщением;
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 [\LCY/cmr/bx/n/14.4 ?\LCY/cmr/m/n/14.4 ] решена задача о глоб
+альной стабилизации программной позиции
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 робота. На основе классического метода Ляпунова и построения
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 нелинейных фильтров задача адаптивного управления решена для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 нахождения
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 программного движения системы без диссипации путем построения
+
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 2--8
+\LCY/cmr/m/n/14.4 к настоящему моменту решение задачи о нелокальной стабилизаци
+и
+ []
+
+[4
+
+] [5] [6] [7]
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\LCY/cmr/m/n/14.4 В
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 9--10
+\LCY/cmr/m/n/14.4 методов моделирования начинают ориентироваться на эффективнос
+ть
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 9--10
+\LCY/cmr/m/n/14.4 оценивается с помощью О { символики. Алгоритмы, разработанные
+
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 9--10
+\LCY/cmr/m/n/14.4 однако, оказалось, что он намного менее эффективен, чем RNEA 
+в
+ []
+
+[8]
+Underfull \hbox (badness 1946) in paragraph at lines 11--13
+[]\LCY/cmr/m/n/14.4 Самый ранний первый известный алгоритм сложности $\OML/cmm/
+m/it/14.4 O\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 N\OT1/cmr/m/n/14.4 )$ \LCY/cmr
+/m/n/14.4 для
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 11--13
+\LCY/cmr/m/n/14.4 решения прямой задачи динамики был предложен Верещагиным.
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 11--13
+\LCY/cmr/m/n/14.4 Гиббса-Аппеля уравнения движения, и применим к неразветвлённы
+м
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+\LCY/cmr/m/n/14.4 Балафотисом, Пателем и Митрой были
+ []
+
+[9]
+Underfull \hbox (badness 1117) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 Баричелли на компьютере, установленном в Институте Продвинуты
+х
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 в том же году, привлекла широкое внимание общественности. [И2
+0]
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 С 1957 года, австралийский генетик Алекс Фразер опубликовал
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 серию работ по симуляции искусственного отбора среди организм
+ов
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 с множественным контролем измеримых характеристик. Симуляции
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 использовать новую вычислительную технику на практике. В том
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 положению ходьбы через 500-3000 поколений. Недостатками, одна
+ко,
+ []
+
+[10]
+Underfull \hbox (badness 3250) in paragraph at lines 19--20
+\LCY/cmr/m/n/14.4 манипулятором, моделируемым в виде системы связанных твёрдых
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 19--20
+\LCY/cmr/m/n/14.4 Лагранжа 2-го рода. В первом параграфе ислледуется поведение
+ []
+
+[11] [12])
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
+(chapter_1/paragraph_1/1_1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+[]\LCY/cmr/m/n/14.4 Рассмотрим неавтономное функционально-дифференциальное
+ []
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 12.
+
+Missing character: There is no в in font cmr10!
+
+Underfull \hbox (badness 2932) in paragraph at lines 11--14
+\LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 f \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/1
+4.4 R \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[] \OMS/cmsy/m/n/14.4 ! \OML/cmm
+/m/it/14.4 R[]$ \LCY/cmr/m/n/14.4 - некоторое непрерывное отображение,
+ []
+
+
+! LaTeX Error: Environment Ass undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 	\begin{Ass}
+                 \label{AS1} ╨Ф╨╗╤П  ╨║╨░╨╢╨┤╨╛╨│╨╛  ╤З╨╕╤Б╨╗╨░ $r,$ $0<r<H,$
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Ass}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 	\end{Ass}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[13
+
+
+]
+Underfull \hbox (badness 1571) in paragraph at lines 37--43
+[]\LCY/cmr/m/n/14.4 Дадим определение сходимости в $\OML/cmm/m/it/14.4 F$ \LCY/
+cmr/m/n/14.4 как равномерной на каждом
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 56--59
+[]\LCY/cmr/m/n/14.4 Можно убедиться, что при этому будут выполнены все аксиомы
+ []
+
+[14]
+
+! LaTeX Error: Environment Ass undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 	\begin{Ass}
+                 \label{AS2} ╨Ф╨╗╤П ╨╗╤О╨▒╨╛╨│╨╛ $K\subset C_H$ ($K$ - ╨║╨╛╨...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Ass}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 	\end{Ass}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Lemm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 	\begin{Lemm}
+                  \label{l-1.3} ╨Я╤А╨╕ ╤Г╤Б╨╗╨╛╨▓╨╕╨╕ ╨▓╤Л╨┐╨╛╨╗╨╜╨╡╨╜╨╕╤П ╨...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Lemm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 	\end{Lemm}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Def undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 	\begin{Def}
+                 \label{d-1.1} ╨д╤Г╨╜╨║╤Ж╨╕╤П $f^*:R\times\Gamma \to R^p$ ╨╜...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Def}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 	\end{Def}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Ass undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 	\begin{Ass}
+                 \label{AS3} ╨Ф╨╗╤П ╨╗╤О╨▒╨╛╨│╨╛ ╨║╨╛╨╝╨┐╨░╨║╤В╨╜╨╛╨│╨╛ ╨╝╨╜...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Ass}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 	\end{Ass}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[15]
+Underfull \hbox (badness 6016) in paragraph at lines 115--117
+[]\LCY/cmr/m/n/14.4 Связь между решениями уравнений (1.1[]) и (1.4[]) определяе
+тся
+ []
+
+
+! LaTeX Error: Environment Th undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 	\begin{Th}
+                 \label{t-1.1} ╨Я╤Г╤Б╤В╤М ╤Д╤Г╨╜╨║╤Ж╨╕╤П $f^*: R \times\Gamm...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Th}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 	\end{Th}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Th undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 	\begin{Th}
+                 \label{t-1.2}  ╨Я╤Г╤Б╤В╤М  ╤А╨╡╤И╨╡╨╜╨╕╨╡  (\ref{1.1'}) $x=...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Th}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 	\end{Th}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16]
+
+LaTeX Warning: Reference `2.1' on page 17 undefined on input line 150.
+
+
+LaTeX Warning: Citation `kra591' on page 17 undefined on input line 155.
+
+
+LaTeX Warning: Citation `hei84' on page 17 undefined on input line 155.
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 166--172
+[]\LCY/cmr/m/n/14.4 Иной подход к вычислению производной основан на свойстве
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{Th}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 \end{Th}
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.186 \end{Th}
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.186 \end{Th}
+              
+Things are pretty mixed up, but I think the worst is over.
+
+[17]
+
+! LaTeX Error: Environment Def undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 \begin{Def}
+                 \label{d2.9} ╨д╤Г╨╜╨║╤Ж╨╕╨╛╨╜╨░╨╗ $V(t,\varphi )$ ╨╜╨░╨╖╤Л╨...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Def}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \end{Def}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Def undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \begin{Def}
+                 \label{d2.10} ╨д╤Г╨╜╨║╤Ж╨╕╨╛╨╜╨░╨╗ $V=V(t,\varphi )$ ╨┤╨╛╨┐...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Def}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 \end{Def}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\citation{}
+[18
+\newlabel{d2.9}{{}{18}}
+\newlabel{d2.10}{{}{18}}
+\newlabel{3.3'}{{1.8}{18}}
+]
+
+! LaTeX Error: Environment Def undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 \begin{Def}
+                 \label{d-3.1} ╨д╤Г╨╜╨║╤Ж╨╕╤П $W^*\subset F_W$ ╨╡╤Б╤В╤М ╨┐╤А...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Def}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 \end{Def}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Def undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 \begin{Def}
+                 \label{d-3.2} ╨С╤Г╨┤╨╡╨╝ ╨│╨╛╨▓╨╛╤А╨╕╤В╤М, ╤З╤В╨╛ ╨╛╤В╨╛╨▒╤...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Def}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 \end{Def}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Def undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249 \begin{Def}
+                 \label{d-4.1}  ╨д╤Г╨╜╨║╤Ж╨╕╨╕ $f^* \in F$ ╨╕ $W^*\in F_W$ ╨...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Def}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 \end{Def}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Th undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 \begin{Th}
+                \label{t-1.3} ╨Я╤А╨╡╨┤╨┐╨╛╨╗╨╛╨╢╨╕╨╝, ╤З╤В╨╛:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[19
+\newlabel{3.4'}{{1.9}{19}}
+\newlabel{d-3.1}{{}{19}}
+\newlabel{d-3.2}{{}{19}}
+\newlabel{d-4.1}{{}{19}}
+\newlabel{t-1.3}{{}{19}}
+]
+! Missing } inserted.
+<inserted text> 
+                }
+l.270 	$y_t\subset\ { W^*(t,\varphi )=0\}$
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{Th}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 	\end{Th}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 266--273
+[]\LCY/cmr/m/n/14.4 Тогда для каждой предельной точки $\OML/cmm/m/it/14.4   \OM
+S/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
+; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/n/14.4 существуют
+ []
+
+
+! LaTeX Error: Environment Th undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 	\begin{Th}
+                 \label{t-4.5} ╨Я╤А╨╡╨┤╨┐╨╛╨╗╨╛╨╢╨╕╨╝, ╤З╤В╨╛:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Th}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 	\end{Th}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.294 ...- m).$ ╨б╨╛╨╛╤В╨▓╨╡╤В╤Б╤В╨▓╨╡╨╜╨╜╨╛, $x^'
+                                                   = (x_1, ... , x_m, x_{m+1...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.294 ...x_1, ... , x_m, x_{m+1}, ..., x_p) = (y^'
+                                                  , z^'), y \in R^m$ ╨╡╤Б╤В╤...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.294 ...... , x_m, x_{m+1}, ..., x_p) = (y^', z^'
+                                                  ), y \in R^m$ ╨╡╤Б╤В╤М ╨▓╨...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.294 ...{m+1}, ..., x_p) = (y^', z^'), y \in R^m$
+                                                   ╨╡╤Б╤В╤М ╨▓╨╡╨║╤В╨╛╤А p -...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.294 ...{m+1}, ..., x_p) = (y^', z^'), y \in R^m$
+                                                   ╨╡╤Б╤В╤М ╨▓╨╡╨║╤В╨╛╤А p -...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.294 ...{m+1}, ..., x_p) = (y^', z^'), y \in R^m$
+                                                   ╨╡╤Б╤В╤М ╨▓╨╡╨║╤В╨╛╤А p -...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.294 ...╗╤П $\varphi \in C$ ╨╕╨╝╨╡╨╡╨╝ $\varphi^'
+                                                   = (\psi^', \theta^')$ ╨╕ ...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.294 ...hi \in C$ ╨╕╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^'
+                                                  , \theta^')$ ╨╕ $\| \phi \...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.294 ...╨╕╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^', \theta^'
+                                                  )$ ╨╕ $\| \phi \| = \| psi...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.294 ...╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^', \theta^')$
+                                                   ╨╕ $\| \phi \| = \| psi \...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.294 ...╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^', \theta^')$
+                                                   ╨╕ $\| \phi \| = \| psi \...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.294 ...╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^', \theta^')$
+                                                   ╨╕ $\| \phi \| = \| psi \...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+[]\LCY/cmr/m/n/14.4 Рассмотрим задачу
+ []
+
+[20
+\newlabel{t-4.5}{{}{20}}
+]
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+[]\LCY/cmr/m/n/14.4 Будем полагать, что правая
+ []
+
+
+! LaTeX Error: Environment Ass undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 	\begin{Ass}
+                  \label{AS1} ╨Я╤Г╤Б╤В╤М ╤Д╤Г╨╜╨║╤Ж╨╕╤П $f^1(t, \phi)$ ╨╛╨│╤...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing { inserted.
+<to be read again> 
+                   \gdef 
+l.303 ...mes \bar{C_r^y} \times C^z R^ \bar{C_r^y}
+                                                   = {\psi \in C^y : \| t \|...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.303 ...{C_r^y} = {\psi \in C^y : \| t \| \le r}$
+                                                   ╨▓╤Л╨┐╨╛╨╗╨╜╤П╨╡╤В╤Б╤П ╨╜...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{Ass}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.304 	\end{Ass}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+[]\LCY/cmr/m/n/14.4 Ограниченность решения
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 306--307
+\LCY/cmr/m/n/14.4 части переменных свойство квазиинвариантности его положительн
+ого
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.310 	╨Я╤Г╤Б╤В╤М ${r^{(j)}_1$
+                               ╨╡╤Б╤В╤М ╨┐╨╛╤Б╨╗╨╡╨┤╨╛╨▓╨░╤В╨╡╨╗╤М╨╜╨╛╤Б╤В╤М...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[21
+\newlabel{AS1}{{}{21}}
+]
+Underfull \hbox (badness 1117) in paragraph at lines 324--325
+[]\LCY/cmr/m/n/14.4 Существование функционала Ляпунова, имеющего знакопостоянну
+ю
+ []
+
+
+! LaTeX Error: Environment Th undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.326 		\begin{Th}
+                  \label{t-1.11} ╨Я╤Г╤Б╤В╤М
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 334.
+
+Missing character: There is no с in font cmr12!
+[22
+\newlabel{t-1.11}{{}{22}}
+]
+
+! LaTeX Error: \begin{document} ended by \end{Th}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 		\end{Th}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment Th undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.342 		\begin{Th}
+                  \label{t-1.12} ╨Я╤А╨╡╨┤╨┐╨╛╨╗╨╛╨╢╨╕╨╝, ╤З╤В╨╛:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{Th}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.352 		\end{Th}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (chapter_1/paragraph_2/1_2.tex) (chapter_1/paragraph_3/1_3.tex) [23
+\newlabel{t-1.12}{{}{23}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}\IeC {\CYRR }\IeC {\c
+yra }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyri }\IeC {\cy
+re } \IeC {\cyrm }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrd }\IeC {\cy
+ra } \IeC {\cyrv }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cy
+rr }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrf }\IeC {\cyru }\IeC {\
+cyrn }\IeC {\cyrk }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrishrt } \IeC {\CYRL }\Ie
+C {\cyrya }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\Ie
+C {\cyra } \IeC {\cyrv } \IeC {\cyri }\IeC {\cyrs }\IeC {\cyrs }\IeC {\cyrl }\I
+eC {\cyre }\IeC {\cyrd }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\Ie
+C {\cyri }\IeC {\cyri } \IeC {\cyru }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyro }\Ie
+C {\cyrishrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrs 
+}\IeC {\cyrt }\IeC {\cyri } \IeC {\cyrd }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrk 
+}\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh
+ } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm
+ }}{23}}
+\newlabel{p12}{{1.2}{23}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3} \IeC {\CYRU }\IeC {\
+cyrs }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrishrt }\IeC {\cyrch }\IeC {\cyri }\Ie
+C {\cyrv }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyrd 
+}\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrt }
+\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyro }\IeC {\cy
+rd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri } \IeC {\cyrt }\IeC {\cyri }\IeC {\cy
+rp }\IeC {\cyra } \IeC {\CYRV }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC 
+{\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrr }\IeC {\cyra }}{23}}
+\newlabel{p13}{{1.3}{23}}
+]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+(chapter_2/paragraph_1/2_1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+\LCY/cmr/m/n/14.4 Рассмотрим математическую модель двухзвенного манипулятора.
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 2--3
+\LCY/cmr/m/n/14.4 Манипулятор состоит из неподвижного основания и двух абсолютн
+о
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 4--5
+[]\LCY/cmr/m/n/14.4 Введем обозначения: $\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/n/14.
+4 (\OML/cmm/m/it/14.4 i \OT1/cmr/m/n/14.4 = 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/
+14.4 2)$ \LCY/cmr/m/n/14.4 --- углы поворотов звеньев
+ []
+
+[24
+
+
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}\IeC {\CYRM }\IeC {\cyr
+e }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrd } \IeC {\cyrv }\IeC {\cyre }\IeC {\cyr
+k }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cy
+rh } \IeC {\cyrf }\IeC {\cyru }\IeC {\cyrn }\IeC {\cyrk }\IeC {\cyrc }\IeC {\cy
+ri }\IeC {\cyrishrt } \IeC {\CYRL }\IeC {\cyrya }\IeC {\cyrp }\IeC {\cyru }\IeC
+ {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra } \IeC {\cyrv } \IeC {\cyrz }\Ie
+C {\cyra }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyre } \IeC {\cyro } \
+IeC {\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\I
+eC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyri } \I
+eC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm } \I
+eC {\cyrs } \IeC {\cyri }\IeC {\cyrm }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\I
+eC {\cyrsftsn }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrm } \IeC {\cy
+ru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyr
+e }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }\IeC {\cyrm }}{24}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}\IeC {\CYRT }\IeC {\c
+yre }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } \IeC {
+\cyro } \IeC {\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {
+\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\
+cyri }}{24}}
+\newlabel{p21}{{2.1}{24}}
+]
+Underfull \hbox (badness 3547) in paragraph at lines 24--25
+[]\LCY/cmr/m/n/14.4 Из выражения для кинетической энергии $\OML/cmm/m/it/14.4 T
+$ \LCY/cmr/m/n/14.4 находим уравнения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\LCY/cmr/m/n/14.4 механической системы
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 36--38
+[]\LCY/cmr/m/n/14.4 Пусть $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/
+n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; []\OT1/cmr/
+m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )) \OMS/cmsy/m/n/14.4 2 \OML/cm
+m/m/it/14.4 X$ \LCY/cmr/m/n/14.4 --- какое-либо программное движение,
+ []
+
+[25
+\newlabel{2.1'}{{2.1}{25}}
+]
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+[]$\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n
+/14.4 ) =$
+ []
+
+[26
+\newlabel{2.2}{{2.1}{26}}
+]
+Underfull \hbox (badness 1688) in paragraph at lines 93--94
+[]\LCY/cmr/m/n/14.4 Рассмотрим задачу построения управляющего воздействия $\OML
+/cmm/m/it/14.4 U[] \OT1/cmr/m/n/14.4 =$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
+[]\LCY/cmr/m/n/14.4 Рассмотрим решение задачи
+ []
+
+! Display math should end with $$.
+<to be read again> 
+                   U
+l.102 $U
+        ^{(1)}(x, \dot x) = B(\dot x + p(x))$ \label{2.3}
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.102 $U^
+         {(1)}(x, \dot x) = B(\dot x + p(x))$ \label{2.3}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 \end{equation*}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.103 \end{equation*}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.103 \end{equation*}
+                     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+LaTeX Warning: Reference `2.2' on page 27 undefined on input line 106.
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.106 ...╤Ж╨╕╤О ╨Ы╤П╨┐╤Г╨╜╨╛╨▓╨░ $V = (V^1, V^2)^'
+                                                  $  ╤Б ╨║╨╛╤Н╤Д╤Д╨╕╤Ж╨╕╨╡╨╜...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.106 ...Ж╨╕╤О ╨Ы╤П╨┐╤Г╨╜╨╛╨▓╨░ $V = (V^1, V^2)^'$
+                                                    ╤Б ╨║╨╛╤Н╤Д╤Д╨╕╤Ж╨╕╨╡╨╜╤...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.106 ...= \|p(x)\|, V^2 = \sqrt{(\dot x + p(x))^'
+                                                   A^{(1)}(t, x)(\dot x + p(...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.106 ... + p(x))^' A^{(1)}(t, x)(\dot x + p(x))}$
+                                                  .
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 105--107
+[]\LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/i
+t/14.4 R[]$ \LCY/cmr/m/n/14.4 есть матрица коэффициентов усиления сигналов,
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 105--107
+\LCY/cmr/m/n/14.4 подлежащая определению. Возьмем для системы [] вектор-функцию
+
+ []
+
+[27
+\newlabel{2.3}{{2.1}{27}}
+]
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.117 ...mbda_{max} [(D-F)^' (D-F)]}}{2 \lambda_1}
+                                                  , m_3 = \frac{m_2 l_1 l_{g...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.117 ...mbda_{max} [(D-F)^' (D-F)]}}{2 \lambda_1}
+                                                  , m_3 = \frac{m_2 l_1 l_{g...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.117 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
+                                                  $
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.117 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
+                                                  $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 117--118
+[]$\OML/cmm/m/it/14.4 [] \OT1/cmr/m/n/14.4 = [] [](\OML/cmm/m/it/14.4 frac\OT
+1/cmr/m/n/14.4 2)\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/1
+4.4 ; m[] \OT1/cmr/m/n/14.4 = [] []\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 =
+$
+ []
+
+
+LaTeX Warning: Reference `2.4' on page 28 undefined on input line 126.
+
+
+LaTeX Warning: Reference `2.2' on page 28 undefined on input line 126.
+
+
+LaTeX Warning: Reference `2.4' on page 28 undefined on input line 126.
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 126--127
+[]\LCY/cmr/m/n/14.4 Согласно теореме сравнения об асимптотической устойчивости 
+[5]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\LCY/cmr/m/n/14.4 нулевого решения системы []. Получим условие
+ []
+
+[28
+\newlabel{2.4}{{2.1}{28}}
+]
+
+LaTeX Warning: Reference `2.4' on page 29 undefined on input line 132.
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 132--134
+[]\LCY/cmr/m/n/14.4 Тогда можно показать, что функция $[]\OT1/cmr/m/n/14.4 (\OM
+L/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 max[]$
+ []
+
+
+Underfull \hbox (badness 5637) in paragraph at lines 132--134
+\LCY/cmr/m/n/14.4 будет монотонно стремиться к нулю при $\OML/cmm/m/it/14.4 t \
+OMS/cmsy/m/n/14.4 ! 1$\LCY/cmr/m/n/14.4 , и, значит,
+ []
+
+
+LaTeX Warning: Reference `2.6' on page 29 undefined on input line 139.
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 139--140
+[]\LCY/cmr/m/n/14.4 Численное моделирование движения манипулятора при действии
+ []
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 141.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no м in font cmr12!
+
+Overfull \hbox (285.53531pt too wide) detected at line 141
+\OML/cmm/m/it/14.4 m[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/1
+4.4 5\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cm
+r/m/n/14.4 3\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; 
+\OT1/cmr/m/n/14.4 5\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/
+14.4 ; \OT1/cmr/m/n/14.4 5\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 0\OML/cm
+m/m/it/14.4 ; \OT1/cmr/m/n/14.4 25\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 
+0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 3\OML/cmm/m/it/14.4 ; I[] \OT1/cmr/m/n/
+14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 01 \OMS/cmsy/m/n/14.4  []\OML/c
+mm/m/it/14.4 ; I[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 
+006 \OMS/cmsy/m/n/14.4  []\OML/cmm/m/it/14.4 ; q[]\OT1/cmr/m/n/14.4 (\OML/cmm/
+m/it/14.4 t\OT1/cmr/m/n/14.4 ) = [](0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5\O
+ML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; q[]\OT1/cmr/m/n/14.4 
+(\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = [](0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/
+n/14.4 5\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 =\OT1/cmr
+/m/n/14.4 2
+ []
+
+
+LaTeX Warning: Reference `2.6' on page 29 undefined on input line 143.
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 143--144
+[]\LCY/cmr/m/n/14.4 На рисунках 2 и 3 представлены результаты моделирования при
+
+ []
+
+) (chapter_2/paragraph_2/2_2.tex) (chapter_2/paragraph_3/2_3.tex
+Underfull \hbox (badness 2753) in paragraph at lines 1--1
+ |[]\LCY/cmr/m/n/14.4 Стабилизация движения голономной механической системы с
+ []
+
+) [29
+\newlabel{2.5}{{2.1}{29}}
+\newlabel{2.6}{{2.1}{29}}
+] [30
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}\IeC {\CYRS }\IeC {\c
+yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
+rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\IeC {\c
+yro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\c
+yri }\IeC {\cyrya } \IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrn }\IeC {\
+cyro }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyri }\IeC {\cyrya } \IeC {
+\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn }\Ie
+C {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyru }\IeC {\cyrr }\Ie
+C {\cyra }\IeC {\cyrv }\IeC {\cyrn }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC
+ {\cyrya }}{30}}
+\newlabel{p22}{{2.2}{30}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}\IeC {\CYRS }\IeC {\c
+yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
+rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrd }\IeC {\c
+yrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\c
+yrya } \IeC {\cyrg }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrn }\IeC {\
+cyro }\IeC {\cyrm }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\Ie
+C {\cyre }\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\Ie
+C {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs 
+}\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery
+ } \IeC {\cyrs } \IeC {\cyrc }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyrl }\IeC {\cyr
+i }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }\IeC {\cyr
+m }\IeC {\cyri } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyr
+d }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrm
+ }\IeC {\cyri }}{30}}
+\newlabel{p23}{{2.3}{30}}
+]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+(chapter_3/paragraph_1/3_1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+\LCY/cmr/m/n/14.4 Рассмотрим математическую модель трехзвенного манипулятора,
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 6--8
+[]\LCY/cmr/m/n/14.4 Введем обозначения: $\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/n/14.
+4 (\OML/cmm/m/it/14.4 i \OT1/cmr/m/n/14.4 = 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/
+14.4 2\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 3)$ \LCY/cmr/m/n/14.4 --- углы пов
+оротов звеньев
+ []
+
+[31
+
+
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}\IeC {\CYRM }\IeC {\cyr
+o }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro
+ }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyru
+ }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyrya
+ }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrm }\IeC {\cy
+re }\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cy
+re }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }\IeC {\cyrh } \IeC {\cyrs }\IeC {\cy
+ri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm } \IeC {\cyrs } \IeC {\c
+yrc }\IeC {\cyri }\IeC {\cyrf }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrv }\IeC {\cy
+rery }\IeC {\cyrm } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\
+cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }\IeC {\c
+yrm }}{31}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}\IeC {\CYRS }\IeC {\c
+yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
+rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\IeC {\c
+yrr }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cy
+rm }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrd }\IeC {\cyrv }\IeC {\
+cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrishrt } \I
+eC {\cyrg }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyro }\Ie
+C {\cyrm }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyre 
+}\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre 
+}\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs }\IeC {\c
+yri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } }{31}}
+
+\newlabel{p31}{{3.1}{31}}
+]
+Overfull \hbox (33.96791pt too wide) detected at line 17
+[]
+ []
+
+
+! LaTeX Error: File `3chain' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21  	\includegraphics{3chain}
+                               
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[32
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\
+CYRM }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn } \Ie
+C {\cyrt }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC
+ {\cyre }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC
+ {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC 
+{\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{32
+}}
+\newlabel{fig:manip1}{{3.1}{32}}
+]
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
+\LCY/cmr/m/n/14.4 механической системы
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 69--78
+\LCY/cmr/m/n/14.4 системы, $\OML/cmm/m/it/14.4 C\OT1/cmr/m/n/14.4 (\OML/cmm/m/i
+t/14.4 q; []\OT1/cmr/m/n/14.4 ) = [][] []\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.
+4 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;$ \LCY/cmr/m/n/14
+.4 , $\OML/cmm/m/it/14.4 j; k$\LCY/cmr/m/n/14.4 -ый элемент $\OML/cmm/m/it/14.4
+ c[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/n/14
+.4 матрицы
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 69--78
+$\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4
+ )$ \LCY/cmr/m/n/14.4 определяется в виде $\OML/cmm/m/it/14.4 c[]\OT1/cmr/m/n/1
+4.4 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 ) = []([] + [] \OMS/cmsy/m/n/14.4   
+[]\OT1/cmr/m/n/14.4 )$\LCY/cmr/m/n/14.4 ; $\OML/cmm/m/it/14.4 K$ \LCY/cmr/m/n/1
+4.4 ---
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 69--78
+\LCY/cmr/m/n/14.4 матрица коэффициентов моментов сил вязкого трения, действующи
+х
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 69--78
+\LCY/cmr/m/n/14.4 либо программное движение системы (2), реализуемое программны
+м
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 69--78
+\LCY/cmr/m/n/14.4 при котором невозмущенное движение $[] \OT1/cmr/m/n/14.4 = \O
+ML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4 = 0$ \LCY/cmr/m/n/14.4 системы (3)
+ []
+
+[33
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}\IeC {\CYRP }\IeC {\c
+yro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyre }\IeC {\cy
+rn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cy
+ra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyr
+ya }}{33}}
+\newlabel{sec2.3}{{3.2}{33}}
+]
+Underfull \hbox (badness 3333) in paragraph at lines 79--84
+\LCY/cmr/m/n/14.4 манипулятора Рассмотрим решение задачи стабилизации в области
+
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 79--84
+$\OML/cmm/m/it/14.4 p[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4
+ ) \OML/cmm/m/it/14.4 > \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; p[]\OT1/cmr/m/n
+/14.4 (0) = 0$\LCY/cmr/m/n/14.4 . Возьмем для системы (3) вектор-функцию
+ []
+
+[34]
+Overfull \hbox (450.63748pt too wide) detected at line 87
+[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
+4 x\OT1/cmr/m/n/14.4 ))[] = 2\OML/cmm/m/it/14.4 V[][] \OT1/cmr/m/n/14.4 = 2([] 
++ [])[]\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 ([] + \OML/cmm/m/it/14.4 p\OT1/c
+mr/m/n/14.4 ) + ([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 )[][]([] + \OML/cmm
+/m/it/14.4 p\OT1/cmr/m/n/14.4 ) = 2(\OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[]\
+OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/14.4 )[] \OMS/cmsy/m/
+n/14.4   \OML/cmm/m/it/14.4 R[] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 Q[]\OT1/
+cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; []\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 
+Q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/14.4 ))[]([] + \O
+ML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 ) + 2[]\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/1
+4.4 ([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 ) + ([] + \OML/cmm/m/it/14.4 p\
+OT1/cmr/m/n/14.4 )[][]([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 )
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 97--103
+\LCY/cmr/m/n/14.4 экспоненциальной устойчивости нулевого решения системы сравне
+ния
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 97--103
+\LCY/cmr/m/n/14.4 (5) следует аналогичное свойство нулевого решения системы (3)
+.
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 97--103
+\LCY/cmr/m/n/14.4 Можно показать, что нулевое решение системы сравнения (5) буд
+ет
+ []
+
+[35]
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 104.
+
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no м in font cmr12!
+) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex)
+
+! LaTeX Error: \include cannot be nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 \include{postfix}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \include cannot be nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \include{bibliography}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \include cannot be nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 \include{appendix/appendix}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[36
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}\IeC {\CYRM }\IeC {\c
+yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
+ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
+ru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyr
+ya }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cy
+rd }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cy
+ri }\IeC {\cyrya } \IeC {\cyrd }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\c
+yrv }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cy
+ro } \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cy
+ru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cy
+ra } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrd }\IeC {\c
+yrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrm } \IeC {\
+cyro }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\c
+yrn }\IeC {\cyri }\IeC {\cyri }}{36}}
+\newlabel{p32}{{3.3}{36}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}\IeC {\CYRM }\IeC {\c
+yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
+ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
+ru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyr
+e }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrv } \IeC {\cyrz }\IeC {\c
+yra }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyre } \IeC {\cyro } \IeC {
+\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\
+cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyri } \IeC {\
+cyrd }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\
+cyri }\IeC {\cyrya } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {
+\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrr }\IeC {
+\cyro }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra } \IeC {\cyrs } \IeC 
+{\cyro }\IeC {\cyrm }\IeC {\cyrn }\IeC {\cyri }-\IeC {\cyrk }\IeC {\cyro }\IeC 
+{\cyrl }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyri }}{36}}
+
+\newlabel{p33}{{3.4}{36}}
+] (disser.aux (titul.aux) (prefix.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4527 strings out of 493634
+ 56854 string characters out of 3135239
+ 133535 words of memory out of 3000000
+ 7771 multiletter control sequences out of 15000+200000
+ 8954 words of font info for 30 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,11n,43p,9619b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-lcy\dpi864\lh
+csc10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-lcy\dp
+i600\lhr10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-l
+cy\dpi720\lhbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\l
+h\lh-lcy\dpi720\lhr12.pk><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Admin/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Admin/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Admin
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on disser.pdf (36 pages, 269174 bytes).
+PDF statistics:
+ 357 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

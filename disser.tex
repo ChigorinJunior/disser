@@ -1,0 +1,171 @@
+\documentclass[14pt,a4paper,final,russian]{report}
+\usepackage[LCY]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[intlimits]{amsmath}
+\usepackage{graphicx}
+\graphicspath{{chapter_1/paragraph_3/img/}{chapter_2/paragraph_1/img/}{chapter_3/paragraph_2/img/}{chapter_3/paragraph_3/img/}{appendix/img/}}
+\usepackage[russian]{babel}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{cite}
+\usepackage{geometry} % Меняем поля страницы
+\geometry{left=30mm}% левое поле
+\geometry{right=10mm}% правое поле
+\geometry{top=20mm}% верхнее поле
+\geometry{bottom=20mm}% нижнее поле
+% установка полуторного интервала
+\usepackage{setspace}  
+\onehalfspacing
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+%  нумерация сверху
+\fancypagestyle{plain}{%
+	\fancyhf{} % clear all header and footer fields
+	\fancyhead[C]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}}
+
+\usepackage{titlesec}
+\usepackage{needspace}
+% переопределение главы
+\titleformat{\chapter}[block]
+{\filcenter}{\thechapter}{1em}{\MakeUppercase}{}
+\titlespacing*{\chapter}{-25pt}{0pt}{*4}
+
+%переопределение параграфа
+\titleformat{\section}
+{}{\thesection}{1em}{}
+\titlespacing*{\section}{\parindent}{*4}{*4}
+
+
+%\titleformat{\section}
+%{\needspace{1in}\Large\bfseries}{\thesection}{1em}{}
+
+
+
+\newenvironment{comment}{}{}
+\renewcommand{\theenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
+\renewcommand{\baselinestretch}{1}
+
+\newtheorem{theorem}{Теорема}
+\newcommand{\thrm}[1]{\begin{Th}#1.1\end{Th}}
+\numberwithin{theorem}{chapter}
+
+\newtheorem{lemma}{Лемма}
+\newcommand{\lem}[1]{\begin{lemma}#1.1\end{lemma}}
+\numberwithin{lemma}{chapter}
+
+\newtheorem{consectary}{Следствие}
+\newcommand{\cnsct}[1]{\begin{consectary}#1.1\end{consectary}}
+\numberwithin{consectary}{chapter}
+
+\newtheorem{pointout}{Замечание}
+\newcommand{\pntout}[1]{\begin{pointout}#1.1\end{pointout}}
+\numberwithin{pointout}{chapter}
+
+\newtheorem{definition}{Определение} 
+\newcommand{\defn}[1]{\begin{Def}#1.1\end{Def}}
+\numberwithin{definition}{chapter}
+
+\newtheorem{assertion}{Утверждение} 
+\newcommand{\prop}[1]{\begin{Ass}#1.1\end{Ass}}
+\numberwithin{assertion}{chapter}
+
+
+
+\begin{document}
+	
+	
+% установка размера шрифта для всего документа
+\fontsize{14pt}{18pt}\selectfont
+\pretolerance10000
+\include{titul}
+\newpage
+\renewcommand{\baselinestretch}{1.5}
+\fontsize{14pt}{18pt}\selectfont
+
+
+{\centerline{ {\sc СОДЕРЖАНИЕ }}
+\vspace{5mm plus 1mm minus .5mm}}
+
+\noindent {\bf Введение} \dotfill\mbox{\ \ \pageref{prefix}}
+\vglue 0.3cm
+
+\noindent {\bf Глава I. Новые методы исследования устойчивости дискретных систем} \dotfill\mbox{\ \ \pageref{p11}}
+
+
+\par \vglue 0.3cm 
+\S 1.1. Постановка задачи о математическом моделировании управляемой системы с цифровым управлением и стабилизации её движения \dotfill\mbox{\ \ \pageref{p11}}
+\par 
+\S 1.2. Развитие метода векторных функций Ляпунова в исследовании устойчивости дискретных систем \dotfill\mbox{\ \ \pageref{p12}}
+
+\S 1.3. Устойчивость дискретной модели типа Вольтерра \dotfill\mbox{\ \ \pageref{p13}}
+
+
+\par \vglue 0.3cm
+\noindent {\bf Глава II. Метод векторных функций Ляпунова в задаче о стабилизации систем с импульсным управлением} \dotfill\mbox{\ \ \pageref{p21}}
+
+
+\par \vglue 0.3cm
+\S 2.1. Теоремы о стабилизации \dotfill\mbox{\ \ \pageref{p21}}
+
+\S 2.2. Стабилизация положения равновесия модельного уравнения \dotfill\mbox{\ \ \pageref{p22}}
+
+\S 2.3. Стабилизация движения голономной механической системы с циклическими координатами  \dotfill\mbox{\ \ \pageref{p23}}
+
+
+\par \vglue 0.3cm
+\noindent  {\bf Глава III. Моделирование управляемых механических систем с цифровым управлением} \dotfill\mbox{\ \ \pageref{p31}}
+
+
+\par \vglue 0.3cm
+\S 3.1. Стабилизация программных движений голономной механической системы \dotfill\mbox{\ \ \pageref{p31}}
+
+
+\S 3.2. Моделирование управляемого движения  двузвенного манипулятора на подвижном основании \dotfill\mbox{\ \ \pageref{p32}}
+
+
+\S 3.3. Моделирование управления в задаче о стабилизации движения колесного робота с омни-колесами  \dotfill\mbox{\ \ \pageref{p33}}
+
+\vglue 0.5cm
+
+\noindent {\bf Заключение}\dotfill\mbox{\ \ \pageref{postfix}} \vglue 0.5cm
+
+\noindent {\bf Литература} \dotfill\mbox{\ \ \pageref{bibl}}
+\par \vglue 0.5cm
+\noindent {\bf Приложение 1} \dotfill\mbox{\ \ \pageref{app1start}}
+
+\newpage
+
+% установка размера шрифта для всего документа
+\fontsize{14pt}{21pt}\selectfont
+\pretolerance10000
+
+\include{prefix}
+
+\chapter{Новыер методы исследования устойчивости дискретных систем}
+\input{chapter_1/paragraph_1/1_1}
+\input{chapter_1/paragraph_2/1_2}
+\input{chapter_1/paragraph_3/1_3} 
+
+\chapter{Метод векторных функций Ляпунова в задаче о стабилизации систем с импульсным управлением}
+\input{chapter_2/paragraph_1/2_1}
+\input{chapter_2/paragraph_2/2_2}
+\input{chapter_2/paragraph_3/2_3} 
+
+\chapter{Моделирование управляемых механических систем с цифровым управлением}
+\input{chapter_3/paragraph_1/3_1}
+\input{chapter_3/paragraph_2/3_2}
+\input{chapter_3/paragraph_3/3_3} 
+
+\include{postfix}
+
+\include{bibliography}
+
+\include{appendix/appendix}
+\end{document}
