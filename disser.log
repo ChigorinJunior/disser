@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  21 MAY 2016 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  22 MAY 2016 18:12
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -475,6 +475,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ncctools\nccmath.s
+ty"
+Package: nccmath 2005/02/21 v1.2 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen112
+)
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
 sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -511,8 +516,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
 ))
-\Gin@req@height=\dimen112
-\Gin@req@width=\dimen113
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
 )
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/01/08 3.9n The Babel package
@@ -531,7 +536,7 @@ Language: russianb 2015/05/01 1.3g Russian support for the Babel system
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/01/08 3.9n Babel common definitions
 \babel@savecnt=\count101
-\U@D=\dimen114
+\U@D=\dimen115
 )
 Package babel Info: Making " an active character on input line 111.
 ))
@@ -584,14 +589,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count102
 \Gm@cntv=\count103
 \c@Gm@tempcnt=\count104
-\Gm@bindingoffset=\dimen115
-\Gm@wd@mp=\dimen116
-\Gm@odd@mp=\dimen117
-\Gm@even@mp=\dimen118
-\Gm@layoutwidth=\dimen119
-\Gm@layoutheight=\dimen120
-\Gm@layouthoffset=\dimen121
-\Gm@layoutvoffset=\dimen122
+\Gm@bindingoffset=\dimen116
+\Gm@wd@mp=\dimen117
+\Gm@odd@mp=\dimen118
+\Gm@even@mp=\dimen119
+\Gm@layoutwidth=\dimen120
+\Gm@layoutheight=\dimen121
+\Gm@layouthoffset=\dimen122
+\Gm@layoutvoffset=\dimen123
 \Gm@dimlist=\toks28
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
@@ -618,12 +623,12 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip58
 \aftertitleunit=\skip59
-\ttl@plus=\dimen123
-\ttl@minus=\dimen124
+\ttl@plus=\dimen124
+\ttl@minus=\dimen125
 \ttl@toksa=\toks29
-\titlewidth=\dimen125
-\titlewidthlast=\dimen126
-\titlewidthfirst=\dimen127
+\titlewidth=\dimen126
+\titlewidthlast=\dimen127
+\titlewidthfirst=\dimen128
 )
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\needspace\needspac
 e.sty"
@@ -638,7 +643,6 @@ File: block.tss 2016/03/15
 \c@consectary=\count107
 \c@pointout=\count108
 \c@definition=\count109
-\c@assertion=\count110
 
 
 LaTeX Warning: Unused global option(s):
@@ -665,16 +669,16 @@ LaTeX Font Info:    ... okay on input line 81.
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen128
+\scratchcounter=\count110
+\scratchdimen=\dimen129
 \scratchbox=\box29
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\nofMPsegments=\count111
+\nofMParguments=\count112
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen129
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen130
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks31
 )
 *geometry* driver: auto-detecting
@@ -717,8 +721,8 @@ ii"
 
 
 {C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-\LCY/cmr/bx/n/14.4 Глава I. Функционально-дифференциальные уравнения с
+Underfull \hbox (badness 2608) in paragraph at lines 99--100
+\LCY/cmr/bx/n/14.4 Глава I. Применение прямого метода Ляпунова в задачах
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
@@ -729,115 +733,134 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
 
-Underfull \hbox (badness 3323) in paragraph at lines 103--104
-[]\OMS/cmsy/m/n/14.4 x\LCY/cmr/m/n/14.4 1.1. Теоремы об устойчивости функционал
-ьно-дифференциальных
+
+LaTeX Warning: Reference `p12' on page 2 undefined on input line 105.
+
+
+LaTeX Warning: Reference `p13' on page 2 undefined on input line 107.
+
+
+LaTeX Warning: Reference `p21' on page 2 undefined on input line 111.
+
+
+LaTeX Warning: Reference `p21' on page 2 undefined on input line 115.
+
+
+LaTeX Warning: Reference `p22' on page 2 undefined on input line 117.
+
+
+LaTeX Warning: Reference `p23' on page 2 undefined on input line 119.
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 119--120
+[]\OMS/cmsy/m/n/14.4 x\LCY/cmr/m/n/14.4 2.3. Стабилизация движения голономной м
+еханической системы с
  []
 
 
-LaTeX Warning: Reference `p21' on page 2 undefined on input line 106.
+LaTeX Warning: Reference `p31' on page 2 undefined on input line 123.
 
 
-LaTeX Warning: Reference `p21' on page 2 undefined on input line 110.
+LaTeX Warning: Reference `p31' on page 2 undefined on input line 127.
 
 
-LaTeX Warning: Reference `p31' on page 2 undefined on input line 114.
+LaTeX Warning: Reference `p32' on page 2 undefined on input line 130.
 
 
-LaTeX Warning: Reference `p31' on page 2 undefined on input line 118.
+LaTeX Warning: Reference `p33' on page 2 undefined on input line 133.
 
 
-LaTeX Warning: Reference `postfix' on page 2 undefined on input line 122.
+LaTeX Warning: Reference `postfix' on page 2 undefined on input line 137.
 
 
-LaTeX Warning: Reference `bibl' on page 2 undefined on input line 124.
+LaTeX Warning: Reference `bibl' on page 2 undefined on input line 139.
 
 
-LaTeX Warning: Reference `app1start' on page 2 undefined on input line 126.
+LaTeX Warning: Reference `app1start' on page 2 undefined on input line 141.
 
 [2
 
-]
+] [3]
 \openout2 = `prefix.aux'.
 
  (prefix.tex
 
-LaTeX Warning: Citation `nicosia' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `berghuis0' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `berghuis0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `kelly' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `kelly' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `berghuis1' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `berghuis1' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `berghuis2' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `berghuis2' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `loria0' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `loria0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `loria1' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `loria1' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov0' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `burkov0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov1' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `burkov1' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `nicosia' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `berghuis0' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `berghuis0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov0' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `burkov0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov1' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `burkov1' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `loria2' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `loria2' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `calugi' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `calugi' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `alonge' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `alonge' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `calugi' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `calugi' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `alonge' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `alonge' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `dixon' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `dixon' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `nunes' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `nunes' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov2' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `burkov2' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `yarza' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `yarza' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `yarza' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `yarza' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `loria3' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `loria3' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `nicosia' on page 3 undefined on input line 7.
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 7.
 
 
-LaTeX Warning: Citation `loria3' on page 3 undefined on input line 7.
+LaTeX Warning: Citation `loria3' on page 4 undefined on input line 7.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
@@ -972,9 +995,9 @@ Underfull \hbox (badness 1325) in paragraph at lines 2--8
 и
  []
 
-[3
+[4
 
-] [4] [5] [6]
+] [5] [6] [7]
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 9.
 LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
@@ -1007,7 +1030,7 @@ Underfull \hbox (badness 1122) in paragraph at lines 9--10
 в
  []
 
-[7]
+[8]
 Underfull \hbox (badness 1946) in paragraph at lines 11--13
 []\LCY/cmr/m/n/14.4 Самый ранний первый известный алгоритм сложности $\OML/cmm/
 m/it/14.4 O\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 N\OT1/cmr/m/n/14.4 )$ \LCY/cmr
@@ -1030,7 +1053,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 \LCY/cmr/m/n/14.4 Балафотисом, Пателем и Митрой были
  []
 
-[8]
+[9]
 Underfull \hbox (badness 1117) in paragraph at lines 14--15
 \LCY/cmr/m/n/14.4 Баричелли на компьютере, установленном в Институте Продвинуты
 х
@@ -1069,7 +1092,7 @@ Underfull \hbox (badness 1454) in paragraph at lines 14--15
 ко,
  []
 
-[9]
+[10]
 Underfull \hbox (badness 3250) in paragraph at lines 19--20
 \LCY/cmr/m/n/14.4 манипулятором, моделируемым в виде системы связанных твёрдых
  []
@@ -1079,7 +1102,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 19--20
 \LCY/cmr/m/n/14.4 Лагранжа 2-го рода. В первом параграфе ислледуется поведение
  []
 
-[10] [11])
+[11] [12])
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 (chapter_1/paragraph_1/1_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1128,7 +1151,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[12
+[13
 
 
 ]
@@ -1142,7 +1165,7 @@ Underfull \hbox (badness 2035) in paragraph at lines 56--59
 []\LCY/cmr/m/n/14.4 Можно убедиться, что при этому будут выполнены все аксиомы
  []
 
-[13]
+[14]
 
 ! LaTeX Error: Environment Ass undefined.
 
@@ -1251,7 +1274,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14]
+[15]
 Underfull \hbox (badness 6016) in paragraph at lines 115--117
 []\LCY/cmr/m/n/14.4 Связь между решениями уравнений (1.1[]) и (1.4[]) определяе
 тся
@@ -1311,15 +1334,15 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[15]
+[16]
 
-LaTeX Warning: Reference `2.1' on page 16 undefined on input line 150.
-
-
-LaTeX Warning: Citation `kra591' on page 16 undefined on input line 155.
+LaTeX Warning: Reference `2.1' on page 17 undefined on input line 150.
 
 
-LaTeX Warning: Citation `hei84' on page 16 undefined on input line 155.
+LaTeX Warning: Citation `kra591' on page 17 undefined on input line 155.
+
+
+LaTeX Warning: Citation `hei84' on page 17 undefined on input line 155.
 
 
 Underfull \hbox (badness 7685) in paragraph at lines 166--172
@@ -1357,7 +1380,7 @@ l.186 \end{Th}
               
 Things are pretty mixed up, but I think the worst is over.
 
-[16]
+[17]
 
 ! LaTeX Error: Environment Def undefined.
 
@@ -1413,10 +1436,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 \citation{}
-[17
-\newlabel{d2.9}{{}{17}}
-\newlabel{d2.10}{{}{17}}
-\newlabel{3.3'}{{1.8}{17}}
+[18
+\newlabel{d2.9}{{}{18}}
+\newlabel{d2.10}{{}{18}}
+\newlabel{3.3'}{{1.8}{18}}
+\newlabel{3.4'}{{1.9}{18}}
 ]
 
 ! LaTeX Error: Environment Def undefined.
@@ -1512,13 +1536,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[18
-\newlabel{3.4'}{{1.9}{18}}
-\newlabel{d-3.1}{{}{18}}
-\newlabel{d-3.2}{{}{18}}
-\newlabel{d-4.1}{{}{18}}
-\newlabel{t-1.3}{{}{18}}
-]
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -1550,6 +1567,12 @@ S/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
 ; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/n/14.4 существуют
  []
 
+[19
+\newlabel{d-3.1}{{}{19}}
+\newlabel{d-3.2}{{}{19}}
+\newlabel{d-4.1}{{}{19}}
+\newlabel{t-1.3}{{}{19}}
+]
 
 ! LaTeX Error: Environment Th undefined.
 
@@ -1576,139 +1599,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.294 ...- m).$ ╨б╨╛╨╛╤В╨▓╨╡╤В╤Б╤В╨▓╨╡╨╜╨╜╨╛, $x^'
-                                                   = (x_1, ... , x_m, x_{m+1...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.294 ...x_1, ... , x_m, x_{m+1}, ..., x_p) = (y^'
-                                                  , z^'), y \in R^m$ ╨╡╤Б╤В╤...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.294 ...... , x_m, x_{m+1}, ..., x_p) = (y^', z^'
-                                                  ), y \in R^m$ ╨╡╤Б╤В╤М ╨▓╨...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.294 ...{m+1}, ..., x_p) = (y^', z^'), y \in R^m$
-                                                   ╨╡╤Б╤В╤М ╨▓╨╡╨║╤В╨╛╤А p -...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.294 ...{m+1}, ..., x_p) = (y^', z^'), y \in R^m$
-                                                   ╨╡╤Б╤В╤М ╨▓╨╡╨║╤В╨╛╤А p -...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.294 ...{m+1}, ..., x_p) = (y^', z^'), y \in R^m$
-                                                   ╨╡╤Б╤В╤М ╨▓╨╡╨║╤В╨╛╤А p -...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.294 ...╗╤П $\varphi \in C$ ╨╕╨╝╨╡╨╡╨╝ $\varphi^'
-                                                   = (\psi^', \theta^')$ ╨╕ ...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.294 ...hi \in C$ ╨╕╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^'
-                                                  , \theta^')$ ╨╕ $\| \phi \...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.294 ...╨╕╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^', \theta^'
-                                                  )$ ╨╕ $\| \phi \| = \| psi...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.294 ...╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^', \theta^')$
-                                                   ╨╕ $\| \phi \| = \| psi \...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.294 ...╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^', \theta^')$
-                                                   ╨╕ $\| \phi \| = \| psi \...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.294 ...╨╝╨╡╨╡╨╝ $\varphi^' = (\psi^', \theta^')$
-                                                   ╨╕ $\| \phi \| = \| psi \...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--295
-[]\LCY/cmr/m/n/14.4 Рассмотрим задачу
+[]\LCY/cmr/m/n/14.4 Рассмотрим задачу об устойчивости
  []
 
-[19
-\newlabel{t-4.5}{{}{19}}
+[20
+\newlabel{t-4.5}{{}{20}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 301--302
 []\LCY/cmr/m/n/14.4 Будем полагать, что правая
@@ -1727,27 +1624,6 @@ l.303 	\begin{Ass}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-! Missing { inserted.
-<to be read again> 
-                   \gdef 
-l.303 ...mes \bar{C_r^y} \times C^z R^ \bar{C_r^y}
-                                                   = {\psi \in C^y : \| t \|...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.303 ...{C_r^y} = {\psi \in C^y : \| t \| \le r}$
-                                                   ╨▓╤Л╨┐╨╛╨╗╨╜╤П╨╡╤В╤Б╤П ╨╜...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 
 ! LaTeX Error: \begin{document} ended by \end{Ass}.
@@ -1784,8 +1660,8 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[20
-\newlabel{AS1}{{}{20}}
+[21
+\newlabel{AS1}{{}{21}}
 ]
 Underfull \hbox (badness 1117) in paragraph at lines 324--325
 []\LCY/cmr/m/n/14.4 Существование функционала Ляпунова, имеющего знакопостоянну
@@ -1809,9 +1685,6 @@ or  <return>  to continue without it.
 LaTeX Warning: Command \cyrs invalid in math mode on input line 334.
 
 Missing character: There is no с in font cmr12!
-[21
-\newlabel{t-1.11}{{}{21}}
-]
 
 ! LaTeX Error: \begin{document} ended by \end{Th}.
 
@@ -1838,6 +1711,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[22
+\newlabel{t-1.11}{{}{22}}
+]
 
 ! LaTeX Error: \begin{document} ended by \end{Th}.
 
@@ -1851,8 +1727,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (chapter_1/paragraph_2/1_2.tex) (chapter_1/paragraph_3/1_3.tex) [22
-\newlabel{t-1.12}{{}{22}}
+) (chapter_1/paragraph_2/1_2.tex) (chapter_1/paragraph_3/1_3.tex) [23
+\newlabel{t-1.12}{{}{23}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}\IeC {\CYRR }\IeC {\c
 yra }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyri }\IeC {\cy
 re } \IeC {\cyrm }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrd }\IeC {\cy
@@ -1867,8 +1743,8 @@ C {\cyrishrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrs
 }\IeC {\cyrt }\IeC {\cyri } \IeC {\cyrd }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrk 
 }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh
  } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm
- }}{22}}
-\newlabel{p12}{{1.2}{22}}
+ }}{23}}
+\newlabel{p12}{{1.2}{23}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.3} \IeC {\CYRU }\IeC {\
 cyrs }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrishrt }\IeC {\cyrch }\IeC {\cyri }\Ie
 C {\cyrv }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyrd 
@@ -1876,45 +1752,51 @@ C {\cyrv }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyrd
 \IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyro }\IeC {\cy
 rd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri } \IeC {\cyrt }\IeC {\cyri }\IeC {\cy
 rp }\IeC {\cyra } \IeC {\CYRV }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC 
-{\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrr }\IeC {\cyra }}{22}}
-\newlabel{p13}{{1.3}{22}}
+{\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrr }\IeC {\cyra }}{23}}
+\newlabel{p13}{{1.3}{23}}
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 (chapter_2/paragraph_1/2_1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 \LCY/cmr/m/n/14.4 Рассмотрим математическую модель двухзвенного манипулятора.
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 2--3
+Underfull \hbox (badness 1264) in paragraph at lines 3--4
 \LCY/cmr/m/n/14.4 Манипулятор состоит из неподвижного основания и двух абсолютн
 о
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 4--5
+Underfull \hbox (badness 6063) in paragraph at lines 5--6
 []\LCY/cmr/m/n/14.4 Введем обозначения: $\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/n/14.
 4 (\OML/cmm/m/it/14.4 i \OT1/cmr/m/n/14.4 = 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/
 14.4 2)$ \LCY/cmr/m/n/14.4 --- углы поворотов звеньев
  []
 
-[23
+[24
 
 
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}\IeC {\CYRD }\IeC {\cyr
-v }\IeC {\cyru }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrn
- }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyra }\IeC 
-{\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya }\IeC 
-{\cyrt }\IeC {\cyro }\IeC {\cyrr }}{23}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}\IeC {\CYRU }\IeC {\cyr
+p }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn
+ }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrd }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrz
+h }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }\IeC {\cyrm } \IeC {\cyr
+d }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrn
+ }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm }\IeC {\cyra
+ }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya
+ }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra } (\IeC {\cyrb }\IeC {\cyr
+e }\IeC {\cyrz } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyr
+o }\IeC {\cyrd }\IeC {\cyra } \IeC {\cyri } \IeC {\cyrs } \IeC {\cyrp }\IeC {\c
+yrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyro }\IeC {\cy
+rm })}{24}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}\IeC {\CYRT }\IeC {\c
 yre }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } \IeC {
 \cyro } \IeC {\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {
 \cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\
-cyri }}{23}}
-\newlabel{p21}{{2.1}{23}}
-\newlabel{2.1'}{{2.1}{23}}
+cyri }}{24}}
+\newlabel{p21}{{2.1}{24}}
 ]
 Underfull \hbox (badness 3547) in paragraph at lines 24--25
 []\LCY/cmr/m/n/14.4 Из выражения для кинетической энергии $\OML/cmm/m/it/14.4 T
@@ -1934,270 +1816,155 @@ m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )) \OMS/cmsy/m/n/14.4 2 \OML/cm
 m/m/it/14.4 X$ \LCY/cmr/m/n/14.4 --- какое-либо программное движение,
  []
 
+[25
+\newlabel{2.1'}{{2.3}{25}}
+\newlabel{2.2'}{{2.4}{25}}
+] [26]
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--50
-[]$\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n
-/14.4 ) =$
- []
+LaTeX Warning: Reference `2.2' on page 27 undefined on input line 93.
 
-[24
-\newlabel{2.2}{{2.1}{24}}
-] [25]
-Underfull \hbox (badness 1688) in paragraph at lines 93--94
+
+Underfull \hbox (badness 1688) in paragraph at lines 93--93
 []\LCY/cmr/m/n/14.4 Рассмотрим задачу построения управляющего воздействия $\OML
 /cmm/m/it/14.4 U[] \OT1/cmr/m/n/14.4 =$
  []
+
+
+LaTeX Warning: Reference `2.1'' on page 27 undefined on input line 95.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 97--100
 []\LCY/cmr/m/n/14.4 Рассмотрим решение задачи
  []
 
-! Display math should end with $$.
-<to be read again> 
-                   U
-l.102 $U
-        ^{(1)}(x, \dot x) = B(\dot x + p(x))$ \label{2.3}
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.102 $U^
-         {(1)}(x, \dot x) = B(\dot x + p(x))$ \label{2.3}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: Reference `2.2' on page 27 undefined on input line 104.
 
 
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 \end{equation*}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.103 \end{equation*}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.103 \end{equation*}
-                     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-LaTeX Warning: Reference `2.2' on page 26 undefined on input line 106.
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.106 ...╤Ж╨╕╤О ╨Ы╤П╨┐╤Г╨╜╨╛╨▓╨░ $V = (V^1, V^2)^'
-                                                  $  ╤Б ╨║╨╛╤Н╤Д╤Д╨╕╤Ж╨╕╨╡╨╜...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.106 ...Ж╨╕╤О ╨Ы╤П╨┐╤Г╨╜╨╛╨▓╨░ $V = (V^1, V^2)^'$
-                                                    ╤Б ╨║╨╛╤Н╤Д╤Д╨╕╤Ж╨╕╨╡╨╜╤...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.106 ...= \|p(x)\|, V^2 = \sqrt{(\dot x + p(x))^'
-                                                   A^{(1)}(t, x)(\dot x + p(...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.106 ... + p(x))^' A^{(1)}(t, x)(\dot x + p(x))}$
-                                                  .
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 2057) in paragraph at lines 105--107
+Underfull \hbox (badness 2057) in paragraph at lines 103--105
 []\LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/i
 t/14.4 R[]$ \LCY/cmr/m/n/14.4 есть матрица коэффициентов усиления сигналов,
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 105--107
-\LCY/cmr/m/n/14.4 подлежащая определению. Возьмем для системы [] вектор-функцию
-
- []
-
-[26
-\newlabel{2.3}{{2.1}{26}}
-]
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.117 ...mbda_{max} [(D-F)^' (D-F)]}}{2 \lambda_1}
-                                                  , m_3 = \frac{m_2 l_1 l_{g...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.117 ...mbda_{max} [(D-F)^' (D-F)]}}{2 \lambda_1}
-                                                  , m_3 = \frac{m_2 l_1 l_{g...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.117 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
-                                                  $
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.117 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
-                                                  $
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 117--118
-[]$\OML/cmm/m/it/14.4 [] \OT1/cmr/m/n/14.4 = [] [](\OML/cmm/m/it/14.4 frac\OT
-1/cmr/m/n/14.4 2)\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/1
-4.4 ; m[] \OT1/cmr/m/n/14.4 = [] []\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 =
-$
- []
-
-
-LaTeX Warning: Reference `2.4' on page 27 undefined on input line 126.
-
-
-LaTeX Warning: Reference `2.2' on page 27 undefined on input line 126.
-
-
-LaTeX Warning: Reference `2.4' on page 27 undefined on input line 126.
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 126--127
-[]\LCY/cmr/m/n/14.4 Согласно теореме сравнения об асимптотической устойчивости 
-[5]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-\LCY/cmr/m/n/14.4 нулевого решения системы []. Получим условие
- []
+LaTeX Warning: Reference `2.1' on page 27 undefined on input line 106.
 
 [27
-\newlabel{2.4}{{2.1}{27}}
+\newlabel{2.3'}{{2.1}{27}}
+]
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.115 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
+                                                  $
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.115 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
+                                                  $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: Reference `2.1'' on page 28 undefined on input line 118.
+
+
+LaTeX Warning: Reference `2.4'' on page 28 undefined on input line 124.
+
+
+LaTeX Warning: Reference `2.2' on page 28 undefined on input line 124.
+
+
+LaTeX Warning: Reference `2.4' on page 28 undefined on input line 124.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+\LCY/cmr/m/n/14.4 свойства асимптотической устойчивости нулевого решения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+\LCY/cmr/m/n/14.4 устойчивости нулевого решения системы ([]). Получим условие
+ []
+
+[28
+\newlabel{2.4'}{{2.5}{28}}
 ]
 
-LaTeX Warning: Reference `2.4' on page 28 undefined on input line 132.
+LaTeX Warning: Reference `2.4' on page 29 undefined on input line 130.
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 132--134
+Underfull \hbox (badness 2635) in paragraph at lines 130--132
 []\LCY/cmr/m/n/14.4 Тогда можно показать, что функция $[]\OT1/cmr/m/n/14.4 (\OM
 L/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 max[]$
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 132--134
+Underfull \hbox (badness 5637) in paragraph at lines 130--132
 \LCY/cmr/m/n/14.4 будет монотонно стремиться к нулю при $\OML/cmm/m/it/14.4 t \
 OMS/cmsy/m/n/14.4 ! 1$\LCY/cmr/m/n/14.4 , и, значит,
  []
 
 
-LaTeX Warning: Reference `2.6' on page 28 undefined on input line 139.
+LaTeX Warning: Reference `2.3'' on page 29 undefined on input line 137.
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 139--140
+LaTeX Warning: Reference `2.6'' on page 29 undefined on input line 137.
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 137--138
 []\LCY/cmr/m/n/14.4 Численное моделирование движения манипулятора при действии
  []
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrg invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrg invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrg invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrg invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrg invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrg invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrg invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrg invalid in math mode on input line 139.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 141.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 139.
 
 Missing character: There is no к in font cmr12!
 Missing character: There is no г in font cmr12!
@@ -2214,7 +1981,7 @@ Missing character: There is no к in font cmr12!
 Missing character: There is no г in font cmr12!
 Missing character: There is no м in font cmr12!
 
-Overfull \hbox (285.53531pt too wide) detected at line 141
+Overfull \hbox (285.53531pt too wide) detected at line 139
 \OML/cmm/m/it/14.4 m[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/1
 4.4 5\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cm
 r/m/n/14.4 3\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; 
@@ -2233,10 +2000,13 @@ n/14.4 5\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 =\OT1/cmr
  []
 
 
-LaTeX Warning: Reference `2.6' on page 28 undefined on input line 143.
+LaTeX Warning: Reference `2.3'' on page 29 undefined on input line 141.
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 143--144
+LaTeX Warning: Reference `2.6'' on page 29 undefined on input line 141.
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 141--142
 []\LCY/cmr/m/n/14.4 На рисунках 2 и 3 представлены результаты моделирования при
 
  []
@@ -2246,9 +2016,9 @@ Underfull \hbox (badness 2753) in paragraph at lines 1--1
  |[]\LCY/cmr/m/n/14.4 Стабилизация движения голономной механической системы с
  []
 
-) [28
-\newlabel{2.5}{{2.1}{28}}
-\newlabel{2.6}{{2.1}{28}}
+) [29
+\newlabel{2.5'}{{2.6}{29}}
+\newlabel{2.6'}{{2.7}{29}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}\IeC {\CYRS }\IeC {\c
 yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
 rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\IeC {\c
@@ -2258,8 +2028,9 @@ cyro }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyri }\IeC {\cyrya } \IeC {
 \cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn }\Ie
 C {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyru }\IeC {\cyrr }\Ie
 C {\cyra }\IeC {\cyrv }\IeC {\cyrn }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC
- {\cyrya }}{28}}
-\newlabel{p22}{{2.2}{28}}
+ {\cyrya }}{29}}
+\newlabel{p22}{{2.2}{29}}
+] [30
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}\IeC {\CYRS }\IeC {\c
 yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
 rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrd }\IeC {\c
@@ -2273,8 +2044,8 @@ C {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs
 i }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }\IeC {\cyr
 m }\IeC {\cyri } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyr
 d }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrm
- }\IeC {\cyri }}{28}}
-\newlabel{p23}{{2.3}{28}}
+ }\IeC {\cyri }}{30}}
+\newlabel{p23}{{2.3}{30}}
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 (chapter_3/paragraph_1/3_1.tex
@@ -2290,14 +2061,21 @@ Underfull \hbox (badness 3668) in paragraph at lines 6--8
 оротов звеньев
  []
 
-[29
+[31
 
 
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}\IeC {\CYRT }\IeC {\cyr
-r }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrn
- }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyra }\IeC 
-{\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya }\IeC 
-{\cyrt }\IeC {\cyro }\IeC {\cyrr }}{29}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}\IeC {\CYRU }\IeC {\cyr
+p }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn
+ }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrd }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrz
+h }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }\IeC {\cyrm } \IeC {\cyr
+t }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre
+ }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm
+ }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl 
+}\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra } (\IeC {\cyr
+b }\IeC {\cyre }\IeC {\cyrz } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyr
+v }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyra } \IeC {\cyri } \IeC {\cyrs } \IeC {\c
+yrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cy
+ro }\IeC {\cyrm })}{31}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}\IeC {\CYRS }\IeC {\c
@@ -2310,9 +2088,9 @@ eC {\cyrg }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyro }\Ie
 C {\cyrm }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyre 
 }\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre 
 }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs }\IeC {\c
-yri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } }{29}}
+yri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } }{31}}
 
-\newlabel{p31}{{3.1}{29}}
+\newlabel{p31}{{3.1}{31}}
 ]
 Overfull \hbox (33.96791pt too wide) detected at line 17
 []
@@ -2332,15 +2110,15 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[30
+[32
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\
 CYRM }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn } \Ie
 C {\cyrt }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC
  {\cyre }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC
  {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC 
-{\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{30
+{\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{32
 }}
-\newlabel{fig:manip1}{{3.1}{30}}
+\newlabel{fig:manip1}{{3.1}{32}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 69--78
 \LCY/cmr/m/n/14.4 механической системы
@@ -2383,13 +2161,13 @@ Underfull \hbox (badness 2376) in paragraph at lines 69--78
 ML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4 = 0$ \LCY/cmr/m/n/14.4 системы (3)
  []
 
-[31
+[33
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}\IeC {\CYRP }\IeC {\c
 yro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyre }\IeC {\cy
 rn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cy
 ra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyr
-ya }}{31}}
-\newlabel{sec2.3}{{3.2}{31}}
+ya }}{33}}
+\newlabel{sec2.3}{{3.2}{33}}
 ]
 Underfull \hbox (badness 3333) in paragraph at lines 79--84
 \LCY/cmr/m/n/14.4 манипулятора Рассмотрим решение задачи стабилизации в области
@@ -2403,7 +2181,7 @@ $\OML/cmm/m/it/14.4 p[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4
 /14.4 (0) = 0$\LCY/cmr/m/n/14.4 . Возьмем для системы (3) вектор-функцию
  []
 
-[32]
+[34]
 Overfull \hbox (450.63748pt too wide) detected at line 87
 []\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
 4 x\OT1/cmr/m/n/14.4 ))[] = 2\OML/cmm/m/it/14.4 V[][] \OT1/cmr/m/n/14.4 = 2([] 
@@ -2437,7 +2215,7 @@ Underfull \hbox (badness 1184) in paragraph at lines 97--103
 ет
  []
 
-[33]
+[35]
 
 LaTeX Warning: Command \cyrk invalid in math mode on input line 104.
 
@@ -2494,8 +2272,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 \include{postfix}
-                       
+l.166 	\include{postfix}
+                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2507,8 +2285,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 \include{bibliography}
-                            
+l.168 	\include{bibliography}
+                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2520,13 +2298,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.155 \include{appendix/appendix}
-                                 
+l.170 	\include{appendix/appendix}
+                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[34
+[36
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}\IeC {\CYRM }\IeC {\c
 yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
 ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
@@ -2540,8 +2318,9 @@ ru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cy
 ra } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrd }\IeC {\c
 yrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrm } \IeC {\
 cyro }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\c
-yrn }\IeC {\cyri }\IeC {\cyri }}{34}}
-\newlabel{p32}{{3.3}{34}}
+yrn }\IeC {\cyri }\IeC {\cyri }}{36}}
+\newlabel{p32}{{3.3}{36}}
+] [37
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}\IeC {\CYRM }\IeC {\c
 yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
 ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
@@ -2555,22 +2334,22 @@ cyri }\IeC {\cyrya } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {
 \cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrr }\IeC {
 \cyro }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra } \IeC {\cyrs } \IeC 
 {\cyro }\IeC {\cyrm }\IeC {\cyrn }\IeC {\cyri }-\IeC {\cyrk }\IeC {\cyro }\IeC 
-{\cyrl }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyri }}{34}}
+{\cyrl }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyri }}{37}}
 
-\newlabel{p33}{{3.4}{34}}
+\newlabel{p33}{{3.4}{37}}
 ] (disser.aux (titul.aux) (prefix.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4517 strings out of 493634
- 56772 string characters out of 3135239
- 133535 words of memory out of 3000000
- 7761 multiletter control sequences out of 15000+200000
- 8954 words of font info for 30 fonts, out of 3000000 for 9000
+ 4642 strings out of 493634
+ 58200 string characters out of 3135239
+ 135159 words of memory out of 3000000
+ 7875 multiletter control sequences out of 15000+200000
+ 14217 words of font info for 49 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,11n,43p,9619b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,11n,43p,9620b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-lcy\dpi864\lh
 csc10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-lcy\dp
 i600\lhr10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-l
@@ -2581,14 +2360,18 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Admin/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Admin
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
 /Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (34 pages, 267382 bytes).
+mmi8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Admin/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Adm
+in/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb>
+Output written on disser.pdf (37 pages, 286758 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
+ 372 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
