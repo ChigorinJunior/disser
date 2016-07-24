@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  22 MAY 2016 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  24 JUL 2016 20:50
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -648,7 +648,23 @@ File: block.tss 2016/03/15
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(disser.aux (titul.aux) (prefix.aux))
+(disser.aux (titul.aux) (prefix.aux)
+
+LaTeX Warning: Label `AS1' multiply defined.
+
+
+LaTeX Warning: Label `fig:manip1' multiply defined.
+
+
+LaTeX Warning: Label `fig:manip2' multiply defined.
+
+
+LaTeX Warning: Label `fig:manip2' multiply defined.
+
+
+LaTeX Warning: Label `fig:manip2' multiply defined.
+
+(postfix.aux) (bibliography.aux) (appendix/appendix.aux))
 \openout1 = `disser.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -733,50 +749,10 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
 
-
-LaTeX Warning: Reference `p12' on page 2 undefined on input line 105.
-
-
-LaTeX Warning: Reference `p13' on page 2 undefined on input line 107.
-
-
-LaTeX Warning: Reference `p21' on page 2 undefined on input line 111.
-
-
-LaTeX Warning: Reference `p21' on page 2 undefined on input line 115.
-
-
-LaTeX Warning: Reference `p22' on page 2 undefined on input line 117.
-
-
-LaTeX Warning: Reference `p23' on page 2 undefined on input line 119.
-
-
 Underfull \hbox (badness 1472) in paragraph at lines 119--120
 []\OMS/cmsy/m/n/14.4 x\LCY/cmr/m/n/14.4 2.3. Стабилизация движения голономной м
 еханической системы с
  []
-
-
-LaTeX Warning: Reference `p31' on page 2 undefined on input line 123.
-
-
-LaTeX Warning: Reference `p31' on page 2 undefined on input line 127.
-
-
-LaTeX Warning: Reference `p32' on page 2 undefined on input line 130.
-
-
-LaTeX Warning: Reference `p33' on page 2 undefined on input line 133.
-
-
-LaTeX Warning: Reference `postfix' on page 2 undefined on input line 137.
-
-
-LaTeX Warning: Reference `bibl' on page 2 undefined on input line 139.
-
-
-LaTeX Warning: Reference `app1start' on page 2 undefined on input line 141.
 
 [2
 
@@ -1125,32 +1101,6 @@ Underfull \hbox (badness 2932) in paragraph at lines 11--14
 /m/it/14.4 R[]$ \LCY/cmr/m/n/14.4 - некоторое непрерывное отображение,
  []
 
-
-! LaTeX Error: Environment Ass undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 	\begin{Ass}
-                 \label{AS1} ╨Ф╨╗╤П  ╨║╨░╨╢╨┤╨╛╨│╨╛  ╤З╨╕╤Б╨╗╨░ $r,$ $0<r<H,$
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Ass}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 	\end{Ass}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 [13
 
 
@@ -1166,173 +1116,24 @@ Underfull \hbox (badness 2035) in paragraph at lines 56--59
  []
 
 [14]
-
-! LaTeX Error: Environment Ass undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 	\begin{Ass}
-                 \label{AS2} ╨Ф╨╗╤П ╨╗╤О╨▒╨╛╨│╨╛ $K\subset C_H$ ($K$ - ╨║╨╛╨...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Underfull \hbox (badness 6047) in paragraph at lines 82--87
+\LCY/cmr/bx/n/14.4 Определение 1.3. \LCY/cmr/m/it/14.4 Функция $\OML/cmm/m/it/1
+4.4 f[] \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/14.4 R \OMS/cmsy/m/n/14.4  \OT1/cmr/
+m/n/14.4   \OMS/cmsy/m/n/14.4 ! \OML/cmm/m/it/14.4 R[]$ \LCY/cmr/m/it/14.4 назы
+вается
+ []
 
 
-! LaTeX Error: \begin{document} ended by \end{Ass}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 	\end{Ass}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Lemm undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 	\begin{Lemm}
-                  \label{l-1.3} ╨Я╤А╨╕ ╤Г╤Б╨╗╨╛╨▓╨╕╨╕ ╨▓╤Л╨┐╨╛╨╗╨╜╨╡╨╜╨╕╤П ╨...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Lemm}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 	\end{Lemm}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Def undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 	\begin{Def}
-                 \label{d-1.1} ╨д╤Г╨╜╨║╤Ж╨╕╤П $f^*:R\times\Gamma \to R^p$ ╨╜...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Def}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 	\end{Def}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Ass undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 	\begin{Ass}
-                 \label{AS3} ╨Ф╨╗╤П ╨╗╤О╨▒╨╛╨│╨╛ ╨║╨╛╨╝╨┐╨░╨║╤В╨╜╨╛╨│╨╛ ╨╝╨╜...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Ass}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 	\end{Ass}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Underfull \hbox (badness 1314) in paragraph at lines 95--98
+\LCY/cmr/bx/n/14.4 Определение 1.4. \LCY/cmr/m/it/14.4 Для любого компактного м
+ножества $\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[]$
+ []
 
 [15]
 Underfull \hbox (badness 6016) in paragraph at lines 115--117
 []\LCY/cmr/m/n/14.4 Связь между решениями уравнений (1.1[]) и (1.4[]) определяе
 тся
  []
-
-
-! LaTeX Error: Environment Th undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 	\begin{Th}
-                 \label{t-1.1} ╨Я╤Г╤Б╤В╤М ╤Д╤Г╨╜╨║╤Ж╨╕╤П $f^*: R \times\Gamm...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Th}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 	\end{Th}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Th undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134 	\begin{Th}
-                 \label{t-1.2}  ╨Я╤Г╤Б╤В╤М  ╤А╨╡╤И╨╡╨╜╨╕╨╡  (\ref{1.1'}) $x=...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Th}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 	\end{Th}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 [16]
 
@@ -1349,412 +1150,59 @@ Underfull \hbox (badness 7685) in paragraph at lines 166--172
 []\LCY/cmr/m/n/14.4 Иной подход к вычислению производной основан на свойстве
  []
 
-
-! LaTeX Error: \begin{document} ended by \end{Th}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 \end{Th}
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.186 \end{Th}
-              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.186 \end{Th}
-              
-Things are pretty mixed up, but I think the worst is over.
-
 [17]
-
-! LaTeX Error: Environment Def undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.193 \begin{Def}
-                 \label{d2.9} ╨д╤Г╨╜╨║╤Ж╨╕╨╛╨╜╨░╨╗ $V(t,\varphi )$ ╨╜╨░╨╖╤Л╨...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Def}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 \end{Def}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Def undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 \begin{Def}
-                 \label{d2.10} ╨д╤Г╨╜╨║╤Ж╨╕╨╛╨╜╨░╨╗ $V=V(t,\varphi )$ ╨┤╨╛╨┐...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Def}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.207 \end{Def}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\citation{}
-[18
-\newlabel{d2.9}{{}{18}}
-\newlabel{d2.10}{{}{18}}
-\newlabel{3.3'}{{1.8}{18}}
-\newlabel{3.4'}{{1.9}{18}}
-]
-
-! LaTeX Error: Environment Def undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.233 \begin{Def}
-                 \label{d-3.1} ╨д╤Г╨╜╨║╤Ж╨╕╤П $W^*\subset F_W$ ╨╡╤Б╤В╤М ╨┐╤А...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Def}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.236 \end{Def}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Def undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 \begin{Def}
-                 \label{d-3.2} ╨С╤Г╨┤╨╡╨╝ ╨│╨╛╨▓╨╛╤А╨╕╤В╤М, ╤З╤В╨╛ ╨╛╤В╨╛╨▒╤...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Def}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.245 \end{Def}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Def undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 \begin{Def}
-                 \label{d-4.1}  ╨д╤Г╨╜╨║╤Ж╨╕╨╕ $f^* \in F$ ╨╕ $W^*\in F_W$ ╨...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Def}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 \end{Def}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Th undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254 \begin{Th}
-                \label{t-1.3} ╨Я╤А╨╡╨┤╨┐╨╛╨╗╨╛╨╢╨╕╨╝, ╤З╤В╨╛:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.270 	$y_t\subset\ { W^*(t,\varphi )=0\}$
-                                          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: \begin{document} ended by \end{Th}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272 	\end{Th}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 266--273
-[]\LCY/cmr/m/n/14.4 Тогда для каждой предельной точки $\OML/cmm/m/it/14.4   \OM
-S/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
-; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/n/14.4 существуют
+Underfull \hbox (badness 10000) in paragraph at lines 192--196
+\LCY/cmr/bx/n/14.4 Определение 1.5. \LCY/cmr/m/it/14.4 Функционал $\OML/cmm/m/i
+t/14.4 V\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr
+/m/it/14.4 называется
  []
 
-[19
-\newlabel{d-3.1}{{}{19}}
-\newlabel{d-3.2}{{}{19}}
-\newlabel{d-4.1}{{}{19}}
-\newlabel{t-1.3}{{}{19}}
-]
-
-! LaTeX Error: Environment Th undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280 	\begin{Th}
-                 \label{t-4.5} ╨Я╤А╨╡╨┤╨┐╨╛╨╗╨╛╨╢╨╕╨╝, ╤З╤В╨╛:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[18] [19]
+Underfull \hbox (badness 1688) in paragraph at lines 265--271
+[]\LCY/cmr/m/it/14.4 Тогда для каждой предельной точки $\OML/cmm/m/it/14.4   \O
+MS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
+; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 существуют
+ []
 
 
-! LaTeX Error: \begin{document} ended by \end{Th}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.292 	\end{Th}
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 []\LCY/cmr/m/n/14.4 Рассмотрим задачу об устойчивости
  []
 
-[20
-\newlabel{t-4.5}{{}{20}}
-]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 []\LCY/cmr/m/n/14.4 Будем полагать, что правая
  []
 
 
-! LaTeX Error: Environment Ass undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.303 	\begin{Ass}
-                  \label{AS1} ╨Я╤Г╤Б╤В╤М ╤Д╤Г╨╜╨║╤Ж╨╕╤П $f^1(t, \phi)$ ╨╛╨│╤...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{Ass}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.304 	\end{Ass}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 []\LCY/cmr/m/n/14.4 Ограниченность решения
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 306--307
+Underfull \hbox (badness 1210) in paragraph at lines 305--306
 \LCY/cmr/m/n/14.4 части переменных свойство квазиинвариантности его положительн
 ого
  []
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.310 	╨Я╤Г╤Б╤В╤М ${r^{(j)}_1$
-                               ╨╡╤Б╤В╤М ╨┐╨╛╤Б╨╗╨╡╨┤╨╛╨▓╨░╤В╨╡╨╗╤М╨╜╨╛╤Б╤В╤М...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[21
-\newlabel{AS1}{{}{21}}
-]
-Underfull \hbox (badness 1117) in paragraph at lines 324--325
+[21]
+Underfull \hbox (badness 1117) in paragraph at lines 323--324
 []\LCY/cmr/m/n/14.4 Существование функционала Ляпунова, имеющего знакопостоянну
 ю
  []
 
 
-! LaTeX Error: Environment Th undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.326 		\begin{Th}
-                  \label{t-1.11} ╨Я╤Г╤Б╤В╤М
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 334.
+LaTeX Warning: Command \cyrs invalid in math mode on input line 333.
 
 Missing character: There is no с in font cmr12!
 
-! LaTeX Error: \begin{document} ended by \end{Th}.
+Underfull \hbox (badness 2401) in paragraph at lines 333--334
+[]\LCY/cmr/m/it/14.4 3) для каждой пары $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
+g; U\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 и любого числа $[] \OMS/cmsy/m/n/14
+.4  \OT1/cmr/m/n/14.4 0$ \LCY/cmr/m/it/14.4 решениями
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.338 		\end{Th}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment Th undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 		\begin{Th}
-                  \label{t-1.12} ╨Я╤А╨╡╨┤╨┐╨╛╨╗╨╛╨╢╨╕╨╝, ╤З╤В╨╛:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[22
-\newlabel{t-1.11}{{}{22}}
-]
-
-! LaTeX Error: \begin{document} ended by \end{Th}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 		\end{Th}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (chapter_1/paragraph_2/1_2.tex) (chapter_1/paragraph_3/1_3.tex) [23
-\newlabel{t-1.12}{{}{23}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}\IeC {\CYRR }\IeC {\c
-yra }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyri }\IeC {\cy
-re } \IeC {\cyrm }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrd }\IeC {\cy
-ra } \IeC {\cyrv }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cy
-rr }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrf }\IeC {\cyru }\IeC {\
-cyrn }\IeC {\cyrk }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrishrt } \IeC {\CYRL }\Ie
-C {\cyrya }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\Ie
-C {\cyra } \IeC {\cyrv } \IeC {\cyri }\IeC {\cyrs }\IeC {\cyrs }\IeC {\cyrl }\I
-eC {\cyre }\IeC {\cyrd }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\Ie
-C {\cyri }\IeC {\cyri } \IeC {\cyru }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyro }\Ie
-C {\cyrishrt }\IeC {\cyrch }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrs 
-}\IeC {\cyrt }\IeC {\cyri } \IeC {\cyrd }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrk 
-}\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh
- } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm
- }}{23}}
-\newlabel{p12}{{1.2}{23}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3} \IeC {\CYRU }\IeC {\
-cyrs }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrishrt }\IeC {\cyrch }\IeC {\cyri }\Ie
-C {\cyrv }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyrd 
-}\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrt }
-\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyro }\IeC {\cy
-rd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri } \IeC {\cyrt }\IeC {\cyri }\IeC {\cy
-rp }\IeC {\cyra } \IeC {\CYRV }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC 
-{\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyrr }\IeC {\cyra }}{23}}
-\newlabel{p13}{{1.3}{23}}
-]
+[22]) (chapter_1/paragraph_2/1_2.tex) (chapter_1/paragraph_3/1_3.tex) [23]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 (chapter_2/paragraph_1/2_1.tex
 Underfull \hbox (badness 3189) in paragraph at lines 3--4
@@ -1768,8 +1216,15 @@ Underfull \hbox (badness 1264) in paragraph at lines 3--4
 о
  []
 
+<chapter_2/paragraph_1/img/manipulator.png, id=88, 228.855pt x 200.24812pt>
+File: chapter_2/paragraph_1/img/manipulator.png Graphic file (type png)
 
-Underfull \hbox (badness 6063) in paragraph at lines 5--6
+<use chapter_2/paragraph_1/img/manipulator.png>
+Package pdftex.def Info: chapter_2/paragraph_1/img/manipulator.png used on inpu
+t line 7.
+(pdftex.def)             Requested size: 228.85443pt x 200.24763pt.
+
+Underfull \hbox (badness 6063) in paragraph at lines 12--13
 []\LCY/cmr/m/n/14.4 Введем обозначения: $\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/n/14.
 4 (\OML/cmm/m/it/14.4 i \OT1/cmr/m/n/14.4 = 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/
 14.4 2)$ \LCY/cmr/m/n/14.4 --- углы поворотов звеньев
@@ -1777,126 +1232,75 @@ Underfull \hbox (badness 6063) in paragraph at lines 5--6
 
 [24
 
-
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}\IeC {\CYRU }\IeC {\cyr
-p }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn
- }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrd }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrz
-h }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }\IeC {\cyrm } \IeC {\cyr
-d }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrn
- }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm }\IeC {\cyra
- }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya
- }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra } (\IeC {\cyrb }\IeC {\cyr
-e }\IeC {\cyrz } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyr
-o }\IeC {\cyrd }\IeC {\cyra } \IeC {\cyri } \IeC {\cyrs } \IeC {\cyrp }\IeC {\c
-yrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyro }\IeC {\cy
-rm })}{24}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}\IeC {\CYRT }\IeC {\c
-yre }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } \IeC {
-\cyro } \IeC {\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {
-\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\
-cyri }}{24}}
-\newlabel{p21}{{2.1}{24}}
-\@writefile{toc}{\contentsline {paragraph}{}{24}}
-]
-Underfull \hbox (badness 3547) in paragraph at lines 24--25
+ <./chapter_2/paragraph_1/img/manipulator.png>]
+Underfull \hbox (badness 3547) in paragraph at lines 31--32
 []\LCY/cmr/m/n/14.4 Из выражения для кинетической энергии $\OML/cmm/m/it/14.4 T
 $ \LCY/cmr/m/n/14.4 находим уравнения
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 \LCY/cmr/m/n/14.4 механической системы
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 36--38
+Underfull \hbox (badness 4193) in paragraph at lines 43--45
 []\LCY/cmr/m/n/14.4 Пусть $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/
 n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; []\OT1/cmr/
 m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )) \OMS/cmsy/m/n/14.4 2 \OML/cm
 m/m/it/14.4 X$ \LCY/cmr/m/n/14.4 --- какое-либо программное движение,
  []
 
-[25
-\newlabel{2.1'}{{2.3}{25}}
-\newlabel{2.2'}{{2.4}{25}}
-] [26]
-Underfull \hbox (badness 1688) in paragraph at lines 93--93
+[25] [26]
+Underfull \hbox (badness 1688) in paragraph at lines 100--100
 []\LCY/cmr/m/n/14.4 Рассмотрим задачу построения управляющего воздействия $\OML
 /cmm/m/it/14.4 U[] \OT1/cmr/m/n/14.4 =$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--100
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
 []\LCY/cmr/m/n/14.4 Рассмотрим решение задачи
  []
 
-
-Underfull \hbox (badness 2057) in paragraph at lines 103--105
+[27]
+Underfull \hbox (badness 2057) in paragraph at lines 110--112
 []\LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/i
 t/14.4 R[]$ \LCY/cmr/m/n/14.4 есть матрица коэффициентов усиления сигналов,
  []
 
-[27
-\newlabel{2.3'}{{2.1}{27}}
-]
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.115 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
-                                                  $
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.115 ...} - \lambda_{max} (B + B^')}{2 \lambda_2}
-                                                  $
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 \LCY/cmr/m/n/14.4 свойства асимптотической устойчивости нулевого решения
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 \LCY/cmr/m/n/14.4 устойчивости нулевого решения системы (2.2). Получим условие
  []
 
-[28
-\newlabel{2.4'}{{2.5}{28}}
-]
-Underfull \hbox (badness 1342) in paragraph at lines 130--132
+
+Underfull \hbox (badness 1342) in paragraph at lines 137--139
 []\LCY/cmr/m/n/14.4 Тогда можно показать, что функция $[]\OT1/cmr/m/n/14.4 (\OM
 L/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = [] []$
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 130--132
+Underfull \hbox (badness 3646) in paragraph at lines 137--139
 \LCY/cmr/m/n/14.4 решение системы сравнения (2.4) будет асимптотически устойчив
 о.
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 137--138
+Underfull \hbox (badness 5288) in paragraph at lines 144--145
 []\LCY/cmr/m/n/14.4 Численное моделирование движения манипулятора при действии
  []
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 138.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 145.
 
 Missing character: There is no м in font cmr12!
 
-Overfull \hbox (401.33376pt too wide) detected at line 138
+Overfull \hbox (401.33376pt too wide) detected at line 145
 \OML/cmm/m/it/14.4 m[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/1
 4.4 5[]\OML/cmm/m/it/14.4 ; m[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/
 cmr/m/n/14.4 3[]\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.
@@ -1915,8 +1319,32 @@ t/14.4 =\OT1/cmr/m/n/14.4 2
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 138--140
+Underfull \hbox (badness 3942) in paragraph at lines 145--147
 \LCY/cmr/m/n/14.4 На рисунках 2 и 3 представлены результаты моделирования при
+ []
+
+<chapter_2/paragraph_1/img/model1.png, id=110, 512.66531pt x 178.41656pt>
+File: chapter_2/paragraph_1/img/model1.png Graphic file (type png)
+
+<use chapter_2/paragraph_1/img/model1.png>
+Package pdftex.def Info: chapter_2/paragraph_1/img/model1.png used on input lin
+e 150.
+(pdftex.def)             Requested size: 512.66405pt x 178.4161pt.
+
+Overfull \hbox (28.96718pt too wide) in paragraph at lines 150--151
+ [][] 
+ []
+
+[29] <chapter_2/paragraph_1/img/model2.png, id=114, 517.18219pt x 177.66376pt>
+File: chapter_2/paragraph_1/img/model2.png Graphic file (type png)
+
+<use chapter_2/paragraph_1/img/model2.png>
+Package pdftex.def Info: chapter_2/paragraph_1/img/model2.png used on input lin
+e 157.
+(pdftex.def)             Requested size: 517.18092pt x 177.66331pt.
+
+Overfull \hbox (33.48405pt too wide) in paragraph at lines 157--158
+ [][] 
  []
 
 ) (chapter_2/paragraph_2/2_2.tex) (chapter_2/paragraph_3/2_3.tex
@@ -1924,37 +1352,8 @@ Underfull \hbox (badness 2753) in paragraph at lines 1--1
  |[]\LCY/cmr/m/n/14.4 Стабилизация движения голономной механической системы с
  []
 
-) [29
-\newlabel{2.5'}{{2.6}{29}}
-\newlabel{2.6'}{{2.7}{29}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}\IeC {\CYRS }\IeC {\c
-yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
-rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\IeC {\c
-yro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\c
-yri }\IeC {\cyrya } \IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrn }\IeC {\
-cyro }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyri }\IeC {\cyrya } \IeC {
-\cyrm }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn }\Ie
-C {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyru }\IeC {\cyrr }\Ie
-C {\cyra }\IeC {\cyrv }\IeC {\cyrn }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC
- {\cyrya }}{29}}
-\newlabel{p22}{{2.2}{29}}
-] [30
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}\IeC {\CYRS }\IeC {\c
-yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
-rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrd }\IeC {\c
-yrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\c
-yrya } \IeC {\cyrg }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrn }\IeC {\
-cyro }\IeC {\cyrm }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\Ie
-C {\cyre }\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\Ie
-C {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs 
-}\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery
- } \IeC {\cyrs } \IeC {\cyrc }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyrl }\IeC {\cyr
-i }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }\IeC {\cyr
-m }\IeC {\cyri } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyr
-d }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrm
- }\IeC {\cyri }}{30}}
-\newlabel{p23}{{2.3}{30}}
-]
+) [30 <./chapter_2/paragraph_1/img/model1.png> <./chapter_2/paragraph_1/img/mod
+el2.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 (chapter_3/paragraph_1/3_1.tex
 Underfull \hbox (badness 3579) in paragraph at lines 4--5
@@ -1972,57 +1371,19 @@ Underfull \hbox (badness 3668) in paragraph at lines 6--8
 
 [31
 
-
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}\IeC {\CYRU }\IeC {\cyr
-p }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn
- }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrd }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrz
-h }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }\IeC {\cyrm } \IeC {\cyr
-t }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre
- }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm
- }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl 
-}\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra } (\IeC {\cyr
-b }\IeC {\cyre }\IeC {\cyrz } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyr
-v }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyra } \IeC {\cyri } \IeC {\cyrs } \IeC {\c
-yrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cy
-ro }\IeC {\cyrm })}{31}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}\IeC {\CYRS }\IeC {\c
-yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
-rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\IeC {\c
-yrr }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cy
-rm }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrd }\IeC {\cyrv }\IeC {\
-cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrishrt } \I
-eC {\cyrg }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyro }\Ie
-C {\cyrm }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyre 
-}\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre 
-}\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs }\IeC {\c
-yri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } }{31}}
-
-\newlabel{p31}{{3.1}{31}}
-\@writefile{toc}{\contentsline {paragraph}{}{31}}
 ]
 Overfull \hbox (33.96791pt too wide) detected at line 17
 []
  []
 
-<chapter_3/paragraph_1/img/3chain.png, id=116, 245.41687pt x 236.38312pt>
+<chapter_3/paragraph_1/img/3chain.png, id=124, 245.41687pt x 236.38312pt>
 File: chapter_3/paragraph_1/img/3chain.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/3chain.png>
 Package pdftex.def Info: chapter_3/paragraph_1/img/3chain.png used on input lin
 e 21.
 (pdftex.def)             Requested size: 245.41626pt x 236.38254pt.
- [32
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\
-CYRM }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn } \Ie
-C {\cyrt }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC
- {\cyre }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC
- {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC 
-{\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{32
-}}
-\newlabel{fig:manip1}{{3.1}{32}}
- <./chapter_3/paragraph_1/img/3chain.png>] [33]
+ [32 <./chapter_3/paragraph_1/img/3chain.png>] [33]
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 \LCY/cmr/m/n/14.4 механической системы
  []
@@ -2045,14 +1406,7 @@ T1/cmr/m/n/14.4 )$\LCY/cmr/m/n/14.4 ; $\OML/cmm/m/it/14.4 K$ \LCY/cmr/m/n/14.4
 --- матрица
  []
 
-[34
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}\IeC {\CYRP }\IeC {\c
-yro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyre }\IeC {\cy
-rn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cy
-ra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyr
-ya }}{34}}
-\newlabel{sec2.3}{{3.2}{34}}
-]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 82--85
 \LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/1
 4.4 t; x\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/m
@@ -2071,20 +1425,7 @@ Underfull \hbox (badness 2057) in paragraph at lines 94--96
 t/14.4 R[]$ \LCY/cmr/m/n/14.4 есть матрица коэффициентов усиления сигналов,
  []
 
-[35
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}\IeC {\CYRS }\IeC {\c
-yri }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrz } \IeC {\cyru }\IeC {\c
-yrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cy
-rn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrv } \IeC {\cyrz }\IeC {\cyra }\IeC {\
-cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyre } \IeC {\cyrs }\IeC {\cyrt }\IeC {
-\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz }\IeC {\
-cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyrr }\IeC {\
-cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrm }\IeC {\c
-yrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrd }\IeC {\cyrv }\IeC {\c
-yri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {
-\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\
-cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{35}}
-]
+[35]
 Overfull \hbox (432.41862pt too wide) detected at line 104
 []\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
 4 x\OT1/cmr/m/n/14.4 ))[] = 2\OML/cmm/m/it/14.4 V[][] \OT1/cmr/m/n/14.4 = 2([] 
@@ -2125,113 +1466,866 @@ ML/cmm/m/it/14.4 sin\OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4
 5\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 :
  []
 
-) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex)
+<chapter_3/paragraph_1/img/pic1.png, id=141, 239.39438pt x 157.33781pt>
+File: chapter_3/paragraph_1/img/pic1.png Graphic file (type png)
 
-! LaTeX Error: \include cannot be nested.
+<use chapter_3/paragraph_1/img/pic1.png>
+Package pdftex.def Info: chapter_3/paragraph_1/img/pic1.png used on input line 
+141.
+(pdftex.def)             Requested size: 239.39378pt x 157.33742pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 	\include{postfix}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<chapter_3/paragraph_1/img/pic2.png, id=142, 247.67531pt x 157.33781pt>
+File: chapter_3/paragraph_1/img/pic2.png Graphic file (type png)
 
+<use chapter_3/paragraph_1/img/pic2.png>
+Package pdftex.def Info: chapter_3/paragraph_1/img/pic2.png used on input line 
+148.
+(pdftex.def)             Requested size: 247.6747pt x 157.33742pt.
 
-! LaTeX Error: \include cannot be nested.
+<chapter_3/paragraph_1/img/pic3.png, id=143, 262.73157pt x 163.3603pt>
+File: chapter_3/paragraph_1/img/pic3.png Graphic file (type png)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 	\include{bibliography}
-                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<use chapter_3/paragraph_1/img/pic3.png>
+Package pdftex.def Info: chapter_3/paragraph_1/img/pic3.png used on input line 
+155.
+(pdftex.def)             Requested size: 262.73091pt x 163.3599pt.
 
 
-! LaTeX Error: \include cannot be nested.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 	\include{appendix/appendix}
-                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex [37 <./chapter
+_3/paragraph_1/img/pic1.png> <./chapter_3/paragraph_1/img/pic2.png>]) [38 <./ch
+apter_3/paragraph_1/img/pic3.png>]
+\openout2 = `postfix.aux'.
 
-[37
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}\IeC {\CYRM }\IeC {\c
-yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
-ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
-ru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyr
-ya }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cy
-rd }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cy
-ri }\IeC {\cyrya } \IeC {\cyrd }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\c
-yrv }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cy
-ro } \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cy
-ru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cy
-ra } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrd }\IeC {\c
-yrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrm } \IeC {\
-cyro }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\c
-yrn }\IeC {\cyri }\IeC {\cyri }}{37}}
-\newlabel{p32}{{3.4}{37}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}\IeC {\CYRM }\IeC {\c
-yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
-ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
-ru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyr
-e }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrv } \IeC {\cyrz }\IeC {\c
-yra }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyre } \IeC {\cyro } \IeC {
-\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\
-cyri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyri } \IeC {\
-cyrd }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\
-cyri }\IeC {\cyrya } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {
-\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrr }\IeC {
-\cyro }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra } \IeC {\cyrs } \IeC 
-{\cyro }\IeC {\cyrm }\IeC {\cyrn }\IeC {\cyri }-\IeC {\cyrk }\IeC {\cyro }\IeC 
-{\cyrl }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyri }}{37}}
+ (postfix.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+\LCY/cmr/m/n/14.4 устойчивости и стабилизации нелинейных управляемых
+ []
 
-\newlabel{p33}{{3.5}{37}}
-] (disser.aux (titul.aux) (prefix.aux))
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\LCY/cmr/m/n/14.4 Проведено развитие метода векторных функций
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--20
+\LCY/cmr/m/n/14.4 типа Вольтерра. Получено
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 10--20
+\LCY/cmr/m/n/14.4 механических систем со ступенчатым импульсным управлением.
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 10--20
+\LCY/cmr/m/n/14.4 циклическими координатами. Эти результаты представляют собой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--20
+\LCY/cmr/m/n/14.4 о стабилизации программных
+ []
+
+[39
+
+]
+Underfull \hbox (badness 1448) in paragraph at lines 20--21
+[]\LCY/cmr/m/n/14.4 Представлена модель управляемого двузвенного манипулятора н
+а
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\LCY/cmr/m/n/14.4 мобильного робота с тремя омни-
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 21--22
+\LCY/cmr/m/n/14.4 позволяет составить анализ процесса управления при различных
+ []
+
+) [40]
+\openout2 = `bibliography.aux'.
+
+ (bibliography.tex
+Underfull \hbox (badness 3942) in paragraph at lines 3--5
+[]\LCY/cmr/m/it/14.4 Абдуллин, Р. З. \LCY/cmr/m/n/14.4 Метод сравнения в устойч
+ивости нелинейных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+[]\LCY/cmr/m/it/14.4 Ананьевский, И. М. \LCY/cmr/m/n/14.4 Управление реономными
+ механическими
+ []
+
+[41
+
+
+
+]
+Underfull \hbox (badness 2980) in paragraph at lines 53--56
+\LCY/cmr/m/n/14.4 системы / А. С. Андреев, В. В. Румянцев // Автоматика и
+ []
+
+[42]
+Underfull \hbox (badness 3271) in paragraph at lines 63--66
+[]\LCY/cmr/m/it/14.4 Андреев, А. С. \LCY/cmr/m/n/14.4 Об устойчивости нулевого 
+решения системы с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+[]\LCY/cmr/m/it/14.4 Андреев, А. С. \LCY/cmr/m/n/14.4 Об устойчивости
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 72--74
+\LCY/cmr/m/n/14.4 механической системы в зависимости от действующих сил / А.
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 72--74
+\LCY/cmr/m/n/14.4 С. Андреев, Р. Б. Зайнетдинов // Труды IX Международной
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 72--74
+\LCY/cmr/m/n/14.4 Четаевской Конференции "Аналитическая механика, устойчивость
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 81--83
+\LCY/cmr/m/n/14.4 механической системы / А. С. Андреев, О. А. Перегудова //
+ []
+
+[43]
+Underfull \hbox (badness 2762) in paragraph at lines 98--99
+[]\LCY/cmr/m/it/14.4 Андреев А. С. \LCY/cmr/m/n/14.4 О стабилизации движений ме
+ханических систем
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 98--99
+\LCY/cmr/m/n/14.4 управлениями различного типа / А.С. Андреев, Е.А. Кудашова,
+ []
+
+[44]
+Underfull \hbox (badness 2970) in paragraph at lines 106--108
+[]\LCY/cmr/m/it/14.4 Артемова, А. О. \LCY/cmr/m/n/14.4 Об управлении пространст
+венным движением
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 106--108
+\LCY/cmr/m/n/14.4 многозвенного манипулятора на подвижном основании / А. О.
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 115--116
+\LCY/cmr/m/n/14.4 А. Г. Чхартишвили // \Динамические модели информационного
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 126--129
+[]\LCY/cmr/m/it/14.4 Блюмин С. Л. \LCY/cmr/m/n/14.4 Дискретные математические м
+одели Вольтерра в
+ []
+
+[45]
+Underfull \hbox (badness 1762) in paragraph at lines 140--141
+\LCY/cmr/m/n/14.4 / А. Ю. Богданов, С. В. Черников // Ученые записки УлГУ.
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 140--141
+\LCY/cmr/m/n/14.4 Сер. "Фундаментальные проблемы математики и механаники".|
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 148--150
+[]\LCY/cmr/m/it/14.4 Богданов А. Ю. \LCY/cmr/m/n/14.4 Дискретные динамические с
+истемы: проблемы
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+[]\LCY/cmr/m/it/14.4 Богданов А. Ю. \LCY/cmr/m/n/14.4 О равномерной
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 156--158
+\LCY/cmr/m/n/14.4 асимптотической устойчивости решений дискретных уравнений с
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 156--158
+\LCY/cmr/m/n/14.4 изменяющейся структурой / А. Ю. Богданов, Е. А. Кудашова
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 156--158
+\LCY/cmr/m/n/14.4 систем и процессов 2-5 февраля 2009 г., г. Ульяновск, Россия.
+ -
+ []
+
+[46]
+Underfull \hbox (badness 2245) in paragraph at lines 160--162
+\LCY/cmr/m/n/14.4 асимптотическая устойчивость решений дискретных уравнений с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+[]\LCY/cmr/m/it/14.4 Богданов А. Ю. \LCY/cmr/m/n/14.4 Численные методы
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 172--174
+\LCY/cmr/m/n/14.4 и беспотерьности для одного класса нестационарных нелинейных
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 172--174
+\LCY/cmr/m/n/14.4 всероссийского семинара ¤Аналитическая механика, устойчивость
+
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 172--174
+\LCY/cmr/m/n/14.4 и управление движением■, 9-12 июня 2011 г., г. Ульяновск.
+ []
+
+[47]
+Underfull \hbox (badness 1728) in paragraph at lines 209--211
+[]\LCY/cmr/m/it/14.4 Вуковбратович, М. К. \LCY/cmr/m/n/14.4 Управление манипуля
+ционными роботами:
+ []
+
+[48]
+Underfull \hbox (badness 1931) in paragraph at lines 221--223
+[]\LCY/cmr/m/it/14.4 Гайшун И. В. \LCY/cmr/m/n/14.4 Устойчивость дискретных про
+цессов Вольтерра с
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 221--223
+\LCY/cmr/m/n/14.4 убывающим последействием / И. В. Гайшун // Автомотика и
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 225--227
+[]\LCY/cmr/m/it/14.4 Гайшун И. В. \LCY/cmr/m/n/14.4 Управляемость система, опис
+ываемых линейными
+ []
+
+[49]
+Underfull \hbox (badness 1383) in paragraph at lines 250--252
+[]\LCY/cmr/m/it/14.4 Гелиг А. Х. \LCY/cmr/m/n/14.4 Устойчивость нелинейных сист
+ем с неединственным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+[]\LCY/cmr/m/it/14.4 Голубев А. Е. \LCY/cmr/m/n/14.4 Стабилизация нелинейных ди
+намических
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
+[]\LCY/cmr/m/it/14.4 Звягинцева Е. Э.
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+[]\LCY/cmr/m/it/14.4 Карапетян A.B. \LCY/cmr/m/n/14.4 Об устойчивости
+ []
+
+[51]
+Underfull \hbox (badness 1990) in paragraph at lines 328--329
+[]\LCY/cmr/m/it/14.4 Кириченова О. В. \LCY/cmr/m/n/14.4 Об устойчивости решений
+ нелинейных почти
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 334--335
+[]\LCY/cmr/m/it/14.4 Колмановский B. Б. \LCY/cmr/m/n/14.4 О применении второго 
+метода Ляпунова
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 334--335
+\LCY/cmr/m/n/14.4 к разностным уравнениям Вольтерра / В. Б. Колмановский //
+ []
+
+[52]
+Underfull \hbox (badness 6445) in paragraph at lines 345--348
+[]\LCY/cmr/m/it/14.4 Крутько, П. Д. \LCY/cmr/m/n/14.4 Метод обратных задач дина
+мики в теории
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 350--351
+\LCY/cmr/m/n/14.4 Синтез непрерывного и кусочно-непрерывного стабилизируеющего
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 350--351
+\LCY/cmr/m/n/14.4 управления / Е. А. Кудашова // Ученые записки УлГУ. Сер.
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 357--359
+\LCY/cmr/m/n/14.4 неавтономных дискретных систем типа Лотки - Вольтерра / Е.
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+[]\LCY/cmr/m/it/14.4 Кудашова Е.
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 377--378
+[]\LCY/cmr/m/it/14.4 Кузьмин, А. В. \LCY/cmr/m/n/14.4 Программная реализация ал
+горитма построения
+ []
+
+[54]
+Underfull \hbox (badness 2653) in paragraph at lines 387--389
+[]\LCY/cmr/m/it/14.4 Кунцевич, В. М. \LCY/cmr/m/n/14.4 Синтез систем автоматиче
+ского управления с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
+[]\LCY/cmr/m/it/14.4 Лефшец С. \LCY/cmr/m/n/14.4 Устойчивость нелинейных систем
+ автоматического
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 421--423
+[]\LCY/cmr/m/it/14.4 Мартыненко, Ю. Г. \LCY/cmr/m/n/14.4 Устойчивость стационар
+ных движений
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 425--426
+[]\LCY/cmr/m/it/14.4 Мартыненко Ю.Г. \LCY/cmr/m/n/14.4 Управление движением моб
+ильных колесных
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 437--438
+[]\LCY/cmr/m/it/14.4 Матросов, В. М. \LCY/cmr/m/n/14.4 Метод векторных функций 
+Ляпунова: анализ
+ []
+
+[56]
+Underfull \hbox (badness 3930) in paragraph at lines 444--446
+\LCY/cmr/m/n/14.4 в режиме декомпозиции / В. И. Матюхин // Автоматика и
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 448--450
+\LCY/cmr/m/n/14.4 учете постоянно действующих возмущений / В. И. Матюхин //
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 460--462
+[]\LCY/cmr/m/it/14.4 Матюхин, В. И. \LCY/cmr/m/n/14.4 Управляемость механически
+х систем в классе
+ []
+
+[57]
+Underfull \hbox (badness 4699) in paragraph at lines 479--480
+\LCY/cmr/m/n/14.4 с неизвестной массой с помощью непрерывного управления с
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 479--480
+\LCY/cmr/m/n/14.4 конференции "Управление в технических системах"(УТС-2010).
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 482--483
+\LCY/cmr/m/n/14.4 / Д. Ю. Моторина // Обозрение прикладной и промышленной
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 485--486
+\LCY/cmr/m/n/14.4 обратной связи / Д. Ю. Моторина // Автоматизация процессов
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 488--489
+[]\LCY/cmr/m/it/14.4 Моторина Д.Ю. \LCY/cmr/m/n/14.4 Построение алгоритма синте
+за управления с
+ []
+
+[58]
+Underfull \hbox (badness 1215) in paragraph at lines 495--497
+[]\LCY/cmr/m/it/14.4 Пахомов, К. В. \LCY/cmr/m/n/14.4 Синтез запаздывающего упр
+авления движением
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 499--501
+[]\LCY/cmr/m/it/14.4 Перегудова, О. А. \LCY/cmr/m/n/14.4 Метод сравнения в зада
+чах устойчивости и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+[]\LCY/cmr/m/it/14.4 Перегудова, О. А. \LCY/cmr/m/n/14.4 О
+ []
+
+[59]
+Underfull \hbox (badness 7777) in paragraph at lines 528--530
+[]\LCY/cmr/m/it/14.4 Пятницкий, Е. С. \LCY/cmr/m/n/14.4 Принцип декомпозиции и 
+в управлении
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 532--534
+[]\LCY/cmr/m/it/14.4 Пятницкий, Е. С. \LCY/cmr/m/n/14.4 Синтез систем стабилиза
+ции программных
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 540--542
+[]\LCY/cmr/m/it/14.4 Ремшин, С. А. \LCY/cmr/m/n/14.4 Синтез управления в нелине
+йной динамической
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 547--549
+\LCY/cmr/m/n/14.4 к динамике популяций / А. М. Родионов // Автоматика и
+ []
+
+[60]
+Underfull \hbox (badness 4752) in paragraph at lines 559--561
+[]\LCY/cmr/m/it/14.4 Румянцев, В. В. \LCY/cmr/m/n/14.4 Устойчивость и стабилиза
+ция движения по
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 572--574
+[]\LCY/cmr/m/it/14.4 Тимофеев А. В. \LCY/cmr/m/n/14.4 Устойчивость и стабилизац
+ия программного
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 595--597
+[]\LCY/cmr/m/it/14.4 Фишман, Л. З. \LCY/cmr/m/n/14.4 О сохранении областей прит
+яжения при
+ []
+
+[62]
+Underfull \hbox (badness 5374) in paragraph at lines 623--625
+[]\LCY/cmr/m/it/14.4 Чурилов А. Н. \LCY/cmr/m/n/14.4 Стабилизация линейной сист
+емы с помощью
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 640--641
+[]\LCY/cmr/m/it/14.4 Юрков, А. В. \LCY/cmr/m/n/14.4 Задачи стабилизации програм
+мных движений
+ []
+
+[63]
+Underfull \hbox (badness 1043) in paragraph at lines 643--644
+[]\LCY/cmr/m/it/14.4 Araki, M. \LCY/cmr/m/n/14.4 Stability of sampled-data comp
+osite systems with many
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 649--650
+\LCY/cmr/m/n/14.4 difference equations // Stability of dynamical systems (Theor
+y and
+ []
+
+[64]
+Underfull \hbox (badness 1158) in paragraph at lines 681--682
+[]\LCY/cmr/m/it/14.4 Elaydi S. \LCY/cmr/m/n/14.4 An introduction to Difference 
+Equations. Third Edition.
+ []
+
+[65]
+Underfull \hbox (badness 2671) in paragraph at lines 703--704
+[]\LCY/cmr/m/it/14.4 Lacshmikantham V. \LCY/cmr/m/n/14.4 Stability analysis of 
+nonlinear systems / V.
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 703--704
+\LCY/cmr/m/n/14.4 Lacshmikantham, S. Leela, A. A. Martynyuk // Singapore: World
+
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 706--707
+[]\LCY/cmr/m/it/14.4 Lacshmikantham V. \LCY/cmr/m/n/14.4 Stability analysis of 
+nonlinear systems / V.
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 706--707
+\LCY/cmr/m/n/14.4 Lacshmikantham, S. Leela, A. A. Martynyuk // New York: World
+ []
+
+[66] [67]
+Underfull \hbox (badness 1635) in paragraph at lines 750--751
+\LCY/cmr/m/n/14.4 mobile robot subject to transport delay / P. A. Nino-Suarez, 
+M.
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 765--766
+[]\LCY/cmr/m/it/14.4 Purwin O. \LCY/cmr/m/n/14.4 Trajectory generation and cont
+rol for four wheeled
+ []
+
+[68]) [69]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170 \left
+           ( 	\include{appendix/appendix}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170 \left( 	\include{appendix/appendix}
+                                         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.170 \left( 	\include{appendix/appendix}
+                                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[70
+
+]
+\openout2 = `appendix/appendix.aux'.
+
+ (appendix/appendix.tex
+{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \
+CYRA .
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+\LCY/cmr/m/n/14.4 Программа представляет собой отдельное
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 11--12
+[]\LCY/cmr/m/n/14.4 Математический пакет собственной разработки, а так же модул
+ь
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 12--13
+[]\LCY/cmr/m/n/14.4 В данном продукте реализована идея живого приложения, по
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 12--13
+\LCY/cmr/m/n/14.4 кнопки. Как только пользователь вносит малейшее изменение в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]\LCY/cmr/m/n/14.4 Векторный движок собственной разработки,
+ []
+
+[71
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\LCY/cmr/m/n/14.4 правом, алгоритмы и методы,
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 20--21
+[]\LCY/cmr/m/n/14.4 Моделирование начинается с запуска приложения trowth.exe дл
+я
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 20--21
+\LCY/cmr/m/n/14.4 проекта или перейти к демонстрации работы заложенного закона
+ []
+
+[72] <appendix/img/window.jpg, id=258, 671.50874pt x 515.67656pt>
+File: appendix/img/window.jpg Graphic file (type jpg)
+
+<use appendix/img/window.jpg>
+Package pdftex.def Info: appendix/img/window.jpg used on input line 23.
+(pdftex.def)             Requested size: 483.69687pt x 371.45207pt.
+
+<appendix/img/theory.jpg, id=259, 671.50874pt x 515.67656pt>
+File: appendix/img/theory.jpg Graphic file (type jpg)
+
+<use appendix/img/theory.jpg>
+Package pdftex.def Info: appendix/img/theory.jpg used on input line 35.
+(pdftex.def)             Requested size: 483.69687pt x 371.45207pt.
+
+Underfull \hbox (badness 7888) in paragraph at lines 31--39
+\LCY/cmr/m/n/14.4 робота и описание характеристик, использующихся в построении
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 43--44
+[]\LCY/cmr/m/n/14.4 При переходе непосредственно к математическому моделировани
+ю
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 43--44
+\LCY/cmr/m/n/14.4 пользователю предлагается задать параметры системы, параметры
+
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 43--44
+\LCY/cmr/m/n/14.4 с предложенными рис.[]. О значении каждого из параметров
+ []
+
+[73 <./appendix/img/window.jpg>]
+<appendix/img/params.jpg, id=264, 219.82124pt x 400.49625pt>
+File: appendix/img/params.jpg Graphic file (type jpg)
+
+<use appendix/img/params.jpg>
+Package pdftex.def Info: appendix/img/params.jpg used on input line 46.
+(pdftex.def)             Requested size: 241.84843pt x 440.6389pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<appendix/img/modeling.jpg, id=265, 671.50874pt x 515.67656pt>
+File: appendix/img/modeling.jpg Graphic file (type jpg)
+
+<use appendix/img/modeling.jpg>
+Package pdftex.def Info: appendix/img/modeling.jpg used on input line 59.
+(pdftex.def)             Requested size: 483.69687pt x 371.45207pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[74 <./appendix/img/theory.jpg>]
+Underfull \hbox (badness 5652) in paragraph at lines 68--69
+[]\LCY/cmr/m/n/14.4 Ввод формул данным методом задействует достаточно мощный
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 70--72
+\LCY/cmr/m/n/14.4 в виде знака "[?]". При клике мыши на этот значок выпадает
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 70--72
+\LCY/cmr/m/n/14.4 ведется путем собирания формулы из отдельных функциональных
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 70--72
+\LCY/cmr/m/n/14.4 перед такими известными инструментами, как MathCad 14 и Maple
+
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 70--72
+\LCY/cmr/m/n/14.4 12. Несомненно, преимущество в скорости обусловлено относител
+ьно
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 70--72
+\LCY/cmr/m/n/14.4 скромным набором функций, входящих в арсенал разработанного
+ []
+
+[75 <./appendix/img/params.jpg>] [76 <./appendix/img/modeling.jpg>]
+Underfull \hbox (badness 1953) in paragraph at lines 75--76
+$\OML/cmm/m/it/14.4 []\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4
+ )\OML/cmm/m/it/14.4 ;  \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 []\OT1/cmr/m/n
+/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;   \OT1/cmr/m
+/n/14.4 = \OML/cmm/m/it/14.4  []\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr
+/m/n/14.4 )$\LCY/cmr/m/n/14.4 , описывающие движение робота, а так
+ []
+
+<appendix/img/formul.jpg, id=275, 203.25937pt x 292.09125pt>
+File: appendix/img/formul.jpg Graphic file (type jpg)
+
+<use appendix/img/formul.jpg>
+Package pdftex.def Info: appendix/img/formul.jpg used on input line 78.
+(pdftex.def)             Requested size: 241.84843pt x 347.55722pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[]\LCY/cmr/m/n/14.4 все математические операции (умножение, деление, сложение,
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 88--89
+[]\LCY/cmr/m/n/14.4 добавление делегированных тригонометрических и алгебраическ
+их
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 93--94
+[]\LCY/cmr/m/n/14.4 Приоритеты операций в редакторе являются общепринятыми в
+ []
+
+[77]
+Underfull \hbox (badness 3872) in paragraph at lines 95--96
+[]\LCY/cmr/m/n/14.4 Кроме того, редактор дает возможность менять приоритеты по
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+[]\LCY/cmr/m/n/14.4 Очередность ввода компонент уравнения осуществляется путем
+ []
+
+[78 <./appendix/img/formul.jpg>]
+Underfull \hbox (badness 4779) in paragraph at lines 108--109
+[]\LCY/cmr/m/n/14.4 Левый аргумент блока умножения заменить на число(выделен
+ []
+
+<appendix/img/formulinput.jpg, id=282, 362.85562pt x 604.50844pt>
+File: appendix/img/formulinput.jpg Graphic file (type jpg)
+
+<use appendix/img/formulinput.jpg>
+Package pdftex.def Info: appendix/img/formulinput.jpg used on input line 116.
+(pdftex.def)             Requested size: 241.84843pt x 402.92468pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 124--125
+\LCY/cmr/m/n/14.4 перед ним открывается поле для поточечного ввода произвольной
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[]\LCY/cmr/m/n/14.4 При редактировании траектории мгновенно происходит
+ []
+
+[79] <appendix/img/traj.jpg, id=287, 219.82124pt x 326.72063pt>
+File: appendix/img/traj.jpg Graphic file (type jpg)
+
+<use appendix/img/traj.jpg>
+Package pdftex.def Info: appendix/img/traj.jpg used on input line 131.
+(pdftex.def)             Requested size: 241.84843pt x 359.46857pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[80 <./appendix/img/formulinput.jpg>]
+Underfull \hbox (badness 2088) in paragraph at lines 150--151
+[]\LCY/cmr/m/n/14.4 Благодаря векторной графике, лежащей в основе проектировани
+я
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 150--151
+\LCY/cmr/m/n/14.4 в широких пределах, что позволяет пользователю редактировать
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 150--151
+\LCY/cmr/m/n/14.4 предоставляющие информацию о положении ломаной за пределами
+ []
+
+[81 <./appendix/img/traj.jpg>]
+Underfull \hbox (badness 4096) in paragraph at lines 154--155
+\LCY/cmr/m/n/14.4 в программу файл с уже сформированным управлением. Данный
+ []
+
+<appendix/img/mass.jpg, id=294, 217.5628pt x 82.80937pt>
+File: appendix/img/mass.jpg Graphic file (type jpg)
+
+<use appendix/img/mass.jpg>
+Package pdftex.def Info: appendix/img/mass.jpg used on input line 162.
+(pdftex.def)             Requested size: 241.84843pt x 92.05847pt.
+ [82 <./appendix/img/mass.jpg>]
+Underfull \hbox (badness 3471) in paragraph at lines 197--198
+\LCY/cmr/m/n/14.4 вдоль отслеживаемой траектории на расстоянии, не превышающем
+ []
+
+<appendix/img/graph.jpg, id=298, 406.51875pt x 457.71pt>
+File: appendix/img/graph.jpg Graphic file (type jpg)
+
+<use appendix/img/graph.jpg>
+Package pdftex.def Info: appendix/img/graph.jpg used on input line 200.
+(pdftex.def)             Requested size: 483.69687pt x 544.62581pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [83] [84 <./appendix/img/graph.jpg>] (disser.aux (titul.aux) (prefix.aux)
+(postfix.aux) (bibliography.aux) (appendix/appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
- ) 
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 1 ({)
+### simple group (level 1) entered at line 1 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 4657 strings out of 493634
- 58682 string characters out of 3135239
- 134159 words of memory out of 3000000
- 7898 multiletter control sequences out of 15000+200000
- 18008 words of font info for 61 fonts, out of 3000000 for 9000
+ 4991 strings out of 493634
+ 63767 string characters out of 3135239
+ 136564 words of memory out of 3000000
+ 8193 multiletter control sequences out of 15000+200000
+ 19120 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,11n,43p,9620b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-lcy\dpi864\lh
-csc10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-lcy\dp
-i600\lhr10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-l
-cy\dpi720\lhbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\l
-h\lh-lcy\dpi720\lhr12.pk><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Admin/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Admin/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Admin
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
-/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Admin/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Adm
-in/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb>
-Output written on disser.pdf (37 pages, 289770 bytes).
+ 27i,11n,44p,9620b,570s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
+-lcy\dpi720\lhti12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\lh\lh-lcy\dpi864\lhcsc10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\lh\lh-lcy\dpi600\lhr10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\lh\lh-lcy\dpi720\lhbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\lh\lh-lcy\dpi720\lhr12.pk><C:/Users/Admin/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Admin/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
+s/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
+.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Admin
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
+Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb>
+Output written on disser.pdf (84 pages, 920739 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
+ 744 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
