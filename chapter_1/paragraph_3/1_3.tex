@@ -1,3 +1,149 @@
-\section{ Устойчивость дискретной модели типа Вольтерра} \label{p13}
+\section{О стабилизации движений управляемой механической системы.} \label{p13}
 
-Здесь будет третий параграф первой главы.
+Рассмотрим механическую систему, у которой кинетическая энергия не зависит от последних $(n-m)$ координат $q_{m+1},... q_n (0 < m < n, n > 1),$ и, таким образом, первые $m$ координат $q_1, q_2, ... , q_m$ являются периодическими, остальные - циклическими [].
+
+Переобозначим координаты, положим
+
+$z = (z_1, z_2, ... z_m)^{'} = (q_1, q_2, ..., q_m)^{'}$
+
+$s^{'} = (s_1, s_2, ... , s_{n-m}) = (q_{m + 1}, ..., q_n)^{'}$
+
+Соответственно, кинетическая энергия системы может быть записана в виде $2T = \dot z^{'} A_{11} (z) \dot z + \dot z^{'} A_{12} (z) \dot s + \dot s^{'} A_{21} (z) \dot z + \dot s^{'} A_{22} (z) \dot s, A_21^{'} = A_{12}$
+
+где составляющие матрицу $A$ подматрицы $A_{11}, A_{12}, A_{21}, A_{22}$ удовлетворяют условиям 
+
+$\alpha_0 \| z \|^2 \le z^{'} A_{11} z \le \alpha_1  \| z \|^2$
+
+$\alpha_0 \| s \|^2 \le s^{'} A_{22} s \le \alpha_1  \| s \|^2$
+
+$\alpha_0 \| s \|^2 \le s^{'} B s \le \alpha_1  \| s \|^2$
+
+$B = A_{12} A_{22} A_{21}, \alpha_0, \alpha_1 > 0 - const$
+
+Будем полагать, что обобщенные силы и управление по циклическим координатам отсутствует
+
+\begin{equation}
+Q^{'} = (Q_{z}^{'}, Q_{s}^{'}), U = (U_{z}^{'}, U_{s}^{'}), Q_s = 0, U_s = 0, \frac{\partial \Pi}{\partial s} = 0
+\end{equation}
+
+Возьмем циклические импульсы
+
+\begin{equation}
+V = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
+\end{equation}
+
+Из последних $n - m$ уравнений (1.2.1) и предположений (1.3.1) получаем 
+
+\begin{equation}
+\frac{d V}{d t} = 0
+\end{equation}
+
+т.е. циклические импульсы для движения системы (1.2.1) являются постоянными.
+
+Следуя [], введем функцию Рауса. Для этого из (1.3.2) находим
+
+\begin{equation}
+\dot s = A_{22}^{-1} (z) (V - A_{21} (z) \dot z)
+\end{equation}
+
+Тогда функция Рауса [] 
+
+\begin{equation}
+2R = 2T - 2 \dot s^{'} = \dot z^{'} A_{11} \dot z + \dot z^{'} A_{12} A_{22}^{-1} (V - A_{21} \dot z) + (V - A_{21} \dot z)^{'} A_{21} \dot z + (V - A_21 \dot z)^{'} A_{22}^{-1} (V - A_{21} \dot z) - 2 (V - A_{21} \dot z)^{'} A_{22}^{-1} P = 2 R_2 + 2 R_1 + 2 R_0, 2 R_2 = \dot z^{'} B (z) \dot z, R_1 = V A_{22}^{-1} A_{21} \dot z, 2 R_0 = - V^{'} A_{22}^{-1} V
+\end{equation}
+
+При этом матрица $B(z)$ является опредленно-положительной.
+
+Уравнения движения системы (1.2.1) могут быть записаны в виде равенств (1.3.3) и (1.3.4) и уравнений
+
+\begin{equation}
+\frac{d}{dt} (\frac{\partial R}{\partial \dot z}) - \frac{\partial R}{\partial z} = - \frac{\partial \Pi}{\partial z} + Q_z + U_z
+\end{equation}
+
+После подстановки выражения для функции $R$ получаем следующие уравнения движения 
+
+\begin{equation}
+\frac{d}{dt} (\frac{\partial R_z}{\partial \dot z}) - \frac{\partial R_z}{\partial z} = \frac{\partial R_0}{\partial z} - \frac{\partial \Pi}{\partial z} - G \dot z + U_z + Q_z
+\partial{d V}{d t} = 0, \dot s = A_{22}^{-1} (z) (V - A_{21} (z) \dot z)
+\end{equation}
+
+где $G = G(z, v) = (\frac{\partial g}{\partial z}) - (\frac{\partial g}{\partial z})^{'}, g(z, V) = A_{12} A_{22}^{-1} V$ есть кососимметрическая матрица, $G^{'} = G$.
+
+Допустим, что при некотором значении $z = z_0$ и $V = V_0$ управление $U_z$ подобрано так, что 
+
+\begin{equation}
+U_z^0 (t) = - \frac{\partial R_0}{\partial z} (V_0, z_0) + \frac{\partial \Pi (t, z_0)}{\partial z}
+\end{equation}
+
+Тогда система (1.3.5) будет иметь программное движения 
+
+\begin{equation}
+\dot z = 0, z = z_0, V = V_0, \dot s = \dot s_0 = A_{22}^{-1} (z_0) V_0
+\end{equation}
+
+Рассмотрим задачу о стабилизации этого движения управлением вида 
+
+\begin{equation}
+U_z = U_z^0 (t) - \frac{\partial \Pi_U (t, v, z)}{\partial z} - \int_{t - h}^{t} P_z (t, \tau) (z(t) - z(\tau)) d \tau
+\end{equation}
+
+где $\Pi_U = \Pi_U (t, V, z)$ есть некоторые непрерывно-дифференцируемая (по $z$ дважды) ограниченная вместе со своими производными $\frac{\partial \Pi}{\partial t} (t, V, z_0) 0 , P_z(t, z)$ есть матрица размерности $m \times m$ выражения вида $P_z = \| p_{jk} (t, \tau) \|, p_{jk} (t, \tau) = p_{jk}^0 e^{s_{jk}^0 (\tau - t)}, p_{jk}^0, s_{jk}^0 - const$
+
+удовлетворяющая условиям
+
+\begin{equation}
+\dot z P(t, \tau) z \ge 0, z^{'} P_t (t, \tau) z \le - \beta_0 \| z \|^2, \beta_0 > 0, P_t (t, \tau) = \frac{\partial P_z (t, \tau)}{\partial t} = - \| p_{jk}^0 s_{jk}^0 e^{s_{jk}^0 (\tau - t)} \|, \| z \| ^ 2 = z_1^2 + ... + z_m^2
+\end{equation}
+
+Уравнения (1.3.5) с управлением (1.3.6), (1.3.8) могут быть записаны в виде
+
+\begin{equation}
+\frac{d z (t)}{dt} = r(t), \frac{d r(t)}{dt} = B^{-1} (z(t)) (E(z(t), r(t)) r(t) - G(z(t), v(t)) r(t) + Q_z (t, z(t), r(t)) - \frac{\partial S(t, v(t), z(t))}{\partial z}) - \int_{t - h}^{t} P_z (t, \tau) (z(t) - z(\tau)) d \tau,
+\end{equation}
+
+$\frac{d V(t)}{dt} = 0 \frac{d s(t)}{dt} = A_22^{-1} (z(t) (v(t) - A){21} (z(t)) r(t))$
+
+где $E = (e_{kj}) - $ матрица, определяемая равенством $e_{kj} = \frac12 \sum_{ i = 1}^{m} (\frac{\partial b_{ik}}{\partial z_j} - \frac{\partial b_{kj}}{\partial z_i} - \frac{\partial b_{ij}}{\partial z_k}) r_k$ функция $s(t, v, z) = \Pi (t, z) - R_0 (V, z) - \frac{\partial \Pi (t, z_0)}{\partial z} z + \frac{\partial R_0 (V, z_0)}{\partial z} z + \Pi_U (t, V, z)$
+
+В силу $U_z$ имеем $\frac{\partial S(t, V_0, z_0)}{\partial z} = 0$
+
+так что система (1.3.10) имеем решение $z(t) = z_0, r(t) = 0, V = V_0, \dot S_0 = A_{22}^{-1} (z_0) V_0,$ отвечающее программному движению (1.3.7)
+
+Полагаем, что функция $Q_z (t, z, r), S(t, V, z), \frac{\partial S}{\partial t} (t, V, z), \frac{\partial S(t, V, z)}{\partial z}$ являются ограниченными, равномерно непрерывными на множествах вида $R \times K, K \in R^n$ - компакт, при этом
+
+\begin{equation}
+\frac{\partial S}{\partial t} (t, V, z) \le 0, S(t, V_0, z_0) = 0
+\end{equation}
+
+Уравнение к (1.3.9) имеют аналогичный им вид с функциями $Q_z^{*} (t, z, r)$ и $S = S^{*} (V, z),$ к $Q_z$ и $S.$
+
+$$S^{*} (V, z) = \lim_{t \to + \infty} S(t, V, z)$$
+
+Введем функционал
+
+$V = \frac12 r^{'}(t) B (z(t)) r(t) + S(t, V_0, z) + \frac12 \| V(t) - V_0 \|^2 + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_z (t, \tau) (z(t) - z(\tau)) d \tau$
+
+Его производная в силу уравнений (1.3.10) в соответствии с соотношениями (1.3.9) и (1.3.12) будет иметь следующую оценку
+
+\begin{equation}
+\dot V = - z^{'} (t) G(z(t), V(t)) r(t) + z^{'} (t) Q_z (t, z(t), r(t)) + \frac{\partial S(t, V_0, t)}{\partial t} + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_t(t, \tau) (z(t) - z(\tau)) d \tau le W(z_t) \le - \frac{\beta_0}{2} \displaystyle\int\limits_{t - h}^{t} \| z(t) - z(\tau) \|^2 d \tau
+\end{equation}
+
+Соответственно иммем следующую теорему.
+
+\begin{theorem}\label{t-1.10}
+Предположим, что:
+
+1) функция $s = s(t, V_0, z)$ являются определенно-положительными по $z$;
+
+2) функция $s^{*} (V_0, z)$ имеет изолированный минимум в точке $z = z_0, \| \frac{\partial S^{*} (V_0, z)}{\partial z} \| \ne 0 \forall z \in \lbrace 0 < \| z - z_0 \| < \delta \rbrace$
+
+Тогда под действием управления (1.3.8) программное стационарное движение (1.3.7) устойчиво, асимптотически устойчиво относительно движений, отвечающих значению $V = V_0,$ а каждое иное возмущенное движение неограниченно приближается при $t \to + \infty$ к движению $\dot z = 0, \dot z = z_1 = const, V = V_1 = const, \dot s = \dot s_1 = A_{22}^{-1} (z_1) V_1$
+\end{theorem}
+
+Доказательство:
+Из условия 1) теоремы и условий относительно функций, входящих в функционал $V,$ следует, что он является определенно положительным, допускающим бесконечно малый высший предел по переменным $r, z, V - V_0.$
+
+В силу (1.3.13) имеем устойчивость движения (1.3.7).
+
+Множество $\lbrace W(z_t) = 0 \rbrace$ может содержать только те предельных систем для которых $z(t) = z_1 = const.$ Но такими решениями могут быть решения для которых одновременно $r(t) = 0 V(t) = V_1 = const, \frac{\partial S^{*} (V_1, z_1)}{\partial z} = 0.$ Тем самым, имеем искомое доказательство. 
