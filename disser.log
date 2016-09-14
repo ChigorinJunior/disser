@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  14 SEP 2016 21:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  14 SEP 2016 22:26
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -648,11 +648,7 @@ File: block.tss 2016/03/15
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(disser.aux (titul.aux) (prefix.aux)
-
-LaTeX Warning: Label `AS1' multiply defined.
-
-)
+(disser.aux (titul.aux) (prefix.aux))
 \openout1 = `disser.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -1104,14 +1100,6 @@ Underfull \hbox (badness 5203) in paragraph at lines 19--20
  []
 
 [11] [12])
-Underfull \hbox (badness 5417) in paragraph at lines 151--152
-\LCY/cmr/m/n/14.4 измерения скоростей. Сначала рассмотрим задачу о стабилизации
-
- []
-
-[13
-
-]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 (chapter_1/paragraph_1/1_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1119,112 +1107,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
 []\LCY/cmr/m/n/14.4 Рассматривается функционально-дифференциальное уравнение
  []
 
 
-LaTeX Warning: Command \cyrv invalid in math mode on input line 14.
-
-Missing character: There is no в in font cmr10!
-
-Underfull \hbox (badness 2932) in paragraph at lines 13--16
+Underfull \hbox (badness 2150) in paragraph at lines 14--17
 \LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 f \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/1
 4.4 R \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[] \OMS/cmsy/m/n/14.4 ! \OML/cmm
-/m/it/14.4 R[]$ \LCY/cmr/m/n/14.4 - некоторое непрерывное отображение,
+/m/it/14.4 R[]$ \LCY/cmr/m/n/14.4 --- некоторое непрерывное отображение,
  []
 
-[14
+[13
+
 
 ]
-Underfull \hbox (badness 1571) in paragraph at lines 39--45
+Underfull \hbox (badness 1571) in paragraph at lines 40--46
 []\LCY/cmr/m/n/14.4 Дадим определение сходимости в $\OML/cmm/m/it/14.4 F$ \LCY/
 cmr/m/n/14.4 как равномерной на каждом
  []
 
-[15]
-Underfull \hbox (badness 6047) in paragraph at lines 86--91
+[14]
+Underfull \hbox (badness 6047) in paragraph at lines 87--92
 \LCY/cmr/bx/n/14.4 Определение 1.3. \LCY/cmr/m/it/14.4 Функция $\OML/cmm/m/it/1
 4.4 f[] \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/14.4 R \OMS/cmsy/m/n/14.4  \OT1/cmr/
 m/n/14.4   \OMS/cmsy/m/n/14.4 ! \OML/cmm/m/it/14.4 R[]$ \LCY/cmr/m/it/14.4 назы
 вается
  []
 
-[16]
-Underfull \hbox (badness 1314) in paragraph at lines 99--102
+[15]
+Underfull \hbox (badness 1314) in paragraph at lines 100--103
 \LCY/cmr/bx/n/14.4 Определение 1.4. \LCY/cmr/m/it/14.4 Для любого компактного м
 ножества $\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[]$
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 119--121
+Underfull \hbox (badness 6016) in paragraph at lines 120--122
 []\LCY/cmr/m/n/14.4 Связь между решениями уравнений (1.1[]) и (1.4[]) определяе
 тся
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 []\LCY/cmr/m/n/14.4 Имеет место следующее свойство положительного предельного
  []
 
+[16]
+
+LaTeX Warning: Citation `kra591' on page 17 undefined on input line 165.
+
+
+LaTeX Warning: Citation `hei84' on page 17 undefined on input line 165.
+
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 149--152
-\LCY/cmr/bx/n/14.4 Определение 1.5.
- []
-
-
-LaTeX Warning: Citation `kra591' on page 18 undefined on input line 164.
-
-
-LaTeX Warning: Citation `hei84' on page 18 undefined on input line 164.
-
-[18]
-Underfull \hbox (badness 2556) in paragraph at lines 171--172
+Underfull \hbox (badness 2556) in paragraph at lines 172--173
 []\LCY/cmr/m/n/14.4 Для функционала, имеющего инвариантную производную $\OML/cm
 m/m/it/14.4 @V\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$
  []
 
-[19]
-Underfull \hbox (badness 1688) in paragraph at lines 234--240
+[18]
+Underfull \hbox (badness 1688) in paragraph at lines 235--241
 []\LCY/cmr/m/it/14.4 Тогда для каждой предельной точки $\OML/cmm/m/it/14.4   \O
 MS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
 ; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 существуют
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 242--245
+Underfull \hbox (badness 4254) in paragraph at lines 243--244
 []\LCY/cmr/m/n/14.4 Для задачи об асимптотической устойчивости нулевого решения
 
  []
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 []\LCY/cmr/m/n/14.4 Рассмотрим задачу об устойчивости
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 []\LCY/cmr/m/n/14.4 Ограниченность решения
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 270--271
+Underfull \hbox (badness 1210) in paragraph at lines 268--269
 \LCY/cmr/m/n/14.4 части переменных свойство квазиинвариантности его положительн
 ого
  []
 
-[21]
-Underfull \hbox (badness 1117) in paragraph at lines 288--289
+[20]
+Underfull \hbox (badness 1117) in paragraph at lines 286--287
 []\LCY/cmr/m/n/14.4 Существование функционала Ляпунова, имеющего знакопостоянну
 ю
  []
 
-[22]) (chapter_1/paragraph_2/1_2.tex
+[21]) (chapter_1/paragraph_2/1_2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 \LCY/cmr/m/n/14.4 Движение управляемой механической
  []
 
-[23]
+[22]
 Underfull \hbox (badness 1902) in paragraph at lines 9--10
 []\LCY/cmr/m/n/14.4 В уравнениях введена векторно-матричная запись: $\OML/cmm/m
 /it/14.4 q \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 R[]; q \OT1/cmr/m/n/14.4 =$
@@ -1266,7 +1247,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 []\LCY/cmr/m/n/14.4 В моделировании манипуляторов представляется важным учет
  []
 
-[24]
+[23]
 Underfull \hbox (badness 4467) in paragraph at lines 39--40
 \LCY/cmr/m/n/14.4 методы исследования асимптотической устойчивости под действие
 м
@@ -1277,7 +1258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 []\LCY/cmr/m/n/14.4 Использование теорем об устойчивости фунционально-
  []
 
-[25]
+[24]
 Overfull \hbox (44.04832pt too wide) detected at line 70
 \OML/cmm/m/it/14.4 x[]P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; \OT1/cmr/m/n/1
 4.4 )\OML/cmm/m/it/14.4 x \OMS/cmsy/m/n/14.4  \OT1/cmr/m/n/14.4 0; \OML/cmm/m/
@@ -1310,7 +1291,7 @@ OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4
 /n/14.4 0
  []
 
-[26]
+[25]
 Underfull \hbox (badness 4805) in paragraph at lines 84--85
 []\LCY/cmr/m/n/14.4 Это уравнение представляет собой совокупность функционально
 -
@@ -1358,7 +1339,7 @@ Underfull \hbox (badness 1057) in paragraph at lines 94--95
 r/m/n/14.4 0$ \LCY/cmr/m/n/14.4 Тогда будет существовать
  []
 
-[27]
+[26]
 Overfull \hbox (57.5105pt too wide) detected at line 100
 [] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 y\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
 4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; [] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it
@@ -1431,8 +1412,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 ; x\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 является функцией
  []
 
-[28
-\newlabel{t-2.11}{{1.6}{28}}
+[27
+\newlabel{t-2.11}{{1.6}{27}}
 ]
 Overfull \hbox (28.04591pt too wide) detected at line 125
 \OML/cmm/m/it/14.4 V\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x[]; y[]\OT1/cmr/m
@@ -1454,7 +1435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 []\LCY/cmr/m/it/14.4 Для производной функционала $\OML/cmm/m/it/14.4 V$
  []
 
-[29]
+[28]
 Underfull \hbox (badness 6526) in paragraph at lines 158--159
 []\LCY/cmr/m/it/14.4 Используя оценку производной (1.2.15) функционала (1.2.14)
  на
@@ -1466,9 +1447,9 @@ Underfull \hbox (badness 1701) in paragraph at lines 171--172
  (2.10) выбрано таким
  []
 
-[30
-\newlabel{t-1.8}{{1.7}{30}}
-\newlabel{t-1.9}{{1.8}{30}}
+[29
+\newlabel{t-1.8}{{1.7}{29}}
+\newlabel{t-1.9}{{1.8}{29}}
 ]
 Underfull \hbox (badness 2027) in paragraph at lines 190--191
 []\LCY/cmr/m/it/14.4 Для производной этого функционала по прежнему имеем оценку
@@ -1480,7 +1461,7 @@ Underfull \hbox (badness 4378) in paragraph at lines 196--197
 []\LCY/cmr/m/it/14.4 не содержит решений предельной системы. В соответствие с
  []
 
-[31]
+[30]
 Underfull \hbox (badness 1194) in paragraph at lines 203--204
 \LCY/cmr/bx/n/14.4 Теорема 1.9. \LCY/cmr/m/it/14.4 Пусть уравнение (2.10) выбра
 но таким образом, что
@@ -1498,8 +1479,8 @@ Underfull \hbox (badness 1968) in paragraph at lines 220--221
 []\LCY/cmr/m/it/14.4 не может в соответствии с условием 3) теоремы содеражать
  []
 
-[32
-\newlabel{t-1.11}{{1.9}{32}}
+[31
+\newlabel{t-1.11}{{1.9}{31}}
 ]) (chapter_1/paragraph_3/1_3.tex
 Underfull \hbox (badness 1331) in paragraph at lines 3--4
 \LCY/cmr/m/it/14.4 не зависит от последних $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14
@@ -1519,7 +1500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 /it/14.4 подматрицы $\OML/cmm/m/it/14.4 A[]; A[]; A[]; A[]$
  []
 
-[33
+[32
 \@writefile{toc}{\contentsline {section}{\numberline {1.3}\IeC {\CYRO } \IeC {\
 cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\c
 yri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyri } \IeC {\c
@@ -1529,8 +1510,8 @@ yri }\IeC {\cyrishrt } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC
  {\cyrishrt } \IeC {\cyrm }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }
 \IeC {\cyri }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }
 \IeC {\cyrishrt } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cy
-re }\IeC {\cyrm }\IeC {\cyrery }.}{33}}
-\newlabel{p13}{{1.3}{33}}
+re }\IeC {\cyrm }\IeC {\cyrery }.}{32}}
+\newlabel{p13}{{1.3}{32}}
 ]
 Overfull \hbox (592.0041pt too wide) detected at line 53
 \OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 R \OT1/cmr/m/n/14.4 = 2\OML/cmm/m/it/14.4
@@ -1561,7 +1542,7 @@ MS/cmsy/m/n/14.4   \OT1/cmr/m/n/14.4 ([])[]\OML/cmm/m/it/14.4 ; g\OT1/cmr/m/n/1
 LCY/cmr/m/it/14.4 есть
  []
 
-[34]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 $\OML/cmm/m/it/14.4 z$ \LCY/cmr/m/it/14.4 дважды) ограниченная вместе со своими
  производными
@@ -1603,7 +1584,7 @@ r/m/n/14.4 ) \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 z\OT1/cmr/m/n/14.4 (\OML/c
 mm/m/it/14.4 \OT1/cmr/m/n/14.4 ))\OML/cmm/m/it/14.4 d;
  []
 
-[35]
+[34]
 Underfull \hbox (badness 2922) in paragraph at lines 124--125
 []$\OML/cmm/m/it/14.4 V \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 r[]\OT1/cmr/m/
 n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 B\OT1/cmr/m/n
@@ -1645,7 +1626,7 @@ sy/m/n/14.4   \OML/cmm/m/it/14.4 z\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/c
 mr/m/n/14.4 )\OMS/cmsy/m/n/14.4 k[]\OML/cmm/m/it/14.4 d
  []
 
-[36]
+[35]
 Underfull \hbox (badness 5771) in paragraph at lines 144--146
 \LCY/cmr/m/it/14.4 функций, входящих в функционал $\OML/cmm/m/it/14.4 V;$ \LCY/
 cmr/m/it/14.4 следует, что он является
@@ -1663,8 +1644,8 @@ Underfull \hbox (badness 2707) in paragraph at lines 3--4
 \LCY/cmr/m/it/14.4 Рассмотрим задачу о стабилизации математического маятника в
  []
 
-[37
-\newlabel{t-1.10}{{1.10}{37}}
+[36
+\newlabel{t-1.10}{{1.10}{36}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.4}\IeC {\CYRO } \IeC {\
 cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\c
 yri }\IeC {\cyrz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyri } \IeC {\c
@@ -1674,8 +1655,8 @@ cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyri }\IeC {\c
 yrya } \IeC {\cyrp }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrv }\IeC {\
 cyre }\IeC {\cyrr }\IeC {\cyrn }\IeC {\cyru }\IeC {\cyrt }\IeC {\cyro }\IeC {\c
 yrg }\IeC {\cyro } \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrya }\IeC {\cyrt }\IeC {\
-cyrn }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyra }.}{37}}
-\newlabel{p13}{{1.4}{37}}
+cyrn }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyra }.}{36}}
+\newlabel{p13}{{1.4}{36}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 []\LCY/cmr/m/it/14.4 Обозначим угол отклонения $\OML/cmm/m/it/14.4 ':$ \LCY/cmr
@@ -1733,15 +1714,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 it/14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4  $
  []
 
-[38]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 []\LCY/cmr/m/it/14.4 Соответственно, получаем, что управление (1.4.3) решает
  []
 
-) [39]
+) [38]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 (chapter_2/paragraph_1/2_1.tex
-<chapter_2/paragraph_1/img/manipulator.png, id=139, 228.855pt x 200.24812pt>
+<chapter_2/paragraph_1/img/manipulator.png, id=136, 228.855pt x 200.24812pt>
 File: chapter_2/paragraph_1/img/manipulator.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/manipulator.png>
@@ -1755,7 +1736,7 @@ Underfull \hbox (badness 6510) in paragraph at lines 12--13
 /14.4 2)$ \LCY/cmr/m/it/14.4 --- углы поворотов звеньев
  []
 
-[40
+[39
 
 
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}\IeC {\CYRU }\IeC {\cyr
@@ -1765,22 +1746,22 @@ h }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }\IeC {\cyrm } \IeC {\cyr
 d }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrn
  }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm }\IeC {\cyra
  }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya
- }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{40}}
+ }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{39}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}\IeC {\CYRP }\IeC {\c
 yro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyro }\IeC {\cy
 rv }\IeC {\cyrk }\IeC {\cyra } \IeC {\cyrz }\IeC {\cyra }\IeC {\cyrd }\IeC {\cy
-ra }\IeC {\cyrch }\IeC {\cyri }}{40}}
-\newlabel{p21}{{2.1}{40}}
-\@writefile{toc}{\contentsline {paragraph}{}{40}}
+ra }\IeC {\cyrch }\IeC {\cyri }}{39}}
+\newlabel{p21}{{2.1}{39}}
+\@writefile{toc}{\contentsline {paragraph}{}{39}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\
 CYRM }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn } \Ie
 C {\cyrd }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC
  {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm }\IeC
  {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC 
-{\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{40}}
-\newlabel{fig:manip1}{{2.1}{40}}
+{\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{39}}
+\newlabel{fig:manip1}{{2.1}{39}}
  <./chapter_2/paragraph_1/img/manipulator.png>]
 Underfull \hbox (badness 2229) in paragraph at lines 29--30
 \LCY/cmr/m/it/14.4 манипулятора, совершающего движения в вертикальной плоскости
@@ -1821,15 +1802,15 @@ Underfull \hbox (badness 3557) in paragraph at lines 39--40
 mm/m/it/14.4 X$ \LCY/cmr/m/it/14.4 --- какое-либо программное движение,
  []
 
-[41]
+[40]
 Overfull \hbox (50.01642pt too wide) detected at line 67
 \OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14
 .4 ) = [] \OML/cmm/m/it/14.4 ;
  []
 
-[42
-\newlabel{2.2'}{{2.4}{42}}
-] [43]) (chapter_2/paragraph_2/2_2.tex
+[41
+\newlabel{2.2'}{{2.4}{41}}
+] [42]) (chapter_2/paragraph_2/2_2.tex
 Overfull \hbox (148.48907pt too wide) detected at line 13
 \OML/cmm/m/it/14.4 U[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]\OT1/cmr/m/n/14.
 4 ) = \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 k[] [] [] \OMS/cmsy/m/n/14.4   [] 
@@ -1843,7 +1824,7 @@ t/14.4 x[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 ))\OML/cmm/m
 \OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 ))
  []
 
-[44
+[43
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}\IeC {\CYRS }\IeC {\c
 yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
 rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\IeC {\c
@@ -1857,8 +1838,8 @@ C {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC
 C {\cyre }\IeC {\cyrz } \IeC {\cyri }\IeC {\cyrz }\IeC {\cyrm }\IeC {\cyre }\Ie
 C {\cyrr }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrs }\I
 eC {\cyrk }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\Ie
-C {\cyre }\IeC {\cyrishrt }.}{44}}
-\newlabel{p22}{{2.2}{44}}
+C {\cyre }\IeC {\cyrishrt }.}{43}}
+\newlabel{p22}{{2.2}{43}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 []\LCY/cmr/m/it/14.4 Отсюда имеем следующие уравнения движения в переменных
@@ -1869,7 +1850,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 \LCY/cmr/m/it/14.4 в задаче о стабилизации установленного движения голономной
  []
 
-[45]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 []\LCY/cmr/m/it/14.4 Рассмотрим
  []
@@ -1885,7 +1866,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 9--11
 it/14.4 R[]$ \LCY/cmr/m/it/14.4 есть матрица коэффициентов усиления сигналов,
  []
 
-[46
+[45
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}\IeC {\CYRO }\IeC {\c
 yrb } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\c
 yrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } \IeC {\cyrd }\IeC {\c
@@ -1894,9 +1875,9 @@ rn }\IeC {\cyrery }\IeC {\cyrm } \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\
 cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\
 cyro }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrm } \IeC {\cyrs } \IeC {\cyrp }\IeC {
 \cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyro }\IeC {\
-cyrm }}{46}}
-\newlabel{p23}{{2.3}{46}}
-\newlabel{2.3'}{{2.3}{46}}
+cyrm }}{45}}
+\newlabel{p23}{{2.3}{45}}
+\newlabel{2.3'}{{2.3}{45}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 []\LCY/cmr/m/it/14.4 где
@@ -1923,8 +1904,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 $[]$ \LCY/cmr/m/it/14.4 . Пусть
  []
 
-[47
-\newlabel{2.4'}{{2.9}{47}}
+[46
+\newlabel{2.4'}{{2.9}{46}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 []\LCY/cmr/m/it/14.4 Численное
@@ -1958,7 +1939,7 @@ Underfull \hbox (badness 3058) in paragraph at lines 44--46
 \LCY/cmr/m/it/14.4 На рисунках 2 и 3 представлены результаты моделирования при
  []
 
-<chapter_2/paragraph_1/img/model1.png, id=170, 512.66531pt x 178.41656pt>
+<chapter_2/paragraph_1/img/model1.png, id=167, 512.66531pt x 178.41656pt>
 File: chapter_2/paragraph_1/img/model1.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/model1.png>
@@ -1970,10 +1951,10 @@ Overfull \hbox (28.96718pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-[48
-\newlabel{2.5'}{{2.10}{48}}
-\newlabel{2.6'}{{2.11}{48}}
-] <chapter_2/paragraph_1/img/model2.png, id=175, 517.18219pt x 177.66376pt>
+[47
+\newlabel{2.5'}{{2.10}{47}}
+\newlabel{2.6'}{{2.11}{47}}
+] <chapter_2/paragraph_1/img/model2.png, id=172, 517.18219pt x 177.66376pt>
 File: chapter_2/paragraph_1/img/model2.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/model2.png>
@@ -1985,7 +1966,7 @@ Overfull \hbox (33.48405pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-) (chapter_2/paragraph_4/2_4.tex [49
+) (chapter_2/paragraph_4/2_4.tex [48
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces \IeC {\
 CYRR }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC
  {\cyrt }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyrery } \IeC {\cyrm }\IeC {\cyro }\I
@@ -1993,8 +1974,8 @@ eC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\Ie
 C {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\I
 eC {\cyrr }\IeC {\cyri } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\I
 eC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } (2
-.3)}}{49}}
-\newlabel{fig:manip2}{{2.2}{49}}
+.3)}}{48}}
+\newlabel{fig:manip2}{{2.2}{48}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces \IeC {\
 CYRR }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC
  {\cyrt }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyrery } \IeC {\cyrm }\IeC {\cyro }\I
@@ -2002,8 +1983,8 @@ eC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\Ie
 C {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\I
 eC {\cyrr }\IeC {\cyri } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\I
 eC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } (2
-.6)}}{49}}
-\newlabel{fig:manip3}{{2.3}{49}}
+.6)}}{48}}
+\newlabel{fig:manip3}{{2.3}{48}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.4}\IeC {\CYRO }\IeC {\c
 yrb } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\c
 yrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } \IeC {\cyrd }\IeC {\c
@@ -2012,8 +1993,8 @@ rn }\IeC {\cyrery }\IeC {\cyrm } \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\
 cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\
 cyro }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrm } \IeC {\cyrs } \IeC {\cyrp }\IeC {
 \cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyro }\IeC {\
-cyrm }}{49}}
-\newlabel{p24}{{2.4}{49}}
+cyrm }}{48}}
+\newlabel{p24}{{2.4}{48}}
  <./chapter_2/paragraph_1/img/model1.png> <./chapter_2/paragraph_1/img/model2.p
 ng>]
 Overfull \hbox (502.24165pt too wide) detected at line 19
@@ -2050,7 +2031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 []\LCY/cmr/m/it/14.4 Для нахождения этих условий применим
  []
 
-[50]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 []$\OML/cmm/m/it/14.4 V[] \OT1/cmr/m/n/14.4 =$
  []
@@ -2067,7 +2048,7 @@ $\OML/cmm/m/it/14.4 [] [] [] \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 [] [] []
  \OML/cmm/m/it/14.4 [] [] [] \OMS/cmsy/m/n/14.4  $
  []
 
-[51]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []\LCY/cmr/m/it/14.4 При малых возмущениях
  []
@@ -2100,7 +2081,7 @@ Missing character: There is no г in font cmr12!
 Missing character: There is no м in font cmr12!
 Missing character: There is no к in font cmr12!
 Missing character: There is no г in font cmr12!
-) [52] [53]
+) [51] [52]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 (chapter_3/paragraph_1/3_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -2121,7 +2102,7 @@ Underfull \hbox (badness 4713) in paragraph at lines 5--7
 ение свободного падения. Уравнения движения
  []
 
-[54
+[53
 
 
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}\IeC {\CYRU }\IeC {\cyr
@@ -2135,7 +2116,7 @@ t }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre
 b }\IeC {\cyre }\IeC {\cyrz } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyr
 v }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyra } \IeC {\cyri } \IeC {\cyrs } \IeC {\c
 yrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cy
-ro }\IeC {\cyrm })}{54}}
+ro }\IeC {\cyrm })}{53}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}\IeC {\CYRS }\IeC {\c
@@ -2148,32 +2129,32 @@ eC {\cyrg }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyro }\Ie
 C {\cyrm }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyre 
 }\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre 
 }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs }\IeC {\c
-yri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } }{54}}
+yri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } }{53}}
 
-\newlabel{p31}{{3.1}{54}}
-\@writefile{toc}{\contentsline {paragraph}{}{54}}
+\newlabel{p31}{{3.1}{53}}
+\@writefile{toc}{\contentsline {paragraph}{}{53}}
 ]
 Overfull \hbox (34.2682pt too wide) detected at line 16
 []
  []
 
-<chapter_3/paragraph_1/img/3chain.png, id=197, 245.41687pt x 236.38312pt>
+<chapter_3/paragraph_1/img/3chain.png, id=194, 245.41687pt x 236.38312pt>
 File: chapter_3/paragraph_1/img/3chain.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/3chain.png>
 Package pdftex.def Info: chapter_3/paragraph_1/img/3chain.png used on input lin
 e 20.
 (pdftex.def)             Requested size: 245.41626pt x 236.38254pt.
- [55
+ [54
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\
 CYRM }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn } \Ie
 C {\cyrt }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC
  {\cyre }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC
  {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC 
-{\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{55
+{\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{54
 }}
-\newlabel{fig:manip1}{{3.1}{55}}
- <./chapter_3/paragraph_1/img/3chain.png>] [56]
+\newlabel{fig:manip1}{{3.1}{54}}
+ <./chapter_3/paragraph_1/img/3chain.png>] [55]
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \LCY/cmr/m/it/14.4 механической системы
  []
@@ -2196,13 +2177,13 @@ OT1/cmr/m/n/14.4 )$\LCY/cmr/m/it/14.4 ; $\OML/cmm/m/it/14.4 K$ \LCY/cmr/m/it/14
 .4 --- матрица
  []
 
-[57
+[56
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}\IeC {\CYRP }\IeC {\c
 yro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyre }\IeC {\cy
 rn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cy
 ra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyr
-ya }}{57}}
-\newlabel{sec2.3}{{3.2}{57}}
+ya }}{56}}
+\newlabel{sec2.3}{{3.2}{56}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 81--84
 $\OML/cmm/m/it/14.4 Q \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 Q[]\OT1/cmr/m/n/1
@@ -2231,7 +2212,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 93--95
 it/14.4 R[]$ \LCY/cmr/m/it/14.4 есть матрица коэффициентов усиления сигналов,
  []
 
-[58
+[57
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}\IeC {\CYRS }\IeC {\c
 yri }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrz } \IeC {\cyru }\IeC {\c
 yrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cy
@@ -2243,7 +2224,7 @@ cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrm }\IeC {\c
 yrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrd }\IeC {\cyrv }\IeC {\c
 yri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {
 \cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\
-cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{58}}
+cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{57}}
 ]
 Overfull \hbox (432.41862pt too wide) detected at line 103
 []\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
@@ -2273,7 +2254,7 @@ Underfull \hbox (badness 1642) in paragraph at lines 127--130
 cmr/m/n/14.4 4\OML/cmm/m/it/14.4 [][] >$
  []
 
-[59]
+[58]
 Overfull \hbox (385.0172pt too wide) detected at line 133
 \OML/cmm/m/it/14.4 m[] \OT1/cmr/m/n/14.4 = 15[]\OML/cmm/m/it/14.4 ; m[] \OT1/cm
 r/m/n/14.4 = 2\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5[]\OML/cmm/m/it/14.4 ; m[
@@ -2296,7 +2277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 []\LCY/cmr/m/it/14.4 На рисунках 2{4 представлены результаты моделирования.
  []
 
-<chapter_3/paragraph_1/img/pic1.png, id=215, 239.39438pt x 157.33781pt>
+<chapter_3/paragraph_1/img/pic1.png, id=212, 239.39438pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic1.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic1.png>
@@ -2304,7 +2285,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic1.png used on input line
 140.
 (pdftex.def)             Requested size: 239.39378pt x 157.33742pt.
 
-<chapter_3/paragraph_1/img/pic2.png, id=216, 247.67531pt x 157.33781pt>
+<chapter_3/paragraph_1/img/pic2.png, id=213, 247.67531pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic2.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic2.png>
@@ -2312,7 +2293,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic2.png used on input line
 147.
 (pdftex.def)             Requested size: 247.6747pt x 157.33742pt.
 
-<chapter_3/paragraph_1/img/pic3.png, id=217, 262.73157pt x 163.3603pt>
+<chapter_3/paragraph_1/img/pic3.png, id=214, 262.73157pt x 163.3603pt>
 File: chapter_3/paragraph_1/img/pic3.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic3.png>
@@ -2323,7 +2304,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic3.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex [60
+) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex [59
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces \IeC {\
 CYRZ }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyri }\IeC {\c
 yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
@@ -2334,8 +2315,8 @@ yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
  {\cyrt } \IeC {\cyrv }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyre }\IeC
  {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri } \IeC {\cyru }\Ie
 C {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC
- {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{60}}
-\newlabel{fig:manip2}{{3.2}{60}}
+ {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{59}}
+\newlabel{fig:manip2}{{3.2}{59}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces \IeC {\
 CYRZ }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyri }\IeC {\c
 yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
@@ -2346,8 +2327,8 @@ yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
  {\cyrt } \IeC {\cyrv }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyre }\IeC
  {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri } \IeC {\cyru }\Ie
 C {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC
- {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{60}}
-\newlabel{fig:manip2}{{3.3}{60}}
+ {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{59}}
+\newlabel{fig:manip2}{{3.3}{59}}
  <./chapter_3/paragraph_1/img/pic1.png> <./chapter_3/paragraph_1/img/pic2.png>]
 )
 
@@ -2357,7 +2338,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 	\include{postfix}
+l.168 	\include{postfix}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2370,7 +2351,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 	\include{bibliography}
+l.170 	\include{bibliography}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2383,7 +2364,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 	\include{appendix/appendix}
+l.172 	\include{appendix/appendix}
                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2396,13 +2377,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 \end{document}
+l.173 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[61
+[60
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\
 CYRZ }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyri }\IeC {\c
 yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
@@ -2413,8 +2394,8 @@ IeC {\cyro } \IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyra }
 \IeC {\cyro }\IeC {\cyrt } \IeC {\cyrv }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }
 \IeC {\cyre }\IeC {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }
  \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }
-\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{61}}
-\newlabel{fig:manip2}{{3.4}{61}}
+\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{60}}
+\newlabel{fig:manip2}{{3.4}{60}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}\IeC {\CYRM }\IeC {\c
 yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
 ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
@@ -2428,8 +2409,8 @@ ru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cy
 ra } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrd }\IeC {\c
 yrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrm } \IeC {\
 cyro }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\c
-yrn }\IeC {\cyri }\IeC {\cyri }}{61}}
-\newlabel{p32}{{3.4}{61}}
+yrn }\IeC {\cyri }\IeC {\cyri }}{60}}
+\newlabel{p32}{{3.4}{60}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}\IeC {\CYRM }\IeC {\c
 yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
 ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
@@ -2443,15 +2424,12 @@ cyri }\IeC {\cyrya } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {
 \cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrr }\IeC {
 \cyro }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra } \IeC {\cyrs } \IeC 
 {\cyro }\IeC {\cyrm }\IeC {\cyrn }\IeC {\cyri }-\IeC {\cyrk }\IeC {\cyro }\IeC 
-{\cyrl }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyri }}{61}}
+{\cyrl }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyri }}{60}}
 
-\newlabel{p33}{{3.5}{61}}
+\newlabel{p33}{{3.5}{60}}
  <./chapter_3/paragraph_1/img/pic3.png>] (disser.aux (titul.aux) (prefix.aux))
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 1)
@@ -2459,10 +2437,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 110 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4704 strings out of 493634
- 60023 string characters out of 3135239
- 139320 words of memory out of 3000000
- 7929 multiletter control sequences out of 15000+200000
+ 4705 strings out of 493634
+ 60033 string characters out of 3135239
+ 139292 words of memory out of 3000000
+ 7930 multiletter control sequences out of 15000+200000
  20043 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,11n,43p,9620b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2487,9 +2465,9 @@ b><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmr8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (61 pages, 427481 bytes).
+Output written on disser.pdf (60 pages, 425484 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
+ 554 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
