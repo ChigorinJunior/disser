@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  5 SEP 2016 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  14 SEP 2016 21:31
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -1454,17 +1454,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 []\LCY/cmr/m/it/14.4 Для производной функционала $\OML/cmm/m/it/14.4 V$
  []
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.142 ... \lbrace V \equiv {W(t, x_t) = 0 \rbrace$
-                                                   ╨╡╤Б╤В╤М ╨╝╨╜╨╛╨╢╨╡╤Б╤В╨▓...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 [29]
 Underfull \hbox (badness 6526) in paragraph at lines 158--159
 []\LCY/cmr/m/it/14.4 Используя оценку производной (1.2.15) функционала (1.2.14)
@@ -1694,9 +1683,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Overfull \hbox (345.47833pt too wide) detected at line 17
+Overfull \hbox (325.21191pt too wide) detected at line 17
 [] \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4  \OT1/cmr/m/n/14.4 4\OML/cmm/m/it/14.
-4 ; \OT1/cmr/m/n/14.4 6116\OML/cmm/m/it/14.4 y\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/
+4 ; \OT1/cmr/m/n/14.4 6116\OML/cmm/m/it/14.4 '\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/
 14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4   \OT1/cmr/m/n/14.4 3\OML/cmm/m/it
 /14.4 ; \OT1/cmr/m/n/14.4 1974\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 (\OML/cmm/m
 /it/14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4   \OT1/cmr/m/n/14.4 4\OML/cmm/
@@ -1704,16 +1693,16 @@ m/it/14.4 ; \OT1/cmr/m/n/14.4 6116 [](7\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 3
 58\OML/cmm/m/it/14.4 ch\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t \OT1/cmr/m/n/14.
 4 + \OML/cmm/m/it/14.4 s\OT1/cmr/m/n/14.4 ) + 4\OML/cmm/m/it/14.4 ; \OT1/cmr/m/
 n/14.4 329\OML/cmm/m/it/14.4 sh\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t \OT1/cmr
-/m/n/14.4 + \OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 )) [] \OML/cmm/m/it/14.4 '\OT
-1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 u\
-OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 ) [](7\OML/cmm/m/it/14.
-4 ; \OT1/cmr/m/n/14.4 358\OML/cmm/m/it/14.4 ch\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/
-14.4 s \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + 4\OML/cmm/
-m/it/14.4 ; \OT1/cmr/m/n/14.4 328\OML/cmm/m/it/14.4 sh\OT1/cmr/m/n/14.4 (\OML/c
-mm/m/it/14.4 s \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ))\OML
-/cmm/m/it/14.4 sh\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 s \OMS/cmsy/m/n/14.4   \
-OML/cmm/m/it/14.4 r\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ds\OT1/cmr/m/n/14.4 )\
-OML/cmm/m/it/14.4 d
+/m/n/14.4 + \OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 ))\OML/cmm/m/it/14.4 '\OT1/cm
+r/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 u\OT1/
+cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 ) [](7\OML/cmm/m/it/14.4 ; 
+\OT1/cmr/m/n/14.4 358\OML/cmm/m/it/14.4 ch\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4
+ s \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + 4\OML/cmm/m/it
+/14.4 ; \OT1/cmr/m/n/14.4 328\OML/cmm/m/it/14.4 sh\OT1/cmr/m/n/14.4 (\OML/cmm/m
+/it/14.4 s \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ))\OML/cmm
+/m/it/14.4 sh\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 s \OMS/cmsy/m/n/14.4   \OML/
+cmm/m/it/14.4 r\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ds\OT1/cmr/m/n/14.4 )\OML/
+cmm/m/it/14.4 d
  []
 
 
@@ -1749,71 +1738,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 []\LCY/cmr/m/it/14.4 Соответственно, получаем, что управление (1.4.3) решает
  []
 
-) (chapter_1/paragraph_5/1_5.tex
-! Display math should end with $$.
-<to be read again> 
-                    
-l.12 ...S_1^0 (\tau - t)} (x_1 (t) - x_1 (\tau))$ 
-                                                  $U^{(2)}_1 (x_1) = - k_2 \...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.13 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[39
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}\IeC {\CYRS }\IeC {\c
-yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
-rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\IeC {\c
-yrr }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cy
-rm }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrd }\IeC {\cyrv }\IeC {\
-cyri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrishrt } \I
-eC {\cyrd }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\Ie
-C {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm }\Ie
-C {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC
- {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra } \IeC {\cyrb }\Ie
-C {\cyre }\IeC {\cyrz } \IeC {\cyri }\IeC {\cyrz }\IeC {\cyrm }\IeC {\cyre }\Ie
-C {\cyrr }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrs }\I
-eC {\cyrk }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\Ie
-C {\cyre }\IeC {\cyrishrt }.}{39}}
-\newlabel{p15}{{1.5}{39}}
-]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-[]\LCY/cmr/m/it/14.4 Отсюда имеем следующие уравнения движения в переменных
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-\LCY/cmr/m/it/14.4 в задаче о стабилизации установленного движения голономной
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-[]\LCY/cmr/m/it/14.4 Рассмотрим
- []
-
-) [41] [42]
+) [39]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 (chapter_2/paragraph_1/2_1.tex
-<chapter_2/paragraph_1/img/manipulator.png, id=148, 228.855pt x 200.24812pt>
+<chapter_2/paragraph_1/img/manipulator.png, id=139, 228.855pt x 200.24812pt>
 File: chapter_2/paragraph_1/img/manipulator.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/manipulator.png>
@@ -1827,7 +1755,7 @@ Underfull \hbox (badness 6510) in paragraph at lines 12--13
 /14.4 2)$ \LCY/cmr/m/it/14.4 --- углы поворотов звеньев
  []
 
-[43
+[40
 
 
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}\IeC {\CYRU }\IeC {\cyr
@@ -1837,22 +1765,22 @@ h }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }\IeC {\cyrm } \IeC {\cyr
 d }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrn
  }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm }\IeC {\cyra
  }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya
- }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{43}}
+ }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{40}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}\IeC {\CYRP }\IeC {\c
 yro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyro }\IeC {\cy
 rv }\IeC {\cyrk }\IeC {\cyra } \IeC {\cyrz }\IeC {\cyra }\IeC {\cyrd }\IeC {\cy
-ra }\IeC {\cyrch }\IeC {\cyri }}{43}}
-\newlabel{p21}{{2.1}{43}}
-\@writefile{toc}{\contentsline {paragraph}{}{43}}
+ra }\IeC {\cyrch }\IeC {\cyri }}{40}}
+\newlabel{p21}{{2.1}{40}}
+\@writefile{toc}{\contentsline {paragraph}{}{40}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\
 CYRM }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn } \Ie
 C {\cyrd }\IeC {\cyrv }\IeC {\cyru }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC
  {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrm }\IeC
  {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC 
-{\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{43}}
-\newlabel{fig:manip1}{{2.1}{43}}
+{\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{40}}
+\newlabel{fig:manip1}{{2.1}{40}}
  <./chapter_2/paragraph_1/img/manipulator.png>]
 Underfull \hbox (badness 2229) in paragraph at lines 29--30
 \LCY/cmr/m/it/14.4 манипулятора, совершающего движения в вертикальной плоскости
@@ -1893,45 +1821,29 @@ Underfull \hbox (badness 3557) in paragraph at lines 39--40
 mm/m/it/14.4 X$ \LCY/cmr/m/it/14.4 --- какое-либо программное движение,
  []
 
-[44]
+[41]
 Overfull \hbox (50.01642pt too wide) detected at line 67
 \OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14
 .4 ) = [] \OML/cmm/m/it/14.4 ;
  []
 
-[45
-\newlabel{2.2'}{{2.4}{45}}
-] [46]) (chapter_2/paragraph_2/2_2.tex
-! Display math should end with $$.
-<to be read again> 
-                    
-l.12 ...S_1^0 (\tau - t)} (x_1 (t) - x_1 (\tau))$ 
-                                                  $U^{(2)}_1 (x_1) = - k_2 \...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+[42
+\newlabel{2.2'}{{2.4}{42}}
+] [43]) (chapter_2/paragraph_2/2_2.tex
+Overfull \hbox (148.48907pt too wide) detected at line 13
+\OML/cmm/m/it/14.4 U[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]\OT1/cmr/m/n/14.
+4 ) = \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 k[] [] [] \OMS/cmsy/m/n/14.4   [] 
+\OML/cmm/m/it/14.4 p[]e[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]\OT1/cmr/m/n/
+14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4   \OML/cmm/m/i
+t/14.4 x[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 ))\OML/cmm/m
+/it/14.4 U[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]\OT1/cmr/m/n/14.4 ) = \OMS
+/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 k[] [] [] \OMS/cmsy/m/n/14.4   [] \OML/cmm/m
+/it/14.4 p[]e[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]\OT1/cmr/m/n/14.4 (\OML
+/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 x[]
+\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 ))
+ []
 
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.13 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.13 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[47
+[44
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}\IeC {\CYRS }\IeC {\c
 yrt }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyri }\IeC {\cy
 rz }\IeC {\cyra }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\IeC {\c
@@ -1945,8 +1857,8 @@ C {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC
 C {\cyre }\IeC {\cyrz } \IeC {\cyri }\IeC {\cyrz }\IeC {\cyrm }\IeC {\cyre }\Ie
 C {\cyrr }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrs }\I
 eC {\cyrk }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\Ie
-C {\cyre }\IeC {\cyrishrt }.}{47}}
-\newlabel{p22}{{2.2}{47}}
+C {\cyre }\IeC {\cyrishrt }.}{44}}
+\newlabel{p22}{{2.2}{44}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 []\LCY/cmr/m/it/14.4 Отсюда имеем следующие уравнения движения в переменных
@@ -1957,7 +1869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 \LCY/cmr/m/it/14.4 в задаче о стабилизации установленного движения голономной
  []
 
-[48]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 []\LCY/cmr/m/it/14.4 Рассмотрим
  []
@@ -1967,7 +1879,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 \LCY/cmr/m/it/14.4 Рассмотрим решение задачи
  []
 
-[49
+
+Underfull \hbox (badness 1466) in paragraph at lines 9--11
+[]\LCY/cmr/m/it/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/
+it/14.4 R[]$ \LCY/cmr/m/it/14.4 есть матрица коэффициентов усиления сигналов,
+ []
+
+[46
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}\IeC {\CYRO }\IeC {\c
 yrb } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\c
 yrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } \IeC {\cyrd }\IeC {\c
@@ -1976,15 +1894,10 @@ rn }\IeC {\cyrery }\IeC {\cyrm } \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\
 cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\
 cyro }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrm } \IeC {\cyrs } \IeC {\cyrp }\IeC {
 \cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyro }\IeC {\
-cyrm }}{49}}
-\newlabel{p23}{{2.3}{49}}
+cyrm }}{46}}
+\newlabel{p23}{{2.3}{46}}
+\newlabel{2.3'}{{2.3}{46}}
 ]
-Underfull \hbox (badness 1466) in paragraph at lines 9--11
-[]\LCY/cmr/m/it/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/
-it/14.4 R[]$ \LCY/cmr/m/it/14.4 есть матрица коэффициентов усиления сигналов,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 []\LCY/cmr/m/it/14.4 где
  []
@@ -2010,9 +1923,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 $[]$ \LCY/cmr/m/it/14.4 . Пусть
  []
 
-[50
-\newlabel{2.3'}{{2.3}{50}}
-\newlabel{2.4'}{{2.9}{50}}
+[47
+\newlabel{2.4'}{{2.9}{47}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 []\LCY/cmr/m/it/14.4 Численное
@@ -2046,10 +1958,7 @@ Underfull \hbox (badness 3058) in paragraph at lines 44--46
 \LCY/cmr/m/it/14.4 На рисунках 2 и 3 представлены результаты моделирования при
  []
 
-[51
-\newlabel{2.5'}{{2.10}{51}}
-\newlabel{2.6'}{{2.11}{51}}
-] <chapter_2/paragraph_1/img/model1.png, id=184, 512.66531pt x 178.41656pt>
+<chapter_2/paragraph_1/img/model1.png, id=170, 512.66531pt x 178.41656pt>
 File: chapter_2/paragraph_1/img/model1.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/model1.png>
@@ -2061,7 +1970,10 @@ Overfull \hbox (28.96718pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-<chapter_2/paragraph_1/img/model2.png, id=185, 517.18219pt x 177.66376pt>
+[48
+\newlabel{2.5'}{{2.10}{48}}
+\newlabel{2.6'}{{2.11}{48}}
+] <chapter_2/paragraph_1/img/model2.png, id=175, 517.18219pt x 177.66376pt>
 File: chapter_2/paragraph_1/img/model2.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/model2.png>
@@ -2073,7 +1985,7 @@ Overfull \hbox (33.48405pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-) (chapter_2/paragraph_4/2_4.tex [52
+) (chapter_2/paragraph_4/2_4.tex [49
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces \IeC {\
 CYRR }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC
  {\cyrt }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyrery } \IeC {\cyrm }\IeC {\cyro }\I
@@ -2081,8 +1993,8 @@ eC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\Ie
 C {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\I
 eC {\cyrr }\IeC {\cyri } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\I
 eC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } (2
-.3)}}{52}}
-\newlabel{fig:manip2}{{2.2}{52}}
+.3)}}{49}}
+\newlabel{fig:manip2}{{2.2}{49}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces \IeC {\
 CYRR }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC
  {\cyrt }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyrery } \IeC {\cyrm }\IeC {\cyro }\I
@@ -2090,8 +2002,8 @@ eC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\Ie
 C {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrp }\I
 eC {\cyrr }\IeC {\cyri } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\I
 eC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } (2
-.6)}}{52}}
-\newlabel{fig:manip3}{{2.3}{52}}
+.6)}}{49}}
+\newlabel{fig:manip3}{{2.3}{49}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.4}\IeC {\CYRO }\IeC {\c
 yrb } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\c
 yrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } \IeC {\cyrd }\IeC {\c
@@ -2100,254 +2012,86 @@ rn }\IeC {\cyrery }\IeC {\cyrm } \IeC {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\
 cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\
 cyro }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrm } \IeC {\cyrs } \IeC {\cyrp }\IeC {
 \cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyro }\IeC {\
-cyrm }}{52}}
-\newlabel{p24}{{2.4}{52}}
+cyrm }}{49}}
+\newlabel{p24}{{2.4}{49}}
  <./chapter_2/paragraph_1/img/model1.png> <./chapter_2/paragraph_1/img/model2.p
 ng>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.15 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.15 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.15 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.15 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 a_
-       {12} \ddot q_1 + a_{22} \ddot q_2 + m_2 l_1 l_2 \sin q_2 \dot q_1^2 =...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.17 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.17 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 a_
-       {11} = m_2 l_1^2 + I_1 + I_2 + 2 m_2 l_1 l_{g_2} \cos q_2,
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.19 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.19 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.19 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.20 a_
-       {12} = I_2 + m_2 l_1 l_{g_2} \cos q_2,
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.21 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.21 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.21 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 a_
-       {22} = I_2
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.23 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Overfull \hbox (502.24165pt too wide) detected at line 19
+\OML/cmm/m/it/14.4 a[][] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 a[][] \OMS/cmsy
+/m/n/14.4   \OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 m[]l[]l[] [] q[][][] \OMS/cms
+y/m/n/14.4   \OML/cmm/m/it/14.4 m[]l[]l[] [] q[][] \OT1/cmr/m/n/14.4 = \OML/cmm
+/m/it/14.4 M[] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 U[]; a[][] \OT1/cmr/m/n/1
+4.4 + \OML/cmm/m/it/14.4 a[][] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 m[]l[]l[]
+ [] q[][] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 M[] \OT1/cmr/m/n/14.4 + \OML/c
+mm/m/it/14.4 U[]; a[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 m[]l[] \OT1/cmr/m/
+n/14.4 + \OML/cmm/m/it/14.4 I[] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 I[] \OT1
+/cmr/m/n/14.4 + 2\OML/cmm/m/it/14.4 m[]l[]l[] [] q[]; a[] \OT1/cmr/m/n/14.4 = \
+OML/cmm/m/it/14.4 I[] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 m[]l[]l[] [] q[]; 
+a[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 I[]
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 []\LCY/cmr/m/it/14.4 Будем считать, что приводы управляются некоторыми
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 \LCY/cmr/m/it/14.4 зависимости
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 33--34
+Underfull \hbox (badness 4832) in paragraph at lines 29--30
 []\LCY/cmr/m/it/14.4 Продемонстрируем решение этой задачи для случая положения
  []
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 []\LCY/cmr/m/it/14.4 Для нахождения этих условий применим
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 []$\OML/cmm/m/it/14.4 V[] \OT1/cmr/m/n/14.4 =$
  []
 
 
-Overfull \hbox (272.75461pt too wide) in paragraph at lines 55--56
+Overfull \hbox (272.75461pt too wide) in paragraph at lines 51--52
 []$\OML/cmm/m/it/14.4 V[] \OT1/cmr/m/n/14.4 = []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 $\OML/cmm/m/it/14.4 [] [] [] \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 [] [] []
 \OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 c[] [] [] [] []\OT1/cmr/m/n/14.4 ([] +
  \OML/cmm/m/it/14.4 [] [] [] \OMS/cmsy/m/n/14.4  $
  []
 
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []\LCY/cmr/m/it/14.4 При малых возмущениях
  []
 
-[55]
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 93.
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 93.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 89.
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 93.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 89.
 
 
-LaTeX Warning: Command \cyrg invalid in math mode on input line 93.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 89.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 93.
+LaTeX Warning: Command \cyrg invalid in math mode on input line 89.
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 93.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 89.
 
 
-LaTeX Warning: Command \cyrg invalid in math mode on input line 93.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 89.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 89.
 
 Missing character: There is no м in font cmr12!
 Missing character: There is no м in font cmr12!
@@ -2356,7 +2100,7 @@ Missing character: There is no г in font cmr12!
 Missing character: There is no м in font cmr12!
 Missing character: There is no к in font cmr12!
 Missing character: There is no г in font cmr12!
-) [56]
+) [52] [53]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 (chapter_3/paragraph_1/3_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -2377,7 +2121,7 @@ Underfull \hbox (badness 4713) in paragraph at lines 5--7
 ение свободного падения. Уравнения движения
  []
 
-[57
+[54
 
 
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}\IeC {\CYRU }\IeC {\cyr
@@ -2391,7 +2135,7 @@ t }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre
 b }\IeC {\cyre }\IeC {\cyrz } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyr
 v }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyra } \IeC {\cyri } \IeC {\cyrs } \IeC {\c
 yrp }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrd }\IeC {\cy
-ro }\IeC {\cyrm })}{57}}
+ro }\IeC {\cyrm })}{54}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}\IeC {\CYRS }\IeC {\c
@@ -2404,32 +2148,32 @@ eC {\cyrg }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyro }\Ie
 C {\cyrm }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrm }\IeC {\cyre 
 }\IeC {\cyrh }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre 
 }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrs }\IeC {\c
-yri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } }{57}}
+yri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyrery } }{54}}
 
-\newlabel{p31}{{3.1}{57}}
-\@writefile{toc}{\contentsline {paragraph}{}{57}}
+\newlabel{p31}{{3.1}{54}}
+\@writefile{toc}{\contentsline {paragraph}{}{54}}
 ]
 Overfull \hbox (34.2682pt too wide) detected at line 16
 []
  []
 
-<chapter_3/paragraph_1/img/3chain.png, id=207, 245.41687pt x 236.38312pt>
+<chapter_3/paragraph_1/img/3chain.png, id=197, 245.41687pt x 236.38312pt>
 File: chapter_3/paragraph_1/img/3chain.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/3chain.png>
 Package pdftex.def Info: chapter_3/paragraph_1/img/3chain.png used on input lin
 e 20.
 (pdftex.def)             Requested size: 245.41626pt x 236.38254pt.
- [58
+ [55
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\
 CYRM }\IeC {\cyro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyrsftsn } \Ie
 C {\cyrt }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrh }\IeC {\cyrz }\IeC {\cyrv }\IeC
  {\cyre }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC
  {\cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC 
-{\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{58
+{\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}}{55
 }}
-\newlabel{fig:manip1}{{3.1}{58}}
- <./chapter_3/paragraph_1/img/3chain.png>] [59]
+\newlabel{fig:manip1}{{3.1}{55}}
+ <./chapter_3/paragraph_1/img/3chain.png>] [56]
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \LCY/cmr/m/it/14.4 механической системы
  []
@@ -2452,13 +2196,13 @@ OT1/cmr/m/n/14.4 )$\LCY/cmr/m/it/14.4 ; $\OML/cmm/m/it/14.4 K$ \LCY/cmr/m/it/14
 .4 --- матрица
  []
 
-[60
+[57
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}\IeC {\CYRP }\IeC {\c
 yro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyre }\IeC {\cy
 rn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cy
 ra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyr
-ya }}{60}}
-\newlabel{sec2.3}{{3.2}{60}}
+ya }}{57}}
+\newlabel{sec2.3}{{3.2}{57}}
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 81--84
 $\OML/cmm/m/it/14.4 Q \OMS/cmsy/m/n/14.4   \OML/cmm/m/it/14.4 Q[]\OT1/cmr/m/n/1
@@ -2487,7 +2231,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 93--95
 it/14.4 R[]$ \LCY/cmr/m/it/14.4 есть матрица коэффициентов усиления сигналов,
  []
 
-[61
+[58
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}\IeC {\CYRS }\IeC {\c
 yri }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrz } \IeC {\cyru }\IeC {\c
 yrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC {\cy
@@ -2499,7 +2243,7 @@ cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrm }\IeC {\c
 yrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrd }\IeC {\cyrv }\IeC {\c
 yri }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya } \IeC {
 \cyrm }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrp }\IeC {\cyru }\IeC {\
-cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{61}}
+cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyra }}{58}}
 ]
 Overfull \hbox (432.41862pt too wide) detected at line 103
 []\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
@@ -2529,7 +2273,7 @@ Underfull \hbox (badness 1642) in paragraph at lines 127--130
 cmr/m/n/14.4 4\OML/cmm/m/it/14.4 [][] >$
  []
 
-[62]
+[59]
 Overfull \hbox (385.0172pt too wide) detected at line 133
 \OML/cmm/m/it/14.4 m[] \OT1/cmr/m/n/14.4 = 15[]\OML/cmm/m/it/14.4 ; m[] \OT1/cm
 r/m/n/14.4 = 2\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5[]\OML/cmm/m/it/14.4 ; m[
@@ -2552,7 +2296,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 []\LCY/cmr/m/it/14.4 На рисунках 2{4 представлены результаты моделирования.
  []
 
-<chapter_3/paragraph_1/img/pic1.png, id=225, 239.39438pt x 157.33781pt>
+<chapter_3/paragraph_1/img/pic1.png, id=215, 239.39438pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic1.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic1.png>
@@ -2560,7 +2304,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic1.png used on input line
 140.
 (pdftex.def)             Requested size: 239.39378pt x 157.33742pt.
 
-<chapter_3/paragraph_1/img/pic2.png, id=226, 247.67531pt x 157.33781pt>
+<chapter_3/paragraph_1/img/pic2.png, id=216, 247.67531pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic2.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic2.png>
@@ -2568,7 +2312,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic2.png used on input line
 147.
 (pdftex.def)             Requested size: 247.6747pt x 157.33742pt.
 
-<chapter_3/paragraph_1/img/pic3.png, id=227, 262.73157pt x 163.3603pt>
+<chapter_3/paragraph_1/img/pic3.png, id=217, 262.73157pt x 163.3603pt>
 File: chapter_3/paragraph_1/img/pic3.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic3.png>
@@ -2579,7 +2323,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic3.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex [63
+) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex [60
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces \IeC {\
 CYRZ }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyri }\IeC {\c
 yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
@@ -2590,8 +2334,8 @@ yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
  {\cyrt } \IeC {\cyrv }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyre }\IeC
  {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri } \IeC {\cyru }\Ie
 C {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC
- {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{63}}
-\newlabel{fig:manip2}{{3.2}{63}}
+ {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{60}}
+\newlabel{fig:manip2}{{3.2}{60}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces \IeC {\
 CYRZ }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyri }\IeC {\c
 yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
@@ -2602,8 +2346,8 @@ yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
  {\cyrt } \IeC {\cyrv }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }\IeC {\cyre }\IeC
  {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri } \IeC {\cyru }\Ie
 C {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }\IeC {\cyre }\IeC
- {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{63}}
-\newlabel{fig:manip2}{{3.3}{63}}
+ {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{60}}
+\newlabel{fig:manip2}{{3.3}{60}}
  <./chapter_3/paragraph_1/img/pic1.png> <./chapter_3/paragraph_1/img/pic2.png>]
 )
 
@@ -2613,7 +2357,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 	\include{postfix}
+l.173 	\include{postfix}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2626,7 +2370,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 	\include{bibliography}
+l.175 	\include{bibliography}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2639,7 +2383,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 	\include{appendix/appendix}
+l.177 	\include{appendix/appendix}
                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2652,13 +2396,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{document}
+l.178 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[64
+[61
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces \IeC {\
 CYRZ }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyri }\IeC {\c
 yrm }\IeC {\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyrsftsn } \IeC {\cyru }\IeC
@@ -2669,8 +2413,8 @@ IeC {\cyro } \IeC {\cyrz }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyra }
 \IeC {\cyro }\IeC {\cyrt } \IeC {\cyrv }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrm }
 \IeC {\cyre }\IeC {\cyrn }\IeC {\cyri } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyri }
  \IeC {\cyru }\IeC {\cyrp }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyrl }
-\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{64}}
-\newlabel{fig:manip2}{{3.4}{64}}
+\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyri } (3.4) }}{61}}
+\newlabel{fig:manip2}{{3.4}{61}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}\IeC {\CYRM }\IeC {\c
 yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
 ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
@@ -2684,8 +2428,8 @@ ru }\IeC {\cyrl }\IeC {\cyrya }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cy
 ra } \IeC {\cyrn }\IeC {\cyra } \IeC {\cyrp }\IeC {\cyro }\IeC {\cyrd }\IeC {\c
 yrv }\IeC {\cyri }\IeC {\cyrzh }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrm } \IeC {\
 cyro }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyra }\IeC {\c
-yrn }\IeC {\cyri }\IeC {\cyri }}{64}}
-\newlabel{p32}{{3.4}{64}}
+yrn }\IeC {\cyri }\IeC {\cyri }}{61}}
+\newlabel{p32}{{3.4}{61}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}\IeC {\CYRM }\IeC {\c
 yro }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrr }\IeC {\cy
 ro }\IeC {\cyrv }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cy
@@ -2699,9 +2443,9 @@ cyri }\IeC {\cyrya } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyre }\IeC {
 \cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyro } \IeC {\cyrr }\IeC {
 \cyro }\IeC {\cyrb }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyra } \IeC {\cyrs } \IeC 
 {\cyro }\IeC {\cyrm }\IeC {\cyrn }\IeC {\cyri }-\IeC {\cyrk }\IeC {\cyro }\IeC 
-{\cyrl }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyri }}{64}}
+{\cyrl }\IeC {\cyre }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyri }}{61}}
 
-\newlabel{p33}{{3.5}{64}}
+\newlabel{p33}{{3.5}{61}}
  <./chapter_3/paragraph_1/img/pic3.png>] (disser.aux (titul.aux) (prefix.aux))
 
 LaTeX Warning: There were undefined references.
@@ -2715,13 +2459,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 110 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4708 strings out of 493634
- 60106 string characters out of 3135239
- 135320 words of memory out of 3000000
+ 4704 strings out of 493634
+ 60023 string characters out of 3135239
+ 139320 words of memory out of 3000000
  7929 multiletter control sequences out of 15000+200000
  20043 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,11n,43p,9620b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,11n,43p,9620b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
 -lcy\dpi600\lhti10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 \lh\lh-lcy\dpi720\lhti12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\
@@ -2743,9 +2487,9 @@ b><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmr8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (64 pages, 436155 bytes).
+Output written on disser.pdf (61 pages, 427481 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
+ 558 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

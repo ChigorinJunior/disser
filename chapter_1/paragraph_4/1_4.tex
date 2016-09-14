@@ -5,7 +5,7 @@
 Обозначим угол отклонения $\varphi.$ Нормируя, если нужно, соотвествующим образом масштабы времени, координат, уравнения возмущенного движения можно записать в виде
 
 \begin{equation}
-\frac{d \varphi}{dt} = \varPsi, \frac{d \varPsi}{dt} = sin \varphi + U
+\frac{d \varphi}{dt} = \psi, \frac{d \psi}{dt} = sin \varphi + U
 \end{equation}
 
 Сигнал обратной связи измеряется в виде $y = sin \varphi$. Эта задача решалась в работе [] нахождением закона регулирования $\frac{d U}{d t} = a U(t) + \int_{t - h}^{t} (a (\tau g (\tau) + b U (\tau))) d \tau.$
@@ -13,13 +13,13 @@
 Найден стабилизирующий закон регулирования
 
 \begin{equation}
-\frac{d U}{d t} = - 4,6116 y(t) - 3,1974 u(t) - 4,6116 \int_{t - 1}^{t} (7,358 ch(t + s) + 4,329 sh(t + \tau)) \sin \varphi (t) + u(\tau) \int_{t - 1}^{t + \tau} (7,358 ch(s + t) + 4,328 sh(s + t)) sh(s - r) ds) d \tau
+\frac{d U}{d t} = - 4,6116 \varphi (t) - 3,1974 u(t) - 4,6116 \int_{t - 1}^{t} (7,358 ch(t + s) + 4,329 sh(t + \tau)) \varphi (t) + u(\tau) \int_{t - 1}^{t + \tau} (7,358 ch(s + t) + 4,328 sh(s + t)) sh(s - r) ds) d \tau
 \end{equation}
 
 Этот закон управления представляется достаточно сложным. Покажем, что рассматриваемая задача о стабилизации решается управлением вида 
 
 \begin{equation}
-U = - a \sin \varphi (t) - \int_{t-h}^{t} b L e^{(\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau)) d \tau \cos \varphi (t)
+U = - a \sin \varphi (t) - \int_{t-h}^{t} L e^{ b (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau)) d \tau
 \end{equation}
 
 где $a$ и $b$ есть некоторые искомые постоянные $a > 1, b > 0$
