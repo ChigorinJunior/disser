@@ -11,19 +11,19 @@ $s^{'} = (s_1, s_2, ... , s_{n-m}) = (q_{m + 1}, ..., q_n)^{'}$
 Соответственно, кинетическая энергия системы может быть записана в виде $2T = \dot z^{'} A_{11} (z) \dot z + \dot z^{'} A_{12} (z) \dot s + \dot s^{'} A_{21} (z) \dot z + \dot s^{'} A_{22} (z) \dot s, A_21^{'} = A_{12}$
 
 где составляющие матрицу $A$ подматрицы $A_{11}, A_{12}, A_{21}, A_{22}$ удовлетворяют условиям 
-
-$\alpha_0 \| z \|^2 \le z^{'} A_{11} z \le \alpha_1  \| z \|^2$
-
-$\alpha_0 \| s \|^2 \le s^{'} A_{22} s \le \alpha_1  \| s \|^2$
-
-$\alpha_0 \| s \|^2 \le s^{'} B s \le \alpha_1  \| s \|^2$
-
-$B = A_{12} A_{22} A_{21}, \alpha_0, \alpha_1 > 0 - const$
+$$
+\begin{array}{l}
+\alpha_0 \| z \|^2 \le z^{'} A_{11} z \le \alpha_1  \| z \|^2\\
+\alpha_0 \| s \|^2 \le s^{'} A_{22} s \le \alpha_1  \| s \|^2\\
+\alpha_0 \| s \|^2 \le s^{'} B s \le \alpha_1  \| s \|^2\\
+B = A_{12} A_{22} A_{21}, \alpha_0, \alpha_1 > 0 - const\\
+\end{array}
+$$
 
 Будем полагать, что обобщенные силы и управление по циклическим координатам отсутствует
 
 \begin{equation} \label{1.31'}
-Q^{'} = (Q_{z}^{'}, Q_{s}^{'}), U = (U_{z}^{'}, U_{s}^{'}), Q_s = 0, U_s = 0, \frac{\partial \Pi}{\partial s} = 0
+Q^{'} = (Q_{z}^{'}, \quad Q_{s}^{'}), \quad U = (U_{z}^{'}, U_{s}^{'}), Q_s = 0, \quad U_s = 0, \quad \frac{\partial \Pi}{\partial s} = 0
 \end{equation}
 
 Возьмем циклические импульсы
@@ -49,7 +49,12 @@ V = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
 Тогда функция Рауса [] 
 
 \begin{equation} \label{1.35'}
-2R = 2T - 2 \dot s^{'} = \dot z^{'} A_{11} \dot z + \dot z^{'} A_{12} A_{22}^{-1} (V - A_{21} \dot z) + (V - A_{21} \dot z)^{'} A_{21} \dot z + (V - A_21 \dot z)^{'} A_{22}^{-1} (V - A_{21} \dot z) - 2 (V - A_{21} \dot z)^{'} A_{22}^{-1} P = 2 R_2 + 2 R_1 + 2 R_0, 2 R_2 = \dot z^{'} B (z) \dot z, R_1 = V A_{22}^{-1} A_{21} \dot z, 2 R_0 = - V^{'} A_{22}^{-1} V
+\begin{array}{c}
+	2R = 2T - 2 \dot s^{'} =\\
+	= \dot z^{'} A_{11} \dot z + \dot z^{'} A_{12} A_{22}^{-1} (V - A_{21} \dot z) + (V - A_{21} \dot z)^{'} A_{21} \dot z +\\
+	+ (V - A_21 \dot z)^{'} A_{22}^{-1} (V - A_{21} \dot z) - 2 (V - A_{21} \dot z)^{'} A_{22}^{-1} P =\\
+	= 2 R_2 + 2 R_1 + 2 R_0, 2 R_2 = \dot z^{'} B (z) \dot z, R_1 = V A_{22}^{-1} A_{21} \dot z, 2 R_0 = - V^{'} A_{22}^{-1} V
+\end{array}
 \end{equation}
 
 При этом матрица $B(z)$ является опредленно-положительной.
@@ -63,8 +68,10 @@ V = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
 После подстановки выражения для функции $R$ получаем следующие уравнения движения 
 
 \begin{equation} \label{1.37'}
-\frac{d}{dt} (\frac{\partial R_z}{\partial \dot z}) - \frac{\partial R_z}{\partial z} = \frac{\partial R_0}{\partial z} - \frac{\partial \Pi}{\partial z} - G \dot z + U_z + Q_z
-\partial{d V}{d t} = 0, \dot s = A_{22}^{-1} (z) (V - A_{21} (z) \dot z)
+\begin{array}{c}
+\frac{d}{dt} (\frac{\partial R_z}{\partial \dot z}) - \frac{\partial R_z}{\partial z} = \frac{\partial R_0}{\partial z} - \frac{\partial \Pi}{\partial z} - G \dot z + U_z + Q_z\partial{d V}{d t} = 0,\\
+\dot s = A_{22}^{-1} (z) (V - A_{21} (z) \dot z)
+\end{array}
 \end{equation}
 
 где $G = G(z, v) = (\frac{\partial g}{\partial z}) - (\frac{\partial g}{\partial z})^{'}, g(z, V) = A_{12} A_{22}^{-1} V$ есть кососимметрическая матрица, $G^{'} = G$.
@@ -78,7 +85,7 @@ U_z^0 (t) = - \frac{\partial R_0}{\partial z} (V_0, z_0) + \frac{\partial \Pi (t
 Тогда система (\ref{1.35'}) будет иметь программное движения 
 
 \begin{equation} \label{1.39'}
-\dot z = 0, z = z_0, V = V_0, \dot s = \dot s_0 = A_{22}^{-1} (z_0) V_0
+\dot z = 0, \quad z = z_0, \quad V = V_0, \quad \dot s = \dot s_0 = A_{22}^{-1} (z_0) V_0
 \end{equation}
 
 Рассмотрим задачу о стабилизации этого движения управлением вида 
@@ -92,24 +99,31 @@ U_z = U_z^0 (t) - \frac{\partial \Pi_U (t, v, z)}{\partial z} - \int_{t - h}^{t}
 удовлетворяющая условиям
 
 \begin{equation} \label{1.41'}
-\dot z P(t, \tau) z \ge 0, z^{'} P_t (t, \tau) z \le - \beta_0 \| z \|^2, \beta_0 > 0, P_t (t, \tau) = \frac{\partial P_z (t, \tau)}{\partial t} = - \| p_{jk}^0 s_{jk}^0 e^{s_{jk}^0 (\tau - t)} \|, \| z \| ^ 2 = z_1^2 + ... + z_m^2
+\begin{array}{c}
+\dot z P(t, \tau) z \ge 0, z^{'} P_t (t, \tau) z \le - \beta_0 \| z \|^2, \beta_0 > 0,\\
+P_t (t, \tau) = \frac{\partial P_z (t, \tau)}{\partial t} = - \| p_{jk}^0 s_{jk}^0 e^{s_{jk}^0 (\tau - t)} \|,\\
+\| z \| ^ 2 = z_1^2 + ... + z_m^2
+\end{array}
 \end{equation}
 
 Уравнения (\ref{1.35'}) с управлением (\ref{1.36'}), (\ref{1.38'}) могут быть записаны в виде
 
 \begin{equation} \label{1.42'}
-\frac{d z (t)}{dt} = r(t), \frac{d r(t)}{dt} = B^{-1} (z(t)) (E(z(t), r(t)) r(t) - G(z(t), v(t)) r(t) + Q_z (t, z(t), r(t)) - \frac{\partial S(t, v(t), z(t))}{\partial z}) - \int_{t - h}^{t} P_z (t, \tau) (z(t) - z(\tau)) d \tau,
+\begin{array}{c}
+\displaystyle \frac{d z (t)}{dt} = r(t),\\
+\displaystyle \frac{d r(t)}{dt} = B^{-1} (z(t)) (E(z(t), r(t)) r(t) - G(z(t), v(t)) r(t) + Q_z (t, z(t), r(t)) -\\
+\displaystyle - \frac{\partial S(t, v(t), z(t))}{\partial z}) - \int_{t - h}^{t} P_z (t, \tau) (z(t) - z(\tau)) d \tau,
+\end{array}
 \end{equation}
+$$\frac{d V(t)}{dt} = 0 \quad \frac{d s(t)}{dt} = A_{22}^{-1} (z(t) (v(t) - A){21} (z(t)) r(t))$$
 
-$\frac{d V(t)}{dt} = 0 \frac{d s(t)}{dt} = A_22^{-1} (z(t) (v(t) - A){21} (z(t)) r(t))$
+где $E = (e_{kj}) - $ матрица, определяемая равенством 
+$$e_{kj} = \frac12 \sum_{ i = 1}^{m} (\frac{\partial b_{ik}}{\partial z_j} - \frac{\partial b_{kj}}{\partial z_i} - \frac{\partial b_{ij}}{\partial z_k}) r_k$$
+функция $s(t, v, z) = \Pi (t, z) - R_0 (V, z) - \frac{\partial \Pi (t, z_0)}{\partial z} z + \frac{\partial R_0 (V, z_0)}{\partial z} z + \Pi_U (t, V, z)$
 
-где $E = (e_{kj}) - $ матрица, определяемая равенством $e_{kj} = \frac12 \sum_{ i = 1}^{m} (\frac{\partial b_{ik}}{\partial z_j} - \frac{\partial b_{kj}}{\partial z_i} - \frac{\partial b_{ij}}{\partial z_k}) r_k$ функция $s(t, v, z) = \Pi (t, z) - R_0 (V, z) - \frac{\partial \Pi (t, z_0)}{\partial z} z + \frac{\partial R_0 (V, z_0)}{\partial z} z + \Pi_U (t, V, z)$
+В силу $U_z$ имеем $\frac{\partial S(t, V_0, z_0)}{\partial z} = 0$ так что система (\ref{1.40'}) имеем решение $z(t) = z_0, r(t) = 0, V = V_0, \dot S_0 = A_{22}^{-1} (z_0) V_0,$ отвечающее программному движению (\ref{1.37'}).
 
-В силу $U_z$ имеем $\frac{\partial S(t, V_0, z_0)}{\partial z} = 0$
-
-так что система (\ref{1.40'}) имеем решение $z(t) = z_0, r(t) = 0, V = V_0, \dot S_0 = A_{22}^{-1} (z_0) V_0,$ отвечающее программному движению (\ref{1.37'}).
-
-Полагаем, что функция $Q_z (t, z, r), S(t, V, z), \frac{\partial S}{\partial t} (t, V, z), \frac{\partial S(t, V, z)}{\partial z}$ являются ограниченными, равномерно непрерывными на множествах вида $R \times K, K \in R^n$ - компакт, при этом
+Полагаем, что функции $Q_z (t, z, r)$, $S(t, V, z)$, $\frac{\partial S}{\partial t} (t, V, z)$, $\frac{\partial S(t, V, z)}{\partial z}$ являются ограниченными, равномерно непрерывными на множествах вида $R \times K, K \in R^n$ - компакт, при этом
 
 \begin{equation} \label{1.43'}
 \frac{\partial S}{\partial t} (t, V, z) \le 0, S(t, V_0, z_0) = 0
@@ -120,13 +134,21 @@ $\frac{d V(t)}{dt} = 0 \frac{d s(t)}{dt} = A_22^{-1} (z(t) (v(t) - A){21} (z(t))
 $$S^{*} (V, z) = \lim_{t \to + \infty} S(t, V, z)$$
 
 Введем функционал
-
-$V = \frac12 r^{'}(t) B (z(t)) r(t) + S(t, V_0, z) + \frac12 \| V(t) - V_0 \|^2 + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_z (t, \tau) (z(t) - z(\tau)) d \tau$
+$$
+\begin{array}{c}
+\displaystyle V = \frac12 r^{'}(t) B (z(t)) r(t) + S(t, V_0, z) + \frac12 \| V(t) - V_0 \|^2 +\\
+\displaystyle + \frac12 \int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_z (t, \tau) (z(t) - z(\tau)) d \tau
+\end{array}
+$$
 
 Его производная в силу уравнений (\ref{1.40'}) в соответствии с соотношениями (\ref{1.39'}) и (\ref{1.42'}) будет иметь следующую оценку
 
 \begin{equation} \label{1.44'}
-\dot V = - z^{'} (t) G(z(t), V(t)) r(t) + z^{'} (t) Q_z (t, z(t), r(t)) + \frac{\partial S(t, V_0, t)}{\partial t} + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_t(t, \tau) (z(t) - z(\tau)) d \tau le W(z_t) \le - \frac{\beta_0}{2} \displaystyle\int\limits_{t - h}^{t} \| z(t) - z(\tau) \|^2 d \tau
+\begin{array}{c}
+\displaystyle \dot V = - z^{'} (t) G(z(t), V(t)) r(t) + z^{'} (t) Q_z (t, z(t), r(t)) + \frac{\partial S(t, V_0, t)}{\partial t} +\\
+\displaystyle + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_t(t, \tau) (z(t) - z(\tau)) d \tau le W(z_t) \le\\
+\displaystyle \le -\frac{\beta_0}{2} \displaystyle\int\limits_{t - h}^{t} \| z(t) - z(\tau) \|^2 d \tau
+\end{array}
 \end{equation}
 
 Соответственно иммем следующую теорему.
@@ -136,9 +158,11 @@ $V = \frac12 r^{'}(t) B (z(t)) r(t) + S(t, V_0, z) + \frac12 \| V(t) - V_0 \|^2 
 
 1) функция $s = s(t, V_0, z)$ являются определенно-положительными по $z$;
 
-2) функция $s^{*} (V_0, z)$ имеет изолированный минимум в точке $z = z_0, \| \frac{\partial S^{*} (V_0, z)}{\partial z} \| \ne 0 \forall z \in \lbrace 0 < \| z - z_0 \| < \delta \rbrace$
+2) функция $s^{*} (V_0, z)$ имеет изолированный минимум в точке 
+$$z = z_0, \| \frac{\partial S^{*} (V_0, z)}{\partial z} \| \ne 0 \quad \forall z \in \lbrace 0 < \| z - z_0 \| < \delta \rbrace$$
 
-Тогда под действием управления (\ref{1.38'})) программное стационарное движение (\ref{1.37'}) устойчиво, асимптотически устойчиво относительно движений, отвечающих значению $V = V_0,$ а каждое иное возмущенное движение неограниченно приближается при $t \to + \infty$ к движению $\dot z = 0, \dot z = z_1 = const, V = V_1 = const, \dot s = \dot s_1 = A_{22}^{-1} (z_1) V_1$
+Тогда под действием управления (\ref{1.38'})) программное стационарное движение (\ref{1.37'}) устойчиво, асимптотически устойчиво относительно движений, отвечающих значению $V = V_0,$ а каждое иное возмущенное движение неограниченно приближается при $t \to + \infty$ к движению 
+$$\dot z = 0, \quad \dot z = z_1 = const, \quad V = V_1 = const, \quad \dot s = \dot s_1 = A_{22}^{-1} (z_1) V_1$$
 \end{theorem}
 
 Доказательство:
