@@ -8,7 +8,7 @@
 \frac{d \varphi}{dt} = \psi, \frac{d \psi}{dt} = sin \varphi + U
 \end{equation}
 
-Сигнал обратной связи измеряется в виде $y = sin \varphi$. Эта задача решалась в работе [] нахождением закона регулирования $\frac{d U}{d t} = a U(t) + \int_{t - h}^{t} (a (\tau g (\tau) + b U (\tau))) d \tau.$
+Сигнал обратной связи измеряется в виде $y = sin \varphi$. Эта задача решалась в работе [] нахождением закона регулирования $$\frac{d U}{d t} = a U(t) + \int_{t - h}^{t} (a (\tau g (\tau) + b U (\tau))) d \tau.$$
 
 Найден стабилизирующий закон регулирования
 
@@ -24,16 +24,29 @@ U = - a \sin \varphi (t) - \int_{t-h}^{t} L e^{ b (\tau - t)} (\sin \varphi (t) 
 
 где $a$ и $b$ есть некоторые искомые постоянные $a > 1, b > 0$
 
-Введем функционал $V = \frac12 \psi ^ 2 (t) + (a - 1) (1 - \cos \varphi (t)) + \frac12 \int_{t-h}^{t} b e^{L (\tau - t)} (\sin \varphi(t) - \sin \varphi (\tau))^2 d \tau$
+Введем функционал $$V = \frac12 \psi ^ 2 (t) + (a - 1) (1 - \cos \varphi (t)) + \frac12 \int_{t-h}^{t} b e^{L (\tau - t)} (\sin \varphi(t) - \sin \varphi (\tau))^2 d \tau$$
 
 Несложно видеть, что он является определенно-положительным, допускающим бесконечно малый высший предел относительно $\varphi = \varphi (t)$ и $\psi = \psi (t)$
 
 Для его производной находм оценку
-
-$\dot V = \psi (t) (\sin \varphi (t) - a \sin \varphi (t) - b \int_{t-h}^{t} e^{L (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau)) d \tau \cos \varphi (t)) + (a - 1) \sin \varphi (t) \psi (t) - \frac12 b e^{- L h} (\sin \varphi (t) - \sin \varphi (t - h))^2 + \cos \varphi (t) \int_{t-h}^{t} b e^{L (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau)) d \tau - \frac12 b L \int_{t-h}^{t} e^{L (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau))^2 d \tau = - \frac12 b e^{- L h} (\sin \varphi (t) - \sin \varphi (t - h))^2 - \frac12 b L \int_{t-h}^{t} e^{L (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau))^2 d \tau \le 0$
+$$\dot V = \psi (t) (\sin \varphi (t) - a \sin \varphi (t) - b \int_{t-h}^{t} e^{L (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau)) d \tau \cos \varphi (t)) + (a - 1) \sin \varphi (t) \psi (t) - \frac12 b e^{- L h} (\sin \varphi (t) - \sin \varphi (t - h))^2 + \cos \varphi (t) \int_{t-h}^{t} b e^{L (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau)) d \tau - \frac12 b L \int_{t-h}^{t} e^{L (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau))^2 d \tau = - \frac12 b e^{- L h} (\sin \varphi (t) - \sin \varphi (t - h))^2 - \frac12 b L \int_{t-h}^{t} e^{L (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau))^2 d \tau \le 0$$
 
 Множество $\lbrace \dot V = \rbrace$ может содержать лишь движения $\psi (t) = const,$ или $\dot \psi \equiv 0, \varphi = \pi$
 
 Соответственно, получаем, что управление (\ref{1.47'}) решает поставленную задачу о стабилизации.
 
 Проведем численный анализ управлений (\ref{1.46'}) и (\ref{1.47'}) при $a = 1.1, L = 1, b = 0.8, h = 1$
+
+\begin{figure}[h]
+	\centering
+	\includegraphics{pendulum_1}
+	\caption{Результаты моделирования при управлении (\ref{1.46'})}
+	\label{fig:pendulum_1}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics{pendulum_2}
+	\caption{Результаты моделирования при управлении (\ref{1.46'})}
+	\label{fig:pendulum_2}
+\end{figure}
