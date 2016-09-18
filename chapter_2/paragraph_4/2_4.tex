@@ -4,23 +4,25 @@
 
 Уравнение кинетической энергии будет иметь вид
 
-\begin{equation}
+\begin{equation} \label{2.12'}
 T = \frac12 I_1 \dot q_1^2 + \frac12 m_2 l_1^2 \dot q_2^2 + \frac12 I_2 \dot q_2^2 + m_2 l l_2 \cos q_2 \dot q_1 \dot q_2
 \end{equation}
 
 Таким образом, уравнения Лагранжа, описывающие движения данной системы, имеют вид:
 
-\begin{equation}
-a_{11} \ddot q_1 + a_{12} \ddot q_2 - 2 m_2 l_1 l_2 \sin q_2 \dot q_1 \dot q_2 - m_2 l_1 l_2 \sin q_2 \dot q_2^2 = M_1 + U_1,
-a_{12} \ddot q_1 + a_{22} \ddot q_2 + m_2 l_1 l_2 \sin q_2 \dot q_1^2 = M_2 + U_2,
-a_{11} = m_2 l_1^2 + I_1 + I_2 + 2 m_2 l_1 l_{g_2} \cos q_2,
-a_{12} = I_2 + m_2 l_1 l_{g_2} \cos q_2, 
+\begin{equation} \label{2.13'}
+\begin{array}{l}
+a_{11} \ddot q_1 + a_{12} \ddot q_2 - 2 m_2 l_1 l_2 \sin q_2 \dot q_1 \dot q_2 - m_2 l_1 l_2 \sin q_2 \dot q_2^2 = M_1 + U_1,\\
+a_{12} \ddot q_1 + a_{22} \ddot q_2 + m_2 l_1 l_2 \sin q_2 \dot q_1^2 = M_2 + U_2,\\
+a_{11} = m_2 l_1^2 + I_1 + I_2 + 2 m_2 l_1 l_{g_2} \cos q_2,\\
+a_{12} = I_2 + m_2 l_1 l_{g_2} \cos q_2, \\
 a_{22} = I_2
+\end{array}
 \end{equation}
 
 Будем считать, что приводы управляются некоторыми воздействиями $L_{i}$ в соответствии с уравнениями 
 
-\begin{equation}
+\begin{equation} \label{2.14'}
 \frac{d M_i}{dt} = L_{i}
 \end{equation}
 
@@ -28,39 +30,59 @@ a_{22} = I_2
 
 Продемонстрируем решение этой задачи для случая положения равновесия системы
 
-\begin{equation}
-\dot q_1 = \dot q_2 = 0, q_1 = q_2 = 0, M_1 = M_2 = 0
+\begin{equation} \label{2.15'}
+\dot q_1 = \dot q_2 = 0, \quad q_1 = q_2 = 0, \quad M_1 = M_2 = 0
 \end{equation}
 
 Покажем, что такая задача решается управлением приводами со следующим видом обратной связи
 
-\begin{equation}
-L_1 = - M_1 - k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4}), L_2 = - M_2 - k_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4})
+\begin{equation}  \label{2.16'}
+L_1 = - M_1 - k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4}), \quad L_2 = - M_2 - k_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4})
 \end{equation}
 
-где $k_1, k_2, \beta_1, \beta_2 > 0$ есть некоторые постоянные, определяемые из условия стабилизации положения равновесия (3).
+где $k_1, k_2, \beta_1, \beta_2 > 0$ есть некоторые постоянные, определяемые из условия стабилизации положения равновесия (\ref{2.15'}).
 
 Для нахождения этих условий применим метод векторых функций Ляпунова [], в соотвтетствии с методикой их построения, представленной в [].
 
-Векторную функцию Ляпунова возьмем в виде 
+Векторную функцию Ляпунова возьмем в виде
+$$
+\begin{array}{l}
+V_1 = \sqrt{c_1 \sin^2 \frac{q_1}{4} + c_2 \sin^2 \frac{q_2}{4}}, \quad c_1, c_2 > 0\\
+V_2 = \sqrt{a_{11} (\dot q_1 + \beta_1 \sin \frac{q_1}{4})^2 + 2 a_{12} (\dot q_1 + \beta_1 \sin \frac{q_1}{4}) (\dot q_2 + \beta_2 \sin \frac{q_2}{4}) + a_{22} (\dot q_2 + \beta_2 \sin \frac{q_2}{4})^2}\\
+V_3 = \sqrt{p_{11} (M_1 + k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4})^2) + 2 p_{12} (M_1 + k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4})) (M_2 + k_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4})) + p_{22} (M_1 + k_1 (\dot q_2 + \beta_2 \sin \frac{q_2}{4}))^2}\\
+a_{11} > 0, a_{11} a_{22} > 0, p_{11} > 0, p_{11} p_{22} - p_{12}^2 > 0
+\end{array}
+$$ 
 
-$V_1 = \sqrt{c_1 \sin^2 \frac{q_1}{4} + c_2 \sin^2 \frac{q_2}{4}}, c_1, c_2 > 0$
-
-$V_2 = \sqrt{a_{11} (\dot q_1 + \beta_1 \sin \frac{q_1}{4})^2 + 2 a_{12} (\dot q_1 + \beta_1 \sin \frac{q_1}{4}) (\dot q_2 + \beta_2 \sin \frac{q_2}{4}) + a_{22} (\dot q_2 + \beta_2 \sin \frac{q_2}{4})^2}$
- 
-$V_3 = \sqrt{p_{11} (M_1 + k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4})^2) + 2 p_{12} (M_1 + k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4})) (M_2 + k_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4})) + p_{22} (M_1 + k_1 (\dot q_2 + \beta_2 \sin \frac{q_2}{4}))^2}$
-
-$a_{11} > 0, a_{11} a_{22} > 0, p_{11} > 0, p_{11} p_{22} - p_{12}^2 > 0$
-
-Для производной функции $V_1$ в силу (1), (2), (4) при $\| q_1 \| \le \Pi, \| q_2 \| \le \Pi$ находим оценку 
-
-$\dot V_1 = \frac{1}{4 V_1} (c_1 \sin \frac{q_1}{4} \cos \frac{q_1}{4} - \dot q_1 + c_2 \sin \frac{q_2}{4} \cos \frac{q_1}{4} \dot q_2) = \frac{1}{4 V_1} (c_1 \sin \frac{q_1}{4} \cos \frac{q_1}{4} (\dot q_1 + \beta_1 \sin \frac{q_1}{4} - \beta_2 \sin \frac{q_1}{4}) + c_2 \sin \frac{q_2}{4} \cos \frac{q_2}{4} (\dot q_2 + \beta_2 \sin \frac{q_2}{4} - \beta_2 \sin \frac{q_2}{4})) \le \frac{1}{4 V_1} (\sqrt{c_1 \sin^2 \frac{q_1}{4} + c_2 \sin^2 \frac{q_2}{4}} \sqrt{c_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4})^2 + c_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4})^2} - \frac{\sqrt{2}}{2} (c_1 \beta_1 \sin^2 \frac{q_1}{4} c_2 \beta_2 \sin^2 \frac{q_2}{4})) \le - \alpha_1 V_1 + \alpha_2 V_2, \alpha_1 = \frac{\sqrt{2}}{8} min(\sqrt{c_1} \beta_1, \sqrt{c_2}, \beta_2), \alpha_2 = \frac{1}{4} \sqrt{\lambda_{AC}^{max}}$
+Для производной функции $V_1$ в силу (\ref{2.12'}), (\ref{2.13'}), (\ref{2.15'}) 
+при $\| q_1 \| \le \Pi, \| q_2 \| \le \Pi$ находим оценку 
+$$
+\begin{array}{c}
+\dot V_1 = \frac{1}{4 V_1} (c_1 \sin \frac{q_1}{4} \cos \frac{q_1}{4} - \dot q_1 + c_2 \sin \frac{q_2}{4} \cos \frac{q_1}{4} \dot q_2) =\\
+= \frac{1}{4 V_1} (c_1 \sin \frac{q_1}{4} \cos \frac{q_1}{4} (\dot q_1 + \beta_1 \sin \frac{q_1}{4} - \beta_2 \sin \frac{q_1}{4}) +\\
++ c_2 \sin \frac{q_2}{4} \cos \frac{q_2}{4} (\dot q_2 + \beta_2 \sin \frac{q_2}{4} - \beta_2 \sin \frac{q_2}{4})) \le\\
+\le \frac{1}{4 V_1} (\sqrt{c_1 \sin^2 \frac{q_1}{4} + c_2 \sin^2 \frac{q_2}{4}} \sqrt{c_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4})^2 +\\
++ c_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4})^2} - \frac{\sqrt{2}}{2} (c_1 \beta_1 \sin^2 \frac{q_1}{4} c_2 \beta_2 \sin^2 \frac{q_2}{4})) \le\\
+\le - \alpha_1 V_1 + \alpha_2 V_2, \alpha_1 = \frac{\sqrt{2}}{8} min(\sqrt{c_1} \beta_1, \sqrt{c_2}, \beta_2), \alpha_2 = \frac{1}{4} \sqrt{\lambda_{AC}^{max}}
+\end{array}
+$$
 
 где $\lambda_{AC}^{max}$ - наибольшее характеристическое значение матрицы $c = diag(c_1, c_2)$ на пучке матриц $A = A(q).$
 
-Для производной от функции $V_2$ в силу (1), (2), (4) имеем более сложную оценку.
-
-$\dot V_2 = \frac{1}{V_2} ((\dot q_1 + \beta_1 \sin \frac{q_1}{4}) ((M_1 + k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4})) - k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4}) + \frac{1}{4} a_{11} \beta_2 \cos \frac{q_1}{4} (\dot q_1 + \beta_1 \sin \frac{q_1}{4}) - \frac{1}{4} a_{11} \beta_1^2 \cos \frac{q_1}{4} \sin \frac{q_1}{4}) + 2 m_2 l_1 l_2 \sin q_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4} - \beta_2 \sin \frac{q_2}{4})^2) + (\dot q_2 + \beta_2 \sin \frac{q_2}{4}) (M_2 + k_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4}) - k_2 (\dot q_2 + \beta_2 \sin \frac{q_1}{4}) + \frac{1}{4} a_{12} \beta_2 \cos \frac{q_2}{4} (\dot q_2 + \beta_2 \sin \frac{q_2}{4}) - \frac{1}{4} a_{22} \beta_2^2 \cos \frac{q_2}{4} \sin \frac{q_2}{4} - m_2 l_1 l_2 \sin q_2 (\dot q_1 + \beta_1 \sin \frac{q_1}{4} - \beta_1 \sin \frac{q_1}{4})^2) \le \gamma_1 V_1 - \gamma_2 V_2 + \gamma_3 V_3 + \mu_{21} V_1^2 + \mu_{22} V_2^2 + \mu_{23} V_3^2, \gamma_1 = \frac{p_{max}}{\lambda_{min}}, \gamma_2 = \frac{1}{\lambda_{min}}, \gamma_3 = \frac{1}{4} a_{max} \beta_{max}$
+Для производной от функции $V_2$ в силу (\ref{2.12'}), (\ref{2.13'}), (\ref{2.15'}) имеем более сложную оценку.
+$$
+\begin{array}{c}
+\dot V_2 = \frac{1}{V_2} ((\dot q_1 + \beta_1 \sin \frac{q_1}{4}) ((M_1 + k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4})) -\\
+- k_1 (\dot q_1 + \beta_1 \sin \frac{q_1}{4}) + \frac{1}{4} a_{11} \beta_2 \cos \frac{q_1}{4} (\dot q_1 + \beta_1 \sin \frac{q_1}{4}) - \frac{1}{4} a_{11} \beta_1^2 \cos \frac{q_1}{4} \sin \frac{q_1}{4}) +\\
++ 2 m_2 l_1 l_2 \sin q_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4} - \beta_2 \sin \frac{q_2}{4})^2) +\\
++ (\dot q_2 + \beta_2 \sin \frac{q_2}{4}) (M_2 + k_2 (\dot q_2 + \beta_2 \sin \frac{q_2}{4}) -\\
+- k_2 (\dot q_2 + \beta_2 \sin \frac{q_1}{4}) + \frac{1}{4} a_{12} \beta_2 \cos \frac{q_2}{4} (\dot q_2 + \beta_2 \sin \frac{q_2}{4}) -\\
+- \frac{1}{4} a_{22} \beta_2^2 \cos \frac{q_2}{4} \sin \frac{q_2}{4} -\\
+- m_2 l_1 l_2 \sin q_2 (\dot q_1 + \beta_1 \sin \frac{q_1}{4} - \beta_1 \sin \frac{q_1}{4})^2) \le\\
+\le \gamma_1 V_1 - \gamma_2 V_2 + \gamma_3 V_3 + \mu_{21} V_1^2 + \mu_{22} V_2^2 + \mu_{23} V_3^2, \gamma_1 =\\
+= \frac{p_{max}}{\lambda_{min}}, \gamma_2 = \frac{1}{\lambda_{min}}, \gamma_3 = \frac{1}{4} a_{max} \beta_{max}
+\end{array}
+$$
 
 где $\mu_{21}, \mu_{22}, \mu_{23}$ зависят от параметров системы и управления.
 
@@ -74,7 +96,7 @@ $\nu_3 = k - 2 ((a_{11} + \| a_{12} \|) \beta_1 + (\| a_{12} \| + a_{22}) \beta_
 
 где $\mu_{3i} > 0$ - некоторые коэффициенты, выражаемые через параметры $k_i, \beta_i$.
 
-Стабилизация движения (3) согласно теореме об асимптотической устойчивости из [] в самой общей постановке может определяться системой
+Стабилизация движения (\ref{2.14'}) согласно теореме об асимптотической устойчивости из [] в самой общей постановке может определяться системой
 
 $\dot y_1 = - \alpha_1 y_1 + \alpha_2 y_2$
 
