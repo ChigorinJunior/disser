@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  19 SEP 2016 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  19 SEP 2016 00:42
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -1659,22 +1659,17 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/3chain.png used on input lin
 e 20.
 (pdftex.def)             Requested size: 245.41626pt x 236.38254pt.
  [58 <./chapter_3/paragraph_1/img/3chain.png>] [59]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-\LCY/cmr/m/n/14.4 механической системы
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 74--79
+Underfull \hbox (badness 3302) in paragraph at lines 74--77
 $\OML/cmm/m/it/14.4 C\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q; []\OT1/cmr/m/n/14
 .4 ) = [][] []\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1
-/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;$ \LCY/cmr/m/n/14.4 , $\OML/cmm/m/it/14.4 j;
- k$\LCY/cmr/m/n/14.4 -ый элемент $\OML/cmm/m/it/14.4 c[]\OT1/cmr/m/n/14.4 (\OML
-/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/n/14.4 матрицы $\OML/cmm/m/it/1
-4.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 )$
+/cmr/m/n/14.4 )$ \LCY/cmr/m/n/14.4 , $\OML/cmm/m/it/14.4 j; k$\LCY/cmr/m/n/14.4
+ -ый элемент $\OML/cmm/m/it/14.4 c[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1
+/cmr/m/n/14.4 )$ \LCY/cmr/m/n/14.4 матрицы $\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/
+14.4 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 )$
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 74--79
+Underfull \hbox (badness 1424) in paragraph at lines 74--77
 \LCY/cmr/m/n/14.4 определяется в виде $\OML/cmm/m/it/14.4 c[]\OT1/cmr/m/n/14.4 
 (\OML/cmm/m/it/14.4 q\OT1/cmr/m/n/14.4 ) = []([] + [] \OMS/cmsy/m/n/14.4   []\O
 T1/cmr/m/n/14.4 )$\LCY/cmr/m/n/14.4 ; $\OML/cmm/m/it/14.4 K$ \LCY/cmr/m/n/14.4 
@@ -1682,63 +1677,49 @@ T1/cmr/m/n/14.4 )$\LCY/cmr/m/n/14.4 ; $\OML/cmm/m/it/14.4 K$ \LCY/cmr/m/n/14.4
  []
 
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 81--84
-\LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/1
-4.4 t; x\OT1/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/m
-/it/14.4 x \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 q[]\OT1/cmr/m/n/14.4 (\OML/cm
-m/m/it/14.4 t\OT1/cmr/m/n/14.4 ))$\LCY/cmr/m/n/14.4 ,
+Underfull \hbox (badness 1584) in paragraph at lines 92--93
+\LCY/cmr/m/n/14.4 при котором невозмущенное движение $[] \OT1/cmr/m/n/14.4 = \O
+ML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4 = 0$ \LCY/cmr/m/n/14.4 системы (3.3)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 \LCY/cmr/m/n/14.4 Рассмотрим решение задачи
  []
 
-
-Underfull \hbox (badness 2057) in paragraph at lines 93--95
+[61]
+Underfull \hbox (badness 2057) in paragraph at lines 102--104
 []\LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/i
 t/14.4 R[]$ \LCY/cmr/m/n/14.4 есть матрица коэффициентов усиления сигналов,
  []
 
-[61]
-Overfull \hbox (432.41862pt too wide) detected at line 103
-[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.
-4 x\OT1/cmr/m/n/14.4 ))[] = 2\OML/cmm/m/it/14.4 V[][] \OT1/cmr/m/n/14.4 = 2([] 
-+ [])[]\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 ([] + \OML/cmm/m/it/14.4 p\OT1/c
-mr/m/n/14.4 ) + ([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 )[][]([] + \OML/cmm
-/m/it/14.4 p\OT1/cmr/m/n/14.4 ) = 2(\OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[]\
-OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/14.4 )[] \OMS/cmsy/m/
-n/14.4   \OML/cmm/m/it/14.4 R[] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 Q[]\OT1/
-cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x; []\OT1/cmr/m/n/14.4 ) + \OML/cmm/m/it/14.4 
-Q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; []\OT1/cmr/m/n/14.4 ))[]([] + \O
-ML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 ) + 2[]\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/1
-4.4 ([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 ) + ([] + \OML/cmm/m/it/14.4 p\
-OT1/cmr/m/n/14.4 )[][]([] + \OML/cmm/m/it/14.4 p\OT1/cmr/m/n/14.4 )\OML/cmm/m/i
-t/14.4 :
+
+Underfull \hbox (badness 6001) in paragraph at lines 118--120
+\LCY/cmr/m/n/14.4 , где положительные постоянные $\OML/cmm/m/it/14.4 []; []; 
+m[]; m[]$ \LCY/cmr/m/n/14.4 и функция $\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14.4 (\
+OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 )$
  []
 
-
-Underfull \hbox (badness 1320) in paragraph at lines 127--130
+[62]
+Underfull \hbox (badness 1320) in paragraph at lines 139--140
 []\LCY/cmr/m/n/14.4 Согласно теореме сравнения об экспоненциальной устойчивости
  [5]
  []
 
-[62]
-Overfull \hbox (382.20338pt too wide) detected at line 133
-\OML/cmm/m/it/14.4 m[] \OT1/cmr/m/n/14.4 = 15[]\OML/cmm/m/it/14.4 ; m[] \OT1/cm
-r/m/n/14.4 = 2\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5[]\OML/cmm/m/it/14.4 ; m[
-] \OT1/cmr/m/n/14.4 = 2[]\OML/cmm/m/it/14.4 ; l[] \OT1/cmr/m/n/14.4 = 1[]\OML/c
-mm/m/it/14.4 ; r[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 
-5[]\OML/cmm/m/it/14.4 ; r[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/
-m/n/14.4 5[]\OML/cmm/m/it/14.4 ; J[] \OT1/cmr/m/n/14.4 = 0\OML/cmm/m/it/14.4 ; 
-\OT1/cmr/m/n/14.4 1[] \OMS/cmsy/m/n/14.4  []\OML/cmm/m/it/14.4 ; q[]\OT1/cmr/m
-/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = 0\OML/cmm/m/it/14.4 ; \OT1/c
-mr/m/n/14.4 2\OML/cmm/m/it/14.4 t; q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\O
-T1/cmr/m/n/14.4 ) = 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5 + 0\OML/cmm/m/it/
-14.4 ; \OT1/cmr/m/n/14.4 5\OML/cmm/m/it/14.4 sint; q[]\OT1/cmr/m/n/14.4 (\OML/c
-mm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 5\O
-ML/cmm/m/it/14.4 sin\OT1/cmr/m/n/14.4 (0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 
-5\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 :
+
+Underfull \hbox (badness 4582) in paragraph at lines 140--142
+\LCY/cmr/m/n/14.4 . Численное моделирование движения манипулятора при действии
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 140--142
+\LCY/cmr/m/n/14.4 управления (3.4) проводилось при следующих значениях параметр
+ов
+ []
+
+
+Overfull \hbox (34.64922pt too wide) detected at line 148
+[]
  []
 
 <chapter_3/paragraph_1/img/pic1.png, id=228, 239.39438pt x 157.33781pt>
@@ -1746,31 +1727,37 @@ File: chapter_3/paragraph_1/img/pic1.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic1.png>
 Package pdftex.def Info: chapter_3/paragraph_1/img/pic1.png used on input line 
-140.
+155.
 (pdftex.def)             Requested size: 239.39378pt x 157.33742pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <chapter_3/paragraph_1/img/pic2.png, id=229, 247.67531pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic2.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic2.png>
 Package pdftex.def Info: chapter_3/paragraph_1/img/pic2.png used on input line 
-147.
+162.
 (pdftex.def)             Requested size: 247.6747pt x 157.33742pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <chapter_3/paragraph_1/img/pic3.png, id=230, 262.73157pt x 163.3603pt>
 File: chapter_3/paragraph_1/img/pic3.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic3.png>
 Package pdftex.def Info: chapter_3/paragraph_1/img/pic3.png used on input line 
-154.
+169.
 (pdftex.def)             Requested size: 262.73091pt x 163.3599pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex [63 <./chapter
-_3/paragraph_1/img/pic1.png> <./chapter_3/paragraph_1/img/pic2.png>]) [64 <./ch
-apter_3/paragraph_1/img/pic3.png>]
+) (chapter_3/paragraph_2/3_2.tex) (chapter_3/paragraph_3/3_3.tex) [63] [64 <./c
+hapter_3/paragraph_1/img/pic1.png> <./chapter_3/paragraph_1/img/pic2.png>]
+[65 <./chapter_3/paragraph_1/img/pic3.png>]
 \openout2 = `postfix.aux'.
 
  (postfix.tex
@@ -1803,7 +1790,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--20
 \LCY/cmr/m/n/14.4 о стабилизации программных
  []
 
-[65
+[66
 
 ]
 Underfull \hbox (badness 1448) in paragraph at lines 20--21
@@ -1821,7 +1808,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 21--22
 \LCY/cmr/m/n/14.4 позволяет составить анализ процесса управления при различных
  []
 
-) [66]
+) [67]
 \openout2 = `bibliography.aux'.
 
  (bibliography.tex
@@ -1836,7 +1823,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  механическими
  []
 
-[67
+[68
 
 
 
@@ -1845,7 +1832,7 @@ Underfull \hbox (badness 2980) in paragraph at lines 53--56
 \LCY/cmr/m/n/14.4 системы / А. С. Андреев, В. В. Румянцев // Автоматика и
  []
 
-[68]
+[69]
 Underfull \hbox (badness 3271) in paragraph at lines 63--66
 []\LCY/cmr/m/it/14.4 Андреев, А. С. \LCY/cmr/m/n/14.4 Об устойчивости нулевого 
 решения системы с
@@ -1876,7 +1863,7 @@ Underfull \hbox (badness 2653) in paragraph at lines 81--83
 \LCY/cmr/m/n/14.4 механической системы / А. С. Андреев, О. А. Перегудова //
  []
 
-[69]
+[70]
 Underfull \hbox (badness 2762) in paragraph at lines 98--99
 []\LCY/cmr/m/it/14.4 Андреев А. С. \LCY/cmr/m/n/14.4 О стабилизации движений ме
 ханических систем
@@ -1887,7 +1874,7 @@ Underfull \hbox (badness 1360) in paragraph at lines 98--99
 \LCY/cmr/m/n/14.4 управлениями различного типа / А.С. Андреев, Е.А. Кудашова,
  []
 
-[70]
+[71]
 Underfull \hbox (badness 2970) in paragraph at lines 106--108
 []\LCY/cmr/m/it/14.4 Артемова, А. О. \LCY/cmr/m/n/14.4 Об управлении пространст
 венным движением
@@ -1909,7 +1896,7 @@ Underfull \hbox (badness 1308) in paragraph at lines 126--129
 одели Вольтерра в
  []
 
-[71]
+[72]
 Underfull \hbox (badness 1762) in paragraph at lines 140--141
 \LCY/cmr/m/n/14.4 / А. Ю. Богданов, С. В. Черников // Ученые записки УлГУ.
  []
@@ -1946,7 +1933,7 @@ Underfull \hbox (badness 1237) in paragraph at lines 156--158
  -
  []
 
-[72]
+[73]
 Underfull \hbox (badness 2245) in paragraph at lines 160--162
 \LCY/cmr/m/n/14.4 асимптотическая устойчивость решений дискретных уравнений с
  []
@@ -1972,13 +1959,13 @@ Underfull \hbox (badness 6110) in paragraph at lines 172--174
 \LCY/cmr/m/n/14.4 и управление движением■, 9-12 июня 2011 г., г. Ульяновск.
  []
 
-[73]
+[74]
 Underfull \hbox (badness 1728) in paragraph at lines 209--211
 []\LCY/cmr/m/it/14.4 Вуковбратович, М. К. \LCY/cmr/m/n/14.4 Управление манипуля
 ционными роботами:
  []
 
-[74]
+[75]
 Underfull \hbox (badness 1931) in paragraph at lines 221--223
 []\LCY/cmr/m/it/14.4 Гайшун И. В. \LCY/cmr/m/n/14.4 Устойчивость дискретных про
 цессов Вольтерра с
@@ -1995,7 +1982,7 @@ Underfull \hbox (badness 1939) in paragraph at lines 225--227
 ываемых линейными
  []
 
-[75]
+[76]
 Underfull \hbox (badness 1383) in paragraph at lines 250--252
 []\LCY/cmr/m/it/14.4 Гелиг А. Х. \LCY/cmr/m/n/14.4 Устойчивость нелинейных сист
 ем с неединственным
@@ -2012,12 +1999,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--288
 []\LCY/cmr/m/it/14.4 Звягинцева Е. Э.
  []
 
-[76]
+[77]
 Underfull \hbox (badness 10000) in paragraph at lines 318--319
 []\LCY/cmr/m/it/14.4 Карапетян A.B. \LCY/cmr/m/n/14.4 Об устойчивости
  []
 
-[77]
+[78]
 Underfull \hbox (badness 1990) in paragraph at lines 328--329
 []\LCY/cmr/m/it/14.4 Кириченова О. В. \LCY/cmr/m/n/14.4 Об устойчивости решений
  нелинейных почти
@@ -2034,7 +2021,7 @@ Underfull \hbox (badness 1648) in paragraph at lines 334--335
 \LCY/cmr/m/n/14.4 к разностным уравнениям Вольтерра / В. Б. Колмановский //
  []
 
-[78]
+[79]
 Underfull \hbox (badness 6445) in paragraph at lines 345--348
 []\LCY/cmr/m/it/14.4 Крутько, П. Д. \LCY/cmr/m/n/14.4 Метод обратных задач дина
 мики в теории
@@ -2055,7 +2042,7 @@ Underfull \hbox (badness 1308) in paragraph at lines 357--359
 \LCY/cmr/m/n/14.4 неавтономных дискретных систем типа Лотки - Вольтерра / Е.
  []
 
-[79]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 366--367
 []\LCY/cmr/m/it/14.4 Кудашова Е.
  []
@@ -2066,7 +2053,7 @@ Underfull \hbox (badness 1675) in paragraph at lines 377--378
 горитма построения
  []
 
-[80]
+[81]
 Underfull \hbox (badness 2653) in paragraph at lines 387--389
 []\LCY/cmr/m/it/14.4 Кунцевич, В. М. \LCY/cmr/m/n/14.4 Синтез систем автоматиче
 ского управления с
@@ -2078,7 +2065,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 391--393
  автоматического
  []
 
-[81]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 421--423
 []\LCY/cmr/m/it/14.4 Мартыненко, Ю. Г. \LCY/cmr/m/n/14.4 Устойчивость стационар
 ных движений
@@ -2096,7 +2083,7 @@ Underfull \hbox (badness 1354) in paragraph at lines 437--438
 Ляпунова: анализ
  []
 
-[82]
+[83]
 Underfull \hbox (badness 3930) in paragraph at lines 444--446
 \LCY/cmr/m/n/14.4 в режиме декомпозиции / В. И. Матюхин // Автоматика и
  []
@@ -2112,7 +2099,7 @@ Underfull \hbox (badness 1348) in paragraph at lines 460--462
 х систем в классе
  []
 
-[83]
+[84]
 Underfull \hbox (badness 4699) in paragraph at lines 479--480
 \LCY/cmr/m/n/14.4 с неизвестной массой с помощью непрерывного управления с
  []
@@ -2138,7 +2125,7 @@ Underfull \hbox (badness 4024) in paragraph at lines 488--489
 за управления с
  []
 
-[84]
+[85]
 Underfull \hbox (badness 1215) in paragraph at lines 495--497
 []\LCY/cmr/m/it/14.4 Пахомов, К. В. \LCY/cmr/m/n/14.4 Синтез запаздывающего упр
 авления движением
@@ -2155,7 +2142,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 503--504
 []\LCY/cmr/m/it/14.4 Перегудова, О. А. \LCY/cmr/m/n/14.4 О
  []
 
-[85]
+[86]
 Underfull \hbox (badness 7777) in paragraph at lines 528--530
 []\LCY/cmr/m/it/14.4 Пятницкий, Е. С. \LCY/cmr/m/n/14.4 Принцип декомпозиции и 
 в управлении
@@ -2178,7 +2165,7 @@ Underfull \hbox (badness 5091) in paragraph at lines 547--549
 \LCY/cmr/m/n/14.4 к динамике популяций / А. М. Родионов // Автоматика и
  []
 
-[86]
+[87]
 Underfull \hbox (badness 4752) in paragraph at lines 559--561
 []\LCY/cmr/m/it/14.4 Румянцев, В. В. \LCY/cmr/m/n/14.4 Устойчивость и стабилиза
 ция движения по
@@ -2190,13 +2177,13 @@ Underfull \hbox (badness 6758) in paragraph at lines 572--574
 ия программного
  []
 
-[87]
+[88]
 Underfull \hbox (badness 10000) in paragraph at lines 595--597
 []\LCY/cmr/m/it/14.4 Фишман, Л. З. \LCY/cmr/m/n/14.4 О сохранении областей прит
 яжения при
  []
 
-[88]
+[89]
 Underfull \hbox (badness 5374) in paragraph at lines 623--625
 []\LCY/cmr/m/it/14.4 Чурилов А. Н. \LCY/cmr/m/n/14.4 Стабилизация линейной сист
 емы с помощью
@@ -2208,7 +2195,7 @@ Underfull \hbox (badness 7963) in paragraph at lines 640--641
 мных движений
  []
 
-[89]
+[90]
 Underfull \hbox (badness 1043) in paragraph at lines 643--644
 []\LCY/cmr/m/it/14.4 Araki, M. \LCY/cmr/m/n/14.4 Stability of sampled-data comp
 osite systems with many
@@ -2220,13 +2207,13 @@ Underfull \hbox (badness 1057) in paragraph at lines 649--650
 y and
  []
 
-[90]
+[91]
 Underfull \hbox (badness 1158) in paragraph at lines 681--682
 []\LCY/cmr/m/it/14.4 Elaydi S. \LCY/cmr/m/n/14.4 An introduction to Difference 
 Equations. Third Edition.
  []
 
-[91]
+[92]
 Underfull \hbox (badness 2671) in paragraph at lines 703--704
 []\LCY/cmr/m/it/14.4 Lacshmikantham V. \LCY/cmr/m/n/14.4 Stability analysis of 
 nonlinear systems / V.
@@ -2249,7 +2236,7 @@ Underfull \hbox (badness 1237) in paragraph at lines 706--707
 \LCY/cmr/m/n/14.4 Lacshmikantham, S. Leela, A. A. Martynyuk // New York: World
  []
 
-[92] [93]
+[93] [94]
 Underfull \hbox (badness 1635) in paragraph at lines 750--751
 \LCY/cmr/m/n/14.4 mobile robot subject to transport delay / P. A. Nino-Suarez, 
 M.
@@ -2261,7 +2248,7 @@ Underfull \hbox (badness 4792) in paragraph at lines 765--766
 rol for four wheeled
  []
 
-[94]) [95]
+[95]) [96]
 \openout2 = `appendix/appendix.aux'.
 
  (appendix/appendix.tex
@@ -2282,18 +2269,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 []\LCY/cmr/m/n/14.4 Приложение служит для моделирования движения
  []
 
-[96
+[97
 
 
 
-] <appendix/img/window.jpg, id=338, 671.50874pt x 515.67656pt>
+] <appendix/img/window.jpg, id=342, 671.50874pt x 515.67656pt>
 File: appendix/img/window.jpg Graphic file (type jpg)
 
 <use appendix/img/window.jpg>
 Package pdftex.def Info: appendix/img/window.jpg used on input line 21.
 (pdftex.def)             Requested size: 483.69687pt x 371.45207pt.
 
-<appendix/img/theory.jpg, id=339, 671.50874pt x 515.67656pt>
+<appendix/img/theory.jpg, id=343, 671.50874pt x 515.67656pt>
 File: appendix/img/theory.jpg Graphic file (type jpg)
 
 <use appendix/img/theory.jpg>
@@ -2311,7 +2298,7 @@ Underfull \hbox (badness 3098) in paragraph at lines 29--36
 
  []
 
-[97 <./appendix/img/window.jpg>]
+[98 <./appendix/img/window.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 \LCY/cmr/m/n/14.4 манипулятора
  []
@@ -2321,15 +2308,15 @@ Underfull \hbox (badness 2012) in paragraph at lines 40--41
 \LCY/cmr/m/n/14.4 подобранными значениями по умолчанию для демонстрации работы
  []
 
-[98 <./appendix/img/theory.jpg>]
-<appendix/img/params.jpg, id=347, 219.82124pt x 400.49625pt>
+[99 <./appendix/img/theory.jpg>]
+<appendix/img/params.jpg, id=350, 219.82124pt x 400.49625pt>
 File: appendix/img/params.jpg Graphic file (type jpg)
 
 <use appendix/img/params.jpg>
 Package pdftex.def Info: appendix/img/params.jpg used on input line 43.
 (pdftex.def)             Requested size: 241.84843pt x 440.6389pt.
 
-<appendix/img/modeling.jpg, id=348, 671.50874pt x 515.67656pt>
+<appendix/img/modeling.jpg, id=351, 671.50874pt x 515.67656pt>
 File: appendix/img/modeling.jpg Graphic file (type jpg)
 
 <use appendix/img/modeling.jpg>
@@ -2339,7 +2326,7 @@ Package pdftex.def Info: appendix/img/modeling.jpg used on input line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[99 <./appendix/img/params.jpg>]
+[100 <./appendix/img/params.jpg>]
 Underfull \hbox (badness 1831) in paragraph at lines 60--61
 \LCY/cmr/m/n/14.4 текста в объекты языка Java и сохранение в оперативной памяти
 .
@@ -2351,7 +2338,7 @@ Underfull \hbox (badness 1748) in paragraph at lines 60--61
 
  []
 
-[100 <./appendix/img/modeling.jpg>]
+[101 <./appendix/img/modeling.jpg>]
 Underfull \hbox (badness 2875) in paragraph at lines 62--63
 []\LCY/cmr/m/n/14.4 При необходимости библиотке работы с формулами может быть
  []
@@ -2361,7 +2348,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 \LCY/cmr/m/n/14.4 графиков, после чего программа производит
  []
 
-<appendix/img/formul.jpg, id=355, 203.25937pt x 292.09125pt>
+<appendix/img/formul.jpg, id=358, 203.25937pt x 292.09125pt>
 File: appendix/img/formul.jpg Graphic file (type jpg)
 
 <use appendix/img/formul.jpg>
@@ -2382,13 +2369,13 @@ Underfull \hbox (badness 2707) in paragraph at lines 78--79
 []\LCY/cmr/m/n/14.4 ввод определенных интегралов в том числе с подынтегральной
  []
 
-[101]
+[102]
 Underfull \hbox (badness 1776) in paragraph at lines 84--85
 []\LCY/cmr/m/n/14.4 При этом вводе данных пользователю необходимо выбрать файл,
 
  []
 
-<appendix/img/mass.jpg, id=359, 217.5628pt x 82.80937pt>
+<appendix/img/mass.jpg, id=362, 217.5628pt x 82.80937pt>
 File: appendix/img/mass.jpg Graphic file (type jpg)
 
 <use appendix/img/mass.jpg>
@@ -2398,19 +2385,19 @@ Package pdftex.def Info: appendix/img/mass.jpg used on input line 92.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[102 <./appendix/img/formul.jpg>]
+[103 <./appendix/img/formul.jpg>]
 Underfull \hbox (badness 3471) in paragraph at lines 120--121
 \LCY/cmr/m/n/14.4 вдоль отслеживаемой траектории на расстоянии, не превышающем
  []
 
-[103 <./appendix/img/mass.jpg>]
-<appendix/img/graph.jpg, id=367, 406.51875pt x 457.71pt>
+[104 <./appendix/img/mass.jpg>]
+<appendix/img/graph.jpg, id=370, 406.51875pt x 457.71pt>
 File: appendix/img/graph.jpg Graphic file (type jpg)
 
 <use appendix/img/graph.jpg>
 Package pdftex.def Info: appendix/img/graph.jpg used on input line 123.
 (pdftex.def)             Requested size: 483.69687pt x 544.62581pt.
-) [104 <./appendix/img/graph.jpg>] (disser.aux
+) [105 <./appendix/img/graph.jpg>] (disser.aux
 (titul.aux) (prefix.aux) (postfix.aux) (bibliography.aux)
 (appendix/appendix.aux))
 
@@ -2428,7 +2415,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5043 strings out of 493634
  64396 string characters out of 3135239
- 142122 words of memory out of 3000000
+ 142123 words of memory out of 3000000
  8236 multiletter control sequences out of 15000+200000
  19120 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -2453,9 +2440,9 @@ Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (104 pages, 1000187 bytes).
+Output written on disser.pdf (105 pages, 997096 bytes).
 PDF statistics:
- 811 PDF objects out of 1000 (max. 8388607)
+ 814 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
