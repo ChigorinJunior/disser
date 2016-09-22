@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  23 SEP 2016 00:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  23 SEP 2016 00:29
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -1309,6 +1309,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--294
  []
 
 ) (chapter_1/paragraph_3/1_3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+ |[]\LCY/cmr/m/n/14.4 О стабилизации стационарных программных движений
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []\LCY/cmr/m/n/14.4 где составляющие матрицу $\OML/cmm/m/it/14.4 A$ \LCY/cmr/m/
 n/14.4 подматрицы $\OML/cmm/m/it/14.4 A[]; A[]; A[]; A[]$
@@ -1327,7 +1332,7 @@ $\OML/cmm/m/it/14.4 z$ \LCY/cmr/m/n/14.4 дважды) ограниченная вместе со
 
 [36]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
-[]\LCY/cmr/m/n/14.4 Его производная в силу уравнений (1.40[])
+[]\LCY/cmr/m/n/14.4 Его производная в силу уравнений (1.42[])
  []
 
 [37]
@@ -1339,6 +1344,13 @@ Underfull \hbox (badness 2970) in paragraph at lines 168--170
 
 Underfull \hbox (badness 1509) in paragraph at lines 168--170
 \LCY/cmr/m/n/14.4 положительным, допускающим бесконечно малый высший предел по
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 173--174
+[]\LCY/cmr/m/n/14.4 Множество $\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 W\OT1/cmr
+/m/n/14.4 (\OML/cmm/m/it/14.4 z[]\OT1/cmr/m/n/14.4 ) = 0\OMS/cmsy/m/n/14.4 g$ \
+LCY/cmr/m/n/14.4 может содержать только те предельные
  []
 
 ) (chapter_1/paragraph_4/1_4.tex [38] [39]
@@ -1359,23 +1371,16 @@ File: chapter_1/paragraph_4/img/pendulum_1.png Graphic file (type png)
 Package pdftex.def Info: chapter_1/paragraph_4/img/pendulum_1.png used on input
  line 54.
 (pdftex.def)             Requested size: 319.19171pt x 185.94421pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<chapter_1/paragraph_4/img/pendulum_2.png, id=141, 321.45094pt x 186.6975pt>
+ [40]
+<chapter_1/paragraph_4/img/pendulum_2.png, id=144, 321.45094pt x 186.6975pt>
 File: chapter_1/paragraph_4/img/pendulum_2.png Graphic file (type png)
 
 <use chapter_1/paragraph_4/img/pendulum_2.png>
 Package pdftex.def Info: chapter_1/paragraph_4/img/pendulum_2.png used on input
  line 61.
 (pdftex.def)             Requested size: 321.45015pt x 186.69704pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [40] [41 <./chapter_1/paragraph_4/img/pendulum_1.png> <./chapter_1/paragraph_
-4/img/pendulum_2.png>]
+) [41 <./chapter_1/paragraph_4/img/pendulum_1.png> <./chapter_1/paragraph_4/img
+/pendulum_2.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 (chapter_2/paragraph_1/2_1.tex
 Underfull \hbox (badness 3189) in paragraph at lines 3--4
@@ -2380,9 +2385,9 @@ Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (105 pages, 998189 bytes).
+Output written on disser.pdf (105 pages, 998733 bytes).
 PDF statistics:
- 813 PDF objects out of 1000 (max. 8388607)
+ 814 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

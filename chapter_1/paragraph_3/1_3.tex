@@ -1,4 +1,4 @@
-\section{О стабилизации движений управляемой механической системы.} \label{p13}
+\section{О стабилизации стационарных программных движений управляемой механической системы.} \label{p13}
 
 Рассмотрим механическую систему, у которой кинетическая энергия не зависит от последних $(n-m)$ координат $q_{m+1},... q_n (0 < m < n, n > 1),$ и, таким образом, первые $m$ координат $q_1, q_2, ... , q_m$ являются периодическими, остальные - циклическими [].
 
@@ -8,7 +8,7 @@ $z = (z_1, z_2, ... z_m)^{'} = (q_1, q_2, ..., q_m)^{'}$
 
 $s^{'} = (s_1, s_2, ... , s_{n-m}) = (q_{m + 1}, ..., q_n)^{'}$
 
-Соответственно, кинетическая энергия системы может быть записана в виде $2T = \dot z^{'} A_{11} (z) \dot z + \dot z^{'} A_{12} (z) \dot s + \dot s^{'} A_{21} (z) \dot z + \dot s^{'} A_{22} (z) \dot s, A_21^{'} = A_{12}$
+Соответственно, кинетическая энергия системы может быть записана в виде $2T = \dot z^{'} A_{11} (z) \dot z + \dot z^{'} A_{12} (z) \dot s + \dot s^{'} A_{21} (z) \dot z + \dot s^{'} A_{22} (z) \dot s, \quad A_{21} = A_{12}$
 
 где составляющие матрицу $A$ подматрицы $A_{11}, A_{12}, A_{21}, A_{22}$ удовлетворяют условиям 
 $$
@@ -26,16 +26,16 @@ $$
 Q^{'} = (Q_{z}^{'}, \quad Q_{s}^{'}), \quad U = (U_{z}^{'}, U_{s}^{'}), Q_s = 0, \quad U_s = 0, \quad \frac{\partial \Pi}{\partial s} = 0
 \end{equation}
 
-Возьмем циклические импульсы
+Введем циклические импульсы
 
 \begin{equation} \label{1.32'}
-V = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
+v = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
 \end{equation}
 
 Из последних $n - m$ уравнений (\ref{1.14'}) и предположений (\ref{1.31'}) получаем 
 
 \begin{equation} \label{1.33'}
-\frac{d V}{d t} = 0
+\frac{d v}{d t} = 0
 \end{equation}
 
 т.е. циклические импульсы для движения системы (\ref{1.14'}) являются постоянными.
@@ -43,17 +43,17 @@ V = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
 Следуя [], введем функцию Рауса. Для этого из (\ref{1.32'}) находим
 
 \begin{equation} \label{1.34'}
-\dot s = A_{22}^{-1} (z) (V - A_{21} (z) \dot z)
+\dot s = A_{22}^{-1} (z) (v - A_{21} (z) \dot z)
 \end{equation}
 
 Тогда функция Рауса [] 
 
 \begin{equation} \label{1.35'}
 \begin{array}{c}
-	2R = 2T - 2 \dot s^{'} =\\
-	= \dot z^{'} A_{11} \dot z + \dot z^{'} A_{12} A_{22}^{-1} (V - A_{21} \dot z) + (V - A_{21} \dot z)^{'} A_{21} \dot z +\\
-	+ (V - A_21 \dot z)^{'} A_{22}^{-1} (V - A_{21} \dot z) - 2 (V - A_{21} \dot z)^{'} A_{22}^{-1} P =\\
-	= 2 R_2 + 2 R_1 + 2 R_0, 2 R_2 = \dot z^{'} B (z) \dot z, R_1 = V A_{22}^{-1} A_{21} \dot z, 2 R_0 = - V^{'} A_{22}^{-1} V
+	2R = 2T - 2 \dot s^{'} v =\\
+	= \dot z^{'} A_{11} \dot z + \dot z^{'} A_{12} A_{22}^{-1} (v - A_{21} \dot z) + (v - A_{21} \dot z)^{'} A_{21} \dot z +\\
+	+ (v - A_21 \dot z)^{'} A_{22}^{-1} (v - A_{21} \dot z) - 2 (v - A_{21} \dot z)^{'} A_{22}^{-1} P =\\
+	= 2 R_2 + 2 R_1 + 2 R_0, 2 R_2 = \dot z^{'} B (z) \dot z, R_1 = V A_{22}^{-1} A_{21} \dot z, 2 R_0 = - v^{'} A_{22}^{-1} v
 \end{array}
 \end{equation}
 
@@ -69,23 +69,23 @@ V = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
 
 \begin{equation} \label{1.37'}
 \begin{array}{c}
-\frac{d}{dt} (\frac{\partial R_z}{\partial \dot z}) - \frac{\partial R_z}{\partial z} = \frac{\partial R_0}{\partial z} - \frac{\partial \Pi}{\partial z} - G \dot z + U_z + Q_z\partial{d V}{d t} = 0,\\
-\dot s = A_{22}^{-1} (z) (V - A_{21} (z) \dot z)
+\frac{d}{dt} (\frac{\partial R_2}{\partial \dot z}) - \frac{\partial R_2}{\partial z} = \frac{\partial R_0}{\partial z} - \frac{\partial \Pi}{\partial z} - G \dot z + U_z + Q_z {d v}{d t} = 0,\\
+\dot s = A_{22}^{-1} (z) (v - A_{21} (z) \dot z)
 \end{array}
 \end{equation}
 
-где $G = G(z, v) = (\frac{\partial g}{\partial z}) - (\frac{\partial g}{\partial z})^{'}, g(z, V) = A_{12} A_{22}^{-1} V$ есть кососимметрическая матрица, $G^{'} = G$.
+где $G = G(z, v) = (\frac{\partial g}{\partial z}) - (\frac{\partial g}{\partial z})^{'}, g(z, v) = A_{12} A_{22}^{-1} v$ есть кососимметрическая матрица, $G^{'} = -G$.
 
-Допустим, что при некотором значении $z = z_0$ и $V = V_0$ управление $U_z$ подобрано так, что 
+Допустим, что при некотором значении $z = z_0$ и $v = v_0$ управление $U_z$ подобрано так, что 
 
 \begin{equation} \label{1.38'}
-U_z^0 (t) = - \frac{\partial R_0}{\partial z} (V_0, z_0) + \frac{\partial \Pi (t, z_0)}{\partial z}
+U_z^0 (t) = - \frac{\partial R_0}{\partial z} (v_0, z_0) + \frac{\partial \Pi (t, z_0)}{\partial z}
 \end{equation}
 
 Тогда система (\ref{1.35'}) будет иметь программное движения 
 
 \begin{equation} \label{1.39'}
-\dot z = 0, \quad z = z_0, \quad V = V_0, \quad \dot s = \dot s_0 = A_{22}^{-1} (z_0) V_0
+\dot z = 0, \quad z = z_0, \quad v = v_0, \quad \dot s = \dot s_0 = A_{22}^{-1} (z_0) v_0
 \end{equation}
 
 Рассмотрим задачу о стабилизации этого движения управлением вида 
@@ -94,7 +94,7 @@ U_z^0 (t) = - \frac{\partial R_0}{\partial z} (V_0, z_0) + \frac{\partial \Pi (t
 U_z = U_z^0 (t) - \frac{\partial \Pi_U (t, v, z)}{\partial z} - \int_{t - h}^{t} P_z (t, \tau) (z(t) - z(\tau)) d \tau
 \end{equation}
 
-где $\Pi_U = \Pi_U (t, V, z)$ есть некоторые непрерывно-дифференцируемая (по $z$ дважды) ограниченная вместе со своими производными $\frac{\partial \Pi}{\partial t} (t, V, z_0) 0 , P_z(t, z)$ есть матрица размерности $m \times m$ выражения вида $P_z = \| p_{jk} (t, \tau) \|, p_{jk} (t, \tau) = p_{jk}^0 e^{s_{jk}^0 (\tau - t)}, p_{jk}^0, s_{jk}^0 - const$
+где $\Pi_U = \Pi_U (t, v, z)$ есть некоторые непрерывно-дифференцируемая (по $z$ дважды) ограниченная вместе со своими производными $\frac{\partial \Pi}{\partial t} (t, v, z_0) 0 , P_z(t, z)$ есть матрица размерности $m \times m$ выражения вида $P_z = \| p_{jk} (t, \tau) \|, p_{jk} (t, \tau) = p_{jk}^0 e^{s_{jk}^0 (\tau - t)}, p_{jk}^0, s_{jk}^0 - const$
 
 удовлетворяющая условиям
 
@@ -106,7 +106,7 @@ P_t (t, \tau) = \frac{\partial P_z (t, \tau)}{\partial t} = - \| p_{jk}^0 s_{jk}
 \end{array}
 \end{equation}
 
-Уравнения (\ref{1.35'}) с управлением (\ref{1.36'}), (\ref{1.38'}) могут быть записаны в виде
+Уравнения (\ref{1.36'}) с управлением (\ref{1.40'}), (\ref{1.41'}) могут быть записаны в виде
 
 \begin{equation} \label{1.42'}
 \begin{array}{c}
@@ -115,59 +115,61 @@ P_t (t, \tau) = \frac{\partial P_z (t, \tau)}{\partial t} = - \| p_{jk}^0 s_{jk}
 \displaystyle - \frac{\partial S(t, v(t), z(t))}{\partial z}) - \int_{t - h}^{t} P_z (t, \tau) (z(t) - z(\tau)) d \tau,
 \end{array}
 \end{equation}
-$$\frac{d V(t)}{dt} = 0 \quad \frac{d s(t)}{dt} = A_{22}^{-1} (z(t) (v(t) - A){21} (z(t)) r(t))$$
+$$\frac{d v(t)}{dt} = 0 \quad \frac{d s(t)}{dt} = A_{22}^{-1} (z(t) (v(t) - A_{21}) (z(t)) r(t))$$
 
 где $E = (e_{kj}) - $ матрица, определяемая равенством 
 $$e_{kj} = \frac12 \sum_{ i = 1}^{m} (\frac{\partial b_{ik}}{\partial z_j} - \frac{\partial b_{kj}}{\partial z_i} - \frac{\partial b_{ij}}{\partial z_k}) r_k$$
-функция $s(t, v, z) = \Pi (t, z) - R_0 (V, z) - \frac{\partial \Pi (t, z_0)}{\partial z} z + \frac{\partial R_0 (V, z_0)}{\partial z} z + \Pi_U (t, V, z)$
+функция $s(t, v, z) = \Pi (t, z) - R_0 (v, z) - \frac{\partial \Pi (t, z_0)}{\partial z} z + \frac{\partial R_0 (v, z_0)}{\partial z} z + \Pi_U (t, v, z)$
 
-В силу $U_z$ имеем $\frac{\partial S(t, V_0, z_0)}{\partial z} = 0$ так что система (\ref{1.40'}) имеем решение $z(t) = z_0, r(t) = 0, V = V_0, \dot S_0 = A_{22}^{-1} (z_0) V_0,$ отвечающее программному движению (\ref{1.37'}).
+В силу подбора $U_z$ имеем $\frac{\partial S(t, v_0, z_0)}{\partial z} = 0$, так что система (\ref{1.42'}) имеет решение 
+$$z(t) = z_0, \quad r(t) = 0, \quad v = v_0, \quad \dot s_0 = A_{22}^{-1} (z_0) v_0,$$ 
+отвечающее программному движению (\ref{1.39'}).
 
-Полагаем, что функции $Q_z (t, z, r)$, $S(t, V, z)$, $\frac{\partial S}{\partial t} (t, V, z)$, $\frac{\partial S(t, V, z)}{\partial z}$ являются ограниченными, равномерно непрерывными на множествах вида $R \times K, K \in R^n$ - компакт, при этом
+Полагаем, что функции $Q_z (t, z, r)$, $S(t, v, z)$, $\frac{\partial S}{\partial t} (t, v, z)$, $\frac{\partial S(t, v, z)}{\partial z}$ являются ограниченными, равномерно непрерывными на множествах вида $R \times K, K \in R^n$ - компакт, при этом
 
 \begin{equation} \label{1.43'}
-\frac{\partial S}{\partial t} (t, V, z) \le 0, S(t, V_0, z_0) = 0
+\frac{\partial S}{\partial t} (t, v, z) \le 0, S(t, v_0, z_0) = 0
 \end{equation}
 
-Уравнение к (\ref{1.39'}) имеют аналогичный им вид с функциями $Q_z^{*} (t, z, r)$ и $S = S^{*} (V, z),$ к $Q_z$ и $S.$
-
-$$S^{*} (V, z) = \lim_{t \to + \infty} S(t, V, z)$$
-
+Уравнения (\ref{1.42'}) имеют аналогичный им вид с функциями $Q_z^{*} (t, z, r)$ и $S = S^{*} (v, z),$ к $Q_z$ и $S$
+$$S^{*} (V, z) = \lim_{t \to + \infty} S(t, V, z).$$
 Введем функционал
 $$
 \begin{array}{c}
-\displaystyle V = \frac12 r^{'}(t) B (z(t)) r(t) + S(t, V_0, z) + \frac12 \| V(t) - V_0 \|^2 +\\
+\displaystyle V = \frac12 r^{'}(t) B (z(t)) r(t) + S(t, v_0, z) + \frac12 \| v(t) - v_0 \|^2 +\\
 \displaystyle + \frac12 \int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_z (t, \tau) (z(t) - z(\tau)) d \tau
 \end{array}
 $$
 
-Его производная в силу уравнений (\ref{1.40'}) в соответствии с соотношениями (\ref{1.39'}) и (\ref{1.42'}) будет иметь следующую оценку
+Его производная в силу уравнений (\ref{1.42'}) в соответствии с соотношениями (\ref{1.41'}) и (\ref{1.43'}) будет иметь следующую оценку
 
 \begin{equation} \label{1.44'}
 \begin{array}{c}
-\displaystyle \dot V = - z^{'} (t) G(z(t), V(t)) r(t) + z^{'} (t) Q_z (t, z(t), r(t)) + \frac{\partial S(t, V_0, t)}{\partial t} +\\
-\displaystyle + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_t(t, \tau) (z(t) - z(\tau)) d \tau le W(z_t) \le\\
-\displaystyle \le -\frac{\beta_0}{2} \displaystyle\int\limits_{t - h}^{t} \| z(t) - z(\tau) \|^2 d \tau
+\displaystyle \dot V = - z^{'} (t) G(z(t), v(t)) r(t) + z^{'} (t) Q_z (t, z(t), r(t)) + \frac{\partial S(t, v_0, t)}{\partial t} +\\
+\displaystyle + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_t(t, \tau) (z(t) - z(\tau)) d \tau \le W(z_t) =\\
+\displaystyle = -\frac{\beta_0}{2} \displaystyle\int\limits_{t - h}^{t} \| z(t) - z(\tau) \|^2 d \tau
 \end{array}
 \end{equation}
 
-Соответственно иммем следующую теорему.
+Соответственно имеем следующую теорему.
 
 \begin{theorem}\label{t-1.10}
 Предположим, что:
 
-1) функция $s = s(t, V_0, z)$ являются определенно-положительными по $z$;
+1) функция $s = s(t, v_0, z)$ является определенно-положительной по $z$;
 
-2) функция $s^{*} (V_0, z)$ имеет изолированный минимум в точке 
-$$z = z_0, \| \frac{\partial S^{*} (V_0, z)}{\partial z} \| \ne 0 \quad \forall z \in \lbrace 0 < \| z - z_0 \| < \delta \rbrace$$
+2) функция $s^{*} (v_0, z)$ имеет изолированный минимум в точке 
+$$\| \frac{\partial S^{*} (V_0, z)}{\partial z} \| \ne 0 \quad \forall z \in \lbrace 0 < \| z - z_0 \| < \delta \rbrace$$
 
-Тогда под действием управления (\ref{1.38'})) программное стационарное движение (\ref{1.37'}) устойчиво, асимптотически устойчиво относительно движений, отвечающих значению $V = V_0,$ а каждое иное возмущенное движение неограниченно приближается при $t \to + \infty$ к движению 
-$$\dot z = 0, \quad \dot z = z_1 = const, \quad V = V_1 = const, \quad \dot s = \dot s_1 = A_{22}^{-1} (z_1) V_1$$
+Тогда под действием управления (\ref{1.40'})) программное стационарное движение (\ref{1.39'}) устойчиво, асимптотически устойчиво относительно движений, отвечающих значению $v = v_0,$ а каждое иное возмущенное движение неограниченно приближается при $t \to + \infty$ к движению 
+$$\dot z = 0, \quad \dot z = z_1 = const, \quad v = v_1 = const, \quad \dot s = \dot s_1 = A_{22}^{-1} (z_1) v_1$$
 \end{theorem}
 
 Доказательство:
-Из условия 1) теоремы и условий относительно функций, входящих в функционал $V,$ следует, что он является определенно положительным, допускающим бесконечно малый высший предел по переменным $r, z, V - V_0.$
+Из условия 1) теоремы и условий относительно функций, входящих в функционал $V,$ следует, что он является определенно положительным, допускающим бесконечно малый высший предел по переменным $r, z, v - v_0.$
 
-В силу (\ref{1.43'}) имеем устойчивость движения (\ref{1.37'}).
+В силу (\ref{1.44'}) имеем устойчивость движения (\ref{1.39'}).
 
-Множество $\lbrace W(z_t) = 0 \rbrace$ может содержать только те предельных систем для которых $z(t) = z_1 = const.$ Но такими решениями могут быть решения для которых одновременно $r(t) = 0 V(t) = V_1 = const, \frac{\partial S^{*} (V_1, z_1)}{\partial z} = 0.$ Тем самым, имеем искомое доказательство. 
+Множество $\lbrace W(z_t) = 0 \rbrace$ может содержать только те предельные решения, для которых $z(t) = z_1 = const.$ Но такими решениями могут быть решения для которых одновременно 
+$$r(t) = 0, \quad v(t) = v_1 = const, \quad \frac{\partial S^{*} (v_1, z_1)}{\partial z} = 0.$$
+Тем самым, имеем искомое доказательство. 
