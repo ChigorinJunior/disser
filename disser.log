@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  22 SEP 2016 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  23 SEP 2016 00:01
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -1177,6 +1177,11 @@ mm/m/it/14.4 g; U\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 такова, что множество
  []
 
 ) (chapter_1/paragraph_2/1_2.tex
+Underfull \hbox (badness 1424) in paragraph at lines 1--1
+ |[]\LCY/cmr/m/n/14.4 Стабилизация программных позиций голономной механической
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 \LCY/cmr/m/n/14.4 Движение управляемой механической системы со
  []
@@ -1188,29 +1193,17 @@ Underfull \hbox (badness 1902) in paragraph at lines 9--10
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 9--10
-$\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q[]; q[]; :::q[]\OT1/cmr/m/n/14.4 )[]$ \
-LCY/cmr/m/n/14.4 --- вектор обобщенных координат, $[] \OT1/cmr/m/n/14.4 = ([]\O
-ML/cmm/m/it/14.4 ; []; :::[]\OT1/cmr/m/n/14.4 )[]$ \LCY/cmr/m/n/14.4 ---
+Underfull \hbox (badness 1917) in paragraph at lines 9--10
+\LCY/cmr/m/n/14.4 обобщенных скоростей. $\OML/cmm/m/it/14.4 T \OT1/cmr/m/n/14.4
+ = []([])[]\OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/cmr/
+m/n/14.4 )[]$ \LCY/cmr/m/n/14.4 --- кинетическая энергия с
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 9--10
-\LCY/cmr/m/n/14.4 вектор обобщенных скоростей. $\OML/cmm/m/it/14.4 T \OT1/cmr/m
-/n/14.4 = []([])[]\OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\O
-T1/cmr/m/n/14.4 )[]$ \LCY/cmr/m/n/14.4 --- кинетическая
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 9--10
-\LCY/cmr/m/n/14.4 вектор обобщенных сил, которые полагаются зависимыми от $\OT1
-/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; q; []\OT1/cmr/m/n/14.4 );$
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 9--10
-$\OML/cmm/m/it/14.4 U$ \LCY/cmr/m/n/14.4 - обобщенная управляющая сила; через $
-\OT1/cmr/m/n/14.4 ()[]$ \LCY/cmr/m/n/14.4 обозначена операция
+Underfull \hbox (badness 3612) in paragraph at lines 9--10
+\LCY/cmr/m/n/14.4 сил, которые полагаются зависимыми от $\OT1/cmr/m/n/14.4 (\OM
+L/cmm/m/it/14.4 t; q; []\OT1/cmr/m/n/14.4 );$ $\OML/cmm/m/it/14.4 U$ \LCY/cmr/m
+/n/14.4 - обобщенная
  []
 
 [22]
@@ -1230,21 +1223,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
  []
 
 [24]
-Underfull \hbox (badness 4805) in paragraph at lines 89--90
+Underfull \hbox (badness 4805) in paragraph at lines 90--91
 []\LCY/cmr/m/n/14.4 Это уравнение представляет собой совокупность функционально
 -
  []
 
 [25]
-Underfull \hbox (badness 2856) in paragraph at lines 91--92
+Underfull \hbox (badness 1817) in paragraph at lines 92--93
 []\LCY/cmr/m/n/14.4 Для движения $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/c
 mr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; []\OT1
 /cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ))$ \LCY/cmr/m/n/14.4 сист
-емы (1.1[]) с начальным состоянием
+емы (1.14[]) с начальным состоянием
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 93--94
+Underfull \hbox (badness 1484) in paragraph at lines 94--95
 []\LCY/cmr/m/n/14.4 Функции $\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 (\OML/cmm/
 m/it/14.4 x\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ))$ \LCY/cm
 r/m/n/14.4 и $\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1
@@ -1254,12 +1247,12 @@ r/m/n/14.4 и $\OML/cmm/m/it/14.4 C[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 93--94
+Underfull \hbox (badness 3601) in paragraph at lines 94--95
 \LCY/cmr/m/n/14.4 непрерывные функции по отношению к непрерывной совокупности
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 95--96
+Underfull \hbox (badness 1803) in paragraph at lines 96--97
 []\LCY/cmr/m/n/14.4 Будем полагать, что зависимости $\OML/cmm/m/it/14.4 Q \OT1/
 cmr/m/n/14.4 = \OML/cmm/m/it/14.4 Q\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; 
 y\OT1/cmr/m/n/14.4 )$\LCY/cmr/m/n/14.4 , $\OT1/cmr/m/n/14.4 [](\OML/cmm/m/it/1
@@ -1267,88 +1260,61 @@ y\OT1/cmr/m/n/14.4 )$\LCY/cmr/m/n/14.4 , $\OT1/cmr/m/n/14.4 [](\OML/cmm/m/it/1
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 97--98
+Underfull \hbox (badness 1584) in paragraph at lines 98--99
 []\LCY/cmr/m/n/14.4 Соответственно согласно п 1.1. и работе [] семейства предел
 ьных
  []
 
-
-Underfull \hbox (badness 1057) in paragraph at lines 104--105
-\LCY/cmr/m/n/14.4 удовлетворяет условию (1.25[]) $[] \OMS/cmsy/m/n/14.4  \OT1/
-cmr/m/n/14.4 0$ \LCY/cmr/m/n/14.4 Тогда будет существовать
- []
-
 [26]
-Underfull \hbox (badness 1194) in paragraph at lines 134--135
-\LCY/cmr/bx/n/14.4 Теорема 1.6. \LCY/cmr/m/it/14.4 Пусть уравнение (1.23[]) выб
-рано таким образом, что
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 []\LCY/cmr/m/it/14.4 1) зависимость $\OT1/cmr/m/n/14.4 [](\OML/cmm/m/it/14.4 t
 ; x\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 является функцией
  []
 
 [27]
-Overfull \hbox (13.3012pt too wide) detected at line 161
+Overfull \hbox (13.3012pt too wide) detected at line 166
 []
  []
 
 [28] [29]
-Underfull \hbox (badness 4940) in paragraph at lines 208--209
-[]\LCY/cmr/m/n/14.4 Используя оценку производной (1.2.15) функционала (1.2.14) 
-на
- []
-
-
-Underfull \hbox (badness 3240) in paragraph at lines 216--217
-[]\LCY/cmr/m/n/14.4 Согласно оценке (1.2.15) максимально инвариантное относител
+Underfull \hbox (badness 6995) in paragraph at lines 221--222
+[]\LCY/cmr/m/n/14.4 Согласно оценке (1.28[]) максимально инвариантное относител
 ьно
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 221--222
-\LCY/cmr/bx/n/14.4 Теорема 1.8. \LCY/cmr/m/it/14.4 Теорема 1.9. Пусть уравнение
- (1.23[]) выбрано таким
+Underfull \hbox (badness 1454) in paragraph at lines 221--222
+\LCY/cmr/m/n/14.4 которых $\OML/cmm/m/it/14.4 x[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/
+it/14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 x[]; []\OT
+1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4  \O
+T1/cmr/m/n/14.4 0$ \LCY/cmr/m/n/14.4 и выполняется равенство (1.30[]). В
  []
 
 [30] [31]
-Underfull \hbox (badness 1194) in paragraph at lines 259--260
-\LCY/cmr/bx/n/14.4 Теорема 1.9. \LCY/cmr/m/it/14.4 Пусть уравнение (1.23[]) выб
-рано таким образом, что
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 265--266
+Underfull \hbox (badness 1215) in paragraph at lines 269--270
 []\LCY/cmr/m/it/14.4 3) множество $\OMS/cmsy/m/n/14.4 f\OT1/cmr/m/n/14.4 [](\O
 ML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 ) \OML/cmm/m/it/14.4 > \OT1/cmr/m/n/14.4 0\
 OMS/cmsy/m/n/14.4 g$ \LCY/cmr/m/it/14.4 не содержит положений равновесия
  []
 
+
+Underfull \hbox (badness 1466) in paragraph at lines 284--285
+[]\LCY/cmr/m/n/14.4 Согласно соотношению (1.28[]) для производной этого функцио
+нала
+ []
+
 [32]
-Overfull \hbox (151.1664pt too wide) detected at line 286
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+[]\LCY/cmr/m/n/14.4 не может в соответствии с
  []
 
-
-Underfull \hbox (badness 7522) in paragraph at lines 288--289
-[]\LCY/cmr/m/n/14.4 не может в соответствии с условием 3) теоремы содеражать
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 288--289
-\LCY/cmr/m/n/14.4 решение предельной системы. Согласно теореме 1.6 имеем требуе
-мое
- []
-
-) (chapter_1/paragraph_3/1_3.tex [33]
+) (chapter_1/paragraph_3/1_3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []\LCY/cmr/m/n/14.4 где составляющие матрицу $\OML/cmm/m/it/14.4 A$ \LCY/cmr/m/
 n/14.4 подматрицы $\OML/cmm/m/it/14.4 A[]; A[]; A[]; A[]$
  []
 
-[34]
+[33] [34]
 Underfull \hbox (badness 1221) in paragraph at lines 62--63
 []\LCY/cmr/m/n/14.4 Уравнения движения системы (1.14[]) могут быть записаны в в
 иде
@@ -2387,10 +2353,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5027 strings out of 493634
- 64261 string characters out of 3135239
- 142001 words of memory out of 3000000
- 8220 multiletter control sequences out of 15000+200000
+ 5028 strings out of 493634
+ 64270 string characters out of 3135239
+ 142013 words of memory out of 3000000
+ 8221 multiletter control sequences out of 15000+200000
  19120 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,12n,43p,9620b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2414,7 +2380,7 @@ Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (105 pages, 999010 bytes).
+Output written on disser.pdf (105 pages, 998189 bytes).
 PDF statistics:
  813 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
