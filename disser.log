@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  19 SEP 2016 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  22 SEP 2016 22:47
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -1100,93 +1100,78 @@ Underfull \hbox (badness 2150) in paragraph at lines 14--17
 [13
 
 
-]
-Underfull \hbox (badness 1571) in paragraph at lines 40--46
-[]\LCY/cmr/m/n/14.4 Дадим определение сходимости в $\OML/cmm/m/it/14.4 F$ \LCY/
-cmr/m/n/14.4 как равномерной на каждом
+] [14]
+Underfull \hbox (badness 1769) in paragraph at lines 83--88
+[]\LCY/cmr/m/n/14.4 Вводится определение. Функция $\OML/cmm/m/it/14.4 f[] \OT1/
+cmr/m/n/14.4 : \OML/cmm/m/it/14.4 R \OMS/cmsy/m/n/14.4  \OT1/cmr/m/n/14.4   \O
+MS/cmsy/m/n/14.4 ! \OML/cmm/m/it/14.4 R[]$ \LCY/cmr/m/n/14.4 называется
  []
 
-[14]
-Underfull \hbox (badness 6047) in paragraph at lines 87--92
-\LCY/cmr/bx/n/14.4 Определение 1.3. \LCY/cmr/m/it/14.4 Функция $\OML/cmm/m/it/1
-4.4 f[] \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/14.4 R \OMS/cmsy/m/n/14.4  \OT1/cmr/
-m/n/14.4   \OMS/cmsy/m/n/14.4 ! \OML/cmm/m/it/14.4 R[]$ \LCY/cmr/m/it/14.4 назы
-вается
+
+Underfull \hbox (badness 2080) in paragraph at lines 83--88
+\LCY/cmr/m/n/14.4 предельной к $\OML/cmm/m/it/14.4 f;$ \LCY/cmr/m/n/14.4 если с
+уществует последовательность $[]$ такая, что
  []
 
 [15]
-Underfull \hbox (badness 1314) in paragraph at lines 100--103
-\LCY/cmr/bx/n/14.4 Определение 1.4. \LCY/cmr/m/it/14.4 Для любого компактного м
-ножества $\OML/cmm/m/it/14.4 K \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[]$
- []
+
+LaTeX Warning: Reference `AS3' on page 16 undefined on input line 108.
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 120--122
+Underfull \hbox (badness 6016) in paragraph at lines 114--116
 []\LCY/cmr/m/n/14.4 Связь между решениями уравнений (1.1[]) и (1.4[]) определяе
 тся
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 []\LCY/cmr/m/n/14.4 Имеет место следующее свойство положительного предельного
  []
 
 [16]
-
-LaTeX Warning: Citation `kra591' on page 17 undefined on input line 165.
-
-
-LaTeX Warning: Citation `hei84' on page 17 undefined on input line 165.
-
-[17]
-Underfull \hbox (badness 2556) in paragraph at lines 172--173
-[]\LCY/cmr/m/n/14.4 Для функционала, имеющего инвариантную производную $\OML/cm
-m/m/it/14.4 @V\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$
+Underfull \hbox (badness 10000) in paragraph at lines 139--143
+[]\LCY/cmr/m/n/14.4 Вводятся следующие определения, в основе которых лежит
  []
 
-[18]
-Underfull \hbox (badness 1688) in paragraph at lines 235--241
+
+Underfull \hbox (badness 1789) in paragraph at lines 164--165
+[]\LCY/cmr/m/n/14.4 Для функционала, имеющего инвариантную производную $\OML/cm
+m/m/it/14.4 @V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$
+ []
+
+[17] [18]
+Underfull \hbox (badness 1688) in paragraph at lines 226--232
 []\LCY/cmr/m/it/14.4 Тогда для каждой предельной точки $\OML/cmm/m/it/14.4   \O
 MS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
 ; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 существуют
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 243--244
+Underfull \hbox (badness 4254) in paragraph at lines 234--235
 []\LCY/cmr/m/n/14.4 Для задачи об асимптотической устойчивости нулевого решения
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-[]\LCY/cmr/m/n/14.4 Рассмотрим задачу об устойчивости
+Underfull \hbox (badness 7576) in paragraph at lines 258--259
+\LCY/cmr/m/n/14.4 выявления устойчивости относительно части переменных свойство
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
-[]\LCY/cmr/m/n/14.4 Ограниченность решения
- []
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+\LCY/cmr/m/n/14.4 квазиинвариантности его положительного предельного множества,
 
-
-Underfull \hbox (badness 1210) in paragraph at lines 268--269
-\LCY/cmr/m/n/14.4 части переменных свойство квазиинвариантности его положительн
-ого
  []
 
 [20]
-Underfull \hbox (badness 1117) in paragraph at lines 286--287
-[]\LCY/cmr/m/n/14.4 Существование функционала Ляпунова, имеющего знакопостоянну
-ю
- []
-
-[21]
-Underfull \hbox (badness 3514) in paragraph at lines 304--306
+Underfull \hbox (badness 3514) in paragraph at lines 292--294
 \LCY/cmr/bx/n/14.4 Теорема 1.5. \LCY/cmr/m/it/14.4 Предположим, что: 1) решение
  уравнения (1.1) из
  []
 
-
-Underfull \hbox (badness 1394) in paragraph at lines 309--311
+[21]
+Underfull \hbox (badness 1394) in paragraph at lines 297--299
 \LCY/cmr/m/it/14.4 3) каждая предельная совокупность $\OT1/cmr/m/n/14.4 (\OML/c
 mm/m/it/14.4 g; U\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 такова, что множество
  []
@@ -1196,7 +1181,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 \LCY/cmr/m/n/14.4 Движение управляемой механической системы со
  []
 
-[22]
+
 Underfull \hbox (badness 1902) in paragraph at lines 9--10
 []\LCY/cmr/m/n/14.4 В уравнениях введена векторно-матричная запись: $\OML/cmm/m
 /it/14.4 q \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 R[]; q \OT1/cmr/m/n/14.4 =$
@@ -1228,7 +1213,7 @@ $\OML/cmm/m/it/14.4 U$ \LCY/cmr/m/n/14.4 - обобщенная управляющая сила; через $
 \OT1/cmr/m/n/14.4 ()[]$ \LCY/cmr/m/n/14.4 обозначена операция
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 []\LCY/cmr/m/n/14.4 В моделировании манипуляторов представляется важным учет
  []
@@ -1244,13 +1229,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 []\LCY/cmr/m/n/14.4 Использование теорем об устойчивости фунционально-
  []
 
-[24] [25]
+[24]
 Underfull \hbox (badness 4805) in paragraph at lines 89--90
 []\LCY/cmr/m/n/14.4 Это уравнение представляет собой совокупность функционально
 -
  []
 
-
+[25]
 Underfull \hbox (badness 2856) in paragraph at lines 91--92
 []\LCY/cmr/m/n/14.4 Для движения $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/c
 mr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; []\OT1
@@ -1281,7 +1266,7 @@ y\OT1/cmr/m/n/14.4 )$\LCY/cmr/m/n/14.4 , $\OT1/cmr/m/n/14.4 [](\OML/cmm/m/it/1
 4.4 t; x\OT1/cmr/m/n/14.4 )$\LCY/cmr/m/n/14.4 , $[]$
  []
 
-[26]
+
 Underfull \hbox (badness 1584) in paragraph at lines 97--98
 []\LCY/cmr/m/n/14.4 Соответственно согласно п 1.1. и работе [] семейства предел
 ьных
@@ -1293,7 +1278,7 @@ Underfull \hbox (badness 1057) in paragraph at lines 104--105
 cmr/m/n/14.4 0$ \LCY/cmr/m/n/14.4 Тогда будет существовать
  []
 
-[27]
+[26]
 Underfull \hbox (badness 1194) in paragraph at lines 134--135
 \LCY/cmr/bx/n/14.4 Теорема 1.6. \LCY/cmr/m/it/14.4 Пусть уравнение (1.23[]) выб
 рано таким образом, что
@@ -1305,7 +1290,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 ; x\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 является функцией
  []
 
-
+[27]
 Overfull \hbox (13.3012pt too wide) detected at line 161
 []
  []
@@ -1322,13 +1307,13 @@ Underfull \hbox (badness 3240) in paragraph at lines 216--217
 ьно
  []
 
-[30]
+
 Underfull \hbox (badness 1701) in paragraph at lines 221--222
 \LCY/cmr/bx/n/14.4 Теорема 1.8. \LCY/cmr/m/it/14.4 Теорема 1.9. Пусть уравнение
  (1.23[]) выбрано таким
  []
 
-[31]
+[30] [31]
 Underfull \hbox (badness 1194) in paragraph at lines 259--260
 \LCY/cmr/bx/n/14.4 Теорема 1.9. \LCY/cmr/m/it/14.4 Пусть уравнение (1.23[]) выб
 рано таким образом, что
@@ -1761,13 +1746,8 @@ hapter_3/paragraph_1/img/pic1.png> <./chapter_3/paragraph_1/img/pic2.png>]
 \openout2 = `postfix.aux'.
 
  (postfix.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--7
-\LCY/cmr/m/n/14.4 устойчивости и стабилизации нелинейных управляемых
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-[]\LCY/cmr/m/n/14.4 Проведено развитие метода векторных функций
+Underfull \hbox (badness 7722) in paragraph at lines 9--10
+\LCY/cmr/m/n/14.4 из работ. Эффективность новой методики в исследовании и
  []
 
 
@@ -1793,19 +1773,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--20
 [66
 
 ]
-Underfull \hbox (badness 1448) in paragraph at lines 20--21
-[]\LCY/cmr/m/n/14.4 Представлена модель управляемого двузвенного манипулятора н
-а
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
-\LCY/cmr/m/n/14.4 мобильного робота с тремя омни-
+[]\LCY/cmr/m/n/14.4 Разработана компьютерная модель
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 21--22
-\LCY/cmr/m/n/14.4 позволяет составить анализ процесса управления при различных
+Underfull \hbox (badness 2237) in paragraph at lines 21--22
+\LCY/cmr/m/n/14.4 фреймворка JavaFX. Приложение является кроссплатформенным,
  []
 
 ) [67]
@@ -2413,13 +2387,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5043 strings out of 493634
- 64396 string characters out of 3135239
- 142123 words of memory out of 3000000
- 8236 multiletter control sequences out of 15000+200000
+ 5027 strings out of 493634
+ 64261 string characters out of 3135239
+ 142001 words of memory out of 3000000
+ 8220 multiletter control sequences out of 15000+200000
  19120 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,12n,43p,9620b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,43p,9620b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
 -lcy\dpi720\lhti12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 \lh\lh-lcy\dpi864\lhcsc10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk
@@ -2440,9 +2414,9 @@ Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (105 pages, 997096 bytes).
+Output written on disser.pdf (105 pages, 999010 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
+ 813 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
