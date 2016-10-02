@@ -20,13 +20,19 @@ T = \frac12 ((I_1 + I_2 + m_2 l^2 + 2 m_2 l l_2 \cos q_2) \dot q_1^2 + (I_2 + m_
 
 \begin{equation}
 \begin{cases}
-\frac{d}{dt} (\frac{\partial T}{\partial \dot q_1}) - \frac{\partial T}{\partial q_1} = M_1 + U_1, 
-\\
-\frac{d}{dt} (\frac{\partial T}{\partial \dot q_2}) - \frac{\partial T}{\partial q_2} = M_2 + U_2,
+\displaystyle \frac{d}{dt} (\frac{\partial T}{\partial \dot q_1}) - \frac{\partial T}{\partial q_1} = M_1 + U_1, \\
+\displaystyle \frac{d}{dt} (\frac{\partial T}{\partial \dot q_2}) - \frac{\partial T}{\partial q_2} = M_2 + U_2,
 \end{cases}
 \end{equation}
 
-где $M_i$ --- момент, создаваемый силой тяжести в $i$-м шарнире. В случае манипулятора, совершающего движения в вертикальной плоскости, $M_1 = (m_1 l_1 + m_2 l) g \cos q_1, M_2 = m_2 l_2 g \cos (q_1 + q_2), U_i $ --- управление.
+где $M_i$ --- момент, создаваемый силой тяжести в $i$-м шарнире. В случае манипулятора, совершающего движения в вертикальной плоскости, 
+$$
+\begin{array}{l}
+M_1 = (m_1 l_1 + m_2 l) g \cos q_1, \\
+M_2 = m_2 l_2 g \cos (q_1 + q_2),
+\end{array}
+$$
+$U_i$ --- управление.
 
 Из выражения для кинетической энергии $T$ находим уравнения движения
 
@@ -40,7 +46,8 @@ a_{12} = I_2 + m_2 l_1 l_{g_2} \cos q_2, a_{22} = I_2
 \end{equation}
 
 Пусть $q=q(q_1, q_2)^{'}$ --– вектор обобщенных координат рассматриваемой механической системы и 
-$$X= {(q^0(t), \dot q^0(t)) : [t_0, + \infty) \to R^4, \|q^0(t)\| \le g_0, \|\dot q^0(t) \| \le g_1, \|\ddot q^0(t)\| \le g_2}$$
+$$X = \{(q^0(t), \dot q^0(t)) : [t_0, + \infty) \to R^4, \|q^0(t)\| \le g_0, \|\dot q^0(t) \| \le g_1, \|\ddot q^0(t)\| \le g_2 \}$$
+
 есть заданное множество программных движений манипулятора в виде ограниченных дважды непрерывно дифференцируемых функций $q=q^0(t)$ с ограниченными производными при $t \in [t_0, + \infty).$ Символом $\| \cdot \|$   обозначена евклидова норма вектора.
 
 Пусть $(q^0(t), \dot q^0(t)) \in X$ --- какое-либо программное движение, реализуемое программным управлением $U = U^0(t).$ Таким образом, для обеспечения такого движения имеет место следующее управление
@@ -61,18 +68,18 @@ A^{(1)}(t, x) \ddot x = {\dot x^{'} C^{(1)}(t, x) \dot x} + Q^{(1)}(t,x) + Q^{(2
 \end{equation}
 
 $$A^{(1)}(t, x) =
-\begin{mpmatrix}
+\begin{pmatrix}
 I_1 + m_2 l_1^2 && m_2 l_1 l_{g_2} \cos(q_2^0(t)) + x_2 \\
 m_2 l_1 l_{g_2} \cos(q_2^0(t)) + x_2  && I_2 \\
-\end{mpmatrix}$$
+\end{pmatrix}$$
 
-$$ C^{(1)}(t,x), Q^{(1)}(t,x)=F(t,x)p(x), Q^{(2)}(t,x,\dot x)=D(t,x)\dot x, $$
+$$ C^{(1)}(t,x), \quad Q^{(1)}(t,x)=F(t,x)p(x), \quad Q^{(2)}(t,x,\dot x)=D(t,x)\dot x, $$
 
 $$ C^{(1)}(t, x) =
-\begin{pmatrix}
+\begin{mpmatrix}
 - m_2 l l_2 \sin(q_2^0(t) - q_1^0(t) + x_2 - x_1) && 0 \\
 0 && m_2 l l_2 \sin(q_2^0(t) - q_1^0(t) + x_2 - x_1) \\
-\end{pmatrix}, $$
+\end{mpmatrix}, $$
 
 $$F(t, x) =
 \begin{pmatrix}
