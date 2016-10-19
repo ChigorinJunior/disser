@@ -53,7 +53,7 @@ v = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
 	2R = 2T - 2 \dot s^{'} v =\\
 	= \dot z^{'} A_{11} \dot z + \dot z^{'} A_{12} A_{22}^{-1} (v - A_{21} \dot z) + (v - A_{21} \dot z)^{'} A_{21} \dot z +\\
 	+ (v - A_21 \dot z)^{'} A_{22}^{-1} (v - A_{21} \dot z) - 2 (v - A_{21} \dot z)^{'} A_{22}^{-1} P =\\
-	= 2 R_2 + 2 R_1 + 2 R_0, 2 R_2 = \dot z^{'} B (z) \dot z, R_1 = V A_{22}^{-1} A_{21} \dot z, 2 R_0 = - v^{'} A_{22}^{-1} v
+	= 2 R_2 + 2 R_1 + 2 R_0, 2 R_2 = \dot z^{'} B (z) \dot z, R_1 = v A_{22}^{-1} A_{21} \dot z, 2 R_0 = - v^{'} A_{22}^{-1} v
 \end{array}
 \end{equation}
 
@@ -69,8 +69,9 @@ v = \frac{\partial T}{\partial \dot s} = A_{21} (z) \dot z + A_{22} (z) \dot s
 
 \begin{equation} \label{1.37'}
 \begin{array}{c}
-\frac{d}{dt} (\frac{\partial R_2}{\partial \dot z}) - \frac{\partial R_2}{\partial z} = \frac{\partial R_0}{\partial z} - \frac{\partial \Pi}{\partial z} - G \dot z + U_z + Q_z {d v}{d t} = 0,\\
-\dot s = A_{22}^{-1} (z) (v - A_{21} (z) \dot z)
+\displaystyle \frac{d}{dt} (\frac{\partial R_2}{\partial \dot z}) - \frac{\partial R_2}{\partial z} = \frac{\partial R_0}{\partial z} - \frac{\partial \Pi}{\partial z} - G \dot z + U_z + Q_z,\\
+{d v}{d t} = 0,\\
+\displaystyle \dot s = A_{22}^{-1} (z) (v - A_{21} (z) \dot z)
 \end{array}
 \end{equation}
 
@@ -119,7 +120,7 @@ $$\frac{d v(t)}{dt} = 0 \quad \frac{d s(t)}{dt} = A_{22}^{-1} (z(t) (v(t) - A_{2
 
 где $E = (e_{kj}) - $ матрица, определяемая равенством 
 $$e_{kj} = \frac12 \sum_{ i = 1}^{m} (\frac{\partial b_{ik}}{\partial z_j} - \frac{\partial b_{kj}}{\partial z_i} - \frac{\partial b_{ij}}{\partial z_k}) r_k$$
-функция $s(t, v, z) = \Pi (t, z) - R_0 (v, z) - \frac{\partial \Pi (t, z_0)}{\partial z} z + \frac{\partial R_0 (v, z_0)}{\partial z} z + \Pi_U (t, v, z)$
+функция $S(t, v, z) = \Pi (t, z) - R_0 (v, z) - \frac{\partial \Pi (t, z_0)}{\partial z} z + \frac{\partial R_0 (v, z_0)}{\partial z} z + \Pi_U (t, v, z)$
 
 В силу подбора $U_z$ имеем $\frac{\partial S(t, v_0, z_0)}{\partial z} = 0$, так что система (\ref{1.42'}) имеет решение 
 $$z(t) = z_0, \quad r(t) = 0, \quad v = v_0, \quad \dot s_0 = A_{22}^{-1} (z_0) v_0,$$ 
@@ -128,11 +129,11 @@ $$z(t) = z_0, \quad r(t) = 0, \quad v = v_0, \quad \dot s_0 = A_{22}^{-1} (z_0) 
 Полагаем, что функции $Q_z (t, z, r)$, $S(t, v, z)$, $\frac{\partial S}{\partial t} (t, v, z)$, $\frac{\partial S(t, v, z)}{\partial z}$ являются ограниченными, равномерно непрерывными на множествах вида $R \times K, K \in R^n$ - компакт, при этом
 
 \begin{equation} \label{1.43'}
-\frac{\partial S}{\partial t} (t, v, z) \le 0, S(t, v_0, z_0) = 0
+\frac{\partial S}{\partial t} (t, v, z) \le 0, \quad S(t, v_0, z_0) = 0
 \end{equation}
 
-Уравнения (\ref{1.42'}) имеют аналогичный им вид с функциями $Q_z^{*} (t, z, r)$ и $S = S^{*} (v, z),$ к $Q_z$ и $S$
-$$S^{*} (V, z) = \lim_{t \to + \infty} S(t, V, z).$$
+Уравнения (\ref{1.42'}) имеют аналогичный им вид с функциями $Q_z^{*} (t, z, r)$ и $S = S^{*} (v, z),$ предельными к $Q_z$ и $S$
+$$S^{*} (v, z) = \lim_{t \to + \infty} S(t, v, z).$$
 Введем функционал
 $$
 \begin{array}{c}
@@ -146,7 +147,7 @@ $$
 \begin{equation} \label{1.44'}
 \begin{array}{c}
 \displaystyle \dot V = - z^{'} (t) G(z(t), v(t)) r(t) + z^{'} (t) Q_z (t, z(t), r(t)) + \frac{\partial S(t, v_0, t)}{\partial t} +\\
-\displaystyle + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_t(t, \tau) (z(t) - z(\tau)) d \tau \le W(z_t) =\\
+\displaystyle + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_t(t, \tau) (z(t) - z(\tau)) d \tau \le - W(z_t) =\\
 \displaystyle = -\frac{\beta_0}{2} \displaystyle\int\limits_{t - h}^{t} \| z(t) - z(\tau) \|^2 d \tau
 \end{array}
 \end{equation}
@@ -159,7 +160,7 @@ $$
 1) функция $s = s(t, v_0, z)$ является определенно-положительной по $z$;
 
 2) функция $s^{*} (v_0, z)$ имеет изолированный минимум в точке 
-$$\| \frac{\partial S^{*} (V_0, z)}{\partial z} \| \ne 0 \quad \forall z \in \lbrace 0 < \| z - z_0 \| < \delta \rbrace$$
+$$\| \frac{\partial S^{*} (v_0, z)}{\partial z} \| \ne 0 \quad \forall z \in \lbrace 0 < \| z - z_0 \| < \delta \rbrace$$
 
 Тогда под действием управления (\ref{1.40'})) программное стационарное движение (\ref{1.39'}) устойчиво, асимптотически устойчиво относительно движений, отвечающих значению $v = v_0,$ а каждое иное возмущенное движение неограниченно приближается при $t \to + \infty$ к движению 
 $$\dot z = 0, \quad \dot z = z_1 = const, \quad v = v_1 = const, \quad \dot s = \dot s_1 = A_{22}^{-1} (z_1) v_1$$
@@ -172,4 +173,4 @@ $$\dot z = 0, \quad \dot z = z_1 = const, \quad v = v_1 = const, \quad \dot s = 
 
 Множество $\lbrace W(z_t) = 0 \rbrace$ может содержать только те предельные решения, для которых $z(t) = z_1 = const.$ Но такими решениями могут быть решения для которых одновременно 
 $$r(t) = 0, \quad v(t) = v_1 = const, \quad \frac{\partial S^{*} (v_1, z_1)}{\partial z} = 0.$$
-Тем самым, имеем искомое доказательство. 
+Тем самым, в силу теорем 1.1 и 1.2 имеем искомое доказательство. 
