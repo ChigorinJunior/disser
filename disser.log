@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  19 OCT 2016 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  20 DEC 2016 22:44
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -1391,13 +1391,14 @@ Underfull \hbox (badness 1264) in paragraph at lines 3--4
 о
  []
 
-<chapter_2/paragraph_1/img/manipulator.png, id=150, 228.855pt x 200.24812pt>
+
+<chapter_2/paragraph_1/img/manipulator.png, id=150, 295.85532pt x 282.30469pt>
 File: chapter_2/paragraph_1/img/manipulator.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/manipulator.png>
 Package pdftex.def Info: chapter_2/paragraph_1/img/manipulator.png used on inpu
 t line 7.
-(pdftex.def)             Requested size: 228.85443pt x 200.24763pt.
+(pdftex.def)             Requested size: 295.85458pt x 282.30399pt.
 
 Underfull \hbox (badness 6063) in paragraph at lines 12--13
 []\LCY/cmr/m/n/14.4 Введем обозначения: $\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/n/14.
@@ -1440,89 +1441,97 @@ Underfull \hbox (badness 1178) in paragraph at lines 2--3
 я
  []
 
-[49]
-Underfull \hbox (badness 2435) in paragraph at lines 6--8
-[] \LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/
-it/14.4 R[]$ \LCY/cmr/m/n/14.4 есть матрица коэффициентов усиления сигналов,
- []
-
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-\LCY/cmr/m/n/14.4 свойства асимптотической устойчивости нулевого решения
+[49] [50]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\LCY/cmr/m/n/14.4 свойства асимптотической устойчивости
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-\LCY/cmr/m/n/14.4 устойчивости нулевого решения системы (2.2). Получим условие
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\LCY/cmr/m/n/14.4 с областью
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 42--44
+Underfull \hbox (badness 1342) in paragraph at lines 44--46
 []\LCY/cmr/m/n/14.4 Тогда можно показать, что функция $[]\OT1/cmr/m/n/14.4 (\OM
 L/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = [] []$
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 42--44
+Underfull \hbox (badness 3646) in paragraph at lines 44--46
 \LCY/cmr/m/n/14.4 решение системы сравнения (2.4) будет асимптотически устойчив
 о.
  []
 
-
-Underfull \hbox (badness 5288) in paragraph at lines 49--50
+[51]
+Underfull \hbox (badness 5288) in paragraph at lines 51--52
 []\LCY/cmr/m/n/14.4 Численное моделирование движения манипулятора при действии
  []
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 52.
+Underfull \hbox (badness 3503) in paragraph at lines 51--52
+\LCY/cmr/m/n/14.4 управлений (2.10) и (2.13) проводилось при следующих значения
+х
+ []
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 54.
 
 Missing character: There is no м in font cmr12!
-[51]
-Underfull \hbox (badness 1769) in paragraph at lines 57--58
+
+Underfull \hbox (badness 1769) in paragraph at lines 59--60
 []\LCY/cmr/m/n/14.4 На рисунках 2 и 3 представлены результаты моделирования при
 
  []
 
-<chapter_2/paragraph_1/img/model1.png, id=185, 512.66531pt x 178.41656pt>
+<chapter_2/paragraph_1/img/model1.png, id=184, 512.66531pt x 178.41656pt>
 File: chapter_2/paragraph_1/img/model1.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/model1.png>
 Package pdftex.def Info: chapter_2/paragraph_1/img/model1.png used on input lin
-e 61.
+e 63.
 (pdftex.def)             Requested size: 512.66405pt x 178.4161pt.
 
-Overfull \hbox (28.96718pt too wide) in paragraph at lines 61--62
+Overfull \hbox (28.96718pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
-<chapter_2/paragraph_1/img/model2.png, id=186, 517.18219pt x 177.66376pt>
+<chapter_2/paragraph_1/img/model2.png, id=185, 517.18219pt x 177.66376pt>
 File: chapter_2/paragraph_1/img/model2.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/model2.png>
 Package pdftex.def Info: chapter_2/paragraph_1/img/model2.png used on input lin
-e 68.
+e 70.
 (pdftex.def)             Requested size: 517.18092pt x 177.66331pt.
 
-Overfull \hbox (33.48405pt too wide) in paragraph at lines 68--69
+Overfull \hbox (33.48405pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
-) (chapter_2/paragraph_4/2_4.tex [52 <./chapter_2/paragraph_1/img/model1.png> <
-./chapter_2/paragraph_1/img/model2.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (chapter_2/paragraph_4/2_4.tex [52 <./chapter_2/paragraph_1/img/model1.png>]
 Underfull \hbox (badness 5652) in paragraph at lines 13--14
 []\LCY/cmr/m/n/14.4 Продемонстрируем решение этой задачи для случая положения
  []
 
-
+[53 <./chapter_2/paragraph_1/img/model2.png>]
 Underfull \hbox (badness 2368) in paragraph at lines 19--20
 []\LCY/cmr/m/n/14.4 Покажем, что такая задача решается управлением приводами со
 
  []
 
-[53]
+
 Overfull \hbox (267.75461pt too wide) detected at line 37
 []
  []
+
+
+LaTeX Warning: Reference `2.12'' on page 54 undefined on input line 39.
+
+
+LaTeX Warning: Reference `2.13'' on page 54 undefined on input line 39.
 
 ! Missing } inserted.
 <inserted text> 
@@ -1544,7 +1553,14 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[54] [55]
+[54]
+
+LaTeX Warning: Reference `2.12'' on page 55 undefined on input line 54.
+
+
+LaTeX Warning: Reference `2.13'' on page 55 undefined on input line 54.
+
+[55]
 
 LaTeX Warning: Command \cyrm invalid in math mode on input line 93.
 
@@ -1573,7 +1589,7 @@ Missing character: There is no г in font cmr12!
 Missing character: There is no м in font cmr12!
 Missing character: There is no к in font cmr12!
 Missing character: There is no г in font cmr12!
-<chapter_2/paragraph_4/img/model3333.png, id=202, 900.36375pt x 574.39594pt>
+<chapter_2/paragraph_4/img/model3333.png, id=201, 900.36375pt x 574.39594pt>
 File: chapter_2/paragraph_4/img/model3333.png Graphic file (type png)
 
 <use chapter_2/paragraph_4/img/model3333.png>
@@ -1611,7 +1627,7 @@ Overfull \hbox (33.96791pt too wide) detected at line 16
 []
  []
 
-<chapter_3/paragraph_1/img/3chain.png, id=213, 245.41687pt x 236.38312pt>
+<chapter_3/paragraph_1/img/3chain.png, id=212, 245.41687pt x 236.38312pt>
 File: chapter_3/paragraph_1/img/3chain.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/3chain.png>
@@ -1674,7 +1690,7 @@ Overfull \hbox (34.64922pt too wide) detected at line 148
 []
  []
 
-<chapter_3/paragraph_1/img/pic1.png, id=231, 239.39438pt x 157.33781pt>
+<chapter_3/paragraph_1/img/pic1.png, id=230, 239.39438pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic1.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic1.png>
@@ -1685,7 +1701,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic1.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapter_3/paragraph_1/img/pic2.png, id=232, 247.67531pt x 157.33781pt>
+<chapter_3/paragraph_1/img/pic2.png, id=231, 247.67531pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic2.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic2.png>
@@ -1696,7 +1712,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic2.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapter_3/paragraph_1/img/pic3.png, id=233, 262.73157pt x 163.3603pt>
+<chapter_3/paragraph_1/img/pic3.png, id=232, 262.73157pt x 163.3603pt>
 File: chapter_3/paragraph_1/img/pic3.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic3.png>
@@ -2195,133 +2211,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 
 ]
-
-! LaTeX Error: File `window' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...includegraphics[width=1\linewidth]{window}
-                                                  }
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `theory' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 ...includegraphics[width=1\linewidth]{theory}
-                                                  }
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 5022) in paragraph at lines 29--36
-[]\LCY/cmr/m/n/14.4 В теоретическом разделе содержится схематическое изображени
-е
+Underfull \hbox (badness 2486) in paragraph at lines 20--21
+[]\LCY/cmr/m/n/14.4 На главном экране пользователю предлагается задать параметр
+ы
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 29--36
-\LCY/cmr/m/n/14.4 манипулятора, система дифференциальных уравнений, описывающих
-
+Underfull \hbox (badness 1231) in paragraph at lines 20--21
+\LCY/cmr/m/n/14.4 звеньев, расстояния до их центров масс), массы звеньев, начал
+ьные
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\LCY/cmr/m/n/14.4 манипулятора
- []
-
-
-Underfull \hbox (badness 2012) in paragraph at lines 40--41
+Underfull \hbox (badness 2012) in paragraph at lines 20--21
 \LCY/cmr/m/n/14.4 подобранными значениями по умолчанию для демонстрации работы
  []
 
-[98]
+<appendix/img/program.png, id=341, 481.8pt x 418.56375pt>
+File: appendix/img/program.png Graphic file (type png)
 
-! LaTeX Error: File `modeling' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ...cludegraphics[width=1\linewidth]{modeling}
-                                                  }
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 6094) in paragraph at lines 54--55
+<use appendix/img/program.png>
+Package pdftex.def Info: appendix/img/program.png used on input line 23.
+(pdftex.def)             Requested size: 483.69687pt x 420.22327pt.
+ [98 <./appendix/img/program.png>]
+Underfull \hbox (badness 6094) in paragraph at lines 34--35
 []\LCY/cmr/m/n/14.4 Формулы вводятся в поля ввода в качестве строк текста. В
  []
 
 
-Underfull \hbox (badness 4913) in paragraph at lines 54--55
+Underfull \hbox (badness 4913) in paragraph at lines 34--35
 \LCY/cmr/m/n/14.4 заданные в виде переменных. При обработке формул происходит
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 54--55
+Underfull \hbox (badness 1577) in paragraph at lines 34--35
 \LCY/cmr/m/n/14.4 памяти. Дальнейшие вычисления проводятся с помощью присвоения
 
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 54--55
+Underfull \hbox (badness 1033) in paragraph at lines 34--35
 \LCY/cmr/m/n/14.4 соответствующим переменным значений, необходимых для работы н
 а
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 56--57
+Underfull \hbox (badness 1824) in paragraph at lines 36--37
 []\LCY/cmr/m/n/14.4 При необходимости библиотека работы с формулами может быть
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\LCY/cmr/m/n/14.4 нажимает на кнопку построения графиков, после
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 38--39
+\LCY/cmr/m/n/14.4 звеньев с течением времени, ограничиваясь максимальным времен
+ем,
+ []
+
 [99]
-
-LaTeX Warning: Reference `ris:formul' on page 100 undefined on input line 58.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-\LCY/cmr/m/n/14.4 моделирования $\OML/cmm/m/it/14.4 T[]$ \LCY/cmr/m/n/14.4 рис.
-[]. После ввода уравнений
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 58--59
-\LCY/cmr/m/n/14.4 движения манипулятора и отображает результаты в виде графиков
-,
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 65--66
+Underfull \hbox (badness 1275) in paragraph at lines 45--46
 []\LCY/cmr/m/n/14.4 добавление делегированных тригонометрических и алгебраическ
 их
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 66--67
+Underfull \hbox (badness 2707) in paragraph at lines 46--47
 []\LCY/cmr/m/n/14.4 ввод определенных интегралов в том числе с подынтегральной
  []
 
-
-Underfull \hbox (badness 1776) in paragraph at lines 72--73
-[]\LCY/cmr/m/n/14.4 При этом вводе данных пользователю необходимо выбрать файл,
-
- []
-
-[100]) [101] (disser.aux (titul.aux) (prefix.aux) (postfix.aux)
-(bibliography.aux) (appendix/appendix.aux))
+) [100] (disser.aux (titul.aux) (prefix.aux) (postfix.aux) (bibliography.aux)
+(appendix/appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2335,11 +2297,11 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5010 strings out of 493634
- 63690 string characters out of 3135239
- 142015 words of memory out of 3000000
- 8195 multiletter control sequences out of 15000+200000
- 19120 words of font info for 64 fonts, out of 3000000 for 9000
+ 4970 strings out of 493634
+ 63405 string characters out of 3135239
+ 139958 words of memory out of 3000000
+ 8175 multiletter control sequences out of 15000+200000
+ 13857 words of font info for 45 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,12n,43p,9620b,580s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
@@ -2356,13 +2318,11 @@ nts/cm/cmmi7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Admin/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy7.pfb>
-Output written on disser.pdf (101 pages, 663612 bytes).
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admi
+n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on disser.pdf (100 pages, 779179 bytes).
 PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
+ 773 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
