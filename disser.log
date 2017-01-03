@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  19 OCT 2016 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  3 JAN 2017 13:14
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -1434,13 +1434,26 @@ mr/m/n/14.4 и $\OML/cmm/m/it/14.4 q[]$ \LCY/cmr/m/n/14.4 для каждого возмущенно
 го
  []
 
-[47] [48]) (chapter_2/paragraph_3/2_3.tex
+[47]
+<chapter_2/paragraph_2/img/manip_horizont.png, id=172, 638.385pt x 305.64188pt>
+File: chapter_2/paragraph_2/img/manip_horizont.png Graphic file (type png)
+<use chapter_2/paragraph_2/img/manip_horizont.png>
+Package pdftex.def Info: chapter_2/paragraph_2/img/manip_horizont.png used on i
+nput line 69.
+(pdftex.def)             Requested size: 638.38342pt x 305.64111pt.
+
+Overfull \hbox (154.68655pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
+
+[48] [49 <./chapter_2/paragraph_2/img/manip_horizont.png>])
+(chapter_2/paragraph_3/2_3.tex
 Underfull \hbox (badness 1178) in paragraph at lines 2--3
 \LCY/cmr/m/n/14.4 Рассмотрим решение задачи о стабилизации программного движени
 я
  []
 
-[49]
+
 Underfull \hbox (badness 2435) in paragraph at lines 6--8
 [] \LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 B \OMS/cmsy/m/n/14.4 2 \OML/cmm/m/
 it/14.4 R[]$ \LCY/cmr/m/n/14.4 есть матрица коэффициентов усиления сигналов,
@@ -1468,7 +1481,7 @@ Underfull \hbox (badness 3646) in paragraph at lines 42--44
 о.
  []
 
-
+[51]
 Underfull \hbox (badness 5288) in paragraph at lines 49--50
 []\LCY/cmr/m/n/14.4 Численное моделирование движения манипулятора при действии
  []
@@ -1477,13 +1490,13 @@ Underfull \hbox (badness 5288) in paragraph at lines 49--50
 LaTeX Warning: Command \cyrm invalid in math mode on input line 52.
 
 Missing character: There is no м in font cmr12!
-[51]
+
 Underfull \hbox (badness 1769) in paragraph at lines 57--58
 []\LCY/cmr/m/n/14.4 На рисунках 2 и 3 представлены результаты моделирования при
 
  []
 
-<chapter_2/paragraph_1/img/model1.png, id=185, 512.66531pt x 178.41656pt>
+<chapter_2/paragraph_1/img/model1.png, id=187, 512.66531pt x 178.41656pt>
 File: chapter_2/paragraph_1/img/model1.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/model1.png>
@@ -1495,7 +1508,7 @@ Overfull \hbox (28.96718pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-<chapter_2/paragraph_1/img/model2.png, id=186, 517.18219pt x 177.66376pt>
+<chapter_2/paragraph_1/img/model2.png, id=188, 517.18219pt x 177.66376pt>
 File: chapter_2/paragraph_1/img/model2.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/model2.png>
@@ -1507,22 +1520,30 @@ Overfull \hbox (33.48405pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-) (chapter_2/paragraph_4/2_4.tex [52 <./chapter_2/paragraph_1/img/model1.png> <
-./chapter_2/paragraph_1/img/model2.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (chapter_2/paragraph_4/2_4.tex [52 <./chapter_2/paragraph_1/img/model1.png>]
 Underfull \hbox (badness 5652) in paragraph at lines 13--14
 []\LCY/cmr/m/n/14.4 Продемонстрируем решение этой задачи для случая положения
  []
 
-
+[53 <./chapter_2/paragraph_1/img/model2.png>]
 Underfull \hbox (badness 2368) in paragraph at lines 19--20
 []\LCY/cmr/m/n/14.4 Покажем, что такая задача решается управлением приводами со
 
  []
 
-[53]
+
 Overfull \hbox (267.75461pt too wide) detected at line 37
 []
  []
+
+
+LaTeX Warning: Reference `2.12'' on page 54 undefined on input line 39.
+
+
+LaTeX Warning: Reference `2.13'' on page 54 undefined on input line 39.
 
 ! Missing } inserted.
 <inserted text> 
@@ -1544,7 +1565,14 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[54] [55]
+[54]
+
+LaTeX Warning: Reference `2.12'' on page 55 undefined on input line 54.
+
+
+LaTeX Warning: Reference `2.13'' on page 55 undefined on input line 54.
+
+[55]
 
 LaTeX Warning: Command \cyrm invalid in math mode on input line 93.
 
@@ -1573,7 +1601,7 @@ Missing character: There is no г in font cmr12!
 Missing character: There is no м in font cmr12!
 Missing character: There is no к in font cmr12!
 Missing character: There is no г in font cmr12!
-<chapter_2/paragraph_4/img/model3333.png, id=202, 900.36375pt x 574.39594pt>
+<chapter_2/paragraph_4/img/model3333.png, id=204, 900.36375pt x 574.39594pt>
 File: chapter_2/paragraph_4/img/model3333.png Graphic file (type png)
 
 <use chapter_2/paragraph_4/img/model3333.png>
@@ -1611,7 +1639,7 @@ Overfull \hbox (33.96791pt too wide) detected at line 16
 []
  []
 
-<chapter_3/paragraph_1/img/3chain.png, id=213, 245.41687pt x 236.38312pt>
+<chapter_3/paragraph_1/img/3chain.png, id=215, 245.41687pt x 236.38312pt>
 File: chapter_3/paragraph_1/img/3chain.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/3chain.png>
@@ -1674,7 +1702,7 @@ Overfull \hbox (34.64922pt too wide) detected at line 148
 []
  []
 
-<chapter_3/paragraph_1/img/pic1.png, id=231, 239.39438pt x 157.33781pt>
+<chapter_3/paragraph_1/img/pic1.png, id=233, 239.39438pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic1.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic1.png>
@@ -1685,7 +1713,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic1.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapter_3/paragraph_1/img/pic2.png, id=232, 247.67531pt x 157.33781pt>
+<chapter_3/paragraph_1/img/pic2.png, id=234, 247.67531pt x 157.33781pt>
 File: chapter_3/paragraph_1/img/pic2.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic2.png>
@@ -1696,7 +1724,7 @@ Package pdftex.def Info: chapter_3/paragraph_1/img/pic2.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapter_3/paragraph_1/img/pic3.png, id=233, 262.73157pt x 163.3603pt>
+<chapter_3/paragraph_1/img/pic3.png, id=235, 262.73157pt x 163.3603pt>
 File: chapter_3/paragraph_1/img/pic3.png Graphic file (type png)
 
 <use chapter_3/paragraph_1/img/pic3.png>
@@ -2335,13 +2363,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5010 strings out of 493634
- 63690 string characters out of 3135239
- 142015 words of memory out of 3000000
- 8195 multiletter control sequences out of 15000+200000
+ 5017 strings out of 493634
+ 63949 string characters out of 3135239
+ 140030 words of memory out of 3000000
+ 8200 multiletter control sequences out of 15000+200000
  19120 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,12n,43p,9620b,580s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,43p,9620b,582s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
 -lcy\dpi720\lhti12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 \lh\lh-lcy\dpi864\lhcsc10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk
@@ -2360,9 +2388,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Admin/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
 /Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy7.pfb>
-Output written on disser.pdf (101 pages, 663612 bytes).
+Output written on disser.pdf (101 pages, 689972 bytes).
 PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
+ 784 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
