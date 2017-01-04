@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  4 JAN 2017 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  4 JAN 2017 23:26
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -826,13 +826,13 @@ Underfull \hbox (badness 1117) in paragraph at lines 2--8
 
 
 Underfull \hbox (badness 4403) in paragraph at lines 2--8
-\LCY/cmr/m/n/14.4 нелинейными наблюдателями, предложенными в работах [163, 199]
+\LCY/cmr/m/n/14.4 нелинейными наблюдателями, предложенными в работах [167, 206]
 .
  []
 
 
 Underfull \hbox (badness 2903) in paragraph at lines 2--8
-\LCY/cmr/m/n/14.4 Результаты, полученные в работах [47, 166], применимы лишь дл
+\LCY/cmr/m/n/14.4 Результаты, полученные в работах [48, 170], применимы лишь дл
 я
  []
 
@@ -855,7 +855,7 @@ Underfull \hbox (badness 7851) in paragraph at lines 2--8
 
 
 Underfull \hbox (badness 2689) in paragraph at lines 2--8
-\LCY/cmr/m/n/14.4 порядка. Недостатком работ [157, 167] является сложная структ
+\LCY/cmr/m/n/14.4 порядка. Недостатком работ [159, 171] является сложная структ
 ура
  []
 
@@ -956,9 +956,9 @@ Underfull \hbox (badness 1117) in paragraph at lines 14--15
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 14--15
-\LCY/cmr/m/n/14.4 в том же году, привлекла широкое внимание общественности. [И2
-0]
+Underfull \hbox (badness 1721) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 в том же году, привлекла широкое внимание общественности. [16
+6]
  []
 
 
@@ -975,6 +975,12 @@ Underfull \hbox (badness 1629) in paragraph at lines 14--15
 
 Underfull \hbox (badness 3514) in paragraph at lines 14--15
 \LCY/cmr/m/n/14.4 с множественным контролем измеримых характеристик. Симуляции
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 14--15
+\LCY/cmr/m/n/14.4 алгоритмов. [181] С ростом исследовательского интереса сущест
+венно
  []
 
 
@@ -1763,382 +1769,405 @@ Underfull \hbox (badness 1655) in paragraph at lines 115--116
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 126--129
+Underfull \hbox (badness 1237) in paragraph at lines 126--127
+[]\LCY/cmr/m/it/14.4 Белоусов И.Р. \LCY/cmr/m/n/14.4 Белоусов И.Р. Формирование
+ уравнений динамики
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 129--132
 []\LCY/cmr/m/it/14.4 Блюмин С. Л. \LCY/cmr/m/n/14.4 Дискретные математические м
 одели Вольтерра в
  []
 
 [73]
-Underfull \hbox (badness 1762) in paragraph at lines 140--141
+Underfull \hbox (badness 1762) in paragraph at lines 143--144
 \LCY/cmr/m/n/14.4 / А. Ю. Богданов, С. В. Черников // Ученые записки УлГУ.
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 140--141
+Underfull \hbox (badness 1769) in paragraph at lines 143--144
 \LCY/cmr/m/n/14.4 Сер. "Фундаментальные проблемы математики и механаники".|
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 148--150
+Underfull \hbox (badness 3919) in paragraph at lines 151--153
 []\LCY/cmr/m/it/14.4 Богданов А. Ю. \LCY/cmr/m/n/14.4 Дискретные динамические с
 истемы: проблемы
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 []\LCY/cmr/m/it/14.4 Богданов А. Ю. \LCY/cmr/m/n/14.4 О равномерной
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 156--158
+Underfull \hbox (badness 2050) in paragraph at lines 159--161
 \LCY/cmr/m/n/14.4 асимптотической устойчивости решений дискретных уравнений с
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 156--158
+Underfull \hbox (badness 2205) in paragraph at lines 159--161
 \LCY/cmr/m/n/14.4 изменяющейся структурой / А. Ю. Богданов, Е. А. Кудашова
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 156--158
+Underfull \hbox (badness 1237) in paragraph at lines 159--161
 \LCY/cmr/m/n/14.4 систем и процессов 2-5 февраля 2009 г., г. Ульяновск, Россия.
  -
  []
 
-[74]
-Underfull \hbox (badness 2245) in paragraph at lines 160--162
+
+Underfull \hbox (badness 2245) in paragraph at lines 163--165
 \LCY/cmr/m/n/14.4 асимптотическая устойчивость решений дискретных уравнений с
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 []\LCY/cmr/m/it/14.4 Богданов А. Ю. \LCY/cmr/m/n/14.4 Численные методы
  []
 
-
-Underfull \hbox (badness 1122) in paragraph at lines 172--174
+[75]
+Underfull \hbox (badness 1122) in paragraph at lines 175--177
 \LCY/cmr/m/n/14.4 и беспотерьности для одного класса нестационарных нелинейных
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 172--174
+Underfull \hbox (badness 2142) in paragraph at lines 175--177
 \LCY/cmr/m/n/14.4 всероссийского семинара ¤Аналитическая механика, устойчивость
 
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 172--174
+Underfull \hbox (badness 6110) in paragraph at lines 175--177
 \LCY/cmr/m/n/14.4 и управление движением■, 9-12 июня 2011 г., г. Ульяновск.
  []
 
-[75] [76]
-Underfull \hbox (badness 1728) in paragraph at lines 211--213
+[76]
+Underfull \hbox (badness 1728) in paragraph at lines 214--216
 []\LCY/cmr/m/it/14.4 Вуковбратович, М. К. \LCY/cmr/m/n/14.4 Управление манипуля
 ционными роботами:
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 223--225
+Underfull \hbox (badness 1931) in paragraph at lines 226--228
 []\LCY/cmr/m/it/14.4 Гайшун И. В. \LCY/cmr/m/n/14.4 Устойчивость дискретных про
 цессов Вольтерра с
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 223--225
+Underfull \hbox (badness 2600) in paragraph at lines 226--228
 \LCY/cmr/m/n/14.4 убывающим последействием / И. В. Гайшун // Автомотика и
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 227--229
+Underfull \hbox (badness 1939) in paragraph at lines 230--232
 []\LCY/cmr/m/it/14.4 Гайшун И. В. \LCY/cmr/m/n/14.4 Управляемость система, опис
 ываемых линейными
  []
 
 [77]
-Underfull \hbox (badness 1383) in paragraph at lines 252--254
+Underfull \hbox (badness 1383) in paragraph at lines 255--257
 []\LCY/cmr/m/it/14.4 Гелиг А. Х. \LCY/cmr/m/n/14.4 Устойчивость нелинейных сист
 ем с неединственным
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 []\LCY/cmr/m/it/14.4 Голубев А. Е. \LCY/cmr/m/n/14.4 Стабилизация нелинейных ди
 намических
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--290
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
 []\LCY/cmr/m/it/14.4 Звягинцева Е. Э.
  []
 
-[78] [79]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 []\LCY/cmr/m/it/14.4 Карапетян A.B. \LCY/cmr/m/n/14.4 Об устойчивости
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 330--331
+Underfull \hbox (badness 1990) in paragraph at lines 333--334
 []\LCY/cmr/m/it/14.4 Кириченова О. В. \LCY/cmr/m/n/14.4 Об устойчивости решений
  нелинейных почти
  []
 
-
-Underfull \hbox (badness 4673) in paragraph at lines 336--337
+[80]
+Underfull \hbox (badness 4673) in paragraph at lines 339--340
 []\LCY/cmr/m/it/14.4 Колмановский B. Б. \LCY/cmr/m/n/14.4 О применении второго 
 метода Ляпунова
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 336--337
+Underfull \hbox (badness 1648) in paragraph at lines 339--340
 \LCY/cmr/m/n/14.4 к разностным уравнениям Вольтерра / В. Б. Колмановский //
  []
 
-[80]
-Underfull \hbox (badness 6445) in paragraph at lines 347--350
+
+Underfull \hbox (badness 6445) in paragraph at lines 350--353
 []\LCY/cmr/m/it/14.4 Крутько, П. Д. \LCY/cmr/m/n/14.4 Метод обратных задач дина
 мики в теории
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 352--353
+Underfull \hbox (badness 1496) in paragraph at lines 355--356
 \LCY/cmr/m/n/14.4 Синтез непрерывного и кусочно-непрерывного стабилизируеющего
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 352--353
+Underfull \hbox (badness 2088) in paragraph at lines 355--356
 \LCY/cmr/m/n/14.4 управления / Е. А. Кудашова // Ученые записки УлГУ. Сер.
  []
 
-
-Underfull \hbox (badness 1308) in paragraph at lines 359--361
+[81]
+Underfull \hbox (badness 1308) in paragraph at lines 362--364
 \LCY/cmr/m/n/14.4 неавтономных дискретных систем типа Лотки - Вольтерра / Е.
  []
 
-[81]
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 []\LCY/cmr/m/it/14.4 Кудашова Е.
  []
 
-
-Underfull \hbox (badness 1675) in paragraph at lines 379--380
+[82]
+Underfull \hbox (badness 1675) in paragraph at lines 382--383
 []\LCY/cmr/m/it/14.4 Кузьмин, А. В. \LCY/cmr/m/n/14.4 Программная реализация ал
 горитма построения
  []
 
-[82]
-Underfull \hbox (badness 2653) in paragraph at lines 389--391
+
+Underfull \hbox (badness 2653) in paragraph at lines 392--394
 []\LCY/cmr/m/it/14.4 Кунцевич, В. М. \LCY/cmr/m/n/14.4 Синтез систем автоматиче
 ского управления с
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
 []\LCY/cmr/m/it/14.4 Лефшец С. \LCY/cmr/m/n/14.4 Устойчивость нелинейных систем
  автоматического
  []
 
 [83]
-Underfull \hbox (badness 10000) in paragraph at lines 418--420
+Underfull \hbox (badness 10000) in paragraph at lines 421--423
 []\LCY/cmr/m/it/14.4 Мартыненко, Ю. Г. \LCY/cmr/m/n/14.4 О движении мобильного 
 робота
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--425
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
 []\LCY/cmr/m/it/14.4 Мартыненко, Ю. Г. \LCY/cmr/m/n/14.4 Устойчивость стационар
 ных движений
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 427--428
+Underfull \hbox (badness 1845) in paragraph at lines 430--431
 []\LCY/cmr/m/it/14.4 Мартыненко Ю.Г. \LCY/cmr/m/n/14.4 Управление движением моб
 ильных колесных
  []
 
-
-Underfull \hbox (badness 1354) in paragraph at lines 439--440
+[84]
+Underfull \hbox (badness 1354) in paragraph at lines 442--443
 []\LCY/cmr/m/it/14.4 Матросов, В. М. \LCY/cmr/m/n/14.4 Метод векторных функций 
 Ляпунова: анализ
  []
 
-[84]
-Underfull \hbox (badness 3930) in paragraph at lines 446--448
+
+Underfull \hbox (badness 3930) in paragraph at lines 449--451
 \LCY/cmr/m/n/14.4 в режиме декомпозиции / В. И. Матюхин // Автоматика и
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 450--452
+Underfull \hbox (badness 1242) in paragraph at lines 453--455
 \LCY/cmr/m/n/14.4 учете постоянно действующих возмущений / В. И. Матюхин //
  []
 
-
-Underfull \hbox (badness 1348) in paragraph at lines 462--464
+[85]
+Underfull \hbox (badness 1348) in paragraph at lines 465--467
 []\LCY/cmr/m/it/14.4 Матюхин, В. И. \LCY/cmr/m/n/14.4 Управляемость механически
 х систем в классе
  []
 
-[85]
-Underfull \hbox (badness 4699) in paragraph at lines 481--482
+
+Underfull \hbox (badness 4699) in paragraph at lines 484--485
 \LCY/cmr/m/n/14.4 с неизвестной массой с помощью непрерывного управления с
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 481--482
+Underfull \hbox (badness 7273) in paragraph at lines 484--485
 \LCY/cmr/m/n/14.4 конференции "Управление в технических системах"(УТС-2010).
  []
 
-
-Underfull \hbox (badness 1708) in paragraph at lines 484--485
+[86]
+Underfull \hbox (badness 1708) in paragraph at lines 487--488
 \LCY/cmr/m/n/14.4 / Д. Ю. Моторина // Обозрение прикладной и промышленной
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 487--488
+Underfull \hbox (badness 1097) in paragraph at lines 490--491
 \LCY/cmr/m/n/14.4 обратной связи / Д. Ю. Моторина // Автоматизация процессов
  []
 
-[86]
-Underfull \hbox (badness 4024) in paragraph at lines 490--491
+
+Underfull \hbox (badness 4024) in paragraph at lines 493--494
 []\LCY/cmr/m/it/14.4 Моторина Д.Ю. \LCY/cmr/m/n/14.4 Построение алгоритма синте
 за управления с
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 497--499
+Underfull \hbox (badness 1215) in paragraph at lines 500--502
 []\LCY/cmr/m/it/14.4 Пахомов, К. В. \LCY/cmr/m/n/14.4 Синтез запаздывающего упр
 авления движением
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 501--503
+Underfull \hbox (badness 1859) in paragraph at lines 504--506
 []\LCY/cmr/m/it/14.4 Перегудова, О. А. \LCY/cmr/m/n/14.4 Метод сравнения в зада
 чах устойчивости и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 []\LCY/cmr/m/it/14.4 Перегудова, О. А. \LCY/cmr/m/n/14.4 О
  []
 
 [87]
-Underfull \hbox (badness 7777) in paragraph at lines 530--532
+Underfull \hbox (badness 7777) in paragraph at lines 533--535
 []\LCY/cmr/m/it/14.4 Пятницкий, Е. С. \LCY/cmr/m/n/14.4 Принцип декомпозиции и 
 в управлении
  []
 
-
-Underfull \hbox (badness 4132) in paragraph at lines 534--536
+[88]
+Underfull \hbox (badness 4132) in paragraph at lines 537--539
 []\LCY/cmr/m/it/14.4 Пятницкий, Е. С. \LCY/cmr/m/n/14.4 Синтез систем стабилиза
 ции программных
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 542--544
+Underfull \hbox (badness 1297) in paragraph at lines 545--547
 []\LCY/cmr/m/it/14.4 Ремшин, С. А. \LCY/cmr/m/n/14.4 Синтез управления в нелине
 йной динамической
  []
 
-[88]
-Underfull \hbox (badness 5091) in paragraph at lines 549--551
+
+Underfull \hbox (badness 5091) in paragraph at lines 552--554
 \LCY/cmr/m/n/14.4 к динамике популяций / А. М. Родионов // Автоматика и
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 561--563
+Underfull \hbox (badness 4752) in paragraph at lines 564--566
 []\LCY/cmr/m/it/14.4 Румянцев, В. В. \LCY/cmr/m/n/14.4 Устойчивость и стабилиза
 ция движения по
  []
 
-
-Underfull \hbox (badness 6758) in paragraph at lines 574--576
+[89]
+Underfull \hbox (badness 6758) in paragraph at lines 577--579
 []\LCY/cmr/m/it/14.4 Тимофеев А. В. \LCY/cmr/m/n/14.4 Устойчивость и стабилизац
 ия программного
  []
 
-[89]
-Underfull \hbox (badness 10000) in paragraph at lines 597--599
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 600--602
 []\LCY/cmr/m/it/14.4 Фишман, Л. З. \LCY/cmr/m/n/14.4 О сохранении областей прит
 яжения при
  []
 
-[90]
-Underfull \hbox (badness 5374) in paragraph at lines 625--627
+[91]
+Underfull \hbox (badness 5374) in paragraph at lines 631--633
 []\LCY/cmr/m/it/14.4 Чурилов А. Н. \LCY/cmr/m/n/14.4 Стабилизация линейной сист
 емы с помощью
  []
 
-[91]
-Underfull \hbox (badness 7963) in paragraph at lines 642--643
+
+Underfull \hbox (badness 7963) in paragraph at lines 648--649
 []\LCY/cmr/m/it/14.4 Юрков, А. В. \LCY/cmr/m/n/14.4 Задачи стабилизации програм
 мных движений
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 645--646
+Underfull \hbox (badness 1454) in paragraph at lines 651--652
 []\LCY/cmr/m/it/14.4 Alonge F. \LCY/cmr/m/n/14.4 Alonge F., D'Ippolito F., Raim
 ondi F.M. An adaptive
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 648--649
+Underfull \hbox (badness 1043) in paragraph at lines 654--655
 []\LCY/cmr/m/it/14.4 Araki, M. \LCY/cmr/m/n/14.4 Stability of sampled-data comp
 osite systems with many
  []
 
-
-Underfull \hbox (badness 1057) in paragraph at lines 654--655
+[92]
+Underfull \hbox (badness 1057) in paragraph at lines 660--661
 \LCY/cmr/m/n/14.4 difference equations // Stability of dynamical systems (Theor
 y and
  []
 
-[92] [93]
-Underfull \hbox (badness 1168) in paragraph at lines 701--702
+[93] [94]
+Underfull \hbox (badness 1168) in paragraph at lines 713--714
 \LCY/cmr/m/n/14.4 Lizarralde. Arbitrarily small damping allows global output fe
 edback
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 704--705
+Underfull \hbox (badness 1158) in paragraph at lines 716--717
 []\LCY/cmr/m/it/14.4 Elaydi S. \LCY/cmr/m/n/14.4 An introduction to Difference 
 Equations. Third Edition.
  []
 
-[94]
-Underfull \hbox (badness 2671) in paragraph at lines 728--729
+
+Underfull \hbox (badness 1314) in paragraph at lines 722--723
+[]\LCY/cmr/m/it/14.4 Fraser A. \LCY/cmr/m/n/14.4 Fraser, Alex (1957). ¤Simulati
+on of genetic systems by
+ []
+
+[95]
+Underfull \hbox (badness 2671) in paragraph at lines 746--747
 []\LCY/cmr/m/it/14.4 Lacshmikantham V. \LCY/cmr/m/n/14.4 Stability analysis of 
 nonlinear systems / V.
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 728--729
+Underfull \hbox (badness 1803) in paragraph at lines 746--747
 \LCY/cmr/m/n/14.4 Lacshmikantham, S. Leela, A. A. Martynyuk // Singapore: World
 
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 731--732
+Underfull \hbox (badness 2671) in paragraph at lines 749--750
 []\LCY/cmr/m/it/14.4 Lacshmikantham V. \LCY/cmr/m/n/14.4 Stability analysis of 
 nonlinear systems / V.
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 731--732
+Underfull \hbox (badness 1237) in paragraph at lines 749--750
 \LCY/cmr/m/n/14.4 Lacshmikantham, S. Leela, A. A. Martynyuk // New York: World
  []
 
-[95] [96]
-Underfull \hbox (badness 1635) in paragraph at lines 785--786
+[96] [97] [98]
+Underfull \hbox (badness 1635) in paragraph at lines 806--807
 \LCY/cmr/m/n/14.4 mobile robot subject to transport delay / P. A. Nino-Suarez, 
 M.
  []
 
-[97]
-Underfull \hbox (badness 4792) in paragraph at lines 800--801
+[99]
+Underfull \hbox (badness 4792) in paragraph at lines 821--822
 []\LCY/cmr/m/it/14.4 Purwin O. \LCY/cmr/m/n/14.4 Trajectory generation and cont
 rol for four wheeled
  []
 
-[98]) [99]
+
+Underfull \hbox (badness 2837) in paragraph at lines 841--842
+[]\LCY/cmr/m/it/14.4 Vukobratovic M. \LCY/cmr/m/n/14.4 Vukobratovic M., Potkonj
+ak V. Contribution to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
+[]\LCY/cmr/m/it/14.4 Wang
+ []
+
+[100]) [101]
 \openout2 = `appendix/appendix.aux'.
 
  (appendix/appendix.tex
@@ -2159,7 +2188,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 []\LCY/cmr/m/n/14.4 Приложение служит для моделирования
  []
 
-[100
+[102
 
 
 
@@ -2180,13 +2209,13 @@ Underfull \hbox (badness 2012) in paragraph at lines 20--21
 \LCY/cmr/m/n/14.4 подобранными значениями по умолчанию для демонстрации работы
  []
 
-<appendix/img/program.png, id=348, 481.8pt x 418.56375pt>
+<appendix/img/program.png, id=354, 481.8pt x 418.56375pt>
 File: appendix/img/program.png Graphic file (type png)
 
 <use appendix/img/program.png>
 Package pdftex.def Info: appendix/img/program.png used on input line 23.
 (pdftex.def)             Requested size: 483.69687pt x 420.22327pt.
- [101 <./appendix/img/program.png>]
+ [103 <./appendix/img/program.png>]
 Underfull \hbox (badness 6094) in paragraph at lines 34--35
 []\LCY/cmr/m/n/14.4 Формулы вводятся в поля ввода в качестве строк текста. В
  []
@@ -2224,7 +2253,7 @@ Underfull \hbox (badness 1033) in paragraph at lines 38--39
 ем,
  []
 
-[102]
+[104]
 Underfull \hbox (badness 1275) in paragraph at lines 45--46
 []\LCY/cmr/m/n/14.4 добавление делегированных тригонометрических и алгебраическ
 их
@@ -2235,7 +2264,7 @@ Underfull \hbox (badness 2707) in paragraph at lines 46--47
 []\LCY/cmr/m/n/14.4 ввод определенных интегралов в том числе с подынтегральной
  []
 
-) [103] (disser.aux (titul.aux) (prefix.aux) (postfix.aux) (bibliography.aux)
+) [105] (disser.aux (titul.aux) (prefix.aux) (postfix.aux) (bibliography.aux)
 (appendix/appendix.aux))
 
 LaTeX Warning: There were undefined references.
@@ -2250,10 +2279,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4970 strings out of 493634
- 63645 string characters out of 3135239
- 142064 words of memory out of 3000000
- 8175 multiletter control sequences out of 15000+200000
+ 4979 strings out of 493634
+ 63750 string characters out of 3135239
+ 142109 words of memory out of 3000000
+ 8184 multiletter control sequences out of 15000+200000
  13449 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,12n,43p,9658b,580s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2273,9 +2302,9 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admi
 n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (103 pages, 813847 bytes).
+Output written on disser.pdf (105 pages, 817881 bytes).
 PDF statistics:
- 786 PDF objects out of 1000 (max. 8388607)
+ 796 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
