@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  4 JAN 2017 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  4 JAN 2017 14:10
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -661,33 +661,7 @@ LaTeX Warning: Label `fig:manip2' multiply defined.
 
 LaTeX Warning: Label `fig:manip2' multiply defined.
 
-(postfix.aux) (bibliography.aux) (appendix/appendix.aux
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 <
-     <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-Runaway definition?
--> \setcounter {page}{103} ======= \@writefile {toc}{\contentsline {s\ETC.
-! File ended while scanning definition of \cp@appendix/appendix.
-<inserted text> 
-                }
-l.132 \@input{appendix/appendix.aux}
-                                    
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-)
+(postfix.aux) (bibliography.aux) (appendix/appendix.aux))
 \openout1 = `disser.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -754,15 +728,12 @@ ii"
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-]
 \openout2 = `titul.aux'.
 
+(titul.tex) [1
 
-(titul.tex) [2
 
-]
+{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 2608) in paragraph at lines 99--100
 \LCY/cmr/bx/n/14.4 Глава I. Применение прямого метода Ляпунова в задачах
  []
@@ -780,89 +751,89 @@ Underfull \hbox (badness 1472) in paragraph at lines 119--120
 еханической системы с
  []
 
-[3
+[2
 
-] [4]
+] [3]
 \openout2 = `prefix.aux'.
 
  (prefix.tex
 
-LaTeX Warning: Citation `nicosia' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `berghuis0' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `berghuis0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `kelly' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `kelly' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `berghuis1' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `berghuis1' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `berghuis2' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `berghuis2' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `loria0' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `loria0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `loria1' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `loria1' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov0' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `burkov0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov1' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `burkov1' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `nicosia' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `berghuis0' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `berghuis0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov0' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `burkov0' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov1' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `burkov1' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `loria2' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `loria2' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `calugi' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `calugi' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `alonge' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `alonge' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `calugi' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `calugi' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `alonge' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `alonge' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `dixon' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `dixon' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `nunes' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `nunes' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `burkov2' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `burkov2' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `yarza' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `yarza' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `yarza' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `yarza' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `loria3' on page 5 undefined on input line 6.
+LaTeX Warning: Citation `loria3' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Citation `nicosia' on page 5 undefined on input line 7.
+LaTeX Warning: Citation `nicosia' on page 4 undefined on input line 7.
 
 
-LaTeX Warning: Citation `loria3' on page 5 undefined on input line 7.
+LaTeX Warning: Citation `loria3' on page 4 undefined on input line 7.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
@@ -997,9 +968,9 @@ Underfull \hbox (badness 1325) in paragraph at lines 2--8
 и
  []
 
-[5
+[4
 
-] [6] [7] [8]
+] [5] [6] [7]
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 9.
 LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
@@ -1032,7 +1003,7 @@ Underfull \hbox (badness 1122) in paragraph at lines 9--10
 в
  []
 
-[9]
+[8]
 Underfull \hbox (badness 1946) in paragraph at lines 11--13
 []\LCY/cmr/m/n/14.4 Самый ранний первый известный алгоритм сложности $\OML/cmm/
 m/it/14.4 O\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 N\OT1/cmr/m/n/14.4 )$ \LCY/cmr
@@ -1055,7 +1026,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 \LCY/cmr/m/n/14.4 Балафотисом, Пателем и Митрой были
  []
 
-[10]
+[9]
 Underfull \hbox (badness 1117) in paragraph at lines 14--15
 \LCY/cmr/m/n/14.4 Баричелли на компьютере, установленном в Институте Продвинуты
 х
@@ -1094,7 +1065,7 @@ Underfull \hbox (badness 1454) in paragraph at lines 14--15
 ко,
  []
 
-[11]
+[10]
 Underfull \hbox (badness 3250) in paragraph at lines 19--20
 \LCY/cmr/m/n/14.4 манипулятором, моделируемым в виде системы связанных твёрдых
  []
@@ -1104,7 +1075,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 19--20
 \LCY/cmr/m/n/14.4 Лагранжа 2-го рода. В первом параграфе ислледуется поведение
  []
 
-[12] [13])
+[11] [12])
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 (chapter_1/paragraph_1/1_1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1123,10 +1094,10 @@ Underfull \hbox (badness 2150) in paragraph at lines 14--17
 /m/it/14.4 R[]$ \LCY/cmr/m/n/14.4 --- некоторое непрерывное отображение,
  []
 
-[14
+[13
 
 
-] [15]
+] [14]
 Underfull \hbox (badness 1769) in paragraph at lines 81--86
 []\LCY/cmr/m/n/14.4 Вводится определение. Функция $\OML/cmm/m/it/14.4 f[] \OT1/
 cmr/m/n/14.4 : \OML/cmm/m/it/14.4 R \OMS/cmsy/m/n/14.4  \OT1/cmr/m/n/14.4   \O
@@ -1139,7 +1110,7 @@ Underfull \hbox (badness 2080) in paragraph at lines 81--86
 уществует последовательность $[]$ такая, что
  []
 
-[16]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
 []\LCY/cmr/m/n/14.4 Имеет место следующее свойство положительного предельного
  []
@@ -1156,13 +1127,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--138
 []\LCY/cmr/m/n/14.4 Вводятся следующие определения, в основе которых лежит
  []
 
-[17]
+[16]
 Underfull \hbox (badness 1789) in paragraph at lines 159--160
 []\LCY/cmr/m/n/14.4 Для функционала, имеющего инвариантную производную $\OML/cm
 m/m/it/14.4 @V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$
  []
 
-[18] [19]
+[17] [18]
 Underfull \hbox (badness 1688) in paragraph at lines 221--227
 []\LCY/cmr/m/it/14.4 Тогда для каждой предельной точки $\OML/cmm/m/it/14.4   \O
 MS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
@@ -1175,7 +1146,7 @@ Underfull \hbox (badness 4254) in paragraph at lines 229--230
 
  []
 
-[20]
+[19]
 Underfull \hbox (badness 7576) in paragraph at lines 253--254
 \LCY/cmr/m/n/14.4 выявления устойчивости относительно части переменных свойство
 
@@ -1187,7 +1158,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
-[21]
+[20]
 Underfull \hbox (badness 3514) in paragraph at lines 287--289
 \LCY/cmr/bx/n/14.4 Теорема 1.5. \LCY/cmr/m/it/14.4 Предположим, что: 1) решение
  уравнения (1.1) из
@@ -1199,7 +1170,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 292--294
 mm/m/it/14.4 g; U\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 такова, что множество
  []
 
-[22]) (chapter_1/paragraph_2/1_2.tex
+[21]) (chapter_1/paragraph_2/1_2.tex
 Underfull \hbox (badness 1424) in paragraph at lines 1--1
  |[]\LCY/cmr/m/n/14.4 Стабилизация программных позиций голономной механической
  []
@@ -1229,7 +1200,7 @@ L/cmm/m/it/14.4 t; q; []\OT1/cmr/m/n/14.4 );$ $\OML/cmm/m/it/14.4 U$ \LCY/cmr/m
 /n/14.4 - обобщенная
  []
 
-[23]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 []\LCY/cmr/m/n/14.4 В моделировании манипуляторов представляется важным учет
  []
@@ -1240,12 +1211,12 @@ Underfull \hbox (badness 4467) in paragraph at lines 39--40
 м
  []
 
-[24]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 []\LCY/cmr/m/n/14.4 Использование теорем об устойчивости фунционально-
  []
 
-[25]
+[24]
 Underfull \hbox (badness 4805) in paragraph at lines 90--91
 []\LCY/cmr/m/n/14.4 Это уравнение представляет собой совокупность функционально
 -
@@ -1274,7 +1245,7 @@ Underfull \hbox (badness 3601) in paragraph at lines 94--95
 \LCY/cmr/m/n/14.4 непрерывные функции по отношению к непрерывной совокупности
  []
 
-[26]
+[25]
 Underfull \hbox (badness 1803) in paragraph at lines 96--97
 []\LCY/cmr/m/n/14.4 Будем полагать, что зависимости $\OML/cmm/m/it/14.4 Q \OT1/
 cmr/m/n/14.4 = \OML/cmm/m/it/14.4 Q\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; 
@@ -1288,18 +1259,18 @@ Underfull \hbox (badness 1584) in paragraph at lines 98--99
 ьных
  []
 
-[27]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 142--143
 []\LCY/cmr/m/it/14.4 1) зависимость $\OT1/cmr/m/n/14.4 [](\OML/cmm/m/it/14.4 t
 ; x\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 является функцией
  []
 
-[28]
+[27]
 Overfull \hbox (1.30101pt too wide) detected at line 166
 []
  []
 
-[29] [30]
+[28] [29]
 Underfull \hbox (badness 6995) in paragraph at lines 220--221
 []\LCY/cmr/m/n/14.4 Согласно оценке (1.28[]) максимально инвариантное относител
 ьно
@@ -1313,7 +1284,7 @@ it/14.4 t\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 x[]; []\OT
 T1/cmr/m/n/14.4 0$ \LCY/cmr/m/n/14.4 и выполняется равенство (1.30[]). В
  []
 
-[31] [32]
+[30] [31]
 Underfull \hbox (badness 1215) in paragraph at lines 268--269
 []\LCY/cmr/m/it/14.4 3) множество $\OMS/cmsy/m/n/14.4 f\OT1/cmr/m/n/14.4 [](\O
 ML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 ) \OML/cmm/m/it/14.4 > \OT1/cmr/m/n/14.4 0\
@@ -1326,7 +1297,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 283--284
 нала
  []
 
-[33]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 292--293
 []\LCY/cmr/m/n/14.4 не может в соответствии с
  []
@@ -1342,18 +1313,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 n/14.4 подматрицы $\OML/cmm/m/it/14.4 A[]; A[]; A[]; A[]$
  []
 
-[34] [35]
+[33] [34]
 Underfull \hbox (badness 1221) in paragraph at lines 62--63
 []\LCY/cmr/m/n/14.4 Уравнения движения системы (1.14[]) могут быть записаны в в
 иде
  []
 
-[36] [37]
+[35] [36]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 []\LCY/cmr/m/n/14.4 Его производная в силу уравнений (1.42[])
  []
 
-[38]
+[37]
 Underfull \hbox (badness 2970) in paragraph at lines 169--171
 []\LCY/cmr/m/n/14.4 Доказательство: Из условия 1) теоремы и условий относительн
 о
@@ -1371,7 +1342,7 @@ Underfull \hbox (badness 1226) in paragraph at lines 174--175
 LCY/cmr/m/n/14.4 может содержать только те предельные
  []
 
-) (chapter_1/paragraph_4/1_4.tex [39] [40]
+) (chapter_1/paragraph_4/1_4.tex [38] [39]
 Underfull \hbox (badness 6252) in paragraph at lines 33--34
 []\LCY/cmr/m/n/14.4 Несложно видеть, что он является определенно-положительным,
 
@@ -1382,22 +1353,22 @@ Overfull \hbox (16.2152pt too wide) detected at line 44
 []
  []
 
-<chapter_1/paragraph_4/img/pendulum_1.png, id=142, 319.1925pt x 185.94469pt>
+<chapter_1/paragraph_4/img/pendulum_1.png, id=139, 319.1925pt x 185.94469pt>
 File: chapter_1/paragraph_4/img/pendulum_1.png Graphic file (type png)
 
 <use chapter_1/paragraph_4/img/pendulum_1.png>
 Package pdftex.def Info: chapter_1/paragraph_4/img/pendulum_1.png used on input
  line 54.
 (pdftex.def)             Requested size: 319.19171pt x 185.94421pt.
- [41]
-<chapter_1/paragraph_4/img/pendulum_2.png, id=147, 321.45094pt x 186.6975pt>
+ [40]
+<chapter_1/paragraph_4/img/pendulum_2.png, id=144, 321.45094pt x 186.6975pt>
 File: chapter_1/paragraph_4/img/pendulum_2.png Graphic file (type png)
 
 <use chapter_1/paragraph_4/img/pendulum_2.png>
 Package pdftex.def Info: chapter_1/paragraph_4/img/pendulum_2.png used on input
  line 61.
 (pdftex.def)             Requested size: 321.45015pt x 186.69704pt.
-) [42 <./chapter_1/paragraph_4/img/pendulum_1.png> <./chapter_1/paragraph_4/img
+) [41 <./chapter_1/paragraph_4/img/pendulum_1.png> <./chapter_1/paragraph_4/img
 /pendulum_2.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 (chapter_2/paragraph_1/2_1.tex
@@ -1413,7 +1384,7 @@ Underfull \hbox (badness 1264) in paragraph at lines 3--4
  []
 
 
-<chapter_2/paragraph_1/img/manipulator.png, id=153, 295.85532pt x 282.30469pt>
+<chapter_2/paragraph_1/img/manipulator.png, id=150, 295.85532pt x 282.30469pt>
 File: chapter_2/paragraph_1/img/manipulator.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/manipulator.png>
@@ -1427,7 +1398,7 @@ Underfull \hbox (badness 6063) in paragraph at lines 12--13
 14.4 2)$ \LCY/cmr/m/n/14.4 --- углы поворотов звеньев
  []
 
-[43
+[42
 
  <./chapter_2/paragraph_1/img/manipulator.png>]
 Underfull \hbox (badness 3547) in paragraph at lines 37--38
@@ -1435,7 +1406,7 @@ Underfull \hbox (badness 3547) in paragraph at lines 37--38
 $ \LCY/cmr/m/n/14.4 находим уравнения
  []
 
-[44]
+[43]
 Underfull \hbox (badness 4193) in paragraph at lines 73--74
 []\LCY/cmr/m/n/14.4 Пусть $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/
 n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; []\OT1/cmr/
@@ -1443,7 +1414,7 @@ m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )) \OMS/cmsy/m/n/14.4 2 \OML/cm
 m/m/it/14.4 X$ \LCY/cmr/m/n/14.4 --- какое-либо программное движение,
  []
 
-[45] [46] [47]) (chapter_2/paragraph_2/2_2.tex [48]
+[44] [45] [46]) (chapter_2/paragraph_2/2_2.tex [47]
 Underfull \hbox (badness 1635) in paragraph at lines 19--20
 []\LCY/cmr/m/n/14.4 При этом, согласно теореме каждое возмущенное движение буде
 т
@@ -1456,29 +1427,45 @@ mr/m/n/14.4 и $\OML/cmm/m/it/14.4 q[]$ \LCY/cmr/m/n/14.4 для каждого возмущенно
 го
  []
 
-[49]
-<chapter_2/paragraph_2/img/manip_horizont.png, id=178, 638.385pt x 305.64188pt>
-File: chapter_2/paragraph_2/img/manip_horizont.png Graphic file (type png)
-<use chapter_2/paragraph_2/img/manip_horizont.png>
-Package pdftex.def Info: chapter_2/paragraph_2/img/manip_horizont.png used on i
-nput line 69.
-(pdftex.def)             Requested size: 638.38342pt x 305.64111pt.
+[48]
+<chapter_2/paragraph_2/img/horizontal.png, id=174, 489.32813pt x 229.60782pt>
+File: chapter_2/paragraph_2/img/horizontal.png Graphic file (type png)
 
-Overfull \hbox (154.68655pt too wide) in paragraph at lines 69--70
+<use chapter_2/paragraph_2/img/horizontal.png>
+Package pdftex.def Info: chapter_2/paragraph_2/img/horizontal.png used on input
+ line 69.
+(pdftex.def)             Requested size: 489.32692pt x 229.60725pt.
+
+Overfull \hbox (5.63005pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50] [51 <./chapter_2/paragraph_2/img/manip_horizont.png>])
-(chapter_2/paragraph_3/2_3.tex
+<chapter_2/paragraph_2/img/vertical.png, id=175, 489.32813pt x 229.60782pt>
+File: chapter_2/paragraph_2/img/vertical.png Graphic file (type png)
+
+<use chapter_2/paragraph_2/img/vertical.png>
+Package pdftex.def Info: chapter_2/paragraph_2/img/vertical.png used on input l
+ine 76.
+(pdftex.def)             Requested size: 489.32692pt x 229.60725pt.
+
+Overfull \hbox (5.63005pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[49]) (chapter_2/paragraph_3/2_3.tex
 Underfull \hbox (badness 1178) in paragraph at lines 2--3
 \LCY/cmr/m/n/14.4 Рассмотрим решение задачи о стабилизации программного движени
 я
  []
 
-[52]
+[50 <./chapter_2/paragraph_2/img/horizontal.png>] [51 <./chapter_2/paragraph_2/
+img/vertical.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 \LCY/cmr/m/n/14.4 свойства асимптотической устойчивости
  []
@@ -1488,7 +1475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 \LCY/cmr/m/n/14.4 с областью
  []
 
-
+[52]
 Underfull \hbox (badness 1342) in paragraph at lines 44--46
 []\LCY/cmr/m/n/14.4 Тогда можно показать, что функция $[]\OT1/cmr/m/n/14.4 (\OM
 L/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) = [] []$
@@ -1500,7 +1487,7 @@ Underfull \hbox (badness 3646) in paragraph at lines 44--46
 о.
  []
 
-[53]
+
 Underfull \hbox (badness 5288) in paragraph at lines 51--52
 []\LCY/cmr/m/n/14.4 Численное моделирование движения манипулятора при действии
  []
@@ -1522,7 +1509,7 @@ Underfull \hbox (badness 1769) in paragraph at lines 59--60
  []
 
 
-<chapter_2/paragraph_1/img/manip2discret.png, id=192, 584.1825pt x 284.56313pt>
+<chapter_2/paragraph_1/img/manip2discret.png, id=189, 584.1825pt x 284.56313pt>
 File: chapter_2/paragraph_1/img/manip2discret.png Graphic file (type png)
 <use chapter_2/paragraph_1/img/manip2discret.png>
 Package pdftex.def Info: chapter_2/paragraph_1/img/manip2discret.png used on in
@@ -1532,7 +1519,7 @@ put line 63.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<chapter_2/paragraph_1/img/manip2last.png, id=193, 611.28375pt x 315.42844pt>
+<chapter_2/paragraph_1/img/manip2last.png, id=190, 611.28375pt x 315.42844pt>
 File: chapter_2/paragraph_1/img/manip2last.png Graphic file (type png)
 
 <use chapter_2/paragraph_1/img/manip2last.png>
@@ -1543,22 +1530,23 @@ Package pdftex.def Info: chapter_2/paragraph_1/img/manip2last.png used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (chapter_2/paragraph_4/2_4.tex [54]
+) (chapter_2/paragraph_4/2_4.tex [53]
 Underfull \hbox (badness 5652) in paragraph at lines 13--14
 []\LCY/cmr/m/n/14.4 Продемонстрируем решение этой задачи для случая положения
  []
 
-
+[54 <./chapter_2/paragraph_1/img/manip2discret.png>]
 Underfull \hbox (badness 2368) in paragraph at lines 19--20
 []\LCY/cmr/m/n/14.4 Покажем, что такая задача решается управлением приводами со
 
  []
 
-[55 <./chapter_2/paragraph_1/img/manip2discret.png>]
+
 Overfull \hbox (267.75461pt too wide) detected at line 37
 []
  []
 
+[55 <./chapter_2/paragraph_1/img/manip2last.png>]
 
 LaTeX Warning: Reference `2.12'' on page 56 undefined on input line 39.
 
@@ -1585,14 +1573,13 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[56 <./chapter_2/paragraph_1/img/manip2last.png>]
 
-LaTeX Warning: Reference `2.12'' on page 57 undefined on input line 54.
+LaTeX Warning: Reference `2.12'' on page 56 undefined on input line 54.
 
 
-LaTeX Warning: Reference `2.13'' on page 57 undefined on input line 54.
+LaTeX Warning: Reference `2.13'' on page 56 undefined on input line 54.
 
-[57]
+[56] [57]
 
 LaTeX Warning: Command \cyrm invalid in math mode on input line 93.
 
@@ -2329,19 +2316,19 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4979 strings out of 493634
- 63737 string characters out of 3135239
- 140369 words of memory out of 3000000
- 8182 multiletter control sequences out of 15000+200000
+ 4981 strings out of 493634
+ 63894 string characters out of 3135239
+ 141986 words of memory out of 3000000
+ 8185 multiletter control sequences out of 15000+200000
  13857 words of font info for 45 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,12n,43p,9620b,580s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh
 -lcy\dpi720\lhti12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 \lh\lh-lcy\dpi864\lhcsc10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\lh\lh-lcy\dpi720\lhbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fo
-nts\pk\ljfour\lh\lh-lcy\dpi720\lhr12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\lh\lh-lcy\dpi600\lhr10.pk><C:/Users/Admin/AppData/Local/Prog
+\ljfour\lh\lh-lcy\dpi600\lhr10.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\lh\lh-lcy\dpi720\lhbx12.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\lh\lh-lcy\dpi720\lhr12.pk><C:/Users/Admin/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Admin/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
 s/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
@@ -2352,9 +2339,9 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admi
 n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (102 pages, 824950 bytes).
+Output written on disser.pdf (102 pages, 883285 bytes).
 PDF statistics:
- 787 PDF objects out of 1000 (max. 8388607)
+ 781 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
