@@ -8,12 +8,12 @@
 
  В уравнениях введена векторно-матричная запись: $q \in R^n, q = (q_1, q_2, ... q_n)^{'}$ --- вектор обобщенных координат, $\dot q = (\dot q_1, \dot q_2, ... \dot q_n)^{'}$ --- вектор обобщенных скоростей. $T = \frac{1}{2} (\dot q)^{'} A(q) \dot q$ --- кинетическая энергия с инерционной матрицей $A(q), A \in R^{n \times n};  Q = Q(t, q, \dot q)$ --- вектор обобщенных сил, которые полагаются зависимыми от $(t, q, \dot q);$ $U$ - обобщенная управляющая сила; через $( )^{'}$ обозначена операция транспонирования. 
 
-В дальнейшем обозначим через $\| q \|$ норму вектора $q$, $\|q\|^{2} = q_1^2 + q_2^2 + ... + q_n^2.$
+В дальнейшем обозначим через $\left| q \right|$ норму вектора $q$, $\left| q\right|^{2} = q_1^2 + q_2^2 + ... + q_n^2.$
 
 В общем случае матрица $A$ является определенно-положительной при всех фиксированных допустимых значениях обобщенных координат. Будем полагать, что система (\ref{1.14'}) определяется при всех $q \in R^n,$ при этом соответсвующая квадратичная форма $(\dot q)^{'} A(q) \dot q$ является ограниченной определенно-положительной при всех $q \in R^n,$ так что имеет место оценка 
 
 \begin{equation} \label{1.15'}
-2 \alpha_0 \| \dot q \|^2 \le (\dot q)^{'} A(q) \dot q \le 2 \alpha_1 \| \dot q \|^2, \alpha_0 > 0
+2 \alpha_0 \left| \dot q \right|^2 \le (\dot q)^{'} A(q) \dot q \le 2 \alpha_1 \left| \dot q \right|^2, \alpha_0 > 0
 \end{equation}
 
 При этом полагаем, что $A(q)$ непрерывно-дифференцируема.
@@ -62,13 +62,13 @@ x = q - q_0, \quad y = \dot x = \dot q
 
 где индексом "$_1$" обозначены функции, получаемые из соответствующих зависимостей (\ref{1.19'}) в результате замены (\ref{1.20'}).
 
-Введем в рассмотрение матрицы $P = P(t, \tau), P \in R^{n \times n},$ учитывающие предыдущее состояние системы в виде зависимостей $P = \| p_{jk} (t, \tau) \|, p_{jk} = p_{jk}^0 e^{s_{jk}^0 (\tau - t)}$ с постоянными $p_{jk}^0 = const, s_{jk}^0 = const, p_{jk}^0 = p_{kj}^0; s_{jk}^0 = s_{kj}^0$ такими, что выполнены условия
+Введем в рассмотрение матрицы $P = P(t, \tau), P \in R^{n \times n},$ учитывающие предыдущее состояние системы в виде зависимостей $P = \left| p_{jk} (t, \tau) \right|, p_{jk} = p_{jk}^0 e^{s_{jk}^0 (\tau - t)}$ с постоянными $p_{jk}^0 = const, s_{jk}^0 = const, p_{jk}^0 = p_{kj}^0; s_{jk}^0 = s_{kj}^0$ такими, что выполнены условия
 
 
 \begin{equation} \label{1.22'}
 	\begin{array}{c}
-		x^{'} P (t, \tau) x \ge 0; x^{'} P_t (t, \tau) x \le - \beta_0 \| x \|^2, \beta > 0\\
-		P_t(t, \tau) = \frac{\partial P (t, \tau)}{\partial t} = - \| p_{jk}^0 s_{jk}^{0} e^{s_{jk}^0 (\tau - t)} \|
+		x^{'} P (t, \tau) x \ge 0; x^{'} P_t (t, \tau) x \le - \beta_0 \left| x \right|^2, \beta > 0\\
+		P_t(t, \tau) = \frac{\partial P (t, \tau)}{\partial t} = - \left| p_{jk}^0 s_{jk}^{0} e^{s_{jk}^0 (\tau - t)} \right|
 	\end{array}
 \end{equation}
 
@@ -87,13 +87,13 @@ U = - \frac{\partial \Pi_2 (t, x(t))}{\partial x} - \int_{t - h}^{t} P(t, \tau) 
 \end{array}
 \end{equation}
 
-Это уравнение представляет собой совокупность функционально-дифференциальных уравнений с запаздывающим аргументом с конечным запаздыванием. Областью определения этого уравнения можно принять область вида $R \times C_1 \times C_2,$ где $C_1$ --- пространство непрерывных функций $\varphi : [-h, 0] \to R^n$ с нормой $\| \varphi \| = \sup (\| \varphi(s) \|, -h \le s \le 0), C_2$ --- пространство непрерывных функций $\psi : [-h, 0] \to R^n$ с аналогичной нормой.
+Это уравнение представляет собой совокупность функционально-дифференциальных уравнений с запаздывающим аргументом с конечным запаздыванием. Областью определения этого уравнения можно принять область вида $R \times C_1 \times C_2,$ где $C_1$ --- пространство непрерывных функций $\varphi : [-h, 0] \to R^n$ с нормой $\left| \varphi \right| = \sup (\left| \varphi(s) \right|, -h \le s \le 0), C_2$ --- пространство непрерывных функций $\psi : [-h, 0] \to R^n$ с аналогичной нормой.
 
 Для движения $(q(t), \dot q(t))$ системы (\ref{1.14'}) с начальным состоянием $(q(t_0), \dot q(t_0))$ за начальную функцию системы уравнений (\ref{1.24'}) можно принять функцию $\varphi (s) = x(t_0) = q(t_0) - q_0, \psi (s) = y(t_0) = \dot q (t_0), -h \le s \le 0.$
 
-Функции $A_1^{-1} (x(t))$ и $C_1(x(t), y(t))$ представляют собой равномерно непрерывные функции по отношению к непрерывной совокупности $(x(t), y(t)), \| x(t) \| + \| y(t) \| \le H, H = const > 0,$ на некотором конечном отрезке $[t_0, t_0 + T].$
+Функции $A_1^{-1} (x(t))$ и $C_1(x(t), y(t))$ представляют собой равномерно непрерывные функции по отношению к непрерывной совокупности $(x(t), y(t)), \left| x(t) \right| + \left| y(t) \right| \le H, H = const > 0,$ на некотором конечном отрезке $[t_0, t_0 + T].$
 
-Будем полагать, что зависимости $Q = Q(t, x, y)$, $\Pi_0 (t, x)$, $\frac{\partial \Pi_0 (t, x)}{\partial x}$ представляют собой функции, ограниченные, равномерно непрерывные по $(t, x, y)$ на каждом множестве вида $R \times \lbrace \| x \| + \| y \| \le H \rbrace$ при любом $H > 0.$
+Будем полагать, что зависимости $Q = Q(t, x, y)$, $\Pi_0 (t, x)$, $\frac{\partial \Pi_0 (t, x)}{\partial x}$ представляют собой функции, ограниченные, равномерно непрерывные по $(t, x, y)$ на каждом множестве вида $R \times \lbrace \left| x \right| + \left| y \right| \le H \rbrace$ при любом $H > 0.$
 
 Соответственно согласно п 1.1. и работе [] семейства предельных функций $\lbrace Q^{*} (t, x, y) \rbrace$ и $\lbrace \Pi_0^{*} (t, x) \rbrace$ определяются равенствами 
 $$\begin{array}{c}
@@ -139,9 +139,9 @@ $$
 \begin{theorem} \label{1.6'}
 Пусть управление (\ref{1.23'}) выбрано таким образом, что выполнены условия (\ref{1.22'}) относительно $P(t, \tau)$, а также 
 
-1) зависимость $\Pi_0 (t, x)$ является функцией определенно-положительной $\Pi (t, x) \ge a_1 (\| x \|)$
+1) зависимость $\Pi_0 (t, x)$ является функцией определенно-положительной $\Pi (t, x) \ge a_1 (\left| x \right|)$
 
- 2) для некоторого $\mu > 0$ и любого малого $\varepsilon, 0 < \varepsilon < \mu, $ найдется число $\delta = \delta (\varepsilon) > 0$ при котором выполнено неравенство $$\left| \left| \frac{\partial \Pi_0}{\partial x} \right| \right| \ge \delta (\varepsilon) \forall x \in \lbrace \varepsilon \le \| x \| \le \mu \rbrace$$
+ 2) для некоторого $\mu > 0$ и любого малого $\varepsilon, 0 < \varepsilon < \mu, $ найдется число $\delta = \delta (\varepsilon) > 0$ при котором выполнено неравенство $$\left| \left| \frac{\partial \Pi_0}{\partial x} \right| \right| \ge \delta (\varepsilon) \forall x \in \lbrace \varepsilon \le \left| x \right| \le \mu \rbrace$$
 
 Тогда это управление решает задачу о стабилизации положения (\ref{1.20'}).
 \end{theorem}
@@ -160,12 +160,12 @@ $$
 В силу условий (\ref{1.15'}), (\ref{1.22'}), (\ref{1.25_1'}) наложенных на $A(q), P(t, \tau), \Pi_0(t, x)$ и условий теоремы для этого функционала имеем оценку
 $$
 \begin{array}{c}
-	V(t, x_t, y_t) \ge \alpha_0 \| y(t) \|^2 + a_1 (\| x(t) \|)\\
-	V(t, x_t, y_t) \le \alpha_1 \| y(t) \|^2 + \Pi_0 (0, x(t)) + \| P \| h \max (\| x(t) - x(s) \|^2, t-h \le s \le t)
+	V(t, x_t, y_t) \ge \alpha_0 \left| y(t) \right| ^2 + a_1 (\left| x(t) \right|)\\
+	V(t, x_t, y_t) \le \alpha_1 \left| y(t) \right| ^2 + \Pi_0 (0, x(t)) + \left| P \right| h \max (\left| x(t) - x(s) \right| ^2, t-h \le s \le t)
 \end{array}
 $$
 
-$\| P \|$ - норма матрицы в $R^{n \times n}$
+$\left| P \right|$ - норма матрицы в $R^{n \times n}$
 
 Для производной функционала $V$ в силу (\ref{1.14'}) находим
 
@@ -181,7 +181,7 @@ $$
 \displaystyle = y^{'} (t) Q_1 (t, x(t), y(t)) + \frac{\partial \Pi_0 (t, x(t))}{\partial t} -\\
 \displaystyle - \frac12 (x(t) - x(t - h))^{'} P (t, t - h) (x(t) - x(t - h) +\\
 \displaystyle + \frac12 \int_{t - h}^{t} (x(t) - x(\tau))^{'} \frac{\partial P(t, \tau)}{\partial t} (x(t) - x(\tau)) d \tau \le\\
-\displaystyle \le - \frac{\beta_0}{2} \int_{t-h}^{t} \| x(t) - x(\tau) \|^2 d \tau \le 0
+\displaystyle \le - \frac{\beta_0}{2} \int_{t-h}^{t} \left| x(t) - x(\tau) \right| ^2 d \tau \le 0
 \end{array}
 $$
 
@@ -189,7 +189,7 @@ $$
 
 \begin{equation} \label{1.27'}
 	\begin{array}{c}
-	\displaystyle \dot V(t, x_t) \le - W(x_t) \le 0, W(x_t) = \frac{\beta_0}{2} \int_{t - h}^{t} \| x(t) - x(\tau) \| ^ 2 d \tau.
+	\displaystyle \dot V(t, x_t) \le - W(x_t) \le 0, W(x_t) = \frac{\beta_0}{2} \int_{t - h}^{t} \left| x(t) - x(\tau) \right| ^ 2 d \tau.
 	\end{array}
 \end{equation}
 
@@ -227,9 +227,9 @@ x(t) \equiv x(0) = x_0 = const
 1) движения системы (\ref{1.24'}) из некоторой окрестности положения $\dot x = x= 0$ под действием управления (\ref{1.23'}) ограничены по переменным $x_{m+1}, x_{m+2}, ... , x_n$ 
 
 2) функция $\Pi_0 (t, x)$ определенно-положительна по $x_1, x_2, ... x_m$,
-$$\Pi_0(t, x) \ge a_1 (\| x \|_m), \| x \|^2_m = x_1^2 + x_2^2 + ... + x_m^2$$
+$$\Pi_0(t, x) \ge a_1 (\left| x \right|_m), \left| x \right|^2_m = x_1^2 + x_2^2 + ... + x_m^2$$
 
-3) вне множества ${x_1 = x_2 = ... = x_m = 0}$ нет поожений равновесия (\ref{1.24'}), так что для некоторого $\mu > 0$ и любого малого числа  $\varepsilon, 0 < \varepsilon < \mu$ найдется $\delta = \delta(\varepsilon) > 0$ такое, что $\| \frac{\partial \Pi_0 (t, x)}{dx} \| \ge \delta(\varepsilon) \forall x \in \lbrace \varepsilon \le \sum_{k = 1}^{m} x_k^2 \le \mu \rbrace$
+3) вне множества ${x_1 = x_2 = ... = x_m = 0}$ нет поожений равновесия (\ref{1.24'}), так что для некоторого $\mu > 0$ и любого малого числа  $\varepsilon, 0 < \varepsilon < \mu$ найдется $\delta = \delta(\varepsilon) > 0$ такое, что $\left| \frac{\partial \Pi_0 (t, x)}{dx} \right| \ge \delta(\varepsilon) \forall x \in \lbrace \varepsilon \le \sum_{k = 1}^{m} x_k^2 \le \mu \rbrace$
 
 Тогда программная позиция (\ref{1.18'}) или положение $\dot x = x = 0$ системы (\ref{1.23'}) асимптотически устойчиво по $\dot x, x_1, x_2,.., x_m.$
 \end{theorem}
@@ -238,7 +238,7 @@ $$\Pi_0(t, x) \ge a_1 (\| x \|_m), \| x \|^2_m = x_1^2 + x_2^2 + ... + x_m^2$$
 
 Вновь возьмем функционал Ляпунова в виде (\ref{1.27'}). В силу уравнения 2) имеем оценку
 $$
-V(t, x_t, y_t) \ge \alpha_0 \| y \| ^2 + a_1 (\| x(t) \|_m)
+V(t, x_t, y_t) \ge \alpha_0 \left| y \right| ^2 + a_1 (\left| x(t) \right|_m)
 $$
 
 Для производной этого функционала по прежнему имеем оценку (\ref{1.27'}) и, таким образом, имеет место устойчивость по $y, x_1, ... x_m$
@@ -263,9 +263,9 @@ $$\lim_{t \to + \infty} y(t) = 0; \quad \lim_{t \to + \infty} x_k (t) = 0, k = 1
 
 1) движения системы (\ref{1.24'}) из некоторой окрестности положения $\dot x = x = 0$ равномерно ограничены по переменным $x_{m+1}, x_{m+2},... x_n$
 
-2) функция $\Pi_0 (t, x)$ удовлетворяет неравенствам $$a_1 (\| x \| _m) \le \Pi_0 (t, x) \le \Pi^{*} (x)$$
+2) функция $\Pi_0 (t, x)$ удовлетворяет неравенствам $$a_1 (\left| x \right|_m) \le \Pi_0 (t, x) \le \Pi^{*} (x)$$
 
-3) множество $\lbrace \Pi^{*} (x) > 0 \rbrace$ не содержит положений равновесия системы (\ref{1.26'}), $\| \frac{\partial \Pi_0^{*} (\dot x)}{\partial x} \| \ge \delta(\varepsilon) > 0 \forall x \in \lbrace \Pi^{*} (x) \ge \varepsilon \rbrace$
+3) множество $\lbrace \Pi^{*} (x) > 0 \rbrace$ не содержит положений равновесия системы (\ref{1.26'}), $\left| \frac{\partial \Pi_0^{*} (\dot x)}{\partial x} \right| \ge \delta(\varepsilon) > 0 \forall x \in \lbrace \Pi^{*} (x) \ge \varepsilon \rbrace$
 
 Тогда программная позиция (\ref{1.18'}) или положение равновесия $\dot x = x = 0$ системы (\ref{1.23'}) равномерно асимптотически устойчиво по $\dot x, x_1, x_2, ... x_m.$
 \end{theorem}
@@ -275,8 +275,8 @@ $$\lim_{t \to + \infty} y(t) = 0; \quad \lim_{t \to + \infty} x_k (t) = 0, k = 1
 Вновь используем функционал Ляпунова (\ref{1.26'}), для которого, согласно условию теоремы, имеем оценку 
 $$
 \begin{array}{c}
-a_1 (\| x(t) \|) + \alpha_0 \| y(t) \|^2 \le V(t, x_t, y_t) \le\\
-\le V_1 (x_t, y_t) = \alpha_1 \|y(t)\|^2 + \Pi^{*} (x(t)) + \frac12 \| P \| h \| x(t) - x(\tau) \|^2
+a_1 (\left| x(t) \right|) + \alpha_0 \left| y(t) \right|^2 \le V(t, x_t, y_t) \le\\
+\le V_1 (x_t, y_t) = \alpha_1 \left| y(t) \right|^2 + \Pi^{*} (x(t)) + \frac12 \left| P \right| h \left| x(t) - x(\tau) \right|^2
 \end{array}
 $$
 
@@ -285,7 +285,7 @@ $$
 \begin{array}{c}
 \lbrace W (x_t) = 0 \rbrace \cap \lbrace V_1(x_t, y_t) > 0 \rbrace =\\
 = \lbrace x(\tau) = x(t), t-h \le t \le t \rbrace \cap\\
-\cap \{ \alpha_1 \| y(t) \|^2 + \Pi^{*} (x(t)) + \frac12 \| P\| h \| x(t) - x(\tau) \|^2 > 0 \rbrace \equiv \lbrace \Pi^{*} (x(t)) > 0 \}
+\cap \{ \alpha_1 \left| y(t) \right|^2 + \Pi^{*} (x(t)) + \frac12 \left| P\right| h \left| x(t) - x(\tau) \right|^2 > 0 \rbrace \equiv \lbrace \Pi^{*} (x(t)) > 0 \}
 \end{array}
 $$
 

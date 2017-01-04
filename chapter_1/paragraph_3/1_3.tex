@@ -13,9 +13,9 @@ $s^{'} = (s_1, s_2, ... , s_{n-m}) = (q_{m + 1}, ..., q_n)^{'}$
 где составляющие матрицу $A$ подматрицы $A_{11}, A_{12}, A_{21}, A_{22}$ удовлетворяют условиям 
 $$
 \begin{array}{l}
-\alpha_0 \| z \|^2 \le z^{'} A_{11} z \le \alpha_1  \| z \|^2\\
-\alpha_0 \| s \|^2 \le s^{'} A_{22} s \le \alpha_1  \| s \|^2\\
-\alpha_0 \| s \|^2 \le s^{'} B s \le \alpha_1  \| s \|^2\\
+\alpha_0 \left| z \right|^2 \le z^{'} A_{11} z \le \alpha_1  \left| z \right|^2\\
+\alpha_0 \left| s \right|^2 \le s^{'} A_{22} s \le \alpha_1  \left| s \right|^2\\
+\alpha_0 \left| s \right|^2 \le s^{'} B s \le \alpha_1  \left| s \right|^2\\
 B = A_{12} A_{22} A_{21}, \alpha_0, \alpha_1 > 0 - const\\
 \end{array}
 $$
@@ -95,15 +95,15 @@ U_z^0 (t) = - \frac{\partial R_0}{\partial z} (v_0, z_0) + \frac{\partial \Pi (t
 U_z = U_z^0 (t) - \frac{\partial \Pi_U (t, v, z)}{\partial z} - \int_{t - h}^{t} P_z (t, \tau) (z(t) - z(\tau)) d \tau
 \end{equation}
 
-где $\Pi_U = \Pi_U (t, v, z)$ есть некоторые непрерывно-дифференцируемая (по $z$ дважды) ограниченная вместе со своими производными $\frac{\partial \Pi}{\partial t} (t, v, z_0) 0 , P_z(t, z)$ есть матрица размерности $m \times m$ выражения вида $P_z = \| p_{jk} (t, \tau) \|, p_{jk} (t, \tau) = p_{jk}^0 e^{s_{jk}^0 (\tau - t)}, p_{jk}^0, s_{jk}^0 - const$
+где $\Pi_U = \Pi_U (t, v, z)$ есть некоторые непрерывно-дифференцируемая (по $z$ дважды) ограниченная вместе со своими производными $\frac{\partial \Pi}{\partial t} (t, v, z_0) 0 , P_z(t, z)$ есть матрица размерности $m \times m$ выражения вида $P_z = \left| p_{jk} (t, \tau) \right|, p_{jk} (t, \tau) = p_{jk}^0 e^{s_{jk}^0 (\tau - t)}, p_{jk}^0, s_{jk}^0 - const$
 
 удовлетворяющая условиям
 
 \begin{equation} \label{1.41'}
 \begin{array}{c}
-\dot z P(t, \tau) z \ge 0, z^{'} P_t (t, \tau) z \le - \beta_0 \| z \|^2, \beta_0 > 0,\\
-P_t (t, \tau) = \frac{\partial P_z (t, \tau)}{\partial t} = - \| p_{jk}^0 s_{jk}^0 e^{s_{jk}^0 (\tau - t)} \|,\\
-\| z \| ^ 2 = z_1^2 + ... + z_m^2
+\dot z P(t, \tau) z \ge 0, z^{'} P_t (t, \tau) z \le - \beta_0 \left| z \right|^2, \beta_0 > 0,\\
+P_t (t, \tau) = \frac{\partial P_z (t, \tau)}{\partial t} = - \left| p_{jk}^0 s_{jk}^0 e^{s_{jk}^0 (\tau - t)} \right|,\\
+\left| z \right|^2 = z_1^2 + ... + z_m^2
 \end{array}
 \end{equation}
 
@@ -137,7 +137,7 @@ $$S^{*} (v, z) = \lim_{t \to + \infty} S(t, v, z).$$
 Введем функционал
 $$
 \begin{array}{c}
-\displaystyle V = \frac12 r^{'}(t) B (z(t)) r(t) + S(t, v_0, z) + \frac12 \| v(t) - v_0 \|^2 +\\
+\displaystyle V = \frac12 r^{'}(t) B (z(t)) r(t) + S(t, v_0, z) + \frac12 \left| v(t) - v_0 \right|^2 +\\
 \displaystyle + \frac12 \int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_z (t, \tau) (z(t) - z(\tau)) d \tau
 \end{array}
 $$
@@ -148,7 +148,7 @@ $$
 \begin{array}{c}
 \displaystyle \dot V = - z^{'} (t) G(z(t), v(t)) r(t) + z^{'} (t) Q_z (t, z(t), r(t)) + \frac{\partial S(t, v_0, t)}{\partial t} +\\
 \displaystyle + \frac12 \displaystyle\int\limits_{t - h}^{t} (z(t) - z(\tau))^{'} P_t(t, \tau) (z(t) - z(\tau)) d \tau \le - W(z_t) =\\
-\displaystyle = -\frac{\beta_0}{2} \displaystyle\int\limits_{t - h}^{t} \| z(t) - z(\tau) \|^2 d \tau
+\displaystyle = -\frac{\beta_0}{2} \displaystyle\int\limits_{t - h}^{t} \left| z(t) - z(\tau) \right|^2 d \tau
 \end{array}
 \end{equation}
 
@@ -160,7 +160,7 @@ $$
 1) функция $s = s(t, v_0, z)$ является определенно-положительной по $z$;
 
 2) функция $s^{*} (v_0, z)$ имеет изолированный минимум в точке 
-$$\| \frac{\partial S^{*} (v_0, z)}{\partial z} \| \ne 0 \quad \forall z \in \lbrace 0 < \| z - z_0 \| < \delta \rbrace$$
+$$\left| \frac{\partial S^{*} (v_0, z)}{\partial z} \right| \ne 0 \quad \forall z \in \lbrace 0 < \left| z - z_0 \right| < \delta \rbrace$$
 
 Тогда под действием управления (\ref{1.40'})) программное стационарное движение (\ref{1.39'}) устойчиво, асимптотически устойчиво относительно движений, отвечающих значению $v = v_0,$ а каждое иное возмущенное движение неограниченно приближается при $t \to + \infty$ к движению 
 $$\dot z = 0, \quad \dot z = z_1 = const, \quad v = v_1 = const, \quad \dot s = \dot s_1 = A_{22}^{-1} (z_1) v_1$$
