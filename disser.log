@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  6 JAN 2017 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.31)  6 JAN 2017 15:13
 entering extended mode
 **./disser.tex
 (disser.tex
@@ -1075,7 +1075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 14--17
+Underfull \hbox (badness 2150) in paragraph at lines 14--16
 \LCY/cmr/m/n/14.4 где $\OML/cmm/m/it/14.4 f \OT1/cmr/m/n/14.4 : \OML/cmm/m/it/1
 4.4 R \OMS/cmsy/m/n/14.4  \OML/cmm/m/it/14.4 C[] \OMS/cmsy/m/n/14.4 ! \OML/cmm
 /m/it/14.4 R[]$ \LCY/cmr/m/n/14.4 --- некоторое непрерывное отображение,
@@ -1085,79 +1085,79 @@ Underfull \hbox (badness 2150) in paragraph at lines 14--17
 
 
 ] [14]
-Underfull \hbox (badness 1769) in paragraph at lines 81--86
+Underfull \hbox (badness 1769) in paragraph at lines 80--85
 []\LCY/cmr/m/n/14.4 Вводится определение. Функция $\OML/cmm/m/it/14.4 f[] \OT1/
 cmr/m/n/14.4 : \OML/cmm/m/it/14.4 R \OMS/cmsy/m/n/14.4  \OT1/cmr/m/n/14.4   \O
 MS/cmsy/m/n/14.4 ! \OML/cmm/m/it/14.4 R[]$ \LCY/cmr/m/n/14.4 называется
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 81--86
+Underfull \hbox (badness 2080) in paragraph at lines 80--85
 \LCY/cmr/m/n/14.4 предельной к $\OML/cmm/m/it/14.4 f;$ \LCY/cmr/m/n/14.4 если с
 уществует последовательность $[]$ такая, что
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 []\LCY/cmr/m/n/14.4 Имеет место следующее свойство положительного предельного
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 114--123
+Underfull \hbox (badness 1577) in paragraph at lines 113--122
 \LCY/cmr/bx/n/14.4 Теорема 1.1. \LCY/cmr/m/it/14.4 [14] Пусть решение (1.1[]) $
 \OML/cmm/m/it/14.4 x \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 
 (\OML/cmm/m/it/14.4 t; ; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 ограничено,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
 []\LCY/cmr/m/n/14.4 Вводятся следующие определения, в основе которых лежит
  []
 
-[16]
-Underfull \hbox (badness 1789) in paragraph at lines 159--160
+
+Underfull \hbox (badness 1789) in paragraph at lines 158--159
 []\LCY/cmr/m/n/14.4 Для функционала, имеющего инвариантную производную $\OML/cm
 m/m/it/14.4 @V[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; '\OT1/cmr/m/n/14.4 )$
  []
 
 [17] [18]
-Underfull \hbox (badness 1688) in paragraph at lines 221--227
+Underfull \hbox (badness 1688) in paragraph at lines 220--226
 []\LCY/cmr/m/it/14.4 Тогда для каждой предельной точки $\OML/cmm/m/it/14.4   \O
 MS/cmsy/m/n/14.4 2 \OML/cmm/m/it/14.4 ![]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 
 ; '\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 существуют
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 229--230
+Underfull \hbox (badness 4254) in paragraph at lines 228--229
 []\LCY/cmr/m/n/14.4 Для задачи об асимптотической устойчивости нулевого решения
 
  []
 
 [19]
-Underfull \hbox (badness 7576) in paragraph at lines 253--254
+Underfull \hbox (badness 7576) in paragraph at lines 252--253
 \LCY/cmr/m/n/14.4 выявления устойчивости относительно части переменных свойство
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 \LCY/cmr/m/n/14.4 квазиинвариантности его положительного предельного множества,
 
  []
 
 [20]
-Underfull \hbox (badness 3514) in paragraph at lines 287--289
+Underfull \hbox (badness 3514) in paragraph at lines 286--288
 \LCY/cmr/bx/n/14.4 Теорема 1.5. \LCY/cmr/m/it/14.4 Предположим, что: 1) решение
  уравнения (1.1) из
  []
 
-
-Underfull \hbox (badness 1394) in paragraph at lines 292--294
+[21]
+Underfull \hbox (badness 1394) in paragraph at lines 291--293
 \LCY/cmr/m/it/14.4 3) каждая предельная совокупность $\OT1/cmr/m/n/14.4 (\OML/c
 mm/m/it/14.4 g; U\OT1/cmr/m/n/14.4 )$ \LCY/cmr/m/it/14.4 такова, что множество
  []
 
-[21]) (chapter_1/paragraph_2/1_2.tex
+) (chapter_1/paragraph_2/1_2.tex
 Underfull \hbox (badness 1424) in paragraph at lines 1--1
  |[]\LCY/cmr/m/n/14.4 Стабилизация программных позиций голономной механической
  []
@@ -1192,13 +1192,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 []\LCY/cmr/m/n/14.4 В моделировании манипуляторов представляется важным учет
  []
 
-
+[23]
 Underfull \hbox (badness 4467) in paragraph at lines 39--40
 \LCY/cmr/m/n/14.4 методы исследования асимптотической устойчивости под действие
 м
  []
 
-[23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 []\LCY/cmr/m/n/14.4 Использование теорем об устойчивости фунционально-
  []
@@ -1209,7 +1209,7 @@ Underfull \hbox (badness 4805) in paragraph at lines 90--91
 -
  []
 
-
+[25]
 Underfull \hbox (badness 1817) in paragraph at lines 92--93
 []\LCY/cmr/m/n/14.4 Для движения $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 q\OT1/c
 mr/m/n/14.4 (\OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; []\OT1
@@ -1232,7 +1232,7 @@ Underfull \hbox (badness 3601) in paragraph at lines 94--95
 \LCY/cmr/m/n/14.4 непрерывные функции по отношению к непрерывной совокупности
  []
 
-[25]
+
 Underfull \hbox (badness 1803) in paragraph at lines 96--97
 []\LCY/cmr/m/n/14.4 Будем полагать, что зависимости $\OML/cmm/m/it/14.4 Q \OT1/
 cmr/m/n/14.4 = \OML/cmm/m/it/14.4 Q\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x; 
@@ -2376,7 +2376,7 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admi
 n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on disser.pdf (105 pages, 818159 bytes).
+Output written on disser.pdf (105 pages, 818507 bytes).
 PDF statistics:
  796 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

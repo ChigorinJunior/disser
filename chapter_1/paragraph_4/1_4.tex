@@ -26,13 +26,13 @@
 U = - a \sin \varphi (t) - \int_{t-h}^{t} L e^{ b (\tau - t)} (\sin \varphi (t) - \sin \varphi (\tau)) d \tau \cos (\varphi(t))
 \end{equation}
 
-где $a$ и $b$ есть некоторые искомые постоянные $a > 1, b > 0$
+где $a$, $b$ и $L$ есть некоторые искомые постоянные $a > 1, \ b, L > 0$
 
 Введем функционал $$V = \frac12 \psi ^ 2 (t) + (a - 1) (1 - \cos \varphi (t)) + \frac12 \int_{t-h}^{t} L e^{b (\tau - t)} (\sin \varphi(t) - \sin \varphi (\tau))^2 d \tau$$
 
 Несложно видеть, что он является определенно-положительным, допускающим бесконечно малый высший предел относительно $\varphi = \varphi (t)$ и $\psi = \psi (t)$
 
-Для его производной находм оценку
+Для его производной находим оценку
 $$
 \begin{array}{c}
 \displaystyle \dot V = \psi (t) (\sin \varphi (t) - a \sin \varphi (t) -\\
@@ -52,6 +52,6 @@ $$
 \begin{figure}[h]
 	\centering
 	\includegraphics{pendulum}
-	\caption{Результаты моделирования при управлении (\ref{1.46'})}
+	\caption{Результаты моделирования при управлении (\ref{1.47'})}
 	\label{fig:pendulum_1}
 \end{figure}
