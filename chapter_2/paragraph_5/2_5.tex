@@ -1,0 +1,131 @@
+\section{Стабилизация программного движения манипуляционных роботов на основе измерения координат звеньев}
+
+Будем искать стабилизирующий закон управления в виде 
+
+\begin{equation}
+U = U^{(0)} (t) + U^{(1)} (t, x, y),
+\end{equation}
+
+где $U^{(0)} (t)$ - программное управление, функция $U^{(1)} (t, x, y)$ имеет вид
+
+\begin{equation}
+U^{(1)} (t, x, y) = - K_1(t) p(x) - K_2(t)y, U^{(1)} (t, 0, 0) \equiv 0.
+\end{equation}
+
+Здесь матрицы $K_i \in R^{n \times n} (i = 1, 2)$ являются кусочно-непрерывными функциями времени, вектор $y \in R^{n}$ есть решение следующего дифференциального уравнения
+
+\begin{equation}
+\dot y = - a (y + b \dot x + c p(x)),
+\end{equation}
+
+где $a, b$ и $c$ - некоторые положительные постоянные, $p: R^{n} \to R^{n} p(0) = 0, \| p(x) \| \ge p_0(x), p_0(x) \le l \| x \|^m (l = const > 0, m = const \ge 1), p_0(x) = 0 \iff x = 0.$
+
+Уравнения возмущенного движения имеют вид
+
+\begin{equation}
+A^{(1)} (t, x) \ddot x = C^{(1)} (t, x, 2 \dot q^{(0)} + \dot x) \dot x + Q^{(1)}(t, x) + Q^{(2)} (t, x, \dot x) - K_1(t) p(x) - K_2 (t) y, \label{dist_2_5}
+\end{equation}
+
+где
+
+\begin{equation}
+\begin{array}{l}
+A^{(1)} (t, x) = A(q^{(0)}(t) + x), \\
+C^{(1)}(t, x, y) = C(q^{(0)}(t) + x, y), \\
+Q^{(1)}(t, x) = (A^{(0)}(t) - A^{(1)}(t, x) \ddot q^{(0)} (t)) - Q(t, q^{(0)}(t), \dot q^{(0)}(t)), \\
+Q^{(2)}(t, x, \dot x) = Q(t, q^{(0)}(t) + x, \dot q^{(0)}(t) + \dot x) - Q(t, q^{(0)} + x, \dot q^{(0)}(t)).
+\end{array}
+\end{equation}
+
+Предположим, что функции $Q^{(1)}$ и $Q^{(2)}$ имеют следующий вид
+
+\begin{equation}
+Q^{(1)}(t, x) = F(t, x)p(x), \quad Q^{(2)}(t, x, \dot x) = D(t, x, \dot x) \dot x
+\end{equation}
+
+где матрицы функции $F: R^{+} \times R^{n} \to R^{n \times n}$ и $D : R^{+} \times R^{n} \times R^{n} \to R^{n \times n}$ являются непрерывными и ограниченными.
+
+Для решения задачи стабилизации программного движения будем использовать метод сравнения с вектор-функцией Ляпунова. Выберем вектор-функцию Ляпунова в виде
+
+\begin{equation}
+V = (V_1, V_2, V_3)^{'}, \label{lap_vect_2_5}
+\end{equation}
+
+где $V_1 = \| p(x) \|, V_2 = \| y - \alpha p \|, V_3 = \sqrt{(\dot x + \beta y)^{'} A^{(1)}(t, x) (\dot x + \beta y)}, \alpha = const > 0, \beta = const > 0$. 
+
+Вычисляя производные по времени функций $V_1^2, V_2^2, V_3^2$ в силу системы (\ref{dist_2_5}) получим
+
+\begin{equation*}
+2 V_1 \dot V_1 = - 2 \alpha \beta p^{'} \frac{\partial p}{\partial x} p - 2 \beta p^{'} \frac{\partial p}{\partial x} (y - \alpha p) + 2 p^{'} \frac{\partial p}{\partial x} (\dot x + \beta y), 
+\end{equation*}
+
+\begin{equation*}
+\begin{array}{l}
+2 V_2 \dot V_2 = 2 (y - \alpha p)^{'} (- a (\alpha + c + \alpha b \beta) E + \alpha^2 \beta \frac{\partial p}{\partial x}) p + \\ +2 (y - \alpha p)^{'} (- a (1 - b \beta) E) + \alpha \beta \frac{\partial p}{\partial x}) (y - \alpha p) - 2 (y - \alpha p)^{'} (abE + \alpha \frac{\partial p}{\partial x}) (\dot x + \beta y),
+\end{array}
+\end{equation*}
+
+\begin{equation*}
+\begin{array}{l}
+2 V_3 \dot V_3 = 2 (\dot x + \beta y)^{'} (F - ac\beta A^{(1)} - K_1(t)) p + \\ + 2 (\dot x + \beta y)^{'} (- \beta D - K_2 (t) - a \beta (1 - b \beta) A^{(1)} + \\ + (C^{(1)}(t, x, -2 \beta \dot q^{(0)}(t) + \beta^2 y) )^{'}) y + \\ + 2 (\dot x + \beta y)^{'} (C^{(1)}(t, x, \dot q^{(0)}(t)) + D - a b \beta A^{(1)}) (\dot x + \beta y).
+\end{array}
+\end{equation*}
+
+Определим следующие функции времени $t$ и координат $x, y$
+
+\begin{equation}
+\mu_1 (x) = lgn \| - \frac{\partial p}{\partial x} \|, \mu_2 (x) = lgn \| - \frac{\partial p}{\partial x} \|, m_1(x) = \mu_1 (x) = \|\frac{\partial p}{\partial x} \|
+\end{equation}
+
+\begin{equation}
+m_2(t, x) = \| F - a c \beta A^{(1)} - K_1 \|
+\end{equation}
+
+\begin{equation}
+m_3(t, x, y) = \| - \beta D - K_2 - a \beta (1 - b \beta) A^{(1)} + (C^{(1)}(t, x, - 2 \beta \dot q^{(0)}(t) + \beta^2 y))^{'} \|
+\end{equation}
+
+\begin{equation}
+\mu_3 (t, x, y) = lgn \| C^{(1)} (t, x, \dot q^{(0)} - \beta y) + D - a b \beta A^{(1)} \|
+\end{equation}
+
+где символ $lgn \| \|$ означает логарифмическую норму матрицы,. соответсвующую евклидовой векторной норме и вычисляемой по формуле: $lgn \| M \| = \frac12 \lambda_{max} (M + M^{'}) \forall M \in R^{n \times n}, \lambda_{max} ()$ - максимальное собственное значение соответствующей матрицы.
+
+Для производных по времени компонент вектор-функции Ляпунова (\ref{lap_vect_2_5}) в силу системы (\ref{dist_2_5}) получим оценки 
+
+\begin{equation}
+\dot V_1 \le - \alpha \beta \mu_1 V_1 + \beta m_1 V_2 + \frac{m_1}{\lambda (t, x, y, \dot x)} V_3, \label{lap_eq_1}
+\end{equation}
+
+\begin{equation}
+\dot V_2 \le (a (\alpha + c + \alpha \beta b) + \alpha^2 \beta m_1) V_1 + (a (b \beta - 1) + \alpha \beta \mu_2) V_2 + \frac{a b + \alpha m_1}{\lambda(t, x, y, \dot x)} V_3 \label{lap_eq_2}
+\end{equation}
+
+\begin{equation}
+\dot V_3 \le \frac{m_2 + \alpha m_3}{\lambda(t, x, y, \dot x)} V_1 + \frac{m_3}{\lambda(t, x, y, \dot x)} V_2 + \frac{\mu_3}{(\lambda(t, x, y, \dot x))^2} V_3, \label{lap_eq_3}
+\end{equation}
+
+где функция $\lambda(t, x, y, \dot x)$ определяется из следующего соотношения
+
+\begin{equation}
+\lambda(t, x, y, \dot x) \| \dot x + \beta y \| = V_3, \lambda_1 \le \lambda(t, x, y, \dot x) \le \lambda_2, \lambda_1 = const > 0, \lambda_2 = const > 0.
+\end{equation}
+
+Используя оценки (\ref{lap_eq_1}) - (\ref{lap_eq_3}), получим следующую систему сравнения
+
+\begin{equation}
+\begin{array}{l}
+\dot u_1 = - \alpha \beta \mu_1 u_1 + \beta m_1 u_2 + \frac{m_1}{\lambda(t, x, y, \dot x)} u_3, \\
+\dot u_2 = (a (\alpha + c + \alpha \beta b) + \alpha^2 \beta m_1) u_1 + (a (b \beta - 1) + \alpha \beta \mu_2) u_2 + \frac{a b + \alpha m_1}{\lambda(t, x, y, \dot x)} u_3, \\
+\dot u_3 = \frac{m_2 + \alpha m_3}{\lambda(t, x, y, \dot x)} u_1 + \frac{m_3}{\lambda(t, x, y, \dot x)} u_2 + \frac{\mu_3}{(\lambda(t, x, y, \dot x))^2} u_3. \label{u_compare}
+\end{array}
+\end{equation}
+
+Используя модификацию метода сравнения, получим, что обобщенная система (\ref{lap_vect_2_5}), (\ref{u_compare}) является экспоненциально u-устойчивой, если выполняется следующее условие
+
+\begin{equation}
+\begin{array}{l}
+\frac{(\beta m_1 + a (\alpha + c + \alpha \beta b) + \alpha^2 \beta m_1)^2}{\alpha \beta \mu_1 (a (1 - b \beta) - \alpha \beta \mu_2)} - \frac{(m_1 + m_2 + \alpha m_3)^2}{\alpha \beta \mu_1 \mu_3} + \\ + \frac{(a b + \alpha m_1 + m_3)^2}{(a (b \beta - 1) + \alpha \beta \mu_2) \mu_3} + \frac{(\beta m_1 + a (\alpha + c + \alpha \beta b) + \alpha^2 \beta m_1) (m_1 + m_2 + \alpha m_3) (ab + \alpha m_1 + m_3)}{\alpha \beta \mu_1 (a (b \beta - 1) + \alpha \beta \mu_2) \mu_3} \le const \le 4, \\
+ \mu_1 \le const \le 0, a (b \beta - 1) + \alpha \beta \mu_2 \le const \le 0, \mu_3 \le const \le 0. 
+\end{array}
+\end{equation}
