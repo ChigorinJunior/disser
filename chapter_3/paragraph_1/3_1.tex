@@ -39,7 +39,7 @@
   Учитывая действие сил тяжести, уравнения движения можно записать в векторно-матричной форме
     
   \begin{equation}
-  A(q) + C(q, \dot q) \dot q + K(q) = Q \label{chain3_matrix_form}
+  A(q) \ddot q + C(q, \dot q) \dot q + K(q) = Q \label{chain3_matrix_form}
   \end{equation}
     
   \begin{equation*}
@@ -70,16 +70,16 @@
  \markright{\thechapter.\thesection.\hspace{1em}Построение управления}{}
  \label{sec2.3}
  Пусть  $q = (q_1, q_2, q_3)^{'}$ --- вектор обобщенных координат рассматриваемой механической системы и $$X = {q^0(t):[t_0, + \infty) \to R^3, \| q^0(t) \| \le q_0, \| \dot q^0 \| \le g_1,\| q^0(t) \| \le q_0, \| \ddot q^0 \| \le g_2}$$ есть заданное множество программных движений манипулятора в виде ограниченных дважды непрерывно дифференцируемых функций $q = q^0(t)$ с ограниченными производными при $t \in [t_0, + \infty)$.  Символом   $\| \cdot \|$ обозначена евклидова норма вектора.
- Пусть $q^0(t) \in X$ --- какое-либо программное движение системы (\ref{chain3_matrix_form}), реализуемое программным управлением $Q^{(0)}$, так что $Q^{0} (t) = Q(t)$ при $q = q^{0}(t), \dot q = \dot q^{0}(t)$ т.е. имеет место тождество $$A(q^0(t)) \ddot q^0(t) + C(q^0(t), \dot q^0(t)) \dot q^0(t) + K(\dot q^0(t)) \equiv Q^{(0)} (t).$$
+ Пусть $q^0(t) \in X$ --- какое-либо программное движение системы (\ref{chain3_matrix_form}), реализуемое программным управлением $Q^{(0)}$, так что $Q^{0} (t) = Q(t)$ при $q = q^{0}(t), \dot q = \dot q^{0}(t)$ т.е. имеет место тождество $$A(q^0(t)) \ddot q^0(t) + C(q^0(t), \dot q^0(t)) \dot q^0(t) + K(q^0(t)) \equiv Q^{(0)} (t).$$
  Введем возмущения $x = q - q^0(t)$ и составим уравнения возмущенного движения в векторно-матричном виде:
  \begin{equation}
- A^{(1)}(t, x) \ddot x + C^{(1)}(t, x, \dot x) \dot x + K \dot x = Q^{(1)}(t, x, \dot x) + Q^{(2)}(t, x, \dot x), \label{chain3_disturb_sys}
+ A^{(1)}(t, x) \ddot x + C^{(1)}(t, x, \dot x) \dot x + K^{(1)}(t, x) = Q^{(1)}(t, x, \dot x) + Q^{(2)}(t, x, \dot x), \label{chain3_disturb_sys}
  \end{equation} 
  где
  $$
  \begin{array}{c}
-A^{(1)}(t, x) = A(x + q^0(t))$, $C^{(1)}(t, x, \dot x) = C(x + q^0(t),\\
-\dot x + \dot q^0(t)),\\
+A^{(1)}(t, x) = A(x + q^0(t))$, $C^{(1)}(t, x, \dot x) = C(x + q^0(t), \dot x + \dot q^0(t)),\\
+K^{(1)} (t, x) = K(q^0(t) + x) - K(q^0(t)),\\
  Q^{(1)}(t, x, \dot x) = Q - Q^{(0)},\\
 Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(t, 0, 0) - C^{(1)}(t, x, \dot x)) \dot q^0(t) 
  \end{array}
@@ -105,7 +105,7 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
     \begin{equation}
      \begin{array}{l}
      Q_1^{(0)} = 0, \\
-     Q_2^{(0)} = K_2(q^0(t)) = (m_2 r_2 + m_{30} l_2)g \sin q_2^0, \\
+     Q_2^{(0)} = (m_2 r_2 + m_{30} l_2)g \sin q_2^0 \cos x_2, \\
      Q_3^{(0)} = m_{30} g r_3 \sin q_3^0 \cos x_3 \label{chain3_control_functions}
      \end{array}
     \end{equation}
@@ -172,7 +172,7 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
     \end{equation*}
   
   
-  Множество $\lbrace \dot V = 0 \rbrace$ состоит из решений $x(\tau) = x(t), t - h \le \tau \le t,$ или $x(t) = const.$ Из уравнений движений находим, что для таки движений должны удовлетворяться соотношения 
+  Множество $\lbrace \dot V = 0 \rbrace$ состоит из движений $x(\tau) = x(t), t - h \le \tau \le t,$ или $x(t) = const.$ Из уравнений движений находим, что для таких движений должны удовлетворяться соотношения 
   
   \begin{equation*}
 	\sin \frac{x_1(t)}{2} \equiv 0, \quad \sin \frac{x_2(t)}{2} \equiv 0, \quad \sin \frac{x_3(t)}{2}
@@ -189,7 +189,7 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
   или
   
   \begin{equation*}
-  \dot x_k (t) \equiv 0, \quad x_k(t) = 2 \pi n_k, \quad k = 1, 3
+  \dot x_k (t) \equiv 0, \quad x_k(t) = 2 \pi k, \quad k = 1, 3
   \end{equation*} 
   
   Тем самым, можно утверждать о глобальной стабилизации заданного программного движения (\ref{chain3_disturb_sys}).
@@ -209,7 +209,7 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
   \begin{equation*}
   \begin{array}{c}
   \displaystyle R = T - \dot q_1 v_1 = \frac12 (m_2 r_2^2 + m_3 l_2^2) \dot q_2^2
-  + \frac12 m_{30} l_2 r_3 \cos(q_2 - q_1) \dot q_2 \dot q_3 + \frac12 m_{30} r_3^2 \dot q_3^2 - \\ \displaystyle - \frac12 \frac{v_1^2}{J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2}
+  + \frac12 m_{30} l_2 r_3 \cos(q_2 - q_1) \dot q_2 \dot q_3 + \frac12 m_{30} r_3^2 \dot q_3^2 - \\ \displaystyle - \frac12 \frac{v_1^2}{J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2} \equiv R_2 - R_0
   \end{array}
   \end{equation*}
   
@@ -220,13 +220,13 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
   \displaystyle (m_2 r_2^2 + m_3 l_3^2) \ddot q_2 + \frac12 m_{30} l_2 r_3 \cos(q_2 - q_1) \ddot q_3 + \frac12 m_{30} l_2 r_3 \sin(q_2 - q_1) \dot q_3^2 - \\ 
   \displaystyle - \frac{v_1^2 (m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 + m_2 r_2^2 \sin q_2) \cos q_2}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^2} + (m_2 r_2 + m_{30} l_2) g \sin q_2 = Q_2 \\
   \displaystyle \frac12 m_{30} l_2 r_3 \cos (q_2 - q_1) \ddot q_2 + m_{30} r_2^2 \ddot q_3 - \frac12 m_{30} l_2 r_3 \sin(q_2 - q_3) \dot q_2^2 - \\ 
-  \displaystyle - \frac{v_2^2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \cos q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^2} + m_{30} g r_3 \sin q_3 = Q_3 \\
+  \displaystyle - \frac{v_1^2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \cos q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^2} + m_{30} g r_3 \sin q_3 = Q_3 \\
   \displaystyle \frac{d q_1}{d t} = \frac{v_1}{J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2} \\
   \displaystyle \frac{d v_1}{d t} = Q_1
   \end{array}
   \end{equation*}
   
-  При $Q_1 = Q_2 = Q_3 = 0$ система может совершать стационарное вращательное движение вида 
+  Система может совершать стационарное вращательное движение вида 
   
   \begin{equation*}
   \begin{array}{c}
@@ -235,13 +235,79 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
   \end{array}
   \end{equation*} 
   
+  под действием моментов
+  
+  \begin{equation*}
+  \begin{array}{l}
+  \displaystyle Q_1 = 0
+  \displaystyle Q_2 = Q_2^0 = (m_2 r_2^2 + m_3 l_3^2) \ddot q_2^0 + \frac12 m_{30} l_2 r_3 \cos(q_2^0 - q_1^0) \ddot q_3^0 + \frac12 m_{30} l_2 r_3 \sin(q_2^0 - q_1^0) \dot (q_3^0)^2 - \\ 
+  \displaystyle - \frac{v_1^2 (m_{30} (l_2 \sin q_2^0 + r_3 \sin q_3^0) l_2 + m_2 r_2^2 \sin q_2^0) \cos q_2^0}{(J_0 + m_2 r_2^2 \sin^2 q_2^0 + m_{30} (l_2 \sin q_2^0 + r_3 \sin q_3^0)^2)^2} + (m_2 r_2 + m_{30} l_2) g \sin q_2^0\\
+  \displaystyle Q_3 = Q_3^0 = \frac12 m_{30} l_2 r_3 \cos (q_2^0 - q_1^0) \ddot q_2^0 + m_{30} r_2^2 \ddot q_3^0 - \frac12 m_{30} l_2 r_3 \sin(q_2^0 - q_3^0) \dot (q_2^0)^2 - \\ 
+  \displaystyle - \frac{v_1^2 m_{30} (l_2 \sin q_2^0 + r_3 \sin q_3^0) r_3 \cos q_3^0}{(J_0 + m_2 r_2^2 \sin^2 q_2^0 + m_{30} (l_2 \sin q_2^0 + r_3 \sin q_3^0)^2)^2} + m_{30} g r_3 \sin q_3^0\\
+  \displaystyle \frac{d q_1}{d t} = \frac{v_1}{J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2} \\
+  \end{array}
+  \end{equation*}
+  
+  На основании теоремы 1.10 можно найти, что это стационарное движение будет устойчиво, асимптотически устойчиво по $\dot q_2, \dot q_3, q_2 - q_2^0, q_3 - q_3^0$ под действием стабилизирующих моментов 
  
-  \section{Синтез управления в задаче стабилизации программного движения манипулятора}% 
+   \begin{equation*}
+   \begin{array}{l}
+   \displaystyle Q_1 = 0
+   \displaystyle Q_2^1 = Q_2 - Q_2^0 = - k_2^0 x_2(t) - x_2(t) \int_{t-h}^{t} p_2^0 e^{s_2^0 (\tau - t)} (x_2(t) - x_2(\tau))\\
+   \displaystyle Q_3^1 = Q_3 - Q_3^0 = - k_3^0 x_3(t) - x_3(t) \int_{t-h}^{t} p_3^0 e^{s_3^0 (\tau - t)} (x_3(t) - x_3(\tau))\\
+   \end{array}
+   \end{equation*}
+   
+   где постоянные $p_2^0, p_3^0, s_2, s_3^0 > 0,$ а $k_2^0$ и $k_3^0$ удовлетворяют неравенствам 
+   
+   \begin{equation*}
+   \begin{array}{l}
+   \displaystyle k_2 + (m_2 r_2 + m_{30} l_2) g \cos q_2^0 - \frac{\partial^2 R_0}{\partial q_2^2} \bigg\rvert_{q_2 = q_2^0} = \mu_2 > 0 \\
+   \displaystyle k_3 + m_{30} g r_2 \cos q_3^0 - \frac{\partial^2 R_0}{\partial q_3^2} \bigg\rvert_{q_2 = q_2^0} = \mu_3 > 0 \\
+   \displaystyle \mu_2 \mu_3 - \left( \frac{\partial^2 R_0}{\partial q_2 \partial q_3}  \bigg\rvert_{q_2 = q_2^0}\right)^2 > 0 \\
+   \end{array}
+   \end{equation*}
+   
+    Численное моделирование движения манипулятора при действии управления (3.4) проводилось при следующих значениях параметров манипулятора и программной траектории
+    
+    На рисунках 3.2–3.4 представлены результаты моделирования, проведенного при следующих значениях параметров манипулятора
+ 
+     \begin{equation*}
+     \begin{array}{l}
+     m_2=15 \text{ кг}, \quad m_3=2,5 \text{ кг}, \quad m_0 = 2 \text{ кг}, \quad l_2 = 1 \text{ м}, \quad r_2=0,5 \text{ м}, \quad r_3 = 0,5 \text{ м},\\
+     \quad J_{01} = 0,1 \text{ кг} \cdot \text{м\textsuperscript{2}}.
+     \end{array}
+     \end{equation*}
+    
+    \begin{figure}[h]
+    	\centering
+    	\includegraphics{3chain_1}
+    	\caption{Зависимость угла поворота первого звена от времени при управлении (3.6) }
+    	\label{fig:manip31}
+    \end{figure}
+    
+    \begin{figure}[h]
+    	\centering
+    	\includegraphics{3chain_2}
+    	\caption{Зависимость угла поворота второго звена от времени при управлении (3.6)  }
+    	\label{fig:manip32}
+    \end{figure}
+    
+    \begin{figure}[h]
+    	\centering
+    	\includegraphics{3chain_3}
+    	\caption{Зависимость угла поворота третьего звена от времени при управлении (3.6) }
+    	\label{fig:manip33}
+    \end{figure}
+   
+ 
+  \section{Синтез управления в задаче о стабилизации нестационарного программного движения манипулятора}% 
  Рассмотрим решение задачи стабилизации в области $G = {(x, \dot x) \in R^6 : \|x\| < \varepsilon, \quad \|\dot x \| < \varepsilon, \quad \varepsilon = const>0}$
  с помощью непрерывного управления вида
  
  \begin{equation}
   Q^{(1)} (x, \dot x) = B(\dot x + p(x)),
+  p^{'}(x) = (\sin \frac{x_1}{2}, \sin \frac{x_2}{2}, \sin \frac{x_3}{2})
  \end{equation}
  
  где $B \in R^{3 \times 3}$ есть матрица коэффициентов усиления сигналов, подлежащая определению; $p(x)$ --- непрерывно дифференцируемая вектор-функция, такая, что $\| p(x) \| \ge p_0(x) > 0, p_0(0) = 0$.
@@ -254,7 +320,7 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
  \displaystyle \frac{d}{dt} (V^1(x))^2 = 2 V^1 \dot V^1 = 2 p^{'} \dot p = 2 p^{'} \frac{\partial p }{\partial x} \dot x = -2 p^{'} \frac{\partial p }{\partial x} p + 2 p^{'} \frac{\partial p }{\partial x}(\dot x + p),\\
     \displaystyle \frac{d}{dt} (V^2(x))^2 = 2 V^2 \dot V^2 =\\
    \displaystyle = 2(\ddot x + \dot p)^{'} A^{(1)} (\dot x + p) + (\dot x + p)^{'} \dot A^{(1)} (\dot x + p) =\\
-   \displaystyle = 2(- C^{(1)}(t, x, \dot x) \dot x - R \dot x + Q^{(1)}(x, \dot x) + Q^{(2)}(t, x, \dot x))^{'} (\dot x + p) +\\
+   \displaystyle = 2(- C^{(1)}(t, x, \dot x) \dot x - K(t, x) + Q^{(1)}(x, \dot x) + Q^{(2)}(t, x, \dot x))^{'} (\dot x + p) +\\
    \displaystyle + 2 \dot p^{'} A^{(1)} (\dot x + p) + (\dot x + p)^{'} \dot A^{(1)} (\dot x + p).
  \end{array}
  \end{equation*}
@@ -294,7 +360,7 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
 \end{array}
 \end{equation*}
  
- На рисунках 3.2–3.4 представлены результаты моделирования. Пунктирной линией обозначены  составляющие программного движения, а сплошной – реального движения системы.
+ На рисунках 3.5–3.7 представлены результаты моделирования. Пунктирной линией обозначены  составляющие программного движения, а сплошной – реального движения системы.
  
  
   \begin{figure}[h]
