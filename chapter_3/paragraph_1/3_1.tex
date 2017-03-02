@@ -4,7 +4,7 @@
  
  Введем обозначения: $q_i (i=1, 2, 3)$ --- углы поворотов звеньев манипулятора; $Q_i (i = 1, 2, 3)$ ---  управляющие моменты относительно осей соответствующих звеньев; $l_i$  ---  длина   $i$-го звена;   $m_i$ --- масса  $i$-го звена;    $m_0$ ---  масса перемещаемого груза;  $m_{30} = m_0 + m_3$; $J_{01}$  ---  момент инерции первого звена относительно оси вращения; $r_2$ и $r_3$ --- соответственно расстояния от центров тяжести второго и третьего звеньев с перемещаемым грузом относительно осей соответствующих звеньев; $g$ --- ускорение свободного падения.
  
- \begin{figure}[h]
+ \begin{figure}[H]
  	\centering
  	\includegraphics{3chain}
  	\caption{Модель трехзвенного манипулятора}
@@ -268,6 +268,32 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
    \end{array}
    \end{equation*}
    
+   \begin{equation*}
+   \begin{array}{l}
+   \displaystyle \frac12 \frac{v_1^2 (2 m_2 r_2^2 \sin q_2 \dot q_2 \cos q_2 + 2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 \dot q_2 \cos q_2)}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin^2 q_3))^2} \\
+   \displaystyle - \frac{v_1^2 (2 m_2 r_2^2 \sin q_2 \dot q_2 \cos q_2 + 2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 \dot q_2 \cos q_2)^2}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin^2 q_3))^3} \\
+   \displaystyle + \frac12 \frac{v_1^2 (2 m_2 r_2^2 \dot q_2^2 \cos^2 q_2 + 2 m_2 r_2^2 \sin q_2 \ddot q_2 \cos q_2 - 2 m_2 r_2^2 \sin^2 q_2 \dot q_2^2 + 2 m_{30} l_2^2 \dot q_2^2 \cos q_2^2 + 2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 \ddot q_2  \cos q_2 - 2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 \dot q_2^2 \sin q_2)}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin^2 q_3))^2}
+   \end{array}
+   \end{equation*}
+   
+   \begin{equation*}
+   \begin{array}{l}
+   \displaystyle \frac{v_1^2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \dot q_3 \cos q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin^2 q_3))^2} \\
+   \displaystyle - \frac{4 v_1^2 m_{30}^2 (l_2 \sin q_2 + r_3 \sin q_3)^2 r_3^2 \dot q_3^2 \cos^2 q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^3} \\
+   \displaystyle + \frac{v_1^2 m_{30} r_3^2 \dot q_3^2 \cos^2 q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^2} \\
+   \displaystyle + \frac{v_1^2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \ddot q_3 \cos q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^2} \\
+   \displaystyle - \frac{v_1^2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \dot q_3^2 \sin q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^2}
+   \end{array}
+   \end{equation*}
+   
+   \begin{equation*}
+   \begin{array}{l}
+   \displaystyle \frac{v_1^2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \dot q_3 \cos q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^2} \\
+   \displaystyle \frac{2 v_1^2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) r_3 \dot q_3 \cos q_3 (2 m_2 r_2^2 \sin q_2 \dot q_2 \cos q_2 + 2 m_{30} (l_2 \sin q_2 + r_3 \sin q_3) l_2 \dot q_2 \cos q_2)}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^3} \\
+   \displaystyle + \frac{v_1^2 m_{30} l_2 \dot q_2 \cos q_2 r_3 \dot q_3 \cos q_3}{(J_0 + m_2 r_2^2 \sin^2 q_2 + m_{30} (l_2 \sin q_2 + r_3 \sin q_3)^2)^2}
+   \end{array}
+   \end{equation*}
+   
     Численное моделирование движения манипулятора при действии управления (3.4) проводилось при следующих значениях параметров манипулятора и программной траектории
     
     На рисунках 3.2–3.4 представлены результаты моделирования, проведенного при следующих значениях параметров манипулятора
@@ -279,21 +305,21 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
      \end{array}
      \end{equation*}
     
-    \begin{figure}[h]
+    \begin{figure}[H]
     	\centering
     	\includegraphics{3chain_1}
     	\caption{Зависимость угла поворота первого звена от времени при управлении (3.6) }
     	\label{fig:manip31}
     \end{figure}
     
-    \begin{figure}[h]
+    \begin{figure}[H]
     	\centering
     	\includegraphics{3chain_2}
     	\caption{Зависимость угла поворота второго звена от времени при управлении (3.6)  }
     	\label{fig:manip32}
     \end{figure}
     
-    \begin{figure}[h]
+    \begin{figure}[H]
     	\centering
     	\includegraphics{3chain_3}
     	\caption{Зависимость угла поворота третьего звена от времени при управлении (3.6) }
@@ -363,21 +389,21 @@ Q^{(2)}(t, x, \dot x) = (A^{(1)}(t, 0) - A^{(1)}(t, x)) \ddot q^0(t) + (C^{(1)}(
  На рисунках 3.5–3.7 представлены результаты моделирования. Пунктирной линией обозначены  составляющие программного движения, а сплошной – реального движения системы.
  
  
-  \begin{figure}[h]
+  \begin{figure}[H]
   	\centering
   	\includegraphics{pic1}
   	\caption{Зависимость угла поворота первого звена от времени при управлении (3.4) }
   	\label{fig:manip2}
   \end{figure}
   
-  \begin{figure}[h]
+  \begin{figure}[H]
     	\centering
     	\includegraphics{pic2}
     	\caption{Зависимость угла поворота второго звена от времени при управлении (3.4)  }
     	\label{fig:manip2}
     \end{figure}
     
-      \begin{figure}[h]
+      \begin{figure}[H]
       	\centering
       	\includegraphics{pic3}
       	\caption{Зависимость угла поворота третьего звена от времени при управлении (3.4) }
